@@ -123,7 +123,7 @@
   <!--       component      -->
 
 
-  <div class="container py-5 our-research" >
+  <div class="container py-5 our-research">
     <div class="row">
       <div class="col-md-6">
         <p class="research-title h4 mb-2 section-header ">OUR RESEARCH</p>
@@ -225,7 +225,7 @@
 
   <!-- componet for consultency -->
 
-  <section class="position-relative bg-purple consultency" >
+  <section class="position-relative bg-purple consultency">
     <div class="container-fluid">
       <div class="row no-gutters">
         <div class="col-md-6 d-flex flex-column justify-content-center text-white py-5">
@@ -251,7 +251,7 @@
             <source media="(min-width: 640px)" srcset="
             https://res.cloudinary.com/dkklqdsqc/image/upload/q_auto,f_auto/v1701787900/assets/home/home-consultancy_e2n1v0_gxhm2i.webp
           " />
-            <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/q_auto,f_auto/v1701787900/assets/home/home-consultancy-mobile_ampnjz_yaluzd.webp" class="img-fluid w-100 " style="min-height: 100vh;"/>
+            <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/q_auto,f_auto/v1701787900/assets/home/home-consultancy-mobile_ampnjz_yaluzd.webp" class="img-fluid w-100 " style="min-height: 100vh;" />
           </picture>
         </div>
       </div>

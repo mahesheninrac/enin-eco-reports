@@ -52,4 +52,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'OpenAccess';
 $route['404_override'] = 'Default_Controler/error404';
 $route['translate_uri_dashes'] = FALSE;
-$route["product_page"] = 'OpenAccess/product_page';
+$route["product_page"] = 'OpenAccess/product';
+$route["custom_page"] = 'OpenAccess/custom';
+$route["contact_us"] = 'OpenAccess/contact';
+$route["login"] = 'OpenAccess/login';
