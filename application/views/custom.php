@@ -145,72 +145,74 @@
 
   <!-- process section -->
 
-  <section class="process">
 
-    <div class="container my-5">
-      <div class="text-center mb-4">
-        <h2>Our Process</h2>
-        <p>How do we conduct our consultancy and advisory work?</p>
-      </div>
-      <div class="row row-cols-1 row-cols-md-2 g-4">
 
-      <div class="col">
-      <div class="text-center mb-4">
-        <h2>Our Process</h2>
-        <p>How do we conduct our consultancy and advisory work?</p>
-      </div>
-      </div>
-        <div class="col">
-          <div class="card h-100">
-            <div class="card-body">
-              <h5 class="card-title">Competitor Framework</h5>
-              <p class="card-text">We assess the external and internal environment as a foundation for our competitor framework.</p>
-            </div>
-          </div>
+  <section class="process bg-primary-300">
+    <div class="container py-4">
+
+      <div class="row">
+        <h2 class="fw-bold ">OUR PROCESS</h2>
+        <div class="col-md-4 text-center mb-4">
+
+          <p class="text-start h2 text-white">How do we conduct our consultancy and advisory work?</p>
         </div>
-        <div class="col">
-          <div class="card h-100">
-            <div class="card-body">
-              <h5 class="card-title">Determine Suitable Companies</h5>
-              <p class="card-text">We use qualitative and semi-quantitative decision criteria to determine suitable companies for review.</p>
+        <div class="col-md-8">
+          <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+              <div class="card h-70">
+                <div class="card-body">
+                  <h5 class="card-title">Determine Suitable Companies</h5>
+                  <p class="card-text">We use qualitative and semi-quantitative decision criteria to determine suitable companies for review.</p>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <div class="card-body">
-              <h5 class="card-title">Key Trend Analysis</h5>
-              <p class="card-text">We provide in-depth analysis on the key trends that drive decisions and investments across the LiB value chain.</p>
+            <div class="col">
+              <div class="card h-70">
+                <div class="card-body">
+                  <h5 class="card-title">Determine Suitable Companies</h5>
+                  <p class="card-text">We use qualitative and semi-quantitative decision criteria to determine suitable companies for review.</p>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <div class="card-body">
-              <h5 class="card-title">Segmenting the Data</h5>
-              <p class="card-text">Our data is segmented in order to identify key trends, so we can size up various opportunities and challenges.</p>
+            <div class="col">
+              <div class="card h-70">
+                <div class="card-body">
+                  <h5 class="card-title">Key Trend Analysis</h5>
+                  <p class="card-text">We provide in-depth analysis on the key trends that drive decisions and investments across the LiB value chain.</p>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <div class="card-body">
-              <h5 class="card-title">Map Out Competitive Landscape</h5>
-              <p class="card-text">We provide detailed insights into the lithium-ion battery value chain in order to map out the competitive landscape.</p>
+            <div class="col">
+              <div class="card h-70">
+                <div class="card-body">
+                  <h5 class="card-title">Segmenting the Data</h5>
+                  <p class="card-text">Our data is segmented in order to identify key trends, so we can size up various opportunities and challenges.</p>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <div class="card-body">
-              <h5 class="card-title">Explore Competitive Rivalry</h5>
-              <p class="card-text">We explore the degree of competitive rivalry and the relationship between buyers and suppliers.</p>
+            <div class="col">
+              <div class="card h-70">
+                <div class="card-body">
+                  <h5 class="card-title">Map Out Competitive Landscape</h5>
+                  <p class="card-text">We provide detailed insights into the lithium-ion battery value chain in order to map out the competitive landscape.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-70">
+                <div class="card-body">
+                  <h5 class="card-title">Explore Competitive Rivalry</h5>
+                  <p class="card-text">We explore the degree of competitive rivalry and the relationship between buyers and suppliers.</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
+
+
 
   <section class="example-work bg-primary-300 mt-0">
 
@@ -408,9 +410,7 @@
     </div>
   </footer>
 
-<section>
-  
-</section>
+
 
   <!-- scripts -->
 

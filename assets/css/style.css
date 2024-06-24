@@ -446,7 +446,7 @@ a:focus {
 }
 
 .card {
-  min-height: 250px;
+  height: fit-content;
 }
 
 .accordion-button {
@@ -659,4 +659,24 @@ button.accordion-button:focus {
   color: #6C63FF;
 }
 
+/* process */
 
+.process .card{
+  background-color: var(--primary-200);
+  color: #000000;
+  padding: 1.88rem;
+ 
+
+  
+
+}
+.process .card-title{
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+
+.process .card:hover{
+  background-color: var(--darklight-100);
+}
