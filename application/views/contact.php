@@ -42,8 +42,9 @@
     </nav>
 
     <section>
-        <div class="container-xxl  ">
-            <div class="row  text-start">
+        <div class="con-wrapper">
+        <div class="container-xxl">
+            <div class="row text-start">
                 <!-- Left Column -->
                 <div class="col-md-5 bg-sky-blue-4 d-flex flex-column justify-content-center position-relative p-4 bg-primary-300">
                     <!-- <img class="position-absolute bottom-0 start-0 d-none d-md-block" src="https://res.cloudinary.com/dkklqdsqc/image/upload/q_auto,f_auto/v1702261525/assets/get-in-touch/wa3vz0twauapwmkbsamy.svg" aria-hidden="true"> -->
@@ -113,10 +114,14 @@
                     </div>
                 </div>
             </div>
+        </div>    
         </div>
+        
     </section>
 
 
+
+    
     <!-- footer -->
     <footer class="footer text-center text-md-start">
         <div class="container">
