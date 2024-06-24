@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="<?= base_url('assets/fonts/fonts.css') ?>" />
     <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>" />
 
-
+    
 </head>
 
 <body>
@@ -206,13 +206,14 @@
 
     
 
-    <section class="position-relative bg-purple consultency ">
+    <!-- demooo -->
+
+    <section class="position-relative bg-purple consultency">
         <div class="container-fluid">
             <div class="row no-gutters">
-                <div class="col-md-6 d-flex flex-column justify-content-center text-white py-5 " style="align-items: center;">
-                    <!-- <p class="text-uppercase h4 text-white mb-3"></p> -->
+                <div class="col-md-6 d-flex flex-column justify-content-center text-white py-5" style="align-items: center;">
                     <h2 class="text-sky-blue-5 mb-3 text-center py-4 display-1">
-                        heading
+                        Demo
                     </h2>
                     <p class="text-sky-blue-5 mb-4">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab necessitatibus sint facere quia, ducimus similique facilis veritatis, et, blanditiis corrupti temporibus. Numquam velit ullam, voluptate culpa atque illo earum aut?
@@ -264,16 +265,15 @@
                                 <label for="" class="form-label">First Name</label>
                                 <input type="text" class="form-control">
                             </div>
-
+                           
                         </div>
-
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- related products -->
+<!-- related products -->
 
     <section>
         <h1 class="display-4 consultency">Related Products</h1>
