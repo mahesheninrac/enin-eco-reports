@@ -379,7 +379,27 @@ button.accordion-button:focus {
   box-shadow: inherit;
 }
 
-
-.consultency img{
+.consultency img {
   min-height: 100vh;
+}
+
+/* Product page */
+
+.service-ribbon {
+  background-color: var(--primary-700);
+}
+
+.what_included {
+  background-color: var(--primary-300);
+}
+.what_included_card {
+
+  background-color: var(--primary-200);
+  min-height: 150px;
+  border-radius: 40px;
+
+}
+
+.what_included_card_accordion-button{
+  background-color: var(--primary-300);
 }
