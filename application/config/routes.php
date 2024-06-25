@@ -56,3 +56,4 @@ $route["product_page"] = 'OpenAccess/product';
 $route["custom_page"] = 'OpenAccess/custom';
 $route["contact_us"] = 'OpenAccess/contact';
 $route["login"] = 'OpenAccess/login';
+$route["event"] = 'OpenAccess/event';

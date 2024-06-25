@@ -42,7 +42,7 @@
       </div>
     </div>
   </nav>
-  <!-- <header class="custom-banner w-100">
+  <header class="custom-banner w-100">
         <div class="overlay"></div>
         <div class="container position-relative pt-4">
             <div class="row">
@@ -55,7 +55,7 @@
                 </div>
             </div>
         </div>
-    </header> -->
+    </header>
 
 
 

@@ -24,4 +24,8 @@ class OpenAccess extends Default_Controler
     {
         $this->load->view('login');
     }
+    public function event()
+    {
+        $this->load->view('event');
+    }
 }
