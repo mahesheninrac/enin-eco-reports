@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="<?= base_url('assets/fonts/fonts.css') ?>" />
     <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>" />
 
-    
+
 </head>
 
 <body>
@@ -204,7 +204,7 @@
         </div>
     </section>
 
-    
+
 
     <!-- demooo -->
 
@@ -227,81 +227,75 @@
 
                 <!-- section for form -->
                 <div class="col-md-6 p-0 w-50 overflow-hidden">
+    <div class="form w-100 my-0 mx-auto row py-4 d-flex flex-column">
+        <div class="col-12 d-flex gap-2">
+            <div class="form-group col">
+                <label for="first-name-1" class="form-label">First Name</label>
+                <input type="text" id="first-name-1" class="form-control">
+            </div>
+            <div class="form-group col">
+                <label for="first-name-2" class="form-label">First Name</label>
+                <input type="text" id="first-name-2" class="form-control">
+            </div>
+        </div>
+        <div class="col-12">
+            <div class="form-group">
+                <label for="first-name-3" class="form-label">First Name</label>
+                <input type="text" id="first-name-3" class="form-control">
+            </div>
+        </div>
+        <div class="col-12 d-flex gap-2">
+            <div class="form-group col">
+                <label for="first-name-4" class="form-label">First Name</label>
+                <input type="text" id="first-name-4" class="form-control">
+            </div>
+            <div class="form-group col">
+                <label for="first-name-5" class="form-label">First Name</label>
+                <input type="text" id="first-name-5" class="form-control">
+            </div>
+        </div>
+        <div class="col-12 d-flex gap-2">
+            <div class="form-group col">
+                <label for="first-name-6" class="form-label">First Name</label>
+                <input type="text" id="first-name-6" class="form-control">
+            </div>
+            <div class="form-group col">
+                <label for="first-name-7" class="form-label">First Name</label>
+                <input type="text" id="first-name-7" class="form-control">
+            </div>
+        </div>
+    </div>
+</div>
 
-                    <div class="form w-100 w-75 my-0 mx-auto row py-4 d-flex flex-column">
-                        <div class="col d-flex gap-2 w-100">
-                            <div class="form-group">
-                                <label for="" class="form-label">First Name</label>
-                                <input type="text" class="form-control">
-                            </div>
-                            <div class="form-group">
-                                <label for="" class="form-label">First Name</label>
-                                <input type="text" class="form-control">
-                            </div>
-                        </div>
-                        <div class="col ">
-
-                            <div class="form-group">
-                                <label for="" class="form-label">First Name</label>
-                                <input type="text" class="form-control">
-                            </div>
-                        </div>
-                        <div class="col d-flex gap-2">
-                            <div class="form-group">
-                                <label for="" class="form-label">First Name</label>
-                                <input type="text" class="form-control">
-                            </div>
-                            <div class="form-group">
-                                <label for="" class="form-label">First Name</label>
-                                <input type="text" class="form-control">
-                            </div>
-                        </div>
-                        <div class="col d-flex gap-2">
-                            <div class="form-group">
-                                <label for="" class="form-label">First Name</label>
-                                <input type="text" class="form-control">
-                            </div>
-                            <div class="form-group">
-                                <label for="" class="form-label">First Name</label>
-                                <input type="text" class="form-control">
-                            </div>
-                           
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
 
-<!-- related products -->
+    <!-- related products -->
 
-    <section>
+    <section class="bg-primary-800">
         <h1 class="display-4 consultency">Related Products</h1>
 
-
-
-
-
-        <div class="container-xxl d-flex flex-wrap gap-2 bg-danger py-2 justify-content-between">
-            <div class="bg-primary" style="width: 15rem;">
+        <div class="container-xxl d-flex flex-wrap gap-2  py-2 justify-content-between">
+            <div class="" style="width: 15rem;">
                 <img class="card-img-top rounded-lg" src="https://placehold.co/60" alt="Card image cap">
                 <div class="border-0 py-4 text-start">
                     <p class="card-text fw-bold mx-2">Some quick example text</p>
                 </div>
             </div>
-            <div class="bg-primary" style="width: 15rem;">
+            <div class="" style="width: 15rem;">
                 <img class="card-img-top rounded-lg" src="https://placehold.co/60" alt="Card image cap">
                 <div class="border-0 py-4 text-start">
                     <p class="card-text fw-bold mx-2">Some quick example text</p>
                 </div>
             </div>
-            <div class="bg-primary" style="width: 15rem;">
+            <div class="" style="width: 15rem;">
                 <img class="card-img-top rounded-lg" src="https://placehold.co/60" alt="Card image cap">
                 <div class="border-0 py-4 text-start">
                     <p class="card-text fw-bold mx-2">Some quick example text</p>
                 </div>
             </div>
-            <div class="bg-primary" style="width: 15rem;">
+            <div class="" style="width: 15rem;">
                 <img class="card-img-top rounded-lg" src="https://placehold.co/60" alt="Card image cap">
                 <div class="border-0 py-4 text-start">
                     <p class="card-text fw-bold mx-2">Some quick example text</p>
