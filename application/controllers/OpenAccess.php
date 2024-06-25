@@ -28,4 +28,8 @@ class OpenAccess extends Default_Controler
     {
         $this->load->view('event');
     }
+    public function reports()
+    {
+        $this->load->view('reports');
+    }
 }

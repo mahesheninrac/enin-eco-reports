@@ -57,3 +57,4 @@ $route["custom_page"] = 'OpenAccess/custom';
 $route["contact_us"] = 'OpenAccess/contact';
 $route["login"] = 'OpenAccess/login';
 $route["event"] = 'OpenAccess/event';
+$route["reports"] = 'OpenAccess/reports';
