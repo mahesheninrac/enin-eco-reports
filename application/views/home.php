@@ -25,16 +25,16 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto  ">
           <li class="nav-item">
-            <a class="nav-link text-dark fw-normal  " href="/research">Research</a>
+            <a class="nav-link text-dark fw-normal  " href="/research">Eco System Report </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fw-normal " href="/consultancy">Consultancy</a>
+            <a class="nav-link fw-normal " href="/consultancy">Custom Requirements</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fw-normal " href="/events">Events</a>
+            <a class="nav-link fw-normal " href="/events">Surveys</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fw-normal " href="/get-in-touch">Get in touch</a>
+            <a class="nav-link fw-normal " href="/get-in-touch">Contact us</a>
           </li>
         </ul>
       </div>
@@ -49,12 +49,8 @@
           Actionable intelligence for the energy transition
         </p>
       </div>
-      <div class="video-container py-3" style="flex: 1 1 45%; padding: 10px; max-width: 45%;">
-        <video class="w-100 " playsinline autoplay loop>
-          <source src="https://res.cloudinary.com/dkklqdsqc/video/upload/v1704214063/assets/home/Car_LineWork_Animation_ProRes_8bpc_4444-HVEC_xkyamg.mov" type='video/mp4; codecs="hvc1"' />
-          <source src="https://res.cloudinary.com/dkklqdsqc/video/upload/q_auto/v1703807857/assets/home/homepage_hero_animation_zw5l2c_mhczgo_oxh068.webm" type="video/webm" />
-          Not Playing Video
-        </video>
+      <div class="video-container " style="flex: 1 1 45%;  max-width: 45%;">
+        <img src="<?= base_url('assets/images/homepage-banner.png') ?>" class="img-fluid" alt="home-page-banner">
       </div>
     </div>
 
@@ -64,7 +60,7 @@
         <div class="card-body position-relative py-4 px-3">
           <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/v1702337706/assets/home/ymfa0talxlppyy682pqp.svg" class="d-none d-lg-block" alt="" />
           <h2 class="card-title d-flex justify-content-between align-items-center">
-            Consultancy
+            Eco System Report
             <!-- <img src="" class="opacity-75" alt="arrow" class="ms-2" /> -->
             <i class="icofont-external-link"></i>
           </h2>
@@ -78,7 +74,7 @@
         <div class="card-body position-relative py-4 px-3">
           <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/v1702337706/assets/home/ymfa0talxlppyy682pqp.svg" class="d-none d-lg-block" alt="" />
           <h2 class="card-title d-flex justify-content-between align-items-center">
-            Consultancy
+            Custom Requirements
             <!-- <img src="" class="opacity-75" alt="arrow" class="ms-2" /> -->
             <i class="icofont-external-link"></i>
           </h2>
@@ -93,7 +89,7 @@
         <div class="card-body position-relative py-4 px-3">
           <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/v1702337706/assets/home/ymfa0talxlppyy682pqp.svg" class="d-none d-lg-block" alt="" />
           <h2 class="card-title d-flex justify-content-between align-items-center">
-            Consultancy
+            Surveys
             <!-- <img src="" class="opacity-75" alt="arrow" class="ms-2" /> -->
             <i class="icofont-external-link"></i>
           </h2>
@@ -107,7 +103,7 @@
         <div class="card-body position-relative py-4 px-3">
           <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/v1702337706/assets/home/ymfa0talxlppyy682pqp.svg" class="d-none d-lg-block" alt="" />
           <h2 class="card-title d-flex justify-content-between align-items-center">
-            Consultancy
+            Webinars & Interviews
             <!-- <img src="" class="opacity-75" alt="arrow" class="ms-2" /> -->
             <i class="icofont-external-link"></i>
           </h2>
@@ -120,13 +116,13 @@
   </div>
   </div>
 
-  <!--       component      -->
+  <!--       Eco System Report   -->
 
 
   <div class="container py-5 our-research">
     <div class="row">
       <div class="col-md-6">
-        <p class="research-title h4 mb-2 section-header ">OUR RESEARCH</p>
+        <p class="research-title h4 mb-2 section-header ">Eco System Reports</p>
         <h2 class="h3 mb-4 h1">
           We analyse the following <br>areas across the energy <br> transition:
         </h2>
@@ -135,7 +131,7 @@
             <h2 class="accordion-header" id="headingOne">
               <button class="accordion-button border-top  border-1" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                 <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/our-research/shape-01.037f2f.svg" class="icon me-3" alt="" />
-                <span class="research-area" style="color: none;">Battery Demand</span>
+                <span class="research-area" style="color: none;">EV</span>
               </button>
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse show p-2" aria-labelledby="headingOne" data-bs-parent="#researchAccordion">
@@ -148,7 +144,7 @@
             <h2 class="accordion-header" id="headingTwo">
               <button class="accordion-button border-top  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                 <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/our-research/shape-02.1f9e80.svg" class="icon me-3" alt="" />
-                <span class="research-area">EV & Battery</span>
+                <span class="research-area">Solar</span>
               </button>
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse p-2" aria-labelledby="headingTwo" data-bs-parent="#researchAccordion">
@@ -161,7 +157,7 @@
             <h2 class="accordion-header" id="headingTwo">
               <button class="accordion-button border-top  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                 <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/our-research/shape-02.1f9e80.svg" class="icon me-3" alt="" />
-                <span class="research-area">Energy Stationary Storage</span>
+                <span class="research-area">Wind</span>
               </button>
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse p-2" aria-labelledby="headingTwo" data-bs-parent="#researchAccordion">
@@ -175,7 +171,7 @@
             <h2 class="accordion-header" id="headingFour">
               <button class="accordion-button border-top  collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                 <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/our-research/shape-04.8205fb.svg" class="icon me-3" alt="" />
-                <span class="research-area">EV Motors & Systems</span>
+                <span class="research-area">Hydro</span>
               </button>
             </h2>
             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#researchAccordion">
@@ -188,7 +184,7 @@
             <h2 class="accordion-header" id="headingFive">
               <button class="accordion-button border-top  collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                 <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/our-research/shape-05.1b030d.svg" class="icon me-3" alt="" />
-                <span class="research-area">EV Charging & Infrastructure</span>
+                <span class="research-area">BEES</span>
               </button>
             </h2>
             <div id="collapseFive" class="accordion-collapse collapse p-2" aria-labelledby="headingFive" data-bs-parent="#researchAccordion">
@@ -201,7 +197,7 @@
             <h2 class="accordion-header" id="headingSix">
               <button class="accordion-button border-top border-bottom collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                 <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/our-research/shape-06.f89a01.svg" class="icon me-3" alt="" />
-                <span class="research-area">Battery Recycling</span>
+                <span class="research-area">Coal</span>
               </button>
             </h2>
             <div id="collapseSix" class="accordion-collapse collapse p-2" aria-labelledby="headingSix" data-bs-parent="#researchAccordion">
@@ -211,7 +207,7 @@
             </div>
           </div>
         </div>
-        <a href="/research" class="btn btn-primary  btn-lg mt-3">See our research products</a>
+        <a href="/research" class="btn btn-primary  btn-lg mt-3">See Our Eco System Reports</a>
       </div>
       <div class="col-md-6 d-none d-lg-block">
         <div class="illustration">
@@ -229,7 +225,7 @@
     <div class="container-fluid">
       <div class="row no-gutters">
         <div class="col-md-6 d-flex flex-column justify-content-center text-white py-5">
-          <p class="text-uppercase h4 text-white mb-3">Consultancy</p>
+          <p class="text-uppercase h4 text-white mb-3">Custom Requirements</p>
           <h2 class="text-sky-blue-5 mb-3">
             Research projects aligned with your specific objectives
           </h2>
@@ -268,17 +264,17 @@
     <!-- one -->
     <div class="text-white p-3">
       <img src="https://placehold.co/120x120" alt="" class="rounded-circle" />
-      <p class="text-white">Market</p>
+      <p class="text-white py-2">Market studies</p>
     </div>
     <!-- 2 -->
     <div class="text-white p-3">
       <img src="https://placehold.co/120x120" alt="" class="rounded-circle" />
-      <p class="text-white">Market</p>
+      <p class="text-white  py-2">Market research &<br>customer validation</p>
     </div>
     <!-- 3 -->
     <div class="text-white p-3">
       <img src="https://placehold.co/120x120" alt="" class="rounded-circle" />
-      <p class="text-white">Market</p>
+      <p class="text-white py-2">Due diligence</p>
     </div>
   </div>
   <!-- component -->
@@ -287,7 +283,7 @@
     <div class="container mx-auto max-w-content-container d-md-flex align-items-lg-center pb-5 pb-md-5 pt-5 pt-md-5">
       <div class="col-md-6 pe-md-5">
         <p class="mb-3 h4 text-uppercase  section-header">
-          RHO MOTION EVENTS
+          SURVEYS & VOC
         </p>
         <h2 class="mb-3 text-h3 text-md-h2">
           Bringing together leaders and innovators across the energy
@@ -316,11 +312,11 @@
   <!-- contact us -->
 
   <section class="contact">
-    <div class="position-relative py-5 px-3 bg-lilac-medium md:py-7 max-w-content-container mx-auto overflow-hidden">
+    <div class="  position-relative py-5 px-3 bg-lilac-medium md:py-7 max-w-content-container mx-auto overflow-hidden">
       <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/q_auto,f_auto/v1702335829/assets/home/xdttfk68dth46okvu2ef.svg" alt="header" class="position-absolute top-0 end-0 h-100 d-md-none opacity-60" />
       <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/q_auto,f_auto/v1702335828/assets/home/xogp12myy767yihl27fx.svg" alt="header" class="d-none position-absolute top-0 start-0 h-100 d-md-block" />
       <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/q_auto,f_auto/v1702335828/assets/home/ncqbux3lhshl4h8jfa3s.svg" alt="header" class="d-none position-absolute top-0 end-0 h-100 d-md-block" />
-      <div class="position-relative d-flex flex-column align-items-center">
+      <div class=" d-flex flex-column align-items-center">
         <h3 class="text-h3 text-center md:text-5xl mb-3 mb-md-4 display-2">
           Contact us
         </h3>
@@ -358,9 +354,9 @@
           <div class="row">
             <div class="col-6">
               <div class="nav-links">
-                <a href="/research" class="d-block">Research</a>
-                <a href="/consultancy" class="d-block">Consultancy</a>
-                <a href="/events" class="d-block">Events</a>
+                <a href="/research" class="d-block">Eco System Reports</a>
+                <a href="/consultancy" class="d-block">Custom Requirements</a>
+                <a href="/events" class="d-block">Surveys & VOC</a>
                 <a href="/about-us" class="d-block">About us</a>
               </div>
             </div>
@@ -369,7 +365,7 @@
                 <a href="/magazine" class="d-block">Magazine</a>
                 <a href="/news" class="d-block">News</a>
                 <a href="/careers" class="d-block">Careers</a>
-                <a href="/get-in-touch" class="d-block">Get in touch</a>
+                <a href="/get-in-touch" class="d-block">Contact Us</a>
               </div>
             </div>
           </div>
@@ -377,7 +373,7 @@
       </div>
       <div class="row mt-4">
         <div class="col-md-6 text-md-start">
-          <p class="copyright">&copy; 2024 Rho Motion. All rights reserved.</p>
+          <p class="copyright">&copy; 2024 Eninrac. All rights reserved.</p>
         </div>
         <div class="col-md-6 text-md-end">
           <p class="privacy"><a href="/privacy-policy">Privacy Policy</a> • <a href="/terms">Terms & Conditions</a></p>

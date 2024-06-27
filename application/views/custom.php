@@ -27,35 +27,36 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto  ">
           <li class="nav-item">
-            <a class="nav-link text-dark fw-normal  " href="/research">Research</a>
+            <a class="nav-link text-dark fw-normal  " href="/research">Eco System Report </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fw-normal " href="/consultancy">Consultancy</a>
+            <a class="nav-link fw-normal " href="/consultancy">Custom Requirements</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fw-normal " href="/events">Events</a>
+            <a class="nav-link fw-normal " href="/events">Surveys</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fw-normal " href="/get-in-touch">Get in touch</a>
+            <a class="nav-link fw-normal " href="/get-in-touch">Contact us</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
+
   <header class="custom-banner w-100">
-        <div class="overlay"></div>
-        <div class="container position-relative pt-4">
-            <div class="row">
-                <div class="col-12">
-                    <div class="content">
-                        <h2>Rho Motion Consultancy</h2>
-                        <p>Tailored research and custom reports to inform your strategic decision-making</p>
-                        <a class="btn btn-primary" href="#get-in-touch">Get in touch</a>
-                    </div>
-                </div>
-            </div>
+    <div class="overlay"></div>
+    <div class="container position-relative pt-4">
+      <div class="row">
+        <div class="col-12">
+          <div class="content">
+            <h2>Rho Motion Consultancy</h2>
+            <p>Tailored research and custom reports to inform your strategic decision-making</p>
+            <a class="btn btn-primary" href="#get-in-touch">Get in touch</a>
+          </div>
         </div>
-    </header>
+      </div>
+    </div>
+  </header>
 
 
 
@@ -158,7 +159,7 @@
         </div>
         <div class="col-md-8">
           <div class="row row-cols-1 row-cols-md-2 g-4">
-          <div class="col">
+            <div class="col">
               <div class="card h-70">
                 <div class="card-body">
                   <h5 class="card-title">Determine Suitable Companies</h5>
@@ -333,7 +334,7 @@
                     <input type="tel" id="phone" name="phone" class="form-control" placeholder="2290 0238376" required>
                   </div>
                 </div>
-                <div class="row">
+                <!-- <div class="row">
                   <div class="col-md-6 mb-3">
                     <label for="jobTitle" class="form-label">Job title</label>
                     <input type="text" id="jobTitle" name="jobTitle" class="form-control" placeholder="Job">
@@ -346,7 +347,7 @@
                 <div class="mb-3">
                   <label for="industry" class="form-label">Industry</label>
                   <input type="text" id="industry" name="industry" class="form-control" placeholder="Industry">
-                </div>
+                </div> -->
                 <button type="submit" class="btn btn-primary">Register interest</button>
                 <p class="py-4">By submitting this form, you agree to Rho Motion’s privacy policy.</p>
               </form>
@@ -356,7 +357,6 @@
       </div>
     </div>
   </section>
-
 
 
 
@@ -382,9 +382,9 @@
           <div class="row">
             <div class="col-6">
               <div class="nav-links">
-                <a href="/research" class="d-block">Research</a>
-                <a href="/consultancy" class="d-block">Consultancy</a>
-                <a href="/events" class="d-block">Events</a>
+                <a href="/research" class="d-block">Eco System Reports</a>
+                <a href="/consultancy" class="d-block">Custom Requirements</a>
+                <a href="/events" class="d-block">Surveys & VOC</a>
                 <a href="/about-us" class="d-block">About us</a>
               </div>
             </div>
@@ -393,7 +393,7 @@
                 <a href="/magazine" class="d-block">Magazine</a>
                 <a href="/news" class="d-block">News</a>
                 <a href="/careers" class="d-block">Careers</a>
-                <a href="/get-in-touch" class="d-block">Get in touch</a>
+                <a href="/get-in-touch" class="d-block">Contact Us</a>
               </div>
             </div>
           </div>
@@ -401,7 +401,7 @@
       </div>
       <div class="row mt-4">
         <div class="col-md-6 text-md-start">
-          <p class="copyright">&copy; 2024 Rho Motion. All rights reserved.</p>
+          <p class="copyright">&copy; 2024 Eninrac. All rights reserved.</p>
         </div>
         <div class="col-md-6 text-md-end">
           <p class="privacy"><a href="/privacy-policy">Privacy Policy</a> • <a href="/terms">Terms & Conditions</a></p>

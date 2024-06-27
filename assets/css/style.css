@@ -385,7 +385,7 @@ a {
   background-color: var(--primary-300);
   color: var(--darklight-100);
   font-family: var(--body-font);
-  height: 70vh;
+  height: 100%;
 }
 
 .our-research {
@@ -447,9 +447,9 @@ a:focus {
   color: inherit;
 }
 
-.card {
+/* .card {
   height: fit-content;
-}
+} */
 
 .accordion-button {
   min-height: 70px;

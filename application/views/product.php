@@ -26,21 +26,22 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto  ">
                     <li class="nav-item">
-                        <a class="nav-link text-dark fw-normal  " href="/research">Research</a>
+                        <a class="nav-link text-dark fw-normal  " href="/research">Eco System Report </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fw-normal " href="/consultancy">Consultancy</a>
+                        <a class="nav-link fw-normal " href="/consultancy">Custom Requirements</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fw-normal " href="/events">Events</a>
+                        <a class="nav-link fw-normal " href="/events">Surveys</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fw-normal " href="/get-in-touch">Get in touch</a>
+                        <a class="nav-link fw-normal " href="/get-in-touch">Contact us</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+
 
     <!-- banner -->
 
@@ -80,25 +81,42 @@
             <div class="col d-flex align-items-center justify-content-md-center px-4 py-2 text-center">
                 <div class="min-w-3">
                     <img src="https://placehold.co/50" alt="">
-                    <p class="text-base leading-5 mt-0 mt-md-3 ml-4 ml-md-0 text-white">PDF &amp; Excel</p>
+                    <p class="text-base leading-5 mt-0 mt-md-3 ml-4 ml-md-0 text-white">Released quarterly</p>
                 </div>
 
             </div>
             <div class="col d-flex align-items-center justify-content-md-center px-4 py-2 text-center">
                 <div class="min-w-3">
                     <img src="https://placehold.co/50" alt="">
-                    <p class="text-base leading-5 mt-0 mt-md-3 ml-4 ml-md-0 text-white">PDF &amp; Excel</p>
+                    <p class="text-base leading-5 mt-0 mt-md-3 ml-4 ml-md-0 text-white"> Customisable</p>
                 </div>
 
             </div>
             <div class="col d-flex align-items-center justify-content-md-center px-4 py-2 text-center">
                 <div class="min-w-3">
                     <img src="https://placehold.co/50" alt="">
-                    <p class="text-base leading-5 mt-0 mt-md-3 ml-4 ml-md-0 text-white">PDF &amp; Excel</p>
+                    <p class="text-base leading-5 mt-0 mt-md-3 ml-4 ml-md-0 text-white">Analyst access</p>
                 </div>
 
             </div>
 
+        </div>
+    </div>
+    <!-- Interested in a sample report -->
+
+    <div class="container-xxl w-100 mx-0 bg-primary-800 py-4 ">
+
+
+        <div class="d-flex justify-content-around align-item-center">
+            <img src="https://placehold.co/200" class="py-4" alt="">
+            <div class="py-4 text-white">
+                <H1>Interested in a sample report?</H1>
+                <p class="w-60">Register your interest and we’ll contact you shortly to provide sample materials and arrange a demo.</p>
+                <a href="#">
+                    <button type="button" class="btn btn-primary px-4 py-2 rounded-md mx-auto ">Get Report</button>
+                </a>
+
+            </div>
         </div>
     </div>
 
@@ -109,7 +127,7 @@
         <div class="container-xxl text-center px-3 px-md-0">
             <div class="min-h-4">
                 <h3 class="h4 mb-3 mb-md-2 display-6">What’s included?</h3>
-                <div class="mx-auto  py-2 mb-4 fw-bold">
+                <div class="mx-auto  py-2 mb-4 fw-bold fs-20">
                     <p>Battery Demand Outlook Service combines all our battery outlooks in one place,<br> providing a comprehensive view of total battery demand. Reports include:</p>
                 </div>
             </div>
@@ -227,45 +245,45 @@
 
                 <!-- section for form -->
                 <div class="col-md-6 p-0 w-50 overflow-hidden">
-    <div class="form w-100 my-0 mx-auto row py-4 d-flex flex-column">
-        <div class="col-12 d-flex gap-2">
-            <div class="form-group col">
-                <label for="first-name-1" class="form-label">First Name</label>
-                <input type="text" id="first-name-1" class="form-control">
-            </div>
-            <div class="form-group col">
-                <label for="first-name-2" class="form-label">First Name</label>
-                <input type="text" id="first-name-2" class="form-control">
-            </div>
-        </div>
-        <div class="col-12">
-            <div class="form-group">
-                <label for="first-name-3" class="form-label">First Name</label>
-                <input type="text" id="first-name-3" class="form-control">
-            </div>
-        </div>
-        <div class="col-12 d-flex gap-2">
-            <div class="form-group col">
-                <label for="first-name-4" class="form-label">First Name</label>
-                <input type="text" id="first-name-4" class="form-control">
-            </div>
-            <div class="form-group col">
-                <label for="first-name-5" class="form-label">First Name</label>
-                <input type="text" id="first-name-5" class="form-control">
-            </div>
-        </div>
-        <div class="col-12 d-flex gap-2">
-            <div class="form-group col">
-                <label for="first-name-6" class="form-label">First Name</label>
-                <input type="text" id="first-name-6" class="form-control">
-            </div>
-            <div class="form-group col">
-                <label for="first-name-7" class="form-label">First Name</label>
-                <input type="text" id="first-name-7" class="form-control">
-            </div>
-        </div>
-    </div>
-</div>
+                    <div class="form w-100 my-0 mx-auto row py-4 d-flex flex-column">
+                        <div class="col-12 d-flex gap-2">
+                            <div class="form-group col">
+                                <label for="first-name-1" class="form-label">First Name</label>
+                                <input type="text" id="first-name-1" class="form-control">
+                            </div>
+                            <div class="form-group col">
+                                <label for="first-name-2" class="form-label">First Name</label>
+                                <input type="text" id="first-name-2" class="form-control">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-group">
+                                <label for="first-name-3" class="form-label">First Name</label>
+                                <input type="text" id="first-name-3" class="form-control">
+                            </div>
+                        </div>
+                        <div class="col-12 d-flex gap-2">
+                            <div class="form-group col">
+                                <label for="first-name-4" class="form-label">First Name</label>
+                                <input type="text" id="first-name-4" class="form-control">
+                            </div>
+                            <div class="form-group col">
+                                <label for="first-name-5" class="form-label">First Name</label>
+                                <input type="text" id="first-name-5" class="form-control">
+                            </div>
+                        </div>
+                        <div class="col-12 d-flex gap-2">
+                            <div class="form-group col">
+                                <label for="first-name-6" class="form-label">First Name</label>
+                                <input type="text" id="first-name-6" class="form-control">
+                            </div>
+                            <div class="form-group col">
+                                <label for="first-name-7" class="form-label">First Name</label>
+                                <input type="text" id="first-name-7" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>
@@ -334,9 +352,9 @@
                     <div class="row">
                         <div class="col-6">
                             <div class="nav-links">
-                                <a href="/research" class="d-block">Research</a>
-                                <a href="/consultancy" class="d-block">Consultancy</a>
-                                <a href="/events" class="d-block">Events</a>
+                                <a href="/research" class="d-block">Eco System Reports</a>
+                                <a href="/consultancy" class="d-block">Custom Requirements</a>
+                                <a href="/events" class="d-block">Surveys & VOC</a>
                                 <a href="/about-us" class="d-block">About us</a>
                             </div>
                         </div>
@@ -345,7 +363,7 @@
                                 <a href="/magazine" class="d-block">Magazine</a>
                                 <a href="/news" class="d-block">News</a>
                                 <a href="/careers" class="d-block">Careers</a>
-                                <a href="/get-in-touch" class="d-block">Get in touch</a>
+                                <a href="/get-in-touch" class="d-block">Contact Us</a>
                             </div>
                         </div>
                     </div>
@@ -353,7 +371,7 @@
             </div>
             <div class="row mt-4">
                 <div class="col-md-6 text-md-start">
-                    <p class="copyright">&copy; 2024 Rho Motion. All rights reserved.</p>
+                    <p class="copyright">&copy; 2024 Eninrac. All rights reserved.</p>
                 </div>
                 <div class="col-md-6 text-md-end">
                     <p class="privacy"><a href="/privacy-policy">Privacy Policy</a> • <a href="/terms">Terms & Conditions</a></p>
@@ -361,7 +379,6 @@
             </div>
         </div>
     </footer>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 
 

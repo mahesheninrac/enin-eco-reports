@@ -15,31 +15,31 @@
 <body>
     <!-- navbar section -->
     <nav class="navbar navbar-expand-md bg-white py-4">
-        <div class="container">
-            <a class="navbar-brand" href="/">
-                <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/logo-dark-purple.742caa.svg" alt="Logo" />
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"><img src="./Assets/menu.png" alt="" /></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link text-dark fw-normal" href="/research">Research</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link fw-normal" href="/consultancy">Consultancy</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link fw-normal" href="/events">Events</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link fw-normal" href="/get-in-touch">Get in touch</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <div class="container">
+      <a class="navbar-brand" href="/">
+        <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/logo-dark-purple.742caa.svg" alt="Logo" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><img src="./Assets/menu.png" alt="" /></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto  ">
+          <li class="nav-item">
+            <a class="nav-link text-dark fw-normal  " href="/research">Eco System Report </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-normal " href="/consultancy">Custom Requirements</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-normal " href="/events">Surveys</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-normal " href="/get-in-touch">Contact us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
     <section class="contact-us-form">
         <div class="con-wrapper">
@@ -55,13 +55,13 @@
                                 <a href="tel:+4402039887648">+44 (0) 203 988 7648</a><br>
                                 <a href="mailto:info@rhomotion.com">info@rhomotion.com</a>
                             </p>
-                            <div class="py-4">
+                            <div class="py-1">
                                 <h2>Press Enquiries</h2>
                                 <p>
                                     <a href="mailto:press@rhomotion.com">press@rhomotion.com</a>
                                 </p>
                             </div>
-                            <div class="py-4">
+                            <div class="py-1">
                                 <h2>Want to work with us?</h2>
                                 <p style="  max-width: 300px;">We're always looking for new talent and would love to hear from you.</p>
                                 <p>
@@ -99,7 +99,7 @@
                                         <input type="tel" id="phone" name="phone" class="form-control" placeholder="2290 0238376" required>
                                     </div>
                                 </div>
-                                <div class="row">
+                                <!-- <div class="row">
                                     <div class="col-md-6 mb-3">
                                         <label for="jobTitle" class="form-label">Job title</label>
                                         <input type="text" id="jobTitle" name="jobTitle" class="form-control" placeholder="Job">
@@ -112,7 +112,7 @@
                                 <div class="mb-3">
                                     <label for="industry" class="form-label">Industry</label>
                                     <input type="text" id="industry" name="industry" class="form-control" placeholder="Industry">
-                                </div>
+                                </div> -->
                                 <button type="submit" class="btn btn-primary px-2 py-2">Register interest</button>
                                 <p class="py-4 fs-14">By submitting this form, you agree to Rho Motion’s <u>privacy policy</u>.</p>
                             </form>
@@ -129,56 +129,54 @@
 
     <!-- footer -->
     <footer class="footer text-center text-md-start">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-lg-6 mb-4 mb-md-0">
-                    <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/logo-sky-blue-1.ebb1bf.svg" alt="Logo" class="logo mb-4">
-                    <div class="contact-info">
-                        <p>Second Floor, Randall House<br>6 Dowgate Hill<br>London EC4R 2SU</p>
-                        <p>+44 (0) 203 988 7648<br><a href="mailto:info@rhomotion.com">info@rhomotion.com</a></p>
-                    </div>
-                    <div class="social-icons mt-4">
-                        <a href="https://www.linkedin.com/company/rhomotion/" target="_blank" rel="noreferrer">
-                            <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-linkedin.5fd894.svg" alt="LinkedIn">
-                        </a>
-                        <a href="https://twitter.com/rhomotion/" target="_blank" rel="noreferrer">
-                            <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-x.290b8c.svg" alt="Twitter">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6">
-                    <div class="row">
-                        <div class="col-6">
-                            <div class="nav-links">
-                                <a href="/research" class="d-block">Research</a>
-                                <a href="/consultancy" class="d-block">Consultancy</a>
-                                <a href="/events" class="d-block">Events</a>
-                                <a href="/about-us" class="d-block">About us</a>
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <div class="nav-links">
-                                <a href="/magazine" class="d-block">Magazine</a>
-                                <a href="/news" class="d-block">News</a>
-                                <a href="/careers" class="d-block">Careers</a>
-                                <a href="/get-in-touch" class="d-block">Get in touch</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-4">
-                <div class="col-md-6 text-md-start">
-                    <p class="copyright">&copy; 2024 Rho Motion. All rights reserved.</p>
-                </div>
-                <div class="col-md-6 text-md-end">
-                    <a href="/privacy-policy" class="me-3">Privacy Policy</a>
-                    <a href="/terms-conditions">Terms & Conditions</a>
-                </div>
-            </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-6 mb-4 mb-md-0">
+          <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/logo-sky-blue-1.ebb1bf.svg" alt="Logo" class="logo mb-4">
+          <div class="contact-info">
+            <p>Second Floor, Randall House<br>6 Dowgate Hill<br>London EC4R 2SU</p>
+            <p>+44 (0) 203 988 7648<br><a href="mailto:info@rhomotion.com">info@rhomotion.com</a></p>
+          </div>
+          <div class="social-icons mt-4">
+            <a href="https://www.linkedin.com/company/rhomotion/" target="_blank" rel="noreferrer">
+              <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-linkedin.5fd894.svg" alt="LinkedIn">
+            </a>
+            <a href="https://twitter.com/rhomotion/" target="_blank" rel="noreferrer">
+              <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-x.290b8c.svg" alt="Twitter">
+            </a>
+          </div>
         </div>
-    </footer>
-
+        <div class="col-md-6 col-lg-6">
+          <div class="row">
+            <div class="col-6">
+              <div class="nav-links">
+                <a href="/research" class="d-block">Eco System Reports</a>
+                <a href="/consultancy" class="d-block">Custom Requirements</a>
+                <a href="/events" class="d-block">Surveys & VOC</a>
+                <a href="/about-us" class="d-block">About us</a>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="nav-links">
+                <a href="/magazine" class="d-block">Magazine</a>
+                <a href="/news" class="d-block">News</a>
+                <a href="/careers" class="d-block">Careers</a>
+                <a href="/get-in-touch" class="d-block">Contact Us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-6 text-md-start">
+          <p class="copyright">&copy; 2024 Eninrac. All rights reserved.</p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <p class="privacy"><a href="/privacy-policy">Privacy Policy</a> • <a href="/terms">Terms & Conditions</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
 </body>
