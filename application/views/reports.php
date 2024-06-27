@@ -4,11 +4,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ecosystem</title>
+  <title>Ecosystem Reports</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
 
   <link rel="stylesheet" href="<?= base_url('assets/fonts/fonts.css') ?>" />
   <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>" />
+
 
 </head>
 
@@ -41,8 +42,63 @@
     </div>
   </nav>
 
+<!-- header -->
+
+<header class="report-header report-header-lg text-center px-3 px-lg-5">
+    <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/q_auto,f_auto/v1702262499/assets/magazine/hn4cpe8bbs7ponn1bch4.svg" alt="Background Image">
+    <div class="relative">
+        <h1 class="display-4">Research</h1>
+        <p>Actionable intelligence to inform your strategic and commercial decision making</p>
+    </div>
+</header>
 
 
+
+<div class="container mt-4">
+        <!-- First row with buttons -->
+        <div class="row mb-4">
+            <div class="col">
+                <button type="button" class="btn btn-primary w-100">Solar</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-primary w-100">Wind</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-primary w-100">Coal</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-primary w-100">Hydro</button>
+            </div>
+        </div>
+
+        <!-- Second row with two columns -->
+        <div class="row">
+            <div class="col-3">
+                <ul class="list-group">
+                    <li class="list-group-item">Element 1</li>
+                    <li class="list-group-item">Element 2</li>
+                    <li class="list-group-item">Element 3</li>
+                    <li class="list-group-item">Element 4</li>
+                    <li class="list-group-item">Element 5</li>
+                    <li class="list-group-item">Element 6</li>
+                </ul>
+            </div>
+            <div class="col-9">
+                <!-- Placeholder for other content -->
+                <div class="border p-4">
+                    Content goes here...
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- main section -->
+ <section>
+  <div>
+    
+  </div>
+ </section>
   <!-- footer -->
 
 
