@@ -55,7 +55,7 @@ a {
   filter: blur(3px);
 }
 
-.breadcrumb-item + .breadcrumb-item::before {
+.breadcrumb-item+.breadcrumb-item::before {
   font-family: Icofont !important;
   content: "\eab8" !important;
 }
@@ -339,6 +339,7 @@ a {
 }
 
 @media (min-width: 768px) {
+
   .footer .contact-info p,
   .footer .contact-info a {
     font-size: 1.25rem;
@@ -367,6 +368,7 @@ a {
 .what_included {
   background-color: var(--primary-300);
 }
+
 .what_included_card {
   background-color: var(--primary-200);
   min-height: 150px;
@@ -565,9 +567,11 @@ button.accordion-button:focus {
   width: 60%;
   object-fit: cover;
 }
+
 .content-container {
   position: relative;
 }
+
 .custom-section {
   position: relative;
   overflow: hidden;
@@ -576,10 +580,10 @@ button.accordion-button:focus {
 .custom-about-section {
   position: relative;
   padding: 2.625rem 0;
-  background: url("https://res.cloudinary.com/dkklqdsqc/image/upload/q_auto,f_auto/v1701786599/assets/consultancy/consulting-meeting_lsslmp_eioxbp.webp")
-    no-repeat center center;
+  background: url("https://res.cloudinary.com/dkklqdsqc/image/upload/q_auto,f_auto/v1701786599/assets/consultancy/consulting-meeting_lsslmp_eioxbp.webp") no-repeat center center;
   background-size: cover;
 }
+
 .custom-about-overlay {
   background: rgba(0, 0, 0, 0.4);
   position: absolute;
@@ -588,15 +592,18 @@ button.accordion-button:focus {
   width: 100%;
   height: 100%;
 }
+
 .custom-about-content-container {
   position: relative;
   color: #f0f8ff;
 }
+
 @media (max-width: 767.98px) {
   .custom-about-section {
     background-image: url("https://res.cloudinary.com/dkklqdsqc/image/upload/q_auto,f_auto/v1701786599/assets/consultancy/consulting-meeting-mobile_lz6wds_b7bvb8.webp");
   }
 }
+
 @media (min-width: 768px) {
   .custom-about-content-container {
     color: var(--white-100);
@@ -611,12 +618,14 @@ button.accordion-button:focus {
 .custom-animation-video {
   height: 7.8rem;
 }
+
 @media (min-width: 768px) {
   .custom-animation-video {
     height: 10rem;
     margin-top: -2.375rem;
   }
 }
+
 .custom-animation-section {
   max-width: var(--bs-container-lg, 100%);
   margin-left: auto;
@@ -628,12 +637,14 @@ button.accordion-button:focus {
   padding-top: 3.5rem;
   padding-bottom: 5rem;
 }
+
 @media (min-width: 768px) {
   .custom-animation-section {
     flex-direction: row;
     padding-top: 6.25rem;
   }
 }
+
 @media (min-width: 1200px) {
   .custom-animation-section {
     height: 40.87rem;
@@ -647,9 +658,11 @@ button.accordion-button:focus {
 .video-section-relative {
   position: relative;
 }
+
 .video-section-aspect-ratio {
   aspect-ratio: 90 / 35.62;
 }
+
 .video-section-bg-image {
   position: absolute;
   top: 0;
@@ -658,6 +671,7 @@ button.accordion-button:focus {
   height: 100%;
   object-fit: cover;
 }
+
 .video-section-overlay {
   position: absolute;
   top: 0;
@@ -666,6 +680,7 @@ button.accordion-button:focus {
   height: 100%;
   background: rgba(0, 0, 0, 0.4);
 }
+
 .video-section-content {
   position: relative;
   max-width: var(--bs-container-lg, 100%);
@@ -673,15 +688,18 @@ button.accordion-button:focus {
   padding-top: 2.4rem;
   padding-bottom: 2.4rem;
 }
+
 @media (min-width: 768px) {
   .video-section-content {
     padding-top: 0;
     padding-bottom: 0;
   }
+
   .video-section-overlay {
     display: block;
   }
 }
+
 .video-section-button {
   display: flex;
   align-items: center;
@@ -694,6 +712,7 @@ button.accordion-button:focus {
   color: #fff;
   border: none;
 }
+
 .video-section-modal {
   display: none;
   position: fixed;
@@ -707,6 +726,7 @@ button.accordion-button:focus {
   background: rgba(0, 0, 0, 0.8);
   padding: 1.25rem;
 }
+
 .video-section-modal-content {
   display: flex;
   flex-direction: column;
@@ -715,11 +735,13 @@ button.accordion-button:focus {
   max-width: var(--bs-container-lg, 100%);
   gap: 0.75rem;
 }
+
 .video-section-video {
   aspect-ratio: 16 / 9;
   width: 100%;
   background: rgba(0, 0, 0, 0.2);
 }
+
 .video-section-close-button {
   display: flex;
   justify-content: center;
@@ -730,10 +752,12 @@ button.accordion-button:focus {
   background: transparent;
   border: none;
 }
+
 .video-section-close-icon {
   width: 1rem;
   height: 1rem;
 }
+
 /*  example work*/
 
 .case-study {
@@ -754,6 +778,7 @@ button.accordion-button:focus {
   color: #000000;
   padding: 1.88rem;
 }
+
 .process .card-title {
   color: black;
   font-weight: bold;
@@ -770,6 +795,7 @@ button.accordion-button:focus {
   color: black;
   font-size: 20px;
 }
+
 .contact-us-form p {
   color: black;
   font-size: 20px;
@@ -825,56 +851,72 @@ button.accordion-button:focus {
 .event-bg-light-gray {
   background-color: #f8f9fa;
 }
+
 .event-text-sky-blue-5 {
   color: #0dcaf0;
 }
+
 .event-text-lilac-medium {
   color: #9f7aea;
 }
+
 .event-bg-black-60 {
   background-color: rgba(0, 0, 0, 0.6);
 }
+
 .event-text-h4 {
   font-size: 1.5rem;
   font-weight: 700;
 }
+
 .event-text-body-text {
   font-size: 1rem;
   font-weight: 400;
 }
+
 .event-text-pre-title {
   font-size: 1.25rem;
   font-weight: 500;
 }
+
 .event-text-h5 {
   font-size: 1.25rem;
   font-weight: 700;
 }
+
 .event-text-big-copy {
   font-size: 1.125rem;
   font-weight: 400;
 }
+
 .event-pt-custom {
   padding-top: 3.75rem;
 }
+
 .event-pt-md-custom {
   padding-top: 8.19rem;
 }
+
 .event-pb-custom {
   padding-bottom: 3.75rem;
 }
+
 .event-pb-md-custom {
   padding-bottom: 5.94rem;
 }
+
 .event-mb-custom {
   margin-bottom: 0.75rem;
 }
+
 .event-mt-custom {
   margin-top: 2.5rem;
 }
+
 .event-max-w-custom {
   max-width: 40.625rem;
 }
+
 .event-max-w-container {
   max-width: 1140px;
 }
@@ -892,3 +934,5 @@ button.accordion-button:focus {
   font-weight: bold;
   border-bottom: 4px solid #0d6efd !important;
 }
+
+
