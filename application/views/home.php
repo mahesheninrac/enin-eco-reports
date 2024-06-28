@@ -279,7 +279,7 @@
   </div>
   <!-- component -->
 
-  <section class="relative px-5 bg-lilac">
+  <section class="relative px-5 bg-lilac z-1">
     <div class="container mx-auto max-w-content-container d-md-flex align-items-lg-center pb-5 pb-md-5 pt-5 pt-md-5">
       <div class="col-md-6 pe-md-5">
         <p class="mb-3 h4 text-uppercase  section-header">
@@ -311,7 +311,7 @@
 
   <!-- contact us -->
 
-  <section class="contact">
+  <sectionp class="contact position-relative z-2">
     <div class="  position-relative py-5 px-3 bg-lilac-medium md:py-7 max-w-content-container mx-auto overflow-hidden">
       <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/q_auto,f_auto/v1702335829/assets/home/xdttfk68dth46okvu2ef.svg" alt="header" class="position-absolute top-0 end-0 h-100 d-md-none opacity-60" />
       <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/q_auto,f_auto/v1702335828/assets/home/xogp12myy767yihl27fx.svg" alt="header" class="d-none position-absolute top-0 start-0 h-100 d-md-block" />
@@ -325,14 +325,14 @@
         <a class="btn btn-primary px-5 py-1 text-sm md:py-0 md:text-base font-medium rounded-md btn-lg" href="/get-in-touch">Get in touch</a>
       </div>
     </div>
-  </section>
+  </sectionp>
 
   <!-- footer -->
 
 
   <!--  -->
 
-  <footer class="footer text-center text-md-start">
+  <footer class="footer text-center text-md-start z-1">
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-lg-6 mb-4 mb-md-0">
