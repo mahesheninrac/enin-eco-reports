@@ -110,7 +110,7 @@
     <section class="tabs-section  bg-primary-300 py-4 px-5">
 
         <div class="container-xxl  ">
-            <h1 class="p-4 fw-bold">Events</h1>
+            <h1 class="p-2 fw-bold">Events</h1>
             <!-- Tab Navigation -->
             <ul class="nav nav-tabs nav-fill py-5 " id="eventTabs" role="tablist">
                 <li class="nav-item " role="presentation">

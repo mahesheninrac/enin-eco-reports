@@ -55,7 +55,7 @@ a {
   filter: blur(3px);
 }
 
-.breadcrumb-item+.breadcrumb-item::before {
+.breadcrumb-item + .breadcrumb-item::before {
   font-family: Icofont !important;
   content: "\eab8" !important;
 }
@@ -339,7 +339,6 @@ a {
 }
 
 @media (min-width: 768px) {
-
   .footer .contact-info p,
   .footer .contact-info a {
     font-size: 1.25rem;
@@ -580,7 +579,8 @@ button.accordion-button:focus {
 .custom-about-section {
   position: relative;
   padding: 2.625rem 0;
-  background: url("https://res.cloudinary.com/dkklqdsqc/image/upload/q_auto,f_auto/v1701786599/assets/consultancy/consulting-meeting_lsslmp_eioxbp.webp") no-repeat center center;
+  background: url("https://res.cloudinary.com/dkklqdsqc/image/upload/q_auto,f_auto/v1701786599/assets/consultancy/consulting-meeting_lsslmp_eioxbp.webp")
+    no-repeat center center;
   background-size: cover;
 }
 
@@ -934,5 +934,6 @@ button.accordion-button:focus {
   font-weight: bold;
   border-bottom: 4px solid #0d6efd !important;
 }
+
 
 
