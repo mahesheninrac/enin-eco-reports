@@ -311,7 +311,7 @@
 
   <!-- contact us -->
 
-  <sectionp class="contact position-relative z-2">
+  <section class="position-relative contact">
     <div class="  position-relative py-5 px-3 bg-lilac-medium md:py-7 max-w-content-container mx-auto overflow-hidden">
       <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/q_auto,f_auto/v1702335829/assets/home/xdttfk68dth46okvu2ef.svg" alt="header" class="position-absolute top-0 end-0 h-100 d-md-none opacity-60" />
       <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/q_auto,f_auto/v1702335828/assets/home/xogp12myy767yihl27fx.svg" alt="header" class="d-none position-absolute top-0 start-0 h-100 d-md-block" />
@@ -325,7 +325,7 @@
         <a class="btn btn-primary px-5 py-1 text-sm md:py-0 md:text-base font-medium rounded-md btn-lg" href="/get-in-touch">Get in touch</a>
       </div>
     </div>
-  </sectionp>
+  </section>
 
   <!-- footer -->
 
