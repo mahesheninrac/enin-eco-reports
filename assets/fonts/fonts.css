@@ -36,6 +36,9 @@
 .fw-light {
   font-weight: 100 !important;
 }
+.fw-400{
+  font-weight: 400 !important;
+}
 
 .fs-70 {
   font-size: 70px !important;

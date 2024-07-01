@@ -90,6 +90,7 @@
                         </div>
                     </div>
                 </div>
+                <!-- <div class="col-md-6 bg-lighter-lavender d-none d-md-block bg-primary-200" style="background-image: url('https://res.cloudinary.com/dkklqdsqc/image/upload/q_auto,f_auto/v1702333631/assets/login/xswlst3ycfqof9l7qwwh.svg'); background-repeat: no-repeat; background-position: center; background-size: 50vw 51.75rem;"></div> -->
                 <div class="col-md-6 bg-lighter-lavender d-none d-md-block bg-primary-200" style="background-image: url('https://res.cloudinary.com/dkklqdsqc/image/upload/q_auto,f_auto/v1702333631/assets/login/xswlst3ycfqof9l7qwwh.svg'); background-repeat: no-repeat; background-position: center; background-size: 50vw 51.75rem;"></div>
             </div>
         </div>

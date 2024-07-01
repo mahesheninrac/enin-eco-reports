@@ -17,9 +17,11 @@
     <!-- navbar   -->
     <nav class="navbar navbar-expand-md bg-white py-4">
         <div class="container">
-            <a class="navbar-brand" href="/">
-                <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/logo-dark-purple.742caa.svg" alt="Logo" />
-            </a>
+        <a class="navbar-brand " href="/">
+        <!-- <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/logo-dark-purple.742caa.svg" alt="Logo" /> -->
+
+        <img src="<?= base_url('assets/images/eco-logo-01.png') ?>" class="w-100 h-80" alt="home-page-banner">
+      </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"><img src="./Assets/menu.png" alt="" /></span>
             </button>

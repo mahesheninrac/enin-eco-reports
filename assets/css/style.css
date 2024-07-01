@@ -935,5 +935,10 @@ button.accordion-button:focus {
   border-bottom: 4px solid #0d6efd !important;
 }
 
-
+.our-research .see-more {
+  background-color: white;
+  color:var(--primary-800);
+  border: 1px solid black;
+  font-weight: normal;
+}
 
