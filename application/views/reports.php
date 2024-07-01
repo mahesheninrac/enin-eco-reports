@@ -11,7 +11,7 @@
 
   <style>
     /* report page */
-    .custom-animation-report-header {
+    .report-header {
       position: relative;
       background-color: var(--primary-300);
       /* sky blue color */
@@ -22,13 +22,13 @@
       height: 19.6rem;
     }
 
-    .custom-animation-report-header-lg {
+    .report-header-lg {
       padding-top: 6.19rem;
       padding-bottom: 5.87rem;
       height: 21.4rem;
     }
 
-    .custom-animation-report-header img {
+    .report-header img {
       position: absolute;
       top: -3rem;
       height: 120%;
@@ -36,17 +36,17 @@
       object-fit: scale-down;
     }
 
-    .custom-animation-report-header h1 {
+    .report-header h1 {
       font-size: 1.75rem;
       font-weight: bold;
     }
 
-    .custom-animation-report-header-lg h1 {
+    .report-header-lg h1 {
       font-size: 2.5rem;
       /* equivalent to text-h1 */
     }
 
-    .custom-animation-report-header p {
+    .report-header p {
       margin-top: 1.25rem;
       max-width: 29.12rem;
       margin-left: auto;
@@ -55,38 +55,38 @@
       /* equivalent to text-body-text */
     }
 
-    .custom-animation-report-header-lg p {
+    .report-header-lg p {
       margin-top: 1.06rem;
       font-size: 1.25rem;
       /* equivalent to text-big-copy */
     }
 
     @media (min-width: 992px) {
-      .custom-animation-report-header {
+      .report-header {
         text-align: left;
       }
 
-      .custom-animation-report-header-lg {
+      .report-header-lg {
         text-align: center;
       }
     }
 
     /* Content section */
-    .custom-animation-content-section {
+    .content-section {
       display: none;
     }
 
-    .custom-animation-content-section.active {
+    .content-section.active {
       display: block;
     }
 
-    .custom-animation-container-xxl {}
+    .container-xxl {}
 
-    .custom-animation-report-types li {
+    .report-types li {
       border-bottom: 1px solid black;
     }
 
-    .custom-animation-scrollable {
+    .custom-scrollable {
       overflow-y: scroll;
       max-height: 500px;
       -ms-overflow-style: none;
@@ -95,18 +95,23 @@
       /* Firefox */
     }
 
-    .custom-animation-scrollable::-webkit-scrollbar {
+    .custom-scrollable::-webkit-scrollbar {
       display: none;
       /* Chrome, Safari, and Opera */
     }
 
-    .custom-animation-sticky-row {
-      position: -webkit-sticky;
-      position: sticky;
-      top: 20px;
-      z-index: 1000;
-      background-color: white;
-      padding: 20px 0;
+    .arrow {
+      display: none;
+    }
+
+    .arrow.active {
+      display: flex;
+
+    }
+
+    .v-list {
+      color: var(--primary-800);
+      font-weight: bold;
     }
   </style>
 
@@ -145,7 +150,7 @@
   </nav>
 
   <!-- header -->
-  <header class="custom-animation-report-header custom-animation-report-header-lg text-center px-3 px-lg-5">
+  <header class="report-header report-header-lg text-center px-3 px-lg-5">
     <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/q_auto,f_auto/v1702262499/assets/magazine/hn4cpe8bbs7ponn1bch4.svg" alt="Background Image">
 
 
@@ -155,7 +160,7 @@
     </div>
   </header>
 
-  <div class="custom-animation-container-xxl py-4">
+  <div class="container-xxl py-4 main-row">
     <!-- First row with buttons -->
     <div class="row mb-4">
       <div class="col">
@@ -177,41 +182,42 @@
     <div class="splitiing ">
       <div class="row py-2">
         <!-- list of internal-section -->
-        <div class="col-3 custom-animation-report-types" id="check">
+        <div class="col-3 report-types" id="check">
           <ul class="list-group fw-normal text-start gap-4">
-            <li class="list-group-item py-3" id="market-sizing">
-              <p>Market Sizing</p>
-              <div class="arrow"><i class="icofont-arrow-right"></i></div>
+            <li class="list-group-item py-3 d-flex gap-5 " id="market-sizing">
+              <p class="fs-20 fw-400 v-list">Market Sizing</p>
+              <div class="arrow align-items-center" id="first"><i class="icofont-arrow-right fs-30"></i></div>
+
             </li>
-            <li class="list-group-item py-3" id="future-outlook">
-              <p>Future Outlook</p>
-              <div class="arrow"><i class="icofont-arrow-right"></i></div>
+            <li class="list-group-item py-3  d-flex gap-5" id="future-outlook">
+              <p class="fs-20 fw-400 v-list">Future Outlook</p>
+              <div class="arrow " id="second"><i class="icofont-arrow-right fs-30"></i></div>
             </li>
-            <li class="list-group-item py-3" id="focus-reports">
-              <p>Focus Reports</p>
-              <div class="arrow"><i class="icofont-arrow-right"></i></div>
+            <li class="list-group-item py-3  d-flex gap-5" id="focus-reports">
+              <p class="fs-20 fw-400 v-list">Focus Reports</p>
+              <div class="arrow " id="third"><i class="icofont-arrow-right fs-30"></i></div>
             </li>
-            <li class="list-group-item py-3" id="thematic-reports">
-              <p>Thematic Reports</p>
-              <div class="arrow"><i class="icofont-arrow-right"></i></div>
+            <li class="list-group-item py-3  d-flex gap-5" id="thematic-reports">
+              <p class="fs-20 fw-400 v-list">Thematic Reports</p>
+              <div class="arrow " id="four"><i class="icofont-arrow-right fs-30"></i></div>
             </li>
-            <li class="list-group-item py-3" id="databases">
-              <p>Databases</p>
-              <div class="arrow"><i class="icofont-arrow-right"></i></div>
+            <li class="list-group-item py-3  d-flex gap-5" id="databases">
+              <p class="fs-20 fw-400 v-list">Databases</p>
+              <div class="arrow " id="five"><i class="icofont-arrow-right fs-30"></i></div>
             </li>
-            <li class="list-group-item py-3" id="survey">
-              <p>Databases</p>
-              <div class="arrow"><i class="icofont-arrow-right"></i></div>
+            <li class="list-group-item py-3  d-flex gap-5" id="survey">
+              <p class="fs-20 fw-400 v-list">Survey</p>
+              <div class="arrow " id="six"><i class="icofont-arrow-right fs-30"></i></div>
             </li>
           </ul>
         </div>
-        <div class="col-9 custom-animation-moving-content">
+        <div class="col-9 moving-content">
           <!-- Placeholder for other content -->
-          <div class="p-4 custom-animation-scrollable ">
+          <div class="p-4 custom-scrollable ">
             <!-- Content sections -->
-            <div id="content-solar" class="custom-animation-content-section active">
-              <div class="custom-animation-market-sizing">
-                <div class="d-flex gap-4 align-items-center">
+            <div id="content-solar" class="content-section active">
+              <div class="market-sizing">
+                <div class="d-flex gap-4 align-items-center  ">
                   <h1 class="h3">Market Sizing</h1>
                   <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
                 </div>
@@ -224,7 +230,7 @@
                   <p class="mx-2">Short Note</p>
                 </div>
               </div>
-              <div class="custom-animation-future-outlook">
+              <div class="future-outlook">
                 <div class="d-flex gap-4 align-items-center">
                   <h1 class="h3">Future Outlook</h1>
                   <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
@@ -238,7 +244,7 @@
                   <p class="mx-2">Short Note</p>
                 </div>
               </div>
-              <div class="custom-animation-focus-reports">
+              <div class="focus-reports">
                 <div class="d-flex gap-4 align-items-center">
                   <h1 class="h3">Focus Report</h1>
                   <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
@@ -252,7 +258,7 @@
                   <p class="mx-2">Short Note</p>
                 </div>
               </div>
-              <div class="custom-animation-thematic-reports">
+              <div class="thematic-reports">
                 <div class="d-flex gap-4 align-items-center">
                   <h1 class="h3">Thematic Report</h1>
                   <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
@@ -266,10 +272,26 @@
                   <p class="mx-2">Short Note</p>
                 </div>
               </div>
-              <div class="custom-animation-databases">
+
+
+              <div class="databases">
                 <div class="d-flex gap-4 align-items-center">
                   <h1 class="h3">Databases</h1>
-                  <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+                  <a href="">Learn More<i class="icofont-long-arrow-right "></i></a>
+                </div>
+                <div class="d-flex flex-column mx-4">
+                  <div class="title d-flex gap-1 align-items-start">
+                    <img src="https://placehold.co/25" alt="">
+                    <p>Pointer</p>
+
+                  </div>
+                  <p class="mx-2">Short Note</p>
+                </div>
+              </div>
+              <div class="survey">
+                <div class="d-flex gap-4 align-items-center">
+                  <h1 class="h3">Survey</h1>
+                  <a href="">Learn More<i class="icofont-long-arrow-right "></i></a>
                 </div>
                 <div class="d-flex flex-column mx-4">
                   <div class="title d-flex gap-1 align-items-start">
@@ -281,49 +303,376 @@
                 </div>
               </div>
             </div>
-            <div id="content-wind" class="custom-animation-content-section">
-              <div class="d-flex gap-4 align-items-center">
-                <h1 class="h3">Wind Reports</h1>
-                <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+            <div id="content-wind" class="content-section">
+              <div class="market-sizing">
+                <div class="d-flex gap-4 align-items-center">
+                  <h1 class="h3">Market Sizing</h1>
+                  <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+                </div>
+                <div class="d-flex flex-column mx-4">
+                  <div class="title d-flex gap-1 align-items-start">
+                    <img src="https://placehold.co/25" alt="">
+                    <p>Pointer</p>
+
+                  </div>
+                  <p class="mx-2">Short Note</p>
+                </div>
+              </div>
+              <div class="future-outlook">
+                <div class="d-flex gap-4 align-items-center">
+                  <h1 class="h3">Future Outlook</h1>
+                  <a href="">Learn More</a>
+                </div>
+                <div class="d-flex flex-column mx-4">
+                  <div class="title d-flex gap-1 align-items-start">
+                    <img src="https://placehold.co/25" alt="">
+                    <p>Pointer</p>
+
+                  </div>
+                  <p class="mx-2">Short Note</p>
+                </div>
+              </div>
+              <div class="focus-report">
+                <div class="d-flex gap-4 align-items-center">
+                  <h1 class="h3">Focus Report</h1>
+                  <a href="">Learn More</a>
+                </div>
+                <div class="d-flex flex-column mx-4">
+                  <div class="title d-flex gap-1 align-items-start">
+                    <img src="https://placehold.co/25" alt="">
+                    <p>Pointer</p>
+
+                  </div>
+                  <p class="mx-2">Short Note</p>
+                </div>
+              </div>
+              <div class="databases">
+                <div class="d-flex gap-4 align-items-center">
+                  <h1 class="h3">Databases</h1>
+                  <a href="">Learn More</a>
+                </div>
+                <div class="d-flex flex-column mx-4">
+                  <div class="title d-flex gap-1 align-items-start">
+                    <img src="https://placehold.co/25" alt="">
+                    <p>Pointer</p>
+
+                  </div>
+                  <p class="mx-2">Short Note</p>
+                </div>
+              </div>
+              <div class="survey">
+                <div class="d-flex gap-4 align-items-center">
+                  <h1 class="h3">Survey</h1>
+                  <a href="">Learn More</a>
+                </div>
+                <div class="d-flex flex-column mx-4">
+                  <div class="title d-flex gap-1 align-items-start">
+                    <img src="https://placehold.co/25" alt="">
+                    <p>Pointer</p>
+
+                  </div>
+                  <p class="mx-2">Short Note</p>
+                </div>
               </div>
             </div>
-            <div id="content-coal" class="custom-animation-content-section">
-              <div class="d-flex gap-4 align-items-center">
-                <h1 class="h3">Coal Reports</h1>
-                <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+            <div id="content-coal" class="content-section">
+              <div class="market-sizing">
+                <div class="d-flex gap-4 align-items-center">
+                  <h1 class="h3">Market Sizing</h1>
+                  <a href="">Learn More</a>
+                </div>
+                <div class="d-flex flex-column mx-4">
+                  <div class="title d-flex gap-1 align-items-start">
+                    <img src="https://placehold.co/25" alt="">
+                    <p>Pointer</p>
+
+                  </div>
+                  <p class="mx-2">Short Note</p>
+                </div>
+              </div>
+              <div class="future-outlook">
+                <div class="d-flex gap-4 align-items-center">
+                  <h1 class="h3">Future Outlook</h1>
+                  <a href="">Learn More</a>
+                </div>
+                <div class="d-flex flex-column mx-4">
+                  <div class="title d-flex gap-1 align-items-start">
+                    <img src="https://placehold.co/25" alt="">
+                    <p>Pointer</p>
+
+                  </div>
+                  <p class="mx-2">Short Note</p>
+                </div>
+              </div>
+              <div class="focus-report">
+                <div class="d-flex gap-4 align-items-center">
+                  <h1 class="h3">Focus Report</h1>
+                  <a href="">Learn More</a>
+                </div>
+                <div class="d-flex flex-column mx-4">
+                  <div class="title d-flex gap-1 align-items-start">
+                    <img src="https://placehold.co/25" alt="">
+                    <p>Pointer</p>
+
+                  </div>
+                  <p class="mx-2">Short Note</p>
+                </div>
+              </div>
+              <div class="databases">
+                <div class="d-flex gap-4 align-items-center">
+                  <h1 class="h3">Databases</h1>
+                  <a href="">Learn More</a>
+                </div>
+                <div class="d-flex flex-column mx-4">
+                  <div class="title d-flex gap-1 align-items-start">
+                    <img src="https://placehold.co/25" alt="">
+                    <p>Pointer</p>
+
+                  </div>
+                  <p class="mx-2">Short Note</p>
+                </div>
+              </div>
+              <div class="survey">
+                <div class="d-flex gap-4 align-items-center">
+                  <h1 class="h3">Survey</h1>
+                  <a href="">Learn More</a>
+                </div>
+                <div class="d-flex flex-column mx-4">
+                  <div class="title d-flex gap-1 align-items-start">
+                    <img src="https://placehold.co/25" alt="">
+                    <p>Pointer</p>
+
+                  </div>
+                  <p class="mx-2">Short Note</p>
+                </div>
               </div>
             </div>
-            <div id="content-hydro" class="custom-animation-content-section">
-              <div class="d-flex gap-4 align-items-center">
-                <h1 class="h3">Hydrogen Reports</h1>
-                <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+            <div id="content-hydro" class="content-section active">
+              <div class="market-sizing">
+                <div class="d-flex gap-4 align-items-center">
+                  <h1 class="h3">Market Sizing</h1>
+                  <a href="">Learn More</a>
+                </div>
+                <div class="d-flex flex-column mx-4">
+                  <div class="title d-flex gap-1 align-items-start">
+                    <img src="https://placehold.co/25" alt="">
+                    <p>Pointer</p>
+
+                  </div>
+                  <p class="mx-2">Short Note</p>
+                </div>
+              </div>
+              <div class="future-outlook">
+                <div class="d-flex gap-4 align-items-center">
+                  <h1 class="h3">Future Outlook</h1>
+                  <a href="">Learn More</a>
+                </div>
+                <div class="d-flex flex-column mx-4">
+                  <div class="title d-flex gap-1 align-items-start">
+                    <img src="https://placehold.co/25" alt="">
+                    <p>Pointer</p>
+
+                  </div>
+                  <p class="mx-2">Short Note</p>
+                </div>
+              </div>
+              <div class="focus-report">
+                <div class="d-flex gap-4 align-items-center">
+                  <h1 class="h3">Focus Report</h1>
+                  <a href="">Learn More</a>
+                </div>
+                <div class="d-flex flex-column mx-4">
+                  <div class="title d-flex gap-1 align-items-start">
+                    <img src="https://placehold.co/25" alt="">
+                    <p>Pointer</p>
+
+                  </div>
+                  <p class="mx-2">Short Note</p>
+                </div>
+              </div>
+              <div class="databases">
+                <div class="d-flex gap-4 align-items-center">
+                  <h1 class="h3">Databases</h1>
+                  <a href="">Learn More</a>
+                </div>
+                <div class="d-flex flex-column mx-4">
+                  <div class="title d-flex gap-1 align-items-start">
+                    <img src="https://placehold.co/25" alt="">
+                    <p>Pointer</p>
+
+                  </div>
+                  <p class="mx-2">Short Note</p>
+                </div>
+              </div>
+              <div class="survey">
+                <div class="d-flex gap-4 align-items-center">
+                  <h1 class="h3">Survey</h1>
+                  <a href="">Learn More</a>
+                </div>
+                <div class="d-flex flex-column mx-4">
+                  <div class="title d-flex gap-1 align-items-start">
+                    <img src="https://placehold.co/25" alt="">
+                    <p>Pointer</p>
+
+                  </div>
+                  <p class="mx-2">Short Note</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer text-center text-md-start ">
+    <div class="container-xxl">
+      <div class="row">
+        <div class="col-md-6 col-lg-6 mb-4 mb-md-0">
+          <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/logo-sky-blue-1.ebb1bf.svg" alt="Logo" class="logo mb-4">
+          <div class="contact-info">
+            <p>Second Floor, Randall House<br>6 Dowgate Hill<br>London EC4R 2SU</p>
+            <p>+44 (0) 203 988 7648<br><a href="mailto:info@rhomotion.com">info@rhomotion.com</a></p>
+          </div>
+          <div class="social-icons mt-4">
+            <a href="https://www.linkedin.com/company/rhomotion/" target="_blank" rel="noreferrer">
+              <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-linkedin.5fd894.svg" alt="LinkedIn">
+            </a>
+            <a href="https://twitter.com/rhomotion/" target="_blank" rel="noreferrer">
+              <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-x.290b8c.svg" alt="Twitter">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-6">
+          <div class="row">
+            <div class="col-6">
+              <div class="nav-links">
+                <a href="/research" class="d-block">Eco System Reports</a>
+                <a href="/consultancy" class="d-block">Custom Requirements</a>
+                <a href="/events" class="d-block">Surveys & VOC</a>
+                <a href="/about-us" class="d-block">About us</a>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="nav-links">
+                <a href="/magazine" class="d-block">Magazine</a>
+                <a href="/news" class="d-block">News</a>
+                <a href="/careers" class="d-block">Careers</a>
+                <a href="/get-in-touch" class="d-block">Contact Us</a>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <div class="row mt-4">
+        <div class="col-md-6 text-md-start">
+          <p class="copyright">&copy; 2024 Eninrac. All rights reserved.</p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <p class="privacy"><a href="/privacy-policy">Privacy Policy</a> • <a href="/terms">Terms & Conditions</a></p>
+        </div>
+      </div>
     </div>
-  </div>
+  </footer>
 
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
   <script>
-    $(document).ready(function() {
-      // Function to handle button clicks
-      function handleButtonClick(buttonId, contentId) {
-        $(buttonId).click(function() {
-          $('.custom-animation-content-section').removeClass('active');
-          $(contentId).addClass('active');
-        });
-      }
+    document.getElementById('btn-solar').addEventListener('onmouseenter', function() {
+      showContent('content-solar');
 
-      // Handle button clicks for different sections
-      handleButtonClick('#btn-solar', '#content-solar');
-      handleButtonClick('#btn-wind', '#content-wind');
-      handleButtonClick('#btn-coal', '#content-coal');
-      handleButtonClick('#btn-hydro', '#content-hydro');
     });
+
+    document.getElementById('btn-wind').addEventListener('onscroll', function() {
+      showContent('content-wind');
+
+    });
+
+    document.getElementById('btn-coal').addEventListener('click', function() {
+      showContent('content-coal');
+
+    });
+
+    document.getElementById('btn-hydro').addEventListener('click', function() {
+      showContent('content-hydro');
+
+    });
+
+    // arrows
+
+
+
+    document.querySelectorAll('.market-sizing').forEach(function(element) {
+      element.addEventListener('mouseenter', function() {
+        console.log("jii");
+        showArrow('first');
+      });
+    });
+    document.querySelectorAll('.future-outlook').forEach(function(element) {
+      element.addEventListener('mouseenter', function() {
+        showArrow('second');
+      });
+    });
+    document.querySelectorAll('.focus-reports').forEach(function(element) {
+      element.addEventListener('mouseenter', function() {
+        showArrow('third');
+      });
+    });
+
+    document.querySelectorAll('.thematic-reports').forEach(function(element) {
+      element.addEventListener('mouseenter', function() {
+        showArrow('four');
+      });
+    });
+
+    document.querySelectorAll('.databases').forEach(function(element) {
+      element.addEventListener('mouseenter', function() {
+        showArrow('five');
+      });
+    });
+
+    document.querySelectorAll('.survey').forEach(function(element) {
+      element.addEventListener('mouseenter', function() {
+        showArrow('six');
+      });
+    });
+
+
+
+
+
+
+
+    function showContent(contentId) {
+      // Hide all content sections
+      var contents = document.querySelectorAll('.content-section');
+      contents.forEach(function(content) {
+        content.classList.remove('active');
+      });
+
+
+      document.getElementById(contentId).classList.add('active');
+    }
+
+
+
+    // For arrow
+    function showArrow(contentId) {
+      // Hide all content sections
+      var contents = document.querySelectorAll('.arrow');
+      console.log(contents);
+      contents.forEach(function(content) {
+        content.classList.remove('active');
+      });
+
+
+      document.getElementById(contentId).classList.add('active');
+    }
   </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>
