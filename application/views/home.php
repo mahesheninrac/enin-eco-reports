@@ -9,7 +9,35 @@
 
   <link rel="stylesheet" href="<?= base_url('assets/fonts/fonts.css') ?>" />
   <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>" />
+<style>.hero-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: center;
+}
 
+.hero-section .text-container {
+  flex: 1 1 55%;
+  max-width: 55%;
+  padding: 10px;
+}
+
+.hero-section > div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+  }
+  .hero-section .text-container,
+  .hero-section > div {
+    max-width: 100%;
+  }
+}
+</style>
 </head>
 
 <body>
@@ -115,6 +143,78 @@
     </div>
   </div>
   </div>
+
+
+  <!--  -->
+
+
+  <div class="p-1 overflow-hidden hero container-xxl">
+  <div class="hero-section py-4 d-flex flex-wrap align-items-end justify-content-center">
+    <div class="text-container flex-1" style="padding: 10px; max-width: 55%;">
+      <p class="fs-70 fw-bold display-4">
+        Actionable intelligence for the energy transition
+      </p>
+    </div>
+    <div class="flex-1" style="max-width: 45%; padding: 0;">
+      <img src="<?= base_url('assets/images/homepage-banner.png') ?>" class="img-fluid w-100 h-100" alt="home-page-banner" style="object-fit: cover;">
+    </div>
+  </div>
+
+  <div class="d-flex flex-column flex-md-row gap-3 mt-1 py-4">
+    <!-- card1 -->
+    <a href="/consultancy" class="card overflow-hidden w-100">
+      <div class="card-body position-relative py-4 px-3">
+        <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/v1702337706/assets/home/ymfa0talxlppyy682pqp.svg" class="d-none d-lg-block" alt="" />
+        <h2 class="card-title d-flex justify-content-between align-items-center">
+          Eco System Report
+          <i class="icofont-external-link"></i>
+        </h2>
+        <p class="card-text pt-2">
+          Drive your strategic decision-making using tailored research lore.
+        </p>
+      </div>
+    </a>
+    <!-- card2 -->
+    <a href="/consultancy" class="card overflow-hidden w-100">
+      <div class="card-body position-relative py-4 px-3">
+        <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/v1702337706/assets/home/ymfa0talxlppyy682pqp.svg" class="d-none d-lg-block" alt="" />
+        <h2 class="card-title d-flex justify-content-between align-items-center">
+          Custom Requirements
+          <i class="icofont-external-link"></i>
+        </h2>
+        <p class="card-text pt-2">
+          Drive your strategic decision-making using tailored research lore.
+        </p>
+      </div>
+    </a>
+    <!-- card3 -->
+    <a href="/consultancy" class="card overflow-hidden w-100">
+      <div class="card-body position-relative py-4 px-3">
+        <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/v1702337706/assets/home/ymfa0talxlppyy682pqp.svg" class="d-none d-lg-block" alt="" />
+        <h2 class="card-title d-flex justify-content-between align-items-center">
+          Surveys
+          <i class="icofont-external-link"></i>
+        </h2>
+        <p class="card-text pt-2">
+          Drive your strategic decision-making using tailored research lore.
+        </p>
+      </div>
+    </a>
+    <!-- card4 -->
+    <a href="/consultancy" class="card overflow-hidden w-100">
+      <div class="card-body position-relative py-4 px-3">
+        <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/v1702337706/assets/home/ymfa0talxlppyy682pqp.svg" class="d-none d-lg-block" alt="" />
+        <h2 class="card-title d-flex justify-content-between align-items-center">
+          Webinars & Interviews
+          <i class="icofont-external-link"></i>
+        </h2>
+        <p class="card-text pt-2">
+          Drive your strategic decision-making using tailored research lore.
+        </p>
+      </div>
+    </a>
+  </div>
+</div>
 
   <!--       Eco System Report   -->
 
@@ -311,7 +411,7 @@
 
   <!-- contact us -->
 
-  <sectionp class="contact position-relative z-2">
+  <section class="position-relative contact">
     <div class="  position-relative py-5 px-3 bg-lilac-medium md:py-7 max-w-content-container mx-auto overflow-hidden">
       <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/q_auto,f_auto/v1702335829/assets/home/xdttfk68dth46okvu2ef.svg" alt="header" class="position-absolute top-0 end-0 h-100 d-md-none opacity-60" />
       <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/q_auto,f_auto/v1702335828/assets/home/xogp12myy767yihl27fx.svg" alt="header" class="d-none position-absolute top-0 start-0 h-100 d-md-block" />
@@ -325,7 +425,7 @@
         <a class="btn btn-primary px-5 py-1 text-sm md:py-0 md:text-base font-medium rounded-md btn-lg" href="/get-in-touch">Get in touch</a>
       </div>
     </div>
-  </sectionp>
+  </section>
 
   <!-- footer -->
 

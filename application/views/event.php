@@ -52,31 +52,31 @@
 <body>
     <!-- navbar section  -->
     <nav class="navbar navbar-expand-md bg-white py-4">
-    <div class="container">
-      <a class="navbar-brand" href="/">
-        <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/logo-dark-purple.742caa.svg" alt="Logo" />
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"><img src="./Assets/menu.png" alt="" /></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto  ">
-          <li class="nav-item">
-            <a class="nav-link text-dark fw-normal  " href="/research">Eco System Report </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fw-normal " href="/consultancy">Custom Requirements</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fw-normal " href="/events">Surveys</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fw-normal " href="/get-in-touch">Contact us</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/logo-dark-purple.742caa.svg" alt="Logo" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><img src="./Assets/menu.png" alt="" /></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto  ">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fw-normal  " href="/research">Eco System Report </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-normal " href="/consultancy">Custom Requirements</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-normal " href="/events">Surveys</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-normal " href="/get-in-touch">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
 
 
@@ -107,167 +107,126 @@
 
     <!-- events -->
 
-    <section class="tabs-section  bg-primary-300 py-4 px-5">
-
-        <div class="container-xxl  ">
+    <section class="tabs-section bg-primary-300 py-4 px-5">
+        <div class="container-xxl">
             <h1 class="p-2 fw-bold">Events</h1>
             <!-- Tab Navigation -->
-            <ul class="nav nav-tabs nav-fill py-5 " id="eventTabs" role="tablist">
-                <li class="nav-item " role="presentation">
-                    <div class="nav-link  active px-2 py-4 text-dark" id="all-events-tab" data-bs-toggle="tab" data-bs-target="#all-events" type="button" role="tab" aria-controls="all-events" aria-selected="true">All Events</div>
-
+            <ul class="nav nav-tabs nav-fill py-5" id="eventTabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <div class="nav-link active px-2 py-4 text-dark" id="all-events-tab" data-bs-toggle="tab" data-bs-target="#all-events" type="button" role="tab" aria-controls="all-events" aria-selected="true">All Events</div>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <!-- <button class="nav-link" id="live-events-tab" data-bs-toggle="tab" data-bs-target="#live-events" type="button" role="tab" aria-controls="live-events" aria-selected="false">Live Events</button> -->
-                    <div class="nav-link  px-2 py-4 text-dark" id="all-events-tab" data-bs-toggle="tab" data-bs-target="#live-events" type="button" role="tab" aria-controls="all-events" aria-selected="true">Live Events</div>
+                    <div class="nav-link px-2 py-4 text-dark" id="live-events-tab" data-bs-toggle="tab" data-bs-target="#live-events" type="button" role="tab" aria-controls="live-events" aria-selected="false">Live Events</div>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <!-- <button class="nav-link" id="webinars-tab" data-bs-toggle="tab" data-bs-target="#webinars" type="button" role="tab" aria-controls="webinars" aria-selected="false">Webinars</button> -->
-                    <div class="nav-link  px-2 py-4 text-dark" id="all-events-tab" data-bs-toggle="tab" data-bs-target="#webinars" type="button" role="tab" aria-controls="all-events" aria-selected="true"> Webinars</div>
+                    <div class="nav-link px-2 py-4 text-dark" id="webinars-tab" data-bs-toggle="tab" data-bs-target="#webinars" type="button" role="tab" aria-controls="webinars" aria-selected="false">Webinars</div>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <!-- <button class="nav-link" id="past-events-tab" data-bs-toggle="tab" data-bs-target="#past-events" type="button" role="tab" aria-controls="past-events" aria-selected="false">Past Events</button> -->
-                    <div class="nav-link  px-2 py-4 text-dark" id="all-events-tab" data-bs-toggle="tab" data-bs-target="#past-events" type="button" role="tab" aria-controls="all-events" aria-selected="true">Past Events</div>
+                    <div class="nav-link px-2 py-4 text-dark" id="past-events-tab" data-bs-toggle="tab" data-bs-target="#past-events" type="button" role="tab" aria-controls="past-events" aria-selected="false">Past Events</div>
                 </li>
             </ul>
 
             <!-- Tab Content -->
             <div class="tab-content" id="eventTabsContent">
-                <!-- All  -->
+                <!-- All Events -->
                 <div class="tab-pane fade show active" id="all-events" role="tabpanel" aria-labelledby="all-events-tab">
                     <div class="row">
                         <div class="col-12 col-md-12 mb-3">
-
-
-                            <div class="card flex-row mb-4">
-                                <div class="d-flex flex-column align-items-center p-3">
-                                    <span class="badge bg-bright-purple mb-2">Online Event</span>
-                                    <p class="text-center mb-0">25 Jun 2024</p>
-                                </div>
-                                <div class="d-flex align-items-center mx-3">
-                                    <hr class="w-7 my-0">
-                                </div>
-                                <div class="card-body">
-                                    <p class="mb-1 text-h5 text-bright-purple"></p>
-                                    <h3 class="card-title mb-3">Ebbs &amp; Flows: The Evolution of the EV Charging Market</h3>
-                                    <p class="card-text">Register now for our latest webinar on the energy transition in the EV charging industry. Join our Charging Analyst team as they explore the evolving EV charging.</p>
-                                </div>
-                                <div class="col-md-4">
-                                    <img class="img-fluid rounded-start" src="https://res.cloudinary.com/dkklqdsqc/images/f_auto,q_auto/v1705420729/wp_production/Webinar-3294px-x-1632px-for-Website/Webinar-3294px-x-1632px-for-Website.png?_i=AA" alt="Webinar Image">
+                            <div class="card shadow-sm mb-4">
+                                <div class="card-body p-0">
+                                    <iframe height="380" src="https://www.youtube.com/embed/YEnU2DS-dS0?si=8MUocTob37JPQHtb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="w-100 rounded-top"></iframe>
+                                    <div class="p-3">
+                                        <h4 class="card-title mb-0">Views on the leadership of Hon’ble Chief Minister Shri Shivraj Singh Chouhan Ji.</h4>
+                                    </div>
                                 </div>
                             </div>
+                        </div>
 
+                        <div class="col-12 col-md-12 mb-3">
+                            <div class="card shadow-sm mb-4">
+                                <div class="card-body p-0">
+                                    <iframe height="380" src="https://www.youtube.com/embed/q4FQKM8bsbI?si=i4Dm38Z4roHk7vN9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="w-100 rounded-top"></iframe>
+                                    <div class="p-3">
+                                        <h4 class="card-title mb-0">Views on transformation of the energy sector in the state of Madhya Pradesh over the past decade.</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
+                        <div class="col-12 col-md-12 mb-3">
+                            <div class="card shadow-sm mb-4">
+                                <div class="card-body p-0">
+                                    <iframe height="380" src="https://www.youtube.com/embed/zNWpX_xtunY?si=vI3dSs6iogE52w_Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="w-100 rounded-top"></iframe>
+                                    <div class="p-3">
+                                        <h4 class="card-title mb-0">Views on Conventional Energy Transition of The Madhya Pradesh.</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-12 mb-3">
+                            <div class="card shadow-sm mb-4">
+                                <div class="card-body p-0">
+                                    <iframe height="380" src="https://www.youtube.com/embed/YnEAe0SHVPQ?si=zh4nG_nf5oUp23GQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" style="width: 100%;"></iframe>
+                                    <div class="p-3">
+                                        <h4 class="card-title mb-0">Views on the key takeaways from that for the other states to come up with a solar city project.</h4>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-
-
-                    <!-- Add more events similarly -->
                 </div>
-            </div>
-            <!-- Live Events -->
-            <div class="tab-pane fade" id="live-events" role="tabpanel" aria-labelledby="live-events-tab">
-                <!-- Live Events content -->
 
-
-            </div>
-            <div class="tab-pane fade show active" id="all-events" role="tabpanel" aria-labelledby="all-events-tab">
-                <div class="row">
-                    <div class="col-12 col-md-12 mb-3">
-
-
-                        <div class="card flex-row mb-4">
-                            <div class="d-flex flex-column align-items-center p-3">
-                                <span class="badge bg-bright-purple mb-2">Online Event</span>
-                                <p class="text-center mb-0">25 Jun 2024</p>
-                            </div>
-                            <div class="d-flex align-items-center mx-3">
-                                <hr class="w-7 my-0">
-                            </div>
-                            <div class="card-body">
-                                <p class="mb-1 text-h5 text-bright-purple"></p>
-                                <h3 class="card-title mb-3">Ebbs &amp; Flows: The Evolution of the EV Charging Market</h3>
-                                <p class="card-text">Register now for our latest webinar on the energy transition in the EV charging industry. Join our Charging Analyst team as they explore the evolving EV charging.</p>
-                            </div>
-                            <div class="col-md-4">
-                                <img class="img-fluid rounded-start" src="https://res.cloudinary.com/dkklqdsqc/images/f_auto,q_auto/v1705420729/wp_production/Webinar-3294px-x-1632px-for-Website/Webinar-3294px-x-1632px-for-Website.png?_i=AA" alt="Webinar Image">
+                <!-- Live Events -->
+                <div class="tab-pane fade" id="live-events" role="tabpanel" aria-labelledby="live-events-tab">
+                    <div class="row">
+                        <div class="col-12 col-md-12 mb-3">
+                            <div class="card shadow-sm mb-4">
+                                <div class="card-body p-0">
+                                <iframe height="315" src="https://www.youtube.com/embed/GtV8Ek1mLWU?si=uDQn8UGc52xnX1Rk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" style="width: 100%;"></iframe>
+                                    <div class="p-3">
+                                        <h4 class="card-title mb-0">Key focus on the strategic expansion plans for developing new energies in the Madhya Pradesh.</h4>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-
-
                     </div>
                 </div>
 
                 <!-- Webinars -->
                 <div class="tab-pane fade" id="webinars" role="tabpanel" aria-labelledby="webinars-tab">
-                    <!-- Webinars content -->
-                    <div class="tab-pane fade show active" id="all-events" role="tabpanel" aria-labelledby="all-events-tab">
-                        <div class="tab-pane fade show active" id="all-events" role="tabpanel" aria-labelledby="all-events-tab">
-                            <div class="row">
-                                <div class="col-12 col-md-12 mb-3">
-
-
-                                    <div class="card flex-row mb-4">
-                                        <div class="d-flex flex-column align-items-center p-3">
-                                            <span class="badge bg-bright-purple mb-2">Online Event</span>
-                                            <p class="text-center mb-0">25 Jun 2024</p>
-                                        </div>
-                                        <div class="d-flex align-items-center mx-3">
-                                            <hr class="w-7 my-0">
-                                        </div>
-                                        <div class="card-body">
-                                            <p class="mb-1 text-h5 text-bright-purple"></p>
-                                            <h3 class="card-title mb-3">Ebbs &amp; Flows: The Evolution of the EV Charging Market</h3>
-                                            <p class="card-text">Register now for our latest webinar on the energy transition in the EV charging industry. Join our Charging Analyst team as they explore the evolving EV charging.</p>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <img class="img-fluid rounded-start" src="https://res.cloudinary.com/dkklqdsqc/images/f_auto,q_auto/v1705420729/wp_production/Webinar-3294px-x-1632px-for-Website/Webinar-3294px-x-1632px-for-Website.png?_i=AA" alt="Webinar Image">
-                                        </div>
+                    <div class="row">
+                        <div class="col-12 col-md-12 mb-3">
+                            <div class="card shadow-sm mb-4">
+                                <div class="card-body p-0">
+                                    <iframe height="380" src="https://www.youtube.com/embed/YEnU2DS-dS0?si=8MUocTob37JPQHtb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="w-100 rounded-top"></iframe>
+                                    <div class="p-3">
+                                        <h4 class="card-title mb-0">Madhya Pradesh An Endeavour Towards becoming India's Green Energy State.</h4>
                                     </div>
-
-
                                 </div>
                             </div>
-
-                        </div>
-                    </div>
-                    <!-- Past Events -->
-                    <div class="tab-pane fade" id="past-events" role="tabpanel" aria-labelledby="past-events-tab">
-                        <!-- Past Events content -->
-
-                        <div class="tab-pane fade show active" id="all-events" role="tabpanel" aria-labelledby="all-events-tab">
-                            <div class="row">
-                                <div class="col-12 col-md-12 mb-3">
-
-
-                                    <div class="card flex-row mb-4">
-                                        <div class="d-flex flex-column align-items-center p-3">
-                                            <span class="badge bg-bright-purple mb-2">Online Event</span>
-                                            <p class="text-center mb-0">25 Jun 2024</p>
-                                        </div>
-                                        <div class="d-flex align-items-center mx-3">
-                                            <hr class="w-7 my-0">
-                                        </div>
-                                        <div class="card-body">
-                                            <p class="mb-1 text-h5 text-bright-purple"></p>
-                                            <h3 class="card-title mb-3">Ebbs &amp; Flows: The Evolution of the EV Charging Market</h3>
-                                            <p class="card-text">Register now for our latest webinar on the energy transition in the EV charging industry. Join our Charging Analyst team as they explore the evolving EV charging.</p>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <img class="img-fluid rounded-start" src="https://res.cloudinary.com/dkklqdsqc/images/f_auto,q_auto/v1705420729/wp_production/Webinar-3294px-x-1632px-for-Website/Webinar-3294px-x-1632px-for-Website.png?_i=AA" alt="Webinar Image">
-                                        </div>
-                                    </div>
-
-
-                                </div>
-                            </div>
-
                         </div>
                     </div>
                 </div>
 
-
+                <!-- Past Events -->
+                <div class="tab-pane fade" id="past-events" role="tabpanel" aria-labelledby="past-events-tab">
+                    <div class="row">
+                        <div class="col-12 col-md-12 mb-3">
+                            <div class="card shadow-sm mb-4">
+                                <div class="card-body p-0">
+                                    <iframe height="380" src="https://www.youtube.com/embed/JT5fJH_FZa0?si=F5Ru2gqVfPirYmex" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" style="width: 100%;"></iframe>
+                                    <div class="p-3">
+                                        <h4 class="card-title mb-0">Investment Attractiveness of Madhya Pradesh for becoming India's leading Renewable Energy Market.</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+
 
 
 
@@ -278,133 +237,13 @@
     <section class="px-5 pb-5 bg-light">
         <div class="container text-center">
             <h2 class="mb-4 py-4 fw-bold ">Recent speakers</h2>
-            <div class="row">
-                <div class="col-6 col-md-3 col-lg-1">
-                    <div class="speaker-img-container">
-                        <img src="https://res.cloudinary.com/dkklqdsqc/images/f_auto,q_auto/v1701903964/wp_production/HelloIMG1700081394169/HelloIMG1700081394169.png?_i=AA" alt="" class="speaker-img">
+            <div class="m-auto pb-5 position-relative" style="max-width: 900px;">
+                <a target="blank" href="">
+                    <div class="overlay-white-transparent"></div>
+                    <div class="client-logo-placeholder">
+                        <img class="w-100" src="https://eninrac.com/assets/upload/client_logo.png" alt="client" style="filter: grayscale(100)">
                     </div>
-                </div>
-                <div class="col-6 col-md-3 col-lg-1">
-                    <div class="speaker-img-container">
-                        <img src="https://res.cloudinary.com/dkklqdsqc/images/f_auto,q_auto/v1701903966/wp_production/HelloIMG1700081393902/HelloIMG1700081393902.png?_i=AA" alt="" class="speaker-img">
-                    </div>
-                </div>
-                <div class="col-6 col-md-3 col-lg-1">
-                    <div class="speaker-img-container">
-                        <img src="https://res.cloudinary.com/dkklqdsqc/images/f_auto,q_auto/v1701904079/wp_production/HelloIMG1700081393654/HelloIMG1700081393654.png?_i=AA" alt="Livent Logo" class="speaker-img">
-                    </div>
-                </div>
-                <div class="col-6 col-md-3 col-lg-1">
-                    <div class="speaker-img-container">
-                        <img src="https://res.cloudinary.com/dkklqdsqc/images/f_auto,q_auto/v1701904077/wp_production/HelloIMG1700081393409/HelloIMG1700081393409.png?_i=AA" alt="" class="speaker-img">
-                    </div>
-                </div>
-                <div class="col-6 col-md-3 col-lg-1">
-                    <div class="speaker-img-container">
-                        <img src="https://res.cloudinary.com/dkklqdsqc/images/f_auto,q_auto/v1701903968/wp_production/HelloIMG1700081393169/HelloIMG1700081393169.png?_i=AA" alt="" class="speaker-img">
-                    </div>
-                </div>
-                <div class="col-6 col-md-3 col-lg-1">
-                    <div class="speaker-img-container">
-                        <img src="https://res.cloudinary.com/dkklqdsqc/images/f_auto,q_auto/v1701904076/wp_production/HelloIMG1700081392926/HelloIMG1700081392926.png?_i=AA" alt="" class="speaker-img">
-                    </div>
-                </div>
-                <div class="col-6 col-md-3 col-lg-1">
-                    <div class="speaker-img-container">
-                        <img src="https://res.cloudinary.com/dkklqdsqc/images/f_auto,q_auto/v1701903970/wp_production/HelloIMG1700081392687/HelloIMG1700081392687.png?_i=AA" alt="" class="speaker-img">
-                    </div>
-                </div>
-                <div class="col-6 col-md-3 col-lg-1">
-                    <div class="speaker-img-container">
-                        <img src="https://res.cloudinary.com/dkklqdsqc/images/f_auto,q_auto/v1701904074/wp_production/HelloIMG1700081392432/HelloIMG1700081392432.png?_i=AA" alt="" class="speaker-img">
-                    </div>
-                </div>
-                <div class="col-6 col-md-3 col-lg-1">
-                    <div class="speaker-img-container">
-                        <img src="https://res.cloudinary.com/dkklqdsqc/images/f_auto,q_auto/v1701904072/wp_production/HelloIMG1700081392164/HelloIMG1700081392164.png?_i=AA" alt="" class="speaker-img">
-                    </div>
-                </div>
-                <div class="col-6 col-md-3 col-lg-1">
-                    <div class="speaker-img-container">
-                        <img src="https://res.cloudinary.com/dkklqdsqc/images/f_auto,q_auto/v1701904070/wp_production/HelloIMG1700081391756/HelloIMG1700081391756.png?_i=AA" alt="" class="speaker-img">
-                    </div>
-                </div>
-                <div class="col-6 col-md-3 col-lg-1">
-                    <div class="speaker-img-container">
-                        <img src="https://res.cloudinary.com/dkklqdsqc/images/f_auto,q_auto/v1701903972/wp_production/HelloIMG1700081391519/HelloIMG1700081391519.png?_i=AA" alt="" class="speaker-img">
-                    </div>
-                </div>
-                <div class="col-6 col-md-3 col-lg-1">
-                    <div class="speaker-img-container">
-                        <img src="https://res.cloudinary.com/dkklqdsqc/images/f_auto,q_auto/v1701904068/wp_production/HelloIMG1700081391268/HelloIMG1700081391268.png?_i=AA" alt="" class="speaker-img">
-                    </div>
-                </div>
-
-            </div>
-
-
-            <div class="row py-3">
-                <div class="col-6 col-md-3 col-lg-1">
-                    <div class="speaker-img-container">
-                        <img src="https://res.cloudinary.com/dkklqdsqc/images/f_auto,q_auto/v1701903964/wp_production/HelloIMG1700081394169/HelloIMG1700081394169.png?_i=AA" alt="" class="speaker-img">
-                    </div>
-                </div>
-                <div class="col-6 col-md-3 col-lg-1">
-                    <div class="speaker-img-container">
-                        <img src="https://res.cloudinary.com/dkklqdsqc/images/f_auto,q_auto/v1701903966/wp_production/HelloIMG1700081393902/HelloIMG1700081393902.png?_i=AA" alt="" class="speaker-img">
-                    </div>
-                </div>
-                <div class="col-6 col-md-3 col-lg-1">
-                    <div class="speaker-img-container">
-                        <img src="https://res.cloudinary.com/dkklqdsqc/images/f_auto,q_auto/v1701904079/wp_production/HelloIMG1700081393654/HelloIMG1700081393654.png?_i=AA" alt="Livent Logo" class="speaker-img">
-                    </div>
-                </div>
-                <div class="col-6 col-md-3 col-lg-1">
-                    <div class="speaker-img-container">
-                        <img src="https://res.cloudinary.com/dkklqdsqc/images/f_auto,q_auto/v1701904077/wp_production/HelloIMG1700081393409/HelloIMG1700081393409.png?_i=AA" alt="" class="speaker-img">
-                    </div>
-                </div>
-                <div class="col-6 col-md-3 col-lg-1">
-                    <div class="speaker-img-container">
-                        <img src="https://res.cloudinary.com/dkklqdsqc/images/f_auto,q_auto/v1701903968/wp_production/HelloIMG1700081393169/HelloIMG1700081393169.png?_i=AA" alt="" class="speaker-img">
-                    </div>
-                </div>
-                <div class="col-6 col-md-3 col-lg-1">
-                    <div class="speaker-img-container">
-                        <img src="https://res.cloudinary.com/dkklqdsqc/images/f_auto,q_auto/v1701904076/wp_production/HelloIMG1700081392926/HelloIMG1700081392926.png?_i=AA" alt="" class="speaker-img">
-                    </div>
-                </div>
-                <div class="col-6 col-md-3 col-lg-1">
-                    <div class="speaker-img-container">
-                        <img src="https://res.cloudinary.com/dkklqdsqc/images/f_auto,q_auto/v1701903970/wp_production/HelloIMG1700081392687/HelloIMG1700081392687.png?_i=AA" alt="" class="speaker-img">
-                    </div>
-                </div>
-                <div class="col-6 col-md-3 col-lg-1">
-                    <div class="speaker-img-container">
-                        <img src="https://res.cloudinary.com/dkklqdsqc/images/f_auto,q_auto/v1701904074/wp_production/HelloIMG1700081392432/HelloIMG1700081392432.png?_i=AA" alt="" class="speaker-img">
-                    </div>
-                </div>
-                <div class="col-6 col-md-3 col-lg-1">
-                    <div class="speaker-img-container">
-                        <img src="https://res.cloudinary.com/dkklqdsqc/images/f_auto,q_auto/v1701904072/wp_production/HelloIMG1700081392164/HelloIMG1700081392164.png?_i=AA" alt="" class="speaker-img">
-                    </div>
-                </div>
-                <div class="col-6 col-md-3 col-lg-1">
-                    <div class="speaker-img-container">
-                        <img src="https://res.cloudinary.com/dkklqdsqc/images/f_auto,q_auto/v1701904070/wp_production/HelloIMG1700081391756/HelloIMG1700081391756.png?_i=AA" alt="" class="speaker-img">
-                    </div>
-                </div>
-                <div class="col-6 col-md-3 col-lg-1">
-                    <div class="speaker-img-container">
-                        <img src="https://res.cloudinary.com/dkklqdsqc/images/f_auto,q_auto/v1701903972/wp_production/HelloIMG1700081391519/HelloIMG1700081391519.png?_i=AA" alt="" class="speaker-img">
-                    </div>
-                </div>
-                <div class="col-6 col-md-3 col-lg-1">
-                    <div class="speaker-img-container">
-                        <img src="https://res.cloudinary.com/dkklqdsqc/images/f_auto,q_auto/v1701904068/wp_production/HelloIMG1700081391268/HelloIMG1700081391268.png?_i=AA" alt="" class="speaker-img">
-                    </div>
-                </div>
-
+                </a>
             </div>
 
         </div>
@@ -471,54 +310,56 @@
     <!-- footer -->
 
     <footer class="footer text-center text-md-start">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 col-lg-6 mb-4 mb-md-0">
-          <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/logo-sky-blue-1.ebb1bf.svg" alt="Logo" class="logo mb-4">
-          <div class="contact-info">
-            <p>Second Floor, Randall House<br>6 Dowgate Hill<br>London EC4R 2SU</p>
-            <p>+44 (0) 203 988 7648<br><a href="mailto:info@rhomotion.com">info@rhomotion.com</a></p>
-          </div>
-          <div class="social-icons mt-4">
-            <a href="https://www.linkedin.com/company/rhomotion/" target="_blank" rel="noreferrer">
-              <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-linkedin.5fd894.svg" alt="LinkedIn">
-            </a>
-            <a href="https://twitter.com/rhomotion/" target="_blank" rel="noreferrer">
-              <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-x.290b8c.svg" alt="Twitter">
-            </a>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-6">
-          <div class="row">
-            <div class="col-6">
-              <div class="nav-links">
-                <a href="/research" class="d-block">Eco System Reports</a>
-                <a href="/consultancy" class="d-block">Custom Requirements</a>
-                <a href="/events" class="d-block">Surveys & VOC</a>
-                <a href="/about-us" class="d-block">About us</a>
-              </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-6 mb-4 mb-md-0">
+                    <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/logo-sky-blue-1.ebb1bf.svg" alt="Logo" class="logo mb-4">
+                    <div class="contact-info">
+                        <p>Second Floor, Randall House<br>6 Dowgate Hill<br>London EC4R 2SU</p>
+                        <p>+44 (0) 203 988 7648<br><a href="mailto:info@rhomotion.com">info@rhomotion.com</a></p>
+                    </div>
+                    <div class="social-icons mt-4">
+                        <a href="https://www.linkedin.com/company/rhomotion/" target="_blank" rel="noreferrer">
+                            <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-linkedin.5fd894.svg" alt="LinkedIn">
+                        </a>
+                        <a href="https://twitter.com/rhomotion/" target="_blank" rel="noreferrer">
+                            <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-x.290b8c.svg" alt="Twitter">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="nav-links">
+                                <a href="/research" class="d-block">Eco System Reports</a>
+                                <a href="/consultancy" class="d-block">Custom Requirements</a>
+                                <a href="/events" class="d-block">Surveys & VOC</a>
+                                <a href="/about-us" class="d-block">About us</a>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="nav-links">
+                                <a href="/magazine" class="d-block">Magazine</a>
+                                <a href="/news" class="d-block">News</a>
+                                <a href="/careers" class="d-block">Careers</a>
+                                <a href="/get-in-touch" class="d-block">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-6">
-              <div class="nav-links">
-                <a href="/magazine" class="d-block">Magazine</a>
-                <a href="/news" class="d-block">News</a>
-                <a href="/careers" class="d-block">Careers</a>
-                <a href="/get-in-touch" class="d-block">Contact Us</a>
-              </div>
+            <div class="row mt-4">
+                <div class="col-md-6 text-md-start">
+                    <p class="copyright">&copy; 2024 Eninrac. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="privacy"><a href="/privacy-policy">Privacy Policy</a> • <a href="/terms">Terms & Conditions</a></p>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-      <div class="row mt-4">
-        <div class="col-md-6 text-md-start">
-          <p class="copyright">&copy; 2024 Eninrac. All rights reserved.</p>
-        </div>
-        <div class="col-md-6 text-md-end">
-          <p class="privacy"><a href="/privacy-policy">Privacy Policy</a> • <a href="/terms">Terms & Conditions</a></p>
-        </div>
-      </div>
-    </div>
-  </footer>
+    </footer>
+
+
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
