@@ -224,10 +224,18 @@
                 <div class="d-flex flex-column mx-4">
                   <div class="title d-flex gap-1 align-items-start">
                     <img src="https://placehold.co/25" alt="">
-                    <p>Pointer</p>
+                    <p>Battery Demand Outlook Service</p>
 
                   </div>
-                  <p class="mx-2">Short Note</p>
+                  <p class="mx-2">Quarterly report • PDF & Excel • Includes access to our analysts</p>
+                </div>
+                <div class="d-flex flex-column mx-4">
+                  <div class="title d-flex gap-1 align-items-start">
+                    <img src="https://placehold.co/25" alt="">
+                    <p>Battery Demand Outlook Service</p>
+
+                  </div>
+                  <p class="mx-2">Quarterly report • PDF & Excel • Includes access to our analysts</p>
                 </div>
               </div>
               <div class="future-outlook">
@@ -238,10 +246,18 @@
                 <div class="d-flex flex-column mx-4">
                   <div class="title d-flex gap-1 align-items-start">
                     <img src="https://placehold.co/25" alt="">
-                    <p>Pointer</p>
+                    <p>EV & Battery Quarterly Outlook</p>
 
                   </div>
-                  <p class="mx-2">Short Note</p>
+                  <p class="mx-2">Quarterly report • PDF & Excel • Includes access to our analysts</p>
+                </div>
+                <div class="d-flex flex-column mx-4">
+                  <div class="title d-flex gap-1 align-items-start">
+                    <img src="https://placehold.co/25" alt="">
+                    <p>EV & Battery Quarterly Outlook</p>
+
+                  </div>
+                  <p class="mx-2">Quarterly report • PDF & Excel • Includes access to our analysts</p>
                 </div>
               </div>
               <div class="focus-reports">
@@ -252,10 +268,18 @@
                 <div class="d-flex flex-column mx-4">
                   <div class="title d-flex gap-1 align-items-start">
                     <img src="https://placehold.co/25" alt="">
-                    <p>Pointer</p>
+                    <p>EV & Battery Quarterly Outlook</p>
 
                   </div>
-                  <p class="mx-2">Short Note</p>
+                  <p class="mx-2">Quarterly report • PDF & Excel • Includes access to our analysts</p>
+                </div>
+                <div class="d-flex flex-column mx-4">
+                  <div class="title d-flex gap-1 align-items-start">
+                    <img src="https://placehold.co/25" alt="">
+                    <p>EV & Battery Quarterly Outlook</p>
+
+                  </div>
+                  <p class="mx-2">Quarterly report • PDF & Excel • Includes access to our analysts</p>
                 </div>
               </div>
               <div class="thematic-reports">
@@ -266,10 +290,10 @@
                 <div class="d-flex flex-column mx-4">
                   <div class="title d-flex gap-1 align-items-start">
                     <img src="https://placehold.co/25" alt="">
-                    <p>Pointer</p>
+                    <p>EV & Battery Quarterly Outlook</p>
 
                   </div>
-                  <p class="mx-2">Short Note</p>
+                  <p class="mx-2">Quarterly report • PDF & Excel • Includes access to our analysts</p>
                 </div>
               </div>
 
@@ -282,10 +306,10 @@
                 <div class="d-flex flex-column mx-4">
                   <div class="title d-flex gap-1 align-items-start">
                     <img src="https://placehold.co/25" alt="">
-                    <p>Pointer</p>
+                    <p>EV & Battery Quarterly Outlook</p>
 
                   </div>
-                  <p class="mx-2">Short Note</p>
+                  <p class="mx-2">Quarterly report • PDF & Excel • Includes access to our analysts</p>
                 </div>
               </div>
               <div class="survey">
@@ -296,10 +320,18 @@
                 <div class="d-flex flex-column mx-4">
                   <div class="title d-flex gap-1 align-items-start">
                     <img src="https://placehold.co/25" alt="">
-                    <p>Pointer</p>
+                    <p>Battery Demand Outlook Service</p>
 
                   </div>
-                  <p class="mx-2">Short Note</p>
+                  <p class="mx-2">Quarterly report • PDF & Excel • Includes access to our analysts</p>
+                </div>
+                <div class="d-flex flex-column mx-4">
+                  <div class="title d-flex gap-1 align-items-start">
+                    <img src="https://placehold.co/25" alt="">
+                    <p>Battery Demand Outlook Service</p>
+
+                  </div>
+                  <p class="mx-2">Quarterly report • PDF & Excel • Includes access to our analysts</p>
                 </div>
               </div>
             </div>
