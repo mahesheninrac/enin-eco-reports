@@ -159,11 +159,11 @@
               </div>
             </div>
             <div class="col-6">
-            <div class="nav-links">
+              <div class="nav-links">
                 <a href="<?= base_url('reports') ?>" class="d-block">Eco System Reports</a>
                 <a href="<?= base_url('custom_page') ?>" class="d-block">Custom Requirements</a>
                 <a href="<?= base_url('event') ?>" class="d-block">Surveys & VOC</a>
-                <a href="<?= base_url('') ?>" class="d-block">About us</a>
+                <a href="<?= base_url('contact_us') ?>" class="d-block" id="contact_us">Contact us</a>
               </div>
             </div>
           </div>
@@ -181,7 +181,7 @@
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
-  <script src= "<?= base_url('assets/js/footer.js') ?>"></script>
+  <script src="<?= base_url('assets/js/footer.js') ?>"></script>
 </body>
 
 </html>

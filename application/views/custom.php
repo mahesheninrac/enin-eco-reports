@@ -396,7 +396,7 @@
                 <a href="/magazine" class="d-block">Magazine</a>
                 <a href="/news" class="d-block">News</a>
                 <a href="/careers" class="d-block">Careers</a>
-                <a href="/get-in-touch" class="d-block">Contact Us</a>
+                <a href="<?= base_url("contact_us") ?>" class="d-block">Contact Us</a>
               </div>
             </div>
           </div>

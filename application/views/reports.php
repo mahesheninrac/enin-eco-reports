@@ -170,7 +170,7 @@
   <div class="container p-4 pointer" >
 
     <ul class="vb-res list-style-none d-flex p-0 width-500 justify-content-around m-auto">
-      <li id="btn-solar pe-">
+      <li id="btn-solar">
         <div class="text-center ">
           <img src="https://placehold.co/25" class="">
           <p class="text-center fs-14 c-light-gray mt-2">Solar</p>
@@ -1025,7 +1025,7 @@
 
 
   <script>
-    document.getElementById('btn-solar').addEventListener('click', function() {
+   document.getElementById('btn-solar').addEventListener('click', function() {
       showContent('content-solar');
 
     });
@@ -1050,7 +1050,7 @@
 
 
     document.querySelectorAll('.market-sizing').forEach(function(element) {
-      element.addEventListener('mouseenter', function() {
+      element.addEventListener('wheel', function() {
 
         showArrow('first');
       });
@@ -1116,7 +1116,10 @@
       document.getElementById(contentId).classList.add('active');
     }
   </script>
-   
+  <script>
+  
+  </script>
+   <script src= "<?= base_url('assets/js/footer.js') ?>"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>

@@ -171,6 +171,8 @@
         <h2 class="h3 mb-4 h1 fw-bold">
           We analyse the following <br>areas across the energy <br> transition:
         </h2>
+
+
         <div class="accordion" id="researchAccordion">
           <div class="accordion ">
             <h2 class="accordion-header" id="headingOne">
@@ -192,25 +194,31 @@
                 <span class="research-area fw-400 fs-22">Solar</span>
               </button>
             </h2>
-            <div id="collapseOne" class="accordion-collapse collapse p-2" aria-labelledby="headingOne" data-bs-parent="#researchAccordion">
+            <div id="collapseTwo" class="accordion-collapse collapse p-2" aria-labelledby="headingTwo" data-bs-parent="#researchAccordion">
               <div class="accordion-body">
                 Professional analysis of the EV ecosystem, from sales data to battery insights and legislation impacts.
               </div>
             </div>
           </div>
+
+
+
           <div class="accordion-item">
-            <h2 class="accordion-header" id="headingTwo">
-              <button class="accordion-button   collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button   collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                 <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/our-research/shape-02.1f9e80.svg" class="icon me-3" alt="" />
                 <span class="research-area fw-400 fs-22">Wind</span>
               </button>
             </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse p-2" aria-labelledby="headingTwo" data-bs-parent="#researchAccordion">
+            <div id="collapseThree" class="accordion-collapse collapse p-2" aria-labelledby="headingThree" data-bs-parent="#researchAccordion">
               <div class="accordion-body">
                 Analysing the role of batteries in supporting future renewable deployment.
               </div>
             </div>
           </div>
+
+
+
 
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingFour">
@@ -225,6 +233,9 @@
               </div>
             </div>
           </div>
+
+
+          
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingFive">
               <button class="accordion-button border-top  collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
@@ -238,6 +249,8 @@
               </div>
             </div>
           </div>
+
+
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingSix">
               <button class="accordion-button border-top  collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
