@@ -10,11 +10,12 @@
     <link rel="stylesheet" href="<?= base_url('assets/fonts/fonts.css') ?>" />
     <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>" />
     <style>
-        .survey-card{
+        .survey-card {
             width: 15rem;
-            
+
         }
-        .survey-card .card-body{
+
+        .survey-card .card-body {
 
             /* background-color: var(--primary-600); */
         }
@@ -25,25 +26,27 @@
 
     <nav class="navbar navbar-expand-md bg-white py-4">
         <div class="container">
-            <a class="navbar-brand" href="/">
-                <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/logo-dark-purple.742caa.svg" alt="Logo" />
+            <a class="navbar-brand " href="<?= base_url('/') ?>">
+                <!-- <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/logo-dark-purple.742caa.svg" alt="Logo" /> -->
+
+                <img src="<?= base_url('assets/images/final-logo-ecosystem.png') ?>" class="w-100 h-80" alt="home-page-banner">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"><img src="./Assets/menu.png" alt="" /></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto  ">
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link text-dark fw-normal  " href="/research">Eco System Report </a>
+                        <a class="nav-link text-dark fw-normal" href="<?= base_url('reports') ?>">Eco System Report</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fw-normal " href="/consultancy">Custom Requirements</a>
+                        <a class="nav-link fw-normal" href="<?= base_url('custom_page') ?>">Custom Requirements</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fw-normal " href="/events">Surveys</a>
+                        <a class="nav-link fw-normal" href="<?= base_url('event') ?>">Surveys</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fw-normal " href="/get-in-touch">Contact us</a>
+                        <a class="nav-link fw-normal" href="<?= base_url('contact_us') ?>">Contact us</a>
                     </li>
                 </ul>
             </div>
@@ -54,10 +57,10 @@
 
     <!-- grid section -->
 
-    <div class="container-xxl bg-primary-200 text-center p-4  justify-content-around" >
+    <div class="container-xxl bg-primary-200 text-center p-4  justify-content-around">
         <div class="row py-2">
             <div class="col-md-4">
-                <div class="card survey-card" >
+                <div class="card survey-card">
                     <img class="card-img-top" src="https://placehold.co/50" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">EV</h5>
@@ -78,7 +81,7 @@
             </div>
             <div class="col-md-4">
                 <div class="col-md-4">
-                    <div class="card survey-card" >
+                    <div class="card survey-card">
                         <img class="card-img-top" src="https://placehold.co/50" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Wind</h5>
@@ -91,7 +94,7 @@
         <div class="row py-2">
             <div class="col-md-4">
                 <div class="col-md-4">
-                    <div class="card survey-card" >
+                    <div class="card survey-card">
                         <img class="card-img-top" src="https://placehold.co/50" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Hydrogen</h5>
@@ -102,7 +105,7 @@
             </div>
             <div class="col-md-4">
                 <div class="col-md-4">
-                    <div class="card survey-card" >
+                    <div class="card survey-card">
                         <img class="card-img-top" src="https://placehold.co/50" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Oil & Gas</h5>
@@ -113,7 +116,7 @@
             </div>
             <div class="col-md-4">
                 <div class="col-md-4">
-                    <div class="card survey-card" >
+                    <div class="card survey-card">
                         <img class="card-img-top" src="https://placehold.co/50" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Power & Utilty</h5>
@@ -187,10 +190,10 @@
                         </div>
                         <div class="col-6">
                             <div class="nav-links">
-                                <a href="/magazine" class="d-block">Magazine</a>
-                                <a href="/news" class="d-block">News</a>
-                                <a href="/careers" class="d-block">Careers</a>
-                                <a href="/get-in-touch" class="d-block">Contact Us</a>
+                                <a href="<?= base_url('reports') ?>" class="d-block">Eco System Reports</a>
+                                <a href="<?= base_url('custom_page') ?>" class="d-block">Custom Requirements</a>
+                                <a href="<?= base_url('event') ?>" class="d-block">Surveys & VOC</a>
+                                <a href="<?= base_url('') ?>" class="d-block">About us</a>
                             </div>
                         </div>
                     </div>
@@ -206,6 +209,7 @@
             </div>
         </div>
     </footer>
+    <script src="<?= base_url('assets/js/footer.js') ?>"></script>
 </body>
 
 </html>

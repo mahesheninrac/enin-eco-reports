@@ -15,31 +15,33 @@
 <body>
     <!-- navbar section -->
     <nav class="navbar navbar-expand-md bg-white py-4">
-        <div class="container">
-            <a class="navbar-brand" href="/">
-                <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/logo-dark-purple.742caa.svg" alt="Logo" />
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"><img src="./Assets/menu.png" alt="" /></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link text-dark fw-normal" href="/research">Research</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link fw-normal" href="/consultancy">Consultancy</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link fw-normal" href="/events">Events</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link fw-normal" href="/get-in-touch">Get in touch</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <div class="container">
+      <a class="navbar-brand " href="<?= base_url('/') ?>">
+        <!-- <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/logo-dark-purple.742caa.svg" alt="Logo" /> -->
+
+        <img src="<?= base_url('assets/images/final-logo-ecosystem.png') ?>" class="w-100 h-80" alt="home-page-banner">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><img src="./Assets/menu.png" alt="" /></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link text-dark fw-normal" href="<?= base_url('reports') ?>">Eco System Report</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-normal" href="<?= base_url('custom_page') ?>">Custom Requirements</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-normal" href="<?= base_url('event') ?>">Surveys</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-normal" href="<?= base_url('contact_us') ?>">Contact us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
 
 
@@ -129,12 +131,12 @@
                             </div>
                         </div>
                         <div class="col-6">
-                            <div class="nav-links">
-                                <a href="/magazine" class="d-block">Magazine</a>
-                                <a href="/news" class="d-block">News</a>
-                                <a href="/careers" class="d-block">Careers</a>
-                                <a href="/get-in-touch" class="d-block">Get in touch</a>
-                            </div>
+                        <div class="nav-links">
+                <a href="<?= base_url('reports') ?>" class="d-block">Eco System Reports</a>
+                <a href="<?= base_url('custom_page') ?>" class="d-block">Custom Requirements</a>
+                <a href="<?= base_url('event') ?>" class="d-block">Surveys & VOC</a>
+                <a href="<?= base_url('contact_us') ?>" class="d-block">About us</a>
+              </div>
                         </div>
                     </div>
                 </div>
@@ -153,6 +155,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    <script src= "<?= base_url('assets/js/footer.js') ?>"></script>
 </body>
 
 </html>

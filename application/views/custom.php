@@ -16,29 +16,29 @@
 <body>
 
 
-  <nav class="navbar navbar-expand-md bg-white py-4">
+<nav class="navbar navbar-expand-md bg-white py-4">
     <div class="container">
-    <a class="navbar-brand " href="/">
+      <a class="navbar-brand " href="<?= base_url('/') ?>">
         <!-- <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/logo-dark-purple.742caa.svg" alt="Logo" /> -->
 
-        <img src="<?= base_url('assets/images/eco-logo-01.png') ?>" class="w-100 h-80" alt="home-page-banner">
+        <img src="<?= base_url('assets/images/final-logo-ecosystem.png') ?>" class="w-100 h-80" alt="home-page-banner">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"><img src="./Assets/menu.png" alt="" /></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto  ">
+        <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link text-dark fw-normal  " href="/research">Eco System Report </a>
+            <a class="nav-link text-dark fw-normal" href="<?= base_url('reports') ?>">Eco System Report</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fw-normal " href="/consultancy">Custom Requirements</a>
+            <a class="nav-link fw-normal" href="<?= base_url('custom_page') ?>">Custom Requirements</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fw-normal " href="/events">Surveys</a>
+            <a class="nav-link fw-normal" href="<?= base_url('event') ?>">Surveys</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fw-normal " href="/get-in-touch">Contact us</a>
+            <a class="nav-link fw-normal" href="<?= base_url('contact_us') ?>">Contact us</a>
           </li>
         </ul>
       </div>
@@ -53,7 +53,7 @@
           <div class="content">
             <h2>Rho Motion Consultancy</h2>
             <p>Tailored research and custom reports to inform your strategic decision-making</p>
-            <a class="btn btn-primary" href="#get-in-touch">Get in touch</a>
+            <a class="btn btn-primary" href="<?= base_url('contact_us') ?>">Get in touch</a>
           </div>
         </div>
       </div>
@@ -64,8 +64,8 @@
 
   <!-- our services -->
   <section class="custom-section bg-sky-blue-5 py-5">
-    <!-- <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/v1702261345/assets/consultancy/kn5enxfwlgnjjjep4wtz.svg" class="custom-image" alt="Background Image"> -->
-    <img src="<?= base_url('assets/images/eco-logo-02.png') ?>" class="img-fluid" alt="home-page-banner">
+    <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/v1702261345/assets/consultancy/kn5enxfwlgnjjjep4wtz.svg" class="custom-image" alt="Background Image">
+   
     <div class="container content-container">
       <div class="row justify-content-end">
         <div class="col-md-6 py-5">
@@ -384,11 +384,11 @@
         <div class="col-md-6 col-lg-6">
           <div class="row">
             <div class="col-6">
-              <div class="nav-links">
-                <a href="/research" class="d-block">Eco System Reports</a>
-                <a href="/consultancy" class="d-block">Custom Requirements</a>
-                <a href="/events" class="d-block">Surveys & VOC</a>
-                <a href="/about-us" class="d-block">About us</a>
+            <div class="nav-links">
+                <a href="<?= base_url('reports') ?>" class="d-block">Eco System Reports</a>
+                <a href="<?= base_url('custom_page') ?>" class="d-block" id="custom_page">Custom Requirements</a>
+                <a href="<?= base_url('event') ?>" class="d-block">Surveys & VOC</a>
+                <a href="<?= base_url('') ?>" class="d-block">About us</a>
               </div>
             </div>
             <div class="col-6">
@@ -428,6 +428,7 @@
       document.getElementById('videoModal').style.display = 'none';
     });
   </script> -->
+  <script src= "<?= base_url('assets/js/footer.js') ?>"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 
 

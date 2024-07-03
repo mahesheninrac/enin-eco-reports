@@ -53,27 +53,27 @@
     <!-- navbar section  -->
     <nav class="navbar navbar-expand-md bg-white py-4">
         <div class="container">
-        <a class="navbar-brand " href="/">
-        <!-- <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/logo-dark-purple.742caa.svg" alt="Logo" /> -->
+            <a class="navbar-brand " href="<?= base_url('/') ?>">
+                <!-- <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/logo-dark-purple.742caa.svg" alt="Logo" /> -->
 
-        <img src="<?= base_url('assets/images/eco-logo-01.png') ?>" class="w-100 h-80" alt="home-page-banner">
-      </a>
+                <img src="<?= base_url('assets/images/final-logo-ecosystem.png') ?>" class="w-100 h-80" alt="home-page-banner">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"><img src="./Assets/menu.png" alt="" /></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto  ">
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link text-dark fw-normal  " href="/research">Eco System Report </a>
+                        <a class="nav-link text-dark fw-normal" href="<?= base_url('reports') ?>">Eco System Report</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fw-normal " href="/consultancy">Custom Requirements</a>
+                        <a class="nav-link fw-normal" href="<?= base_url('custom_page') ?>">Custom Requirements</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fw-normal " href="/events">Surveys</a>
+                        <a class="nav-link fw-normal" href="<?= base_url('event') ?>">Surveys</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fw-normal " href="/get-in-touch">Contact us</a>
+                        <a class="nav-link fw-normal" href="<?= base_url('contact_us') ?>">Contact us</a>
                     </li>
                 </ul>
             </div>
@@ -100,7 +100,7 @@
                         <h1 class="event-banner-text-h4 mb-3 text-primary fw-bold py-2">RHO MOTION EVENTS</h1>
                         <p class="mb-3 lead display-5">Connecting you with key players across the energy transition</p>
                         <p class="mb-4 py-2 fs-20">Rho Motion events are a forum for learning, discussion and collaboration. They offer outstanding opportunities for networking and market insights into the challenges and opportunities facing the sector.</p>
-                        <a class="btn btn-primary py-2" href="#events">See full event list</a>
+                        <a class="btn btn-primary py-2" href="#eventTabsContent">See full event list</a>
                     </div>
                 </div>
             </div>
@@ -184,7 +184,7 @@
                         <div class="col-12 col-md-12 mb-3">
                             <div class="card shadow-sm mb-4">
                                 <div class="card-body p-0">
-                                <iframe height="315" src="https://www.youtube.com/embed/GtV8Ek1mLWU?si=uDQn8UGc52xnX1Rk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" style="width: 100%;"></iframe>
+                                    <iframe height="315" src="https://www.youtube.com/embed/GtV8Ek1mLWU?si=uDQn8UGc52xnX1Rk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" style="width: 100%;"></iframe>
                                     <div class="p-3">
                                         <h4 class="card-title mb-0">Key focus on the strategic expansion plans for developing new energies in the Madhya Pradesh.</h4>
                                     </div>
@@ -240,7 +240,7 @@
         <div class="container text-center">
             <h2 class="mb-4 py-4 fw-bold ">Recent speakers</h2>
             <div class="m-auto pb-5 position-relative" style="max-width: 900px;">
-                <a target="blank" href="">
+                <a target="blank" href="https://eninrac.com/">
                     <div class="overlay-white-transparent"></div>
                     <div class="client-logo-placeholder">
                         <img class="w-100" src="https://eninrac.com/assets/upload/client_logo.png" alt="client" style="filter: grayscale(100)">
@@ -280,7 +280,7 @@
                             Inclusion in pre and post-event promotion
                         </li>
                     </ul>
-                    <a class="btn btn-primary d-inline-block text-nowrap px-4 py-2 text-md fw-medium" href="/get-in-touch">Get in touch</a>
+                    <a class="btn btn-primary d-inline-block text-nowrap px-4 py-2 text-md fw-medium" href="<?= base_url('contact_us') ?>">Get in touch</a>
                 </div>
 
             </div>
@@ -333,10 +333,10 @@
                     <div class="row">
                         <div class="col-6">
                             <div class="nav-links">
-                                <a href="/research" class="d-block">Eco System Reports</a>
-                                <a href="/consultancy" class="d-block">Custom Requirements</a>
-                                <a href="/events" class="d-block">Surveys & VOC</a>
-                                <a href="/about-us" class="d-block">About us</a>
+                                <a href="<?= base_url('reports') ?>" class="d-block">Eco System Reports</a>
+                                <a href="<?= base_url('custom_page') ?>" class="d-block">Custom Requirements</a>
+                                <a href="<?= base_url('event') ?>" class="d-block">Surveys & VOC</a>
+                                <a href="<?= base_url('contact_us') ?>" class="d-block">About us</a>
                             </div>
                         </div>
                         <div class="col-6">

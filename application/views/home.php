@@ -9,7 +9,10 @@
 
   <link rel="stylesheet" href="<?= base_url('assets/fonts/fonts.css') ?>" />
   <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>" />
+  
+  
   <style>
+    
     .hero-section {
       display: flex;
       flex-wrap: wrap;
@@ -50,27 +53,27 @@
   <!-- navbar section  -->
   <nav class="navbar navbar-expand-md bg-white py-4">
     <div class="container">
-      <a class="navbar-brand " href="/">
+      <a class="navbar-brand " href="<?= base_url('') ?>">
         <!-- <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/logo-dark-purple.742caa.svg" alt="Logo" /> -->
 
-        <img src="<?= base_url('assets/images/eco-logo-01.png') ?>" class="w-100 h-80" alt="home-page-banner">
+        <img src="<?= base_url('assets/images/final-logo-ecosystem.png') ?>" class="w-100 h-80" alt="home-page-banner">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"><img src="./Assets/menu.png" alt="" /></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto  ">
+        <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link text-dark fw-normal  " href="/research">Eco System Report </a>
+            <a class="nav-link text-dark fw-normal" href="<?= base_url('reports') ?>">Eco System Report</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fw-normal " href="/consultancy">Custom Requirements</a>
+            <a class="nav-link fw-normal" href="<?= base_url('custom_page') ?>">Custom Requirements</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fw-normal " href="/events">Surveys</a>
+            <a class="nav-link fw-normal" href="<?= base_url('event') ?>">Surveys</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fw-normal " href="/get-in-touch">Contact us</a>
+            <a class="nav-link fw-normal" href="<?= base_url('contact_us') ?>">Contact us</a>
           </li>
         </ul>
       </div>
@@ -106,7 +109,7 @@
         </div>
       </a>
 
-      <a href="/consultancy" class="card overflow-hidden w-100  ">
+      <a href="<?= base_url('custom_page') ?>" class="card overflow-hidden w-100  ">
         <div class="card-body position-relative py-4 px-3">
           <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/v1702337706/assets/home/ymfa0talxlppyy682pqp.svg" class="d-none d-lg-block" alt="" />
           <h2 class="card-title d-flex justify-content-between align-items-center">
@@ -121,7 +124,7 @@
       </a>
 
       <!-- card2 -->
-      <a href="/consultancy" class="card overflow-hidden w-100  ">
+      <a href="<?= base_url('') ?>" class="card overflow-hidden w-100  ">
         <div class="card-body position-relative py-4 px-3">
           <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/v1702337706/assets/home/ymfa0talxlppyy682pqp.svg" class="d-none d-lg-block" alt="" />
           <h2 class="card-title d-flex justify-content-between align-items-center">
@@ -136,7 +139,7 @@
         </div>
       </a>
       <!-- card3 -->
-      <a href="/consultancy" class="card overflow-hidden w-100  ">
+      <a href="<?= base_url('event') ?>"class="card overflow-hidden w-100  ">
         <div class="card-body position-relative py-4 px-3">
           <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/v1702337706/assets/home/ymfa0talxlppyy682pqp.svg" class="d-none d-lg-block" alt="" />
           <h2 class="card-title d-flex justify-content-between align-items-center">
@@ -197,7 +200,7 @@
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingTwo">
-              <button class="accordion-button border-top  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <button class="accordion-button   collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                 <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/our-research/shape-02.1f9e80.svg" class="icon me-3" alt="" />
                 <span class="research-area fw-400 fs-22">Wind</span>
               </button>
@@ -249,11 +252,12 @@
             </div>
           </div>
         </div>
-        <a href="/research" class="btn btn-primary see-more   btn-lg mt-3">See Our Eco System Reports</a>
+        <a href="<?= base_url('reports') ?>" class="btn btn-primary see-more   btn-lg mt-3">See Our Eco System Reports</a>
       </div>
-      <div class="col-md-6 d-none d-lg-block ">
+      <div class="col-md-6 d-none d-lg-block " >
         <div class="illustration">
-          <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/v1702260914/assets/home/rheuih0ro6to7vjvznbq.svg" alt="Research Illustration" class="position-absolute" />
+          <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/v1702260914/assets/home/rheuih0ro6to7vjvznbq.svg" alt="Research Illustration" class="
+          " />
         </div>
       </div>
     </div>
@@ -276,7 +280,7 @@
             criteria across the EV and battery, charging and battery recycling
             supply chains.
           </p>
-          <a href="#">
+          <a href="<?= base_url('custom_page') ?>">
             <button type="button" class="btn btn-primary fw-bold px-3 py-2 rounded-md">
               Learn More
             </button>
@@ -338,7 +342,7 @@
           Recycling, we create opportunities for long-lasting and meaningful
           industry connections.
         </p>
-        <a class="btn btn-primary rounded-md font-medium px-3" href="/events">Learn more</a>
+        <a class="btn btn-primary rounded-md font-medium px-3" href="<?= base_url('event') ?>">Learn more</a>
       </div>
       <div class="col-md-6 d-flex justify-content-center mt-5 mt-md-0">
         <picture>
@@ -364,7 +368,7 @@
         </h3>
         <span class="text-sm text-center mb-4 mb-md-5 md:max-w-3xl h3">Register your interest and we’ll contact you shortly to <br> provide
           sample materials and arrange a demo.</span>
-        <a class="btn btn-primary px-5 py-1 text-sm md:py-0 md:text-base font-medium rounded-md btn-lg" href="/get-in-touch">Get in touch</a>
+        <a class="btn btn-primary px-5 py-1 text-sm md:py-0 md:text-base font-medium rounded-md btn-lg" href="<?= base_url('contact_us') ?>">Get in touch</a>
       </div>
     </div>
   </section>
@@ -396,10 +400,10 @@
           <div class="row">
             <div class="col-6">
               <div class="nav-links">
-                <a href="/research" class="d-block">Eco System Reports</a>
-                <a href="/consultancy" class="d-block">Custom Requirements</a>
-                <a href="/events" class="d-block">Surveys & VOC</a>
-                <a href="/about-us" class="d-block">About us</a>
+                <a href="<?= base_url('reports') ?>" class="d-block" id="reports">Eco System Reports</a>
+                <a href="<?= base_url('custom_page') ?>" class="d-block" id="custom_page">Custom Requirements</a>
+                <a href="<?= base_url('event') ?>" class="d-block" id="event">Surveys & VOC</a>
+                <a href="<?= base_url('contact_us') ?>" class="d-block">About us</a>
               </div>
             </div>
             <div class="col-6">
@@ -407,7 +411,7 @@
                 <a href="/magazine" class="d-block">Magazine</a>
                 <a href="/news" class="d-block">News</a>
                 <a href="/careers" class="d-block">Careers</a>
-                <a href="/get-in-touch" class="d-block">Contact Us</a>
+                <a href="<?= base_url("contact_us") ?>" class="d-block">Contact Us</a>
               </div>
             </div>
           </div>
@@ -426,10 +430,11 @@
 
 
   <!--  -->
+  "<?= base_url('assets/js/footer.js') ?>"
+ 
 
 
-
-
+<script src= "<?= base_url('assets/js/footer.js') ?>"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 </body>
 

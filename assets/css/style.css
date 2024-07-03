@@ -942,3 +942,7 @@ button.accordion-button:focus {
   font-weight: normal;
 }
 
+.pointer{
+  cursor: pointer;
+}
+
