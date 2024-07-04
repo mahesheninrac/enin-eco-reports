@@ -13,12 +13,12 @@
 
   <style>
     .card-overlay {
-      position: absolute;
+      position: relative;
       top: 0;
       left: 0;
       width: 100%;
       height: 100%;
-      background-color: rgba(255, 255, 255, 0.6);
+      background-color: rgba(255, 255, 255, .1);
       /* White with 60% opacity */
       z-index: 1;
     }
@@ -103,14 +103,14 @@
       </div>
     </div>
 
-    <div class="d-flex flex-column flex-md-row gap-3 mt-1 py-3">
+    <div class="d-flex flex-column flex-md-row gap-3 mt-1 py-3 ">
       <!-- card1 -->
-      <a href="<?= base_url("reports") ?>" class="card overflow-hidden w-100  ">
-        <div class="card-body position-relative py-4 px-3">
-          <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/v1702337706/assets/home/ymfa0talxlppyy682pqp.svg" class="d-none d-lg-block" alt="" />
-          <h2 class="card-title d-flex justify-content-between align-items-center">
+      <a href="<?= base_url("reports") ?>" class="card overflow-hidden w-100 card-overlay ">
+        <div class="card-body position-relative py-4 px-3"  >
+          <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/v1702337706/assets/home/ymfa0talxlppyy682pqp.svg" class="d-none d-lg-block" alt=""  />
+          <h2 class="card-title d-flex justify-content-between align-items-center ">
             ECO SYSTEM REPORTS
-            <!-- <img src="" class="opacity-75" alt="arrow" class="ms-2" /> -->
+            
             <i class="icofont-external-link"></i>
           </h2>
           <p class="card-text pt-2">
@@ -119,12 +119,12 @@
         </div>
       </a>
 
-      <a href="<?= base_url('custom_page') ?>" class="card overflow-hidden w-100  ">
+      <a href="<?= base_url('custom_page') ?>" class="card overflow-hidden w-100 card-overlay ">
         <div class="card-body position-relative py-4 px-3">
           <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/v1702337706/assets/home/ymfa0talxlppyy682pqp.svg" class="d-none d-lg-block" alt="" />
           <h2 class="card-title d-flex justify-content-between align-items-center">
             CUSTOM REQUIREMENTS
-            <!-- <img src="" class="opacity-75" alt="arrow" class="ms-2" /> -->
+           
             <i class="icofont-external-link"></i>
           </h2>
           <p class="card-text pt-2">
@@ -134,11 +134,11 @@
       </a>
 
       <!-- card2 -->
-      <a href="<?= base_url('') ?>" class="card overflow-hidden w-100  ">
+      <a href="<?= base_url('') ?>" class="card overflow-hidden w-100  card-overlay">
         <div class="card-body position-relative py-4 px-3">
           <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/v1702337706/assets/home/ymfa0talxlppyy682pqp.svg" class="d-none d-lg-block" alt="" />
           <h2 class="card-title d-flex justify-content-between align-items-center">
-            SURVEYS & VOC
+            SURVEYS & VoC
             <!-- <img src="" class="opacity-75" alt="arrow" class="ms-2" /> -->
             <i class="icofont-external-link"></i>
           </h2>
@@ -149,7 +149,7 @@
         </div>
       </a>
       <!-- card3 -->
-      <a href="<?= base_url('event') ?>" class="card overflow-hidden w-100  ">
+      <a href="<?= base_url('event') ?>" class="card overflow-hidden w-100 card-overlay ">
         <div class="card-body position-relative py-4 px-3">
           <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/v1702337706/assets/home/ymfa0talxlppyy682pqp.svg" class="d-none d-lg-block" alt="" />
           <h2 class="card-title d-flex justify-content-between align-items-center">
@@ -174,7 +174,7 @@
   <!--       Eco System Report   -->
 
 
-  <div class="container py-5 our-research mx-1">
+  <div class="container-xxl py-4 our-research ">
     <div class="row">
       <div class="col-md-6">
         <p class="research-title h4 mb-2 section-header fw-bold  ">ECO SYSTEM REPORTS</p>
@@ -201,7 +201,7 @@
             <h2 class="accordion-header" id="headingTwo">
               <button class="accordion-button border-top  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                 <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/our-research/shape-02.1f9e80.svg" class="icon me-3" alt="" />
-                <span class="research-area fw-400 fs-22">Solar</span>
+                <span class="research-area fw-400 fs-22">SOLAR</span>
               </button>
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse p-2" aria-labelledby="headingTwo" data-bs-parent="#researchAccordion">
@@ -217,7 +217,7 @@
             <h2 class="accordion-header" id="headingThree">
               <button class="accordion-button   collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                 <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/our-research/shape-02.1f9e80.svg" class="icon me-3" alt="" />
-                <span class="research-area fw-400 fs-22">Wind</span>
+                <span class="research-area fw-400 fs-22">WIND</span>
               </button>
             </h2>
             <div id="collapseThree" class="accordion-collapse collapse p-2" aria-labelledby="headingThree" data-bs-parent="#researchAccordion">
@@ -234,7 +234,7 @@
             <h2 class="accordion-header" id="headingFour">
               <button class="accordion-button border-top  collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                 <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/our-research/shape-04.8205fb.svg" class="icon me-3" alt="" />
-                <span class="research-area fw-400 fs-22">Hydro</span>
+                <span class="research-area fw-400 fs-22">HYDROGEN</span>
               </button>
             </h2>
             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#researchAccordion">
@@ -250,7 +250,7 @@
             <h2 class="accordion-header" id="headingFive">
               <button class="accordion-button border-top  collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                 <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/our-research/shape-05.1b030d.svg" class="icon me-3" alt="" />
-                <span class="research-area fw-400 fs-22">Bees</span>
+                <span class="research-area fw-400 fs-22">BESS</span>
               </button>
             </h2>
             <div id="collapseFive" class="accordion-collapse collapse p-2" aria-labelledby="headingFive" data-bs-parent="#researchAccordion">
@@ -265,7 +265,7 @@
             <h2 class="accordion-header" id="headingSix">
               <button class="accordion-button border-top  collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                 <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/our-research/shape-06.f89a01.svg" class="icon me-3" alt="" />
-                <span class="research-area fw-400 fs-22">Coal</span>
+                <span class="research-area fw-400 fs-22">COAL</span>
               </button>
             </h2>
             <div id="collapseSix" class="accordion-collapse collapse p-2" aria-labelledby="headingSix" data-bs-parent="#researchAccordion">
@@ -316,7 +316,7 @@
             <source media="(min-width: 640px)" srcset="
             https://res.cloudinary.com/dkklqdsqc/image/upload/q_auto,f_auto/v1701787900/assets/home/home-consultancy_e2n1v0_gxhm2i.webp
           " />
-            <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/q_auto,f_auto/v1701787900/assets/home/home-consultancy-mobile_ampnjz_yaluzd.webp" class="img-fluid w-100 " style="min-height: 100vh;" />
+            <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/q_auto,f_auto/v1701787900/assets/home/home-consultancy-mobile_ampnjz_yaluzd.webp" class="img-fluid w-100  object-fit-cover" style="min-height: 100vh;" />
           </picture>
         </div>
       </div>
@@ -329,7 +329,7 @@
 
   <!-- components for icon  -->
 
-  <div class="container-fluid bg-dark d-flex flex-wrap justify-content-evenly text-center">
+  <div class="container-xxl bg-dark d-flex flex-wrap justify-content-around text-center landing-service-ribbon">
     <!-- one -->
     <div class="text-white p-3">
       <img src="https://placehold.co/120x120" alt="" class="rounded-circle" />
@@ -351,8 +351,8 @@
   <section class="relative px-0  ">
     <div class="container-xxl  max-w-content-container d-md-flex align-items-lg-center pb-5 pb-md-5 pt-5 pt-md-5 mx-1">
       <div class="col-md-6 pe-md-5">
-        <p class="mb-3 h4 text-uppercase  section-header">
-          SURVEYS & VOC
+        <p class="mb-3 h4 fw-bold  section-header">
+          SURVEYS & VoC
         </p>
         <h2 class="mb-3 text-h3 text-md-h2">
           Bringing together leaders and innovators across the energy
@@ -405,18 +405,18 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-lg-6 mb-4 mb-md-0">
-          <div style="">
-          <img src="<?= base_url('assets/images/final-logo-ecosystem-white.png') ?>"  alt="Logo" class="logo mb-4 w-25 h-50">
+          <div >
+            <img src="<?= base_url('assets/images/final-logo-ecosystem-white.png') ?>" alt="Logo" class="logo mb-4 w-25 h-50">
           </div>
           <div class="contact-info">
-            <p>Second Floor, Randall House<br>6 Dowgate Hill<br>London EC4R 2SU</p>
-            <p>+44 (0) 203 988 7648<br><a href="mailto:info@rhomotion.com">info@rhomotion.com</a></p>
+            <p>Eninrac Consulting Private Limited<br>2nd Floor, B-130, B-Block<br>Sector 65, Noida - 201301</p>
+            <p>(+91) 9319048963, (+91) 9319047963<br><a href="mailto:info@rhomotion.com">connect@eninrac.com</a></p>
           </div>
           <div class="social-icons mt-4">
-            <a href="https://www.linkedin.com/company/rhomotion/" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/eninrac-consulting-88641719b/" target="_blank" rel="noreferrer">
               <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-linkedin.5fd894.svg" alt="LinkedIn">
             </a>
-            <a href="https://twitter.com/rhomotion/" target="_blank" rel="noreferrer">
+            <a href="https://x.com/i/flow/login?redirect_after_login=%2Feninrac" target="_blank" rel="noreferrer">
               <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-x.290b8c.svg" alt="Twitter">
             </a>
           </div>
@@ -427,15 +427,15 @@
               <div class="nav-links">
                 <a href="<?= base_url('reports') ?>" class="d-block" id="reports">Eco System Reports</a>
                 <a href="<?= base_url('custom_page') ?>" class="d-block" id="custom_page">Custom Requirements</a>
-                <a href="<?= base_url('event') ?>" class="d-block" id="event">Surveys & VOC</a>
+                <a href="<?= base_url('event') ?>" class="d-block" id="event">Surveys & VoC</a>
                 <a href="<?= base_url('contact_us') ?>" class="d-block">About us</a>
               </div>
             </div>
             <div class="col-6">
               <div class="nav-links">
                 <a href="/magazine" class="d-block">Magazine</a>
-                <a href="/news" class="d-block">News</a>
-                <a href="/careers" class="d-block">Careers</a>
+                <a href="https://einfews.energyinfra.market/" class="d-block">News</a>
+                <a href=" https://eninrac.com/careers"  class="d-block">Careers</a>
                 <a href="<?= base_url("contact_us") ?>" class="d-block">Contact Us</a>
               </div>
             </div>
@@ -447,7 +447,7 @@
           <p class="copyright">&copy; 2024 Eninrac. All rights reserved.</p>
         </div>
         <div class="col-md-6 text-md-end">
-          <p class="privacy"><a href="/privacy-policy">Privacy Policy</a> • <a href="/terms">Terms & Conditions</a></p>
+          <p class="privacy"><a href="">Privacy Policy</a> • <a href="">Terms & Conditions</a></p>
         </div>
       </div>
     </div>

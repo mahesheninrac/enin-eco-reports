@@ -52,15 +52,20 @@
             <!-- <img class="position-absolute bottom-0 start-0 d-none d-md-block" src="https://res.cloudinary.com/dkklqdsqc/image/upload/q_auto,f_auto/v1702261525/assets/get-in-touch/wa3vz0twauapwmkbsamy.svg" aria-hidden="true"> -->
             <div>
               <h2>Our offices</h2>
-              <p>Second Floor, Randall House<br>6 Dowgate Hill<br>London EC4R 2SU</p>
+              <p>Eninrac Consulting Private Limited,<br> 2nd Floor B-130, B-Block<br> Sector 65, Noida - 201301, Uttar Pradesh</p>
               <p>
-                <a href="tel:+4402039887648">+44 (0) 203 988 7648</a><br>
-                <a href="mailto:info@rhomotion.com">info@rhomotion.com</a>
+
+
+
+
+
+                <a href="tel:(+91) 9319048963,">(+91) 9319048963</a><br>
+                <a href="mailto:connect@eninrac.com">connect@eninrac.com</a>
               </p>
               <div class="py-1">
                 <h2>Press Enquiries</h2>
                 <p>
-                  <a href="mailto:press@rhomotion.com">press@rhomotion.com</a>
+                  <a href="mailto:press@rhomotion.com">connect@eninrac.com</a>
                 </p>
               </div>
               <div class="py-1">
@@ -97,8 +102,8 @@
                 <div class="mb-3">
                   <label for="phone" class="form-label">Phone number <span class="text-danger">*</span></label>
                   <div class="input-group">
-                    <span class="input-group-text">+123</span>
-                    <input type="tel" id="phone" name="phone" class="form-control" placeholder="2290 0238376" required>
+                    <span class="input-group-text">+91</span>
+                    <input type="tel" id="phone" name="phone" class="form-control" placeholder="xxxxxxxxxx" required>
                   </div>
                 </div>
                 <!-- <div class="row">
@@ -130,20 +135,22 @@
 
 
   <!-- footer -->
-  <footer class="footer text-center text-md-start">
+  <footer class="footer text-center text-md-start z-1">
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-lg-6 mb-4 mb-md-0">
-          <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/logo-sky-blue-1.ebb1bf.svg" alt="Logo" class="logo mb-4">
+          <div style="">
+            <img src="<?= base_url('assets/images/final-logo-ecosystem-white.png') ?>" alt="Logo" class="logo mb-4 w-25 h-50">
+          </div>
           <div class="contact-info">
-            <p>Second Floor, Randall House<br>6 Dowgate Hill<br>London EC4R 2SU</p>
-            <p>+44 (0) 203 988 7648<br><a href="mailto:info@rhomotion.com">info@rhomotion.com</a></p>
+            <p>Eninrac Consulting Private Limited<br>2nd Floor, B-130, B-Block<br>Sector 65, Noida - 201301</p>
+            <p>(+91) 9319048963, (+91) 9319047963<br><a href="mailto:info@rhomotion.com">connect@eninrac.com</a></p>
           </div>
           <div class="social-icons mt-4">
-            <a href="https://www.linkedin.com/company/rhomotion/" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/eninrac-consulting-88641719b/" target="_blank" rel="noreferrer">
               <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-linkedin.5fd894.svg" alt="LinkedIn">
             </a>
-            <a href="https://twitter.com/rhomotion/" target="_blank" rel="noreferrer">
+            <a href="https://x.com/i/flow/login?redirect_after_login=%2Feninrac" target="_blank" rel="noreferrer">
               <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-x.290b8c.svg" alt="Twitter">
             </a>
           </div>
@@ -152,18 +159,18 @@
           <div class="row">
             <div class="col-6">
               <div class="nav-links">
-                <a href="/research" class="d-block">Eco System Reports</a>
-                <a href="/consultancy" class="d-block">Custom Requirements</a>
-                <a href="/events" class="d-block">Surveys & VOC</a>
-                <a href="/about-us" class="d-block">About us</a>
+                <a href="<?= base_url('reports') ?>" class="d-block" id="reports">Eco System Reports</a>
+                <a href="<?= base_url('custom_page') ?>" class="d-block" id="custom_page">Custom Requirements</a>
+                <a href="<?= base_url('event') ?>" class="d-block" id="event">Surveys & VoC</a>
+                <a href="<?= base_url('contact_us') ?>" class="d-block">About us</a>
               </div>
             </div>
             <div class="col-6">
               <div class="nav-links">
-                <a href="<?= base_url('reports') ?>" class="d-block">Eco System Reports</a>
-                <a href="<?= base_url('custom_page') ?>" class="d-block">Custom Requirements</a>
-                <a href="<?= base_url('event') ?>" class="d-block">Surveys & VOC</a>
-                <a href="<?= base_url('contact_us') ?>" class="d-block" id="contact_us">Contact us</a>
+                <a href="/magazine" class="d-block">Magazine</a>
+                <a href="https://einfews.energyinfra.market/" class="d-block">News</a>
+                <a href=" https://eninrac.com/careers" class="d-block">Careers</a>
+                <a href="<?= base_url("contact_us") ?>" class="d-block">Contact Us</a>
               </div>
             </div>
           </div>
@@ -174,11 +181,12 @@
           <p class="copyright">&copy; 2024 Eninrac. All rights reserved.</p>
         </div>
         <div class="col-md-6 text-md-end">
-          <p class="privacy"><a href="/privacy-policy">Privacy Policy</a> • <a href="/terms">Terms & Conditions</a></p>
+          <p class="privacy"><a href="">Privacy Policy</a> • <a href="">Terms & Conditions</a></p>
         </div>
       </div>
     </div>
   </footer>
+
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
   <script src="<?= base_url('assets/js/footer.js') ?>"></script>

@@ -127,25 +127,24 @@
     <section class=" pt-3 pb-2 pt-md-4 pb-md-5 overflow-hidden what_included fw-bold">
         <div class="container-xxl text-center px-3 px-md-0">
             <div class="min-h-4">
-                <h3 class="h4 mb-3 mb-md-2 display-6">What’s included?</h3>
-                <div class="mx-auto  py-2 mb-4 fw-bold fs-20">
+                <h3 class="h4 mb-3 mb-md-2 display-6 fw-bold">What’s included?</h3>
+                <div class="mx-auto  py-2 mb-4 fw-normal fs-20">
                     <p>Battery Demand Outlook Service combines all our battery outlooks in one place,<br> providing a comprehensive view of total battery demand. Reports include:</p>
                 </div>
             </div>
             <div class="row row-cols-1 row-cols-md-2 g-3 g-md-4 mx-1">
                 <div class="col">
                     <div class="p-3 rounded position-relative overflow-hidden what_included_card ">
-                        <img class="d-none d-md-block w-25 position-absolute top-50 translate-middle-y end-0 brightness-50" src="https://res.cloudinary.com/dkklqdsqc/images/w_2020,h_1556,c_scale/f_auto,q_auto/v1705414241/wp_production/EV-and-battery/EV-and-battery.png?_i=AA" alt="EV and Battery">
+                        <img class="d-none d-md-block w-25 position-absolute top-50 translate-middle-y end-0 brightness-50" src="<?= base_url('assets/images/final-logo-ecosystem.png') ?>">
                         <div class="text-start d-flex flex-column">
                             <div class="d-flex align-items-center mb-2">
                                 <img class="me-2" src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/check.0e6cc9.svg" alt="Check Icon" width="24" height="24">
-                                <h4 class="h6 mb-0 h2 fw-bold fs-30">EV & Battery Quarterly Outlook</h4>
+                                <h4 class="h6 mb-0 h2 fw-bold fs-20">EV & Battery Quarterly Outlook</h4>
                             </div>
                             <a href="https://rhomotion.com/research/ev-battery-quarterly-outlook/" class="mt-1">Learn more</a>
                         </div>
                     </div>
 
-
                 </div>
                 <div class="col">
                     <div class="p-3 rounded position-relative overflow-hidden what_included_card ">
@@ -153,7 +152,7 @@
                         <div class="text-start d-flex flex-column">
                             <div class="d-flex align-items-center mb-2">
                                 <img class="me-2" src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/check.0e6cc9.svg" alt="Check Icon" width="24" height="24">
-                                <h4 class="h6 mb-0 h2 fw-bold fs-30">EV & Battery Quarterly Outlook</h4>
+                                <h4 class="h6 mb-0 h2 fw-bold fs-20">EV & Battery Quarterly Outlook</h4>
                             </div>
                             <a href="https://rhomotion.com/research/ev-battery-quarterly-outlook/" class="mt-1">Learn more</a>
                         </div>
@@ -165,7 +164,7 @@
                         <div class="text-start d-flex flex-column">
                             <div class="d-flex align-items-center mb-2">
                                 <img class="me-2" src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/check.0e6cc9.svg" alt="Check Icon" width="24" height="24">
-                                <h4 class="h6 mb-0 h2 fw-bold fs-30">EV & Battery Quarterly Outlook</h4>
+                                <h4 class="h6 mb-0 h2 fw-bold fs-20">EV & Battery Quarterly Outlook</h4>
                             </div>
                             <a href="https://rhomotion.com/research/ev-battery-quarterly-outlook/" class="mt-1">Learn more</a>
                         </div>
@@ -177,7 +176,7 @@
                         <div class="text-start d-flex flex-column">
                             <div class="d-flex align-items-center mb-2">
                                 <img class="me-2" src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/check.0e6cc9.svg" alt="Check Icon" width="24" height="24">
-                                <h4 class="h6 mb-0 h2 fw-bold fs-30">EV & Battery Quarterly Outlook</h4>
+                                <h4 class="h6 mb-0 h2 fw-bold fs-20">EV & Battery Quarterly Outlook</h4>
                             </div>
                             <a href="https://rhomotion.com/research/ev-battery-quarterly-outlook/" class="mt-1">Learn more</a>
                         </div>
@@ -189,7 +188,7 @@
                         <div class="text-start d-flex flex-column">
                             <div class="d-flex align-items-center mb-2">
                                 <img class="me-2" src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/check.0e6cc9.svg" alt="Check Icon" width="24" height="24">
-                                <h4 class="h6 mb-0 h2 fw-bold fs-30">EV & Battery Quarterly Outlook</h4>
+                                <h4 class="h6 mb-0 h2 fw-bold fs-20">EV & Battery Quarterly Outlook</h4>
                             </div>
                             <a href="https://rhomotion.com/research/ev-battery-quarterly-outlook/" class="mt-1">Learn more</a>
                         </div>
@@ -198,91 +197,78 @@
             </div>
         </div>
 
-        <!--  accordion-->
-        <div class="accordion accordion-flush w-80 py-4 my-4 mx-4 " id="accordionFlushExample">
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingOne">
-                    <button class="accordion-button collapsed what_included_card_accordion-button border-top border-bottom  border-1 border-dark " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                        What does the product cost?
-                    </button>
-                </h2>
-                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body ">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+
+
+        <section class="">
+            <div class="container-xxl mt-5">
+                <div class="faq-section">
+                    <div class="faq-item border-top border-bottom border-dark">
+                        <h3 class="faq-question">How is the report delivered? <span><i class="icofont-arrow-right"></i></span></h3>
+                        <div class="faq-answer">
+                            <p>The service is provided via our reports and data files, with a consolidated total battery demand file.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item border-bottom border-dark">
+                        <h3 class="faq-question">What does the product cost? <span><i class="icofont-arrow-right"></i></span></h3>
+                        <div class="faq-answer">
+                            <p>The product cost varies depending on the specifications and requirements of the client. Please contact us for detailed pricing.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingTwo">
-                    <button class="accordion-button collapsed what_included_card_accordion-button border-bottom  border-1 border-dark " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                        What does the product cost
-                    </button>
-                </h2>
-                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body ">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
-                </div>
-            </div>
-        </div>
+
+        </section>
+
+
     </section>
 
 
 
     <!-- demooo -->
 
-    <section class="position-relative bg-purple consultency">
-        <div class="container-fluid">
-            <div class="row no-gutters">
-                <div class="col-md-6 d-flex flex-column justify-content-center text-white py-5" style="align-items: center;">
-                    <h2 class="text-sky-blue-5 mb-3 text-center py-4 display-1">
-                        Demo
+    <section class="position-relative  demo-section">
+        <div class="container-xxl  demo-section-left
+        ">
+            <div class="row no-gutters ">
+                <div class="col-md-6 d-flex flex-column  text-white justify-content-center align-items-center ">
+                    <h2 class="text-sky-blue-5 mb-3 text-center  fw-bold ">
+                        Request demo
                     </h2>
-                    <p class="text-sky-blue-5 mb-4">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab necessitatibus sint facere quia, ducimus similique facilis veritatis, et, blanditiis corrupti temporibus. Numquam velit ullam, voluptate culpa atque illo earum aut?
+                    <p class="text-sky-blue-5 mb-4 text-center" style="max-width:400px;">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab necessitatibus sint facere quia, ducimus similique
                     </p>
-                    <a href="#">
-                        <button type="button" class="btn btn-primary px-4 rounded-md">
-                            Learn More
-                        </button>
-                    </a>
+
                 </div>
 
                 <!-- section for form -->
-                <div class="col-md-6 p-0 w-50 overflow-hidden">
-                    <div class="form w-100 my-0 mx-auto row py-4 d-flex flex-column">
-                        <div class="col-12 d-flex gap-2">
-                            <div class="form-group col">
-                                <label for="first-name-1" class="form-label">First Name</label>
-                                <input type="text" id="first-name-1" class="form-control">
+                <div class="col-md-6 p-0 w-50 overflow-hidden   demo-section-right">
+                    <div class="demo-form-section ">
+                        <form enctype="multipart/form-data" method="post">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="firstName" class="form-label">First Name <span class="text-danger">*</span></label>
+                                    <input type="text" id="firstName" name="firstName" class="form-control" placeholder="Name" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="lastName" class="form-label">Last Name <span class="text-danger">*</span></label>
+                                    <input type="text" id="lastName" name="lastName" class="form-control" placeholder="Last name" required>
+                                </div>
                             </div>
-                            <div class="form-group col">
-                                <label for="first-name-2" class="form-label">First Name</label>
-                                <input type="text" id="first-name-2" class="form-control">
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email address <span class="text-danger">*</span></label>
+                                <input type="email" id="email" name="email" class="form-control" placeholder="email@youremailaddress.com" required>
                             </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="form-group">
-                                <label for="first-name-3" class="form-label">First Name</label>
-                                <input type="text" id="first-name-3" class="form-control">
+                            <div class="mb-3">
+                                <label for="phone" class="form-label">Phone number <span class="text-danger">*</span></label>
+                                <div class="input-group">
+                                    <span class="input-group-text">+91</span>
+                                    <input type="tel" id="phone" name="phone" class="form-control" placeholder="2290 0238376" required>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-12 d-flex gap-2">
-                            <div class="form-group col">
-                                <label for="first-name-4" class="form-label">First Name</label>
-                                <input type="text" id="first-name-4" class="form-control">
-                            </div>
-                            <div class="form-group col">
-                                <label for="first-name-5" class="form-label">First Name</label>
-                                <input type="text" id="first-name-5" class="form-control">
-                            </div>
-                        </div>
-                        <div class="col-12 d-flex gap-2">
-                            <div class="form-group col">
-                                <label for="first-name-6" class="form-label">First Name</label>
-                                <input type="text" id="first-name-6" class="form-control">
-                            </div>
-                            <div class="form-group col">
-                                <label for="first-name-7" class="form-label">First Name</label>
-                                <input type="text" id="first-name-7" class="form-control">
-                            </div>
-                        </div>
+
+                            <button type="submit" class="btn btn-primary px-2 py-2">Register interest</button>
+                            <p class="py-4 fs-14">By submitting this form, you agree to Eninrac’s <u>privacy policy</u>.</p>
+                        </form>
                     </div>
                 </div>
 
@@ -292,8 +278,8 @@
 
     <!-- related products -->
 
-    <section class="bg-primary-800">
-        <h1 class="display-4 consultency">Related Products</h1>
+    <section class="bg-primary-300 px-1">
+        <h1 class="h3 fw-bold py-4">Related Products</h1>
 
         <div class="container-xxl d-flex flex-wrap gap-2  py-2 justify-content-between">
             <div class="" style="width: 15rem;">
@@ -331,20 +317,22 @@
 
 
     <!-- footer -->
-    <footer class="footer text-center text-md-start">
+    <footer class="footer text-center text-md-start z-1">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-lg-6 mb-4 mb-md-0">
-                    <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/logo-sky-blue-1.ebb1bf.svg" alt="Logo" class="logo mb-4">
+                    <div style="">
+                        <img src="<?= base_url('assets/images/final-logo-ecosystem-white.png') ?>" alt="Logo" class="logo mb-4 w-25 h-50">
+                    </div>
                     <div class="contact-info">
-                        <p>Second Floor, Randall House<br>6 Dowgate Hill<br>London EC4R 2SU</p>
-                        <p>+44 (0) 203 988 7648<br><a href="mailto:info@rhomotion.com">info@rhomotion.com</a></p>
+                        <p>Eninrac Consulting Private Limited<br>2nd Floor, B-130, B-Block<br>Sector 65, Noida - 201301</p>
+                        <p>(+91) 9319048963, (+91) 9319047963<br><a href="mailto:info@rhomotion.com">connect@eninrac.com</a></p>
                     </div>
                     <div class="social-icons mt-4">
-                        <a href="https://www.linkedin.com/company/rhomotion/" target="_blank" rel="noreferrer">
+                        <a href="https://www.linkedin.com/in/eninrac-consulting-88641719b/" target="_blank" rel="noreferrer">
                             <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-linkedin.5fd894.svg" alt="LinkedIn">
                         </a>
-                        <a href="https://twitter.com/rhomotion/" target="_blank" rel="noreferrer">
+                        <a href="https://x.com/i/flow/login?redirect_after_login=%2Feninrac" target="_blank" rel="noreferrer">
                             <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-x.290b8c.svg" alt="Twitter">
                         </a>
                     </div>
@@ -353,18 +341,18 @@
                     <div class="row">
                         <div class="col-6">
                             <div class="nav-links">
-                                <a href="/research" class="d-block">Eco System Reports</a>
-                                <a href="/consultancy" class="d-block">Custom Requirements</a>
-                                <a href="/events" class="d-block">Surveys & VOC</a>
-                                <a href="/about-us" class="d-block">About us</a>
+                                <a href="<?= base_url('reports') ?>" class="d-block" id="reports">Eco System Reports</a>
+                                <a href="<?= base_url('custom_page') ?>" class="d-block" id="custom_page">Custom Requirements</a>
+                                <a href="<?= base_url('event') ?>" class="d-block" id="event">Surveys & VoC</a>
+                                <a href="<?= base_url('contact_us') ?>" class="d-block">About us</a>
                             </div>
                         </div>
                         <div class="col-6">
                             <div class="nav-links">
-                                <a href="<?= base_url('reports') ?>" class="d-block">Eco System Reports</a>
-                                <a href="<?= base_url('custom_page') ?>" class="d-block">Custom Requirements</a>
-                                <a href="<?= base_url('event') ?>" class="d-block">Surveys & VOC</a>
-                                <a href="<?= base_url('contact_us') ?>" class="d-block">About us</a>
+                                <a href="/magazine" class="d-block">Magazine</a>
+                                <a href="https://einfews.energyinfra.market/" class="d-block">News</a>
+                                <a href=" https://eninrac.com/careers" class="d-block">Careers</a>
+                                <a href="<?= base_url("contact_us") ?>" class="d-block">Contact Us</a>
                             </div>
                         </div>
                     </div>
@@ -375,12 +363,30 @@
                     <p class="copyright">&copy; 2024 Eninrac. All rights reserved.</p>
                 </div>
                 <div class="col-md-6 text-md-end">
-                    <p class="privacy"><a href="/privacy-policy">Privacy Policy</a> • <a href="/terms">Terms & Conditions</a></p>
+                    <p class="privacy"><a href="">Privacy Policy</a> • <a href="">Terms & Conditions</a></p>
                 </div>
             </div>
         </div>
     </footer>
-    <script src= "<?= base_url('assets/js/footer.js') ?>"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const faqItems = document.querySelectorAll(".faq-item");
+
+            faqItems.forEach(item => {
+                const question = item.querySelector(".faq-question");
+                question.addEventListener("click", () => {
+                    item.classList.toggle("active");
+                    const arrow = question.querySelector("span");
+                    if (item.classList.contains("active")) {
+                        arrow.innerHTML = `<i class="icofont-arrow-down"></i>`;
+                    } else {
+                        arrow.innerHTML = item.querySelector(".faq-answer").style.display === 'none' ? "" : `<i class="icofont-arrow-right"></i>`;
+                    }
+                });
+            });
+        });
+    </script>
+    <script src="<?= base_url('assets/js/footer.js') ?>"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 
 

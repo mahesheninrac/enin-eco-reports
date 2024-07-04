@@ -220,29 +220,29 @@
 
   <div class="main d-flex flex gap-4 ">
     <div class="  py-1">
-      <ul class=" fw-normal text-start d-flex flex-column gap-4  justify-content-between" style="position: sticky; top: 0px; min-width: 300px;">
-        <li class="border-top border-bottom d-flex gap-5 py-2" id="market-sizing">
+      <ul class=" fw-normal text-start d-flex flex-column gap-4  justify-content-between " style="position: sticky; top: 0px; min-width: 300px;">
+        <li class="border-top border-bottom d-flex gap-5 py-2 side-list" target="first" id="market-sizing">
           <p class="fs-20 fw-400 v-list">Market Sizing</p>
           <div class="arrow align-items-center" id="first"><i class="icofont-arrow-right fs-30"></i></div>
 
         </li>
-        <li class=" border-bottom  d-flex gap-5" id="future-outlook">
+        <li class=" border-bottom  d-flex gap-5 side-list" target="second" id="future-outlook">
           <p class="fs-20 fw-400 v-list">Future Outlook</p>
           <div class="arrow " id="second"><i class="icofont-arrow-right fs-30"></i></div>
         </li>
-        <li class="  border-bottom  d-flex gap-5" id="focus-reports">
+        <li class="  border-bottom  d-flex gap-5 side-list" target="third" id="focus-reports">
           <p class="fs-20 fw-400 v-list">Focus Reports</p>
           <div class="arrow " id="third"><i class="icofont-arrow-right fs-30"></i></div>
         </li>
-        <li class=" border-bottom  d-flex gap-4" id="thematic-reports">
+        <li class=" border-bottom  d-flex gap-4 side-list" target="four" id="thematic-reports">
           <p class="fs-20 fw-400 v-list">Thematic Reports</p>
           <div class="arrow " id="four"><i class="icofont-arrow-right fs-30"></i></div>
         </li>
-        <li class="  border-bottom d-flex gap-5" id="databases">
+        <li class="  border-bottom d-flex gap-5 side-list" target="five" id="databases">
           <p class="fs-20 fw-400 v-list">Databases</p>
           <div class="arrow " id="five"><i class="icofont-arrow-right fs-30"></i></div>
         </li>
-        <li class=" border-bottom  d-flex gap-5" id="survey">
+        <li class=" border-bottom  d-flex gap-5 side-list" target="six" id="survey">
           <p class="fs-20 fw-400 v-list">Survey</p>
           <div class="arrow " id="six"><i class="icofont-arrow-right fs-30"></i></div>
         </li>
@@ -254,7 +254,7 @@
         <div class="p-1 mx-4 ">
           <!-- Content sections -->
           <div id="content-solar" class="content-section active">
-            <div class="market-sizing">
+            <div class="market-sizing" target="first">
               <div class=" py-4 ">
                 <h1 class="h5 fw-bold text-uppercase  ">Market Sizing</h1>
 
@@ -281,7 +281,7 @@
               </div>
 
             </div>
-            <div class="future-outlook">
+            <div class="future-outlook" target="second">
               <div class="future-outlook">
                 <div class=" py-4">
                   <h1 class="h5 fw-bold text-uppercase ">Future Outlook</h1>
@@ -972,20 +972,22 @@
 
 
   <!-- Footer -->
-  <footer class="footer text-center text-md-start ">
-    <div class="container-xxl">
+  <footer class="footer text-center text-md-start z-1">
+    <div class="container">
       <div class="row">
         <div class="col-md-6 col-lg-6 mb-4 mb-md-0">
-          <img src="<?= base_url('assets/images/final-logo-ecosystem-white.png') ?>" alt="Logo" class="logo mb-4 w-25 h-20">
+          <div>
+            <img src="<?= base_url('assets/images/final-logo-ecosystem-white.png') ?>" alt="Logo" class="logo mb-4 w-25 h-50">
+          </div>
           <div class="contact-info">
-            <p>Second Floor, Randall House<br>6 Dowgate Hill<br>London EC4R 2SU</p>
-            <p>+44 (0) 203 988 7648<br><a href="mailto:info@rhomotion.com">info@rhomotion.com</a></p>
+            <p>Eninrac Consulting Private Limited<br>2nd Floor, B-130, B-Block<br>Sector 65, Noida - 201301</p>
+            <p>(+91) 9319048963, (+91) 9319047963<br><a href="mailto:info@rhomotion.com">connect@eninrac.com</a></p>
           </div>
           <div class="social-icons mt-4">
-            <a href="https://www.linkedin.com/company/rhomotion/" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/eninrac-consulting-88641719b/" target="_blank" rel="noreferrer">
               <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-linkedin.5fd894.svg" alt="LinkedIn">
             </a>
-            <a href="https://twitter.com/rhomotion/" target="_blank" rel="noreferrer">
+            <a href="https://x.com/i/flow/login?redirect_after_login=%2Feninrac" target="_blank" rel="noreferrer">
               <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-x.290b8c.svg" alt="Twitter">
             </a>
           </div>
@@ -995,17 +997,17 @@
             <div class="col-6">
               <div class="nav-links">
                 <a href="<?= base_url('reports') ?>" class="d-block" id="reports">Eco System Reports</a>
-                <a href="<?= base_url('custom_page') ?>" class="d-block">Custom Requirements</a>
-                <a href="<?= base_url('event') ?>" class="d-block">Surveys & VOC</a>
-                <a href="<?= base_url('') ?>" class="d-block">About us</a>
+                <a href="<?= base_url('custom_page') ?>" class="d-block" id="custom_page">Custom Requirements</a>
+                <a href="<?= base_url('event') ?>" class="d-block" id="event">Surveys & VoC</a>
+                <a href="<?= base_url('contact_us') ?>" class="d-block">About us</a>
               </div>
             </div>
             <div class="col-6">
               <div class="nav-links">
                 <a href="/magazine" class="d-block">Magazine</a>
-                <a href="/news" class="d-block">News</a>
-                <a href="/careers" class="d-block">Careers</a>
-                <a href="/get-in-touch" class="d-block">Contact Us</a>
+                <a href="https://einfews.energyinfra.market/" class="d-block">News</a>
+                <a href=" https://eninrac.com/careers" class="d-block">Careers</a>
+                <a href="<?= base_url("contact_us") ?>" class="d-block">Contact Us</a>
               </div>
             </div>
           </div>
@@ -1016,7 +1018,7 @@
           <p class="copyright">&copy; 2024 Eninrac. All rights reserved.</p>
         </div>
         <div class="col-md-6 text-md-end">
-          <p class="privacy"><a href="/privacy-policy">Privacy Policy</a> • <a href="/terms">Terms & Conditions</a></p>
+          <p class="privacy"><a href="">Privacy Policy</a> • <a href="">Terms & Conditions</a></p>
         </div>
       </div>
     </div>
@@ -1115,10 +1117,66 @@
 
       document.getElementById(contentId).classList.add('active');
     }
-  </script>
-  <script>
 
+
+
+    document.addEventListener("DOMContentLoaded", function() {
+
+      function getScreenPosition(element) {
+        const rect = element.getBoundingClientRect();
+        const screenX = rect.left + window.screenX;
+        const screenY = rect.top + window.screenY;
+        return {
+          screenX,
+          screenY
+        };
+      }
+
+
+      function comparePositions() {
+
+        const divs = document.querySelectorAll(".side-list");
+        
+
+        divs.forEach(div => {
+          const id = div.id;
+          
+
+
+          const classElements = document.querySelectorAll(`.${id}`);
+
+          classElements.forEach(classElement => {
+            {
+              const divPosition = getScreenPosition(div);
+              const classPosition = getScreenPosition(classElement);
+              
+
+
+
+              if ( classPosition.screenY===0) {
+                let attribute = classElement.getAttribute("target");
+                console.log(attribute);
+                
+                
+                showArrow(attribute)
+
+              }
+
+
+            }
+          });
+        });
+      }
+
+      comparePositions();
+      window.addEventListener('scroll', function() {
+        comparePositions();
+
+      });
+
+    })
   </script>
+
   <script src="<?= base_url('assets/js/footer.js') ?>"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 
