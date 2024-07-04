@@ -167,7 +167,7 @@
 
 
   <!-- testing ribbon -->
-  <div class="container p-4 pointer" >
+  <div class="container p-4 pointer">
 
     <ul class="vb-res list-style-none d-flex p-0 width-500 justify-content-around m-auto">
       <li id="btn-solar">
@@ -267,7 +267,7 @@
                 ">EV & Battery Quarterly Outlook</p>
                   <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
                 </div>
-                <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+                <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
               </div>
               <div class="d-flex flex py-1 gap-4 mx-4  align-items-start">
                 <img src="https://placehold.co/25" class="">
@@ -305,7 +305,7 @@
                 ">EV & Battery Quarterly Outlook</p>
                     <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
                   </div>
-                  <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+                  <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
                 </div>
 
               </div>
@@ -334,7 +334,7 @@
                 ">EV & Battery Quarterly Outlook</p>
                     <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
                   </div>
-                  <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+                  <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
                 </div>
 
               </div>
@@ -363,7 +363,7 @@
                 ">EV & Battery Quarterly Outlook</p>
                     <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
                   </div>
-                  <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+                  <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
                 </div>
 
               </div>
@@ -976,7 +976,7 @@
     <div class="container-xxl">
       <div class="row">
         <div class="col-md-6 col-lg-6 mb-4 mb-md-0">
-          <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/logo-sky-blue-1.ebb1bf.svg" alt="Logo" class="logo mb-4">
+          <img src="<?= base_url('assets/images/final-logo-ecosystem-white.png') ?>" alt="Logo" class="logo mb-4 w-25 h-20">
           <div class="contact-info">
             <p>Second Floor, Randall House<br>6 Dowgate Hill<br>London EC4R 2SU</p>
             <p>+44 (0) 203 988 7648<br><a href="mailto:info@rhomotion.com">info@rhomotion.com</a></p>
@@ -1025,7 +1025,7 @@
 
 
   <script>
-   document.getElementById('btn-solar').addEventListener('click', function() {
+    document.getElementById('btn-solar').addEventListener('click', function() {
       showContent('content-solar');
 
     });
@@ -1117,9 +1117,9 @@
     }
   </script>
   <script>
-  
+
   </script>
-   <script src= "<?= base_url('assets/js/footer.js') ?>"></script>
+  <script src="<?= base_url('assets/js/footer.js') ?>"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>

@@ -9,10 +9,20 @@
 
   <link rel="stylesheet" href="<?= base_url('assets/fonts/fonts.css') ?>" />
   <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>" />
-  
-  
+
+
   <style>
-    
+    .card-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255, 255, 255, 0.6);
+      /* White with 60% opacity */
+      z-index: 1;
+    }
+
     .hero-section {
       display: flex;
       flex-wrap: wrap;
@@ -81,7 +91,7 @@
   </nav>
 
   <!-- Hero Section -->
-  <div class="p-4 overflow-hidden hero  container-xxl">
+  <div class="overflow-hidden hero  container-xxl">
     <div class="hero-section py-1" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; align-items: end;">
       <div class="text-container" style="flex: 1 1 45%; padding: 10px; max-width: 45%;">
         <p class="fs-40 fw-bold display-6">
@@ -95,7 +105,7 @@
 
     <div class="d-flex flex-column flex-md-row gap-3 mt-1 py-3">
       <!-- card1 -->
-      <a href="/consultancy" class="card overflow-hidden w-100  ">
+      <a href="<?= base_url("reports") ?>" class="card overflow-hidden w-100  ">
         <div class="card-body position-relative py-4 px-3">
           <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/v1702337706/assets/home/ymfa0talxlppyy682pqp.svg" class="d-none d-lg-block" alt="" />
           <h2 class="card-title d-flex justify-content-between align-items-center">
@@ -139,7 +149,7 @@
         </div>
       </a>
       <!-- card3 -->
-      <a href="<?= base_url('event') ?>"class="card overflow-hidden w-100  ">
+      <a href="<?= base_url('event') ?>" class="card overflow-hidden w-100  ">
         <div class="card-body position-relative py-4 px-3">
           <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/v1702337706/assets/home/ymfa0talxlppyy682pqp.svg" class="d-none d-lg-block" alt="" />
           <h2 class="card-title d-flex justify-content-between align-items-center">
@@ -235,7 +245,7 @@
           </div>
 
 
-          
+
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingFive">
               <button class="accordion-button border-top  collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
@@ -267,7 +277,7 @@
         </div>
         <a href="<?= base_url('reports') ?>" class="btn btn-primary see-more   btn-lg mt-3">See Our Eco System Reports</a>
       </div>
-      <div class="col-md-6 d-none d-lg-block " >
+      <div class="col-md-6 d-none d-lg-block ">
         <div class="illustration">
           <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/v1702260914/assets/home/rheuih0ro6to7vjvznbq.svg" alt="Research Illustration" class="
           " />
@@ -395,7 +405,9 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-lg-6 mb-4 mb-md-0">
-          <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/logo-sky-blue-1.ebb1bf.svg" alt="Logo" class="logo mb-4">
+          <div style="">
+          <img src="<?= base_url('assets/images/final-logo-ecosystem-white.png') ?>"  alt="Logo" class="logo mb-4 w-25 h-50">
+          </div>
           <div class="contact-info">
             <p>Second Floor, Randall House<br>6 Dowgate Hill<br>London EC4R 2SU</p>
             <p>+44 (0) 203 988 7648<br><a href="mailto:info@rhomotion.com">info@rhomotion.com</a></p>
@@ -443,11 +455,11 @@
 
 
   <!--  -->
-  "<?= base_url('assets/js/footer.js') ?>"
- 
 
 
-<script src= "<?= base_url('assets/js/footer.js') ?>"></script>
+
+
+  <script src="<?= base_url('assets/js/footer.js') ?>"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 </body>
 
