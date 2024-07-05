@@ -15,36 +15,6 @@
             border-color: #563d7c #563d7c #fff;
             color: #563d7c;
         }
-
-        .event-card {
-            background-color: #f8f9fa;
-            border: none;
-            margin-bottom: 1.5rem;
-        }
-
-        .event-card img {
-            height: 100%;
-            object-fit: cover;
-        }
-
-        .event-card .card-body {
-            padding: 1.25rem;
-        }
-
-        .event-date {
-            font-weight: bold;
-            font-size: 1.2rem;
-        }
-
-        .event-title {
-            font-size: 1.5rem;
-            font-weight: bold;
-        }
-
-        .event-description {
-            font-size: 1rem;
-            color: #6c757d;
-        }
     </style>
 
 </head>
@@ -54,7 +24,7 @@
     <nav class="navbar navbar-expand-md bg-white py-4">
         <div class="container">
             <a class="navbar-brand " href="<?= base_url('/') ?>">
-                <!-- <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/logo-dark-purple.742caa.svg" alt="Logo" /> -->
+
 
                 <img src="<?= base_url('assets/images/final-logo-ecosystem.png') ?>" class="w-100 h-80" alt="home-page-banner">
             </a>
@@ -97,7 +67,7 @@
                 </div>
                 <div class="col-md-6 order-md-1 d-flex flex-column justify-content-center">
                     <div class="text-start text-md-start">
-                        <h1 class="event-banner-text-h4 mb-3 text-primary fw-bold py-2">RHO MOTION EVENTS</h1>
+                        <h1 class="event-banner-text-h4 mb-3  fw-bold py-2">ENINRAC'S EVENTS</h1>
                         <p class="mb-3 lead display-5">Connecting you with key players across the energy transition</p>
                         <p class="mb-4 py-2 fs-20">Rho Motion events are a forum for learning, discussion and collaboration. They offer outstanding opportunities for networking and market insights into the challenges and opportunities facing the sector.</p>
                         <a class="btn btn-primary py-2" href="#eventTabsContent">See full event list</a>
@@ -134,7 +104,7 @@
                 <div class="tab-pane fade show active" id="all-events" role="tabpanel" aria-labelledby="all-events-tab">
                     <div class="row">
                         <div class="col-12 col-md-12 mb-3">
-                            <div class="card shadow-sm mb-4">
+                            <div class="event-card shadow-sm mb-4">
                                 <div class="card-body p-0">
                                     <iframe height="380" src="https://www.youtube.com/embed/YEnU2DS-dS0?si=8MUocTob37JPQHtb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="w-100 rounded-top"></iframe>
                                     <div class="p-3">
@@ -145,7 +115,7 @@
                         </div>
 
                         <div class="col-12 col-md-12 mb-3">
-                            <div class="card shadow-sm mb-4">
+                            <div class="event-card shadow-sm mb-4">
                                 <div class="card-body p-0">
                                     <iframe height="380" src="https://www.youtube.com/embed/q4FQKM8bsbI?si=i4Dm38Z4roHk7vN9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="w-100 rounded-top"></iframe>
                                     <div class="p-3">
@@ -156,7 +126,7 @@
                         </div>
 
                         <div class="col-12 col-md-12 mb-3">
-                            <div class="card shadow-sm mb-4">
+                            <div class="event-card shadow-sm mb-4">
                                 <div class="card-body p-0">
                                     <iframe height="380" src="https://www.youtube.com/embed/zNWpX_xtunY?si=vI3dSs6iogE52w_Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="w-100 rounded-top"></iframe>
                                     <div class="p-3">
@@ -166,8 +136,8 @@
                             </div>
                         </div>
                         <div class="col-12 col-md-12 mb-3">
-                            <div class="card shadow-sm mb-4">
-                                <div class="card-body p-0">
+                            <div class="event-card shadow-sm mb-4">
+                                <div class="event-card-body p-0">
                                     <iframe height="380" src="https://www.youtube.com/embed/YnEAe0SHVPQ?si=zh4nG_nf5oUp23GQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" style="width: 100%;"></iframe>
                                     <div class="p-3">
                                         <h4 class="card-title mb-0">Views on the key takeaways from that for the other states to come up with a solar city project.</h4>
@@ -182,7 +152,7 @@
                 <div class="tab-pane fade" id="live-events" role="tabpanel" aria-labelledby="live-events-tab">
                     <div class="row">
                         <div class="col-12 col-md-12 mb-3">
-                            <div class="card shadow-sm mb-4">
+                            <div class="event-card shadow-sm mb-4">
                                 <div class="card-body p-0">
                                     <iframe height="315" src="https://www.youtube.com/embed/GtV8Ek1mLWU?si=uDQn8UGc52xnX1Rk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" style="width: 100%;"></iframe>
                                     <div class="p-3">
@@ -198,7 +168,7 @@
                 <div class="tab-pane fade" id="webinars" role="tabpanel" aria-labelledby="webinars-tab">
                     <div class="row">
                         <div class="col-12 col-md-12 mb-3">
-                            <div class="card shadow-sm mb-4">
+                            <div class="event-card shadow-sm mb-4">
                                 <div class="card-body p-0">
                                     <iframe height="380" src="https://www.youtube.com/embed/YEnU2DS-dS0?si=8MUocTob37JPQHtb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="w-100 rounded-top"></iframe>
                                     <div class="p-3">
@@ -214,7 +184,7 @@
                 <div class="tab-pane fade" id="past-events" role="tabpanel" aria-labelledby="past-events-tab">
                     <div class="row">
                         <div class="col-12 col-md-12 mb-3">
-                            <div class="card shadow-sm mb-4">
+                            <div class="event-card shadow-sm mb-4">
                                 <div class="card-body p-0">
                                     <iframe height="380" src="https://www.youtube.com/embed/JT5fJH_FZa0?si=F5Ru2gqVfPirYmex" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" style="width: 100%;"></iframe>
                                     <div class="p-3">
@@ -236,7 +206,7 @@
 
     <!-- recent speakers -->
 
-    <section class="px-5 pb-5 bg-light">
+    <section class="p-4 bg-light">
         <div class="container text-center">
             <h2 class="mb-4 py-4 fw-bold ">Recent speakers</h2>
             <div class="m-auto pb-5 position-relative" style="max-width: 900px;">
@@ -252,8 +222,8 @@
     </section>
 
     <!-- Speak at our events -->
-    <section class="relative px-5 bg-lilac">
-        <div class="container mx-auto max-w-content-container d-md-flex align-items-lg-center pb-5 pb-md-5 pt-5 pt-md-5 ">
+    <section class="relative px-4 ">
+        <div class="container-xxl mx-auto max-w-content-container d-md-flex align-items-lg-center pb-5 pb-md-5 pt-5 pt-md-5 ">
 
             <div class="col-md-6 d-flex justify-content-center mt-5 mt-md-0">
                 <picture>
@@ -312,61 +282,62 @@
     <!-- footer -->
 
     <footer class="footer text-center text-md-start z-1">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 col-lg-6 mb-4 mb-md-0">
-          <div style="">
-            <img src="<?= base_url('assets/images/final-logo-ecosystem-white.png') ?>" alt="Logo" class="logo mb-4 w-25 h-50">
-          </div>
-          <div class="contact-info">
-            <p>Eninrac Consulting Private Limited<br>2nd Floor, B-130, B-Block<br>Sector 65, Noida - 201301</p>
-            <p>(+91) 9319048963, (+91) 9319047963<br><a href="mailto:info@rhomotion.com">connect@eninrac.com</a></p>
-          </div>
-          <div class="social-icons mt-4">
-            <a href="https://www.linkedin.com/in/eninrac-consulting-88641719b/" target="_blank" rel="noreferrer">
-              <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-linkedin.5fd894.svg" alt="LinkedIn">
-            </a>
-            <a href="https://x.com/i/flow/login?redirect_after_login=%2Feninrac" target="_blank" rel="noreferrer">
-              <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-x.290b8c.svg" alt="Twitter">
-            </a>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-6">
-          <div class="row">
-            <div class="col-6">
-              <div class="nav-links">
-                <a href="<?= base_url('reports') ?>" class="d-block" id="reports">Eco System Reports</a>
-                <a href="<?= base_url('custom_page') ?>" class="d-block" id="custom_page">Custom Requirements</a>
-                <a href="<?= base_url('event') ?>" class="d-block" id="event">Surveys & VoC</a>
-                <a href="<?= base_url('contact_us') ?>" class="d-block">About us</a>
-              </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-6 mb-4 mb-md-0">
+                    <div style="">
+                        <img src="<?= base_url('assets/images/final-logo-ecosystem-white.png') ?>" alt="Logo" class="logo mb-4 w-25 h-50">
+                    </div>
+                    <div class="contact-info">
+                        <p>Eninrac Consulting Private Limited<br>2nd Floor, B-130, B-Block<br>Sector 65, Noida - 201301</p>
+                        <p>(+91) 9319048963, (+91) 9319047963<br><a href="mailto:info@rhomotion.com">connect@eninrac.com</a></p>
+                    </div>
+                    <div class="social-icons mt-4">
+                        <a href="https://www.linkedin.com/in/eninrac-consulting-88641719b/" target="_blank" rel="noreferrer">
+                            <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-linkedin.5fd894.svg" alt="LinkedIn">
+                        </a>
+                        <a href="https://x.com/i/flow/login?redirect_after_login=%2Feninrac" target="_blank" rel="noreferrer">
+                            <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-x.290b8c.svg" alt="Twitter">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="nav-links">
+                                <a href="<?= base_url('reports') ?>" class="d-block" id="reports">Eco System Reports</a>
+                                <a href="<?= base_url('custom_page') ?>" class="d-block" id="custom_page">Custom Requirements</a>
+                                <a href="<?= base_url('event') ?>" class="d-block" id="event">Surveys & VoC</a>
+                                <a href="<?= base_url('contact_us') ?>" class="d-block">About us</a>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="nav-links">
+                                <a href="/magazine" class="d-block">Magazine</a>
+                                <a href="https://einfews.energyinfra.market/" class="d-block">News</a>
+                                <a href=" https://eninrac.com/careers" class="d-block">Careers</a>
+                                <a href="<?= base_url("contact_us") ?>" class="d-block">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-6">
-              <div class="nav-links">
-                <a href="/magazine" class="d-block">Magazine</a>
-                <a href="https://einfews.energyinfra.market/" class="d-block">News</a>
-                <a href=" https://eninrac.com/careers"  class="d-block">Careers</a>
-                <a href="<?= base_url("contact_us") ?>" class="d-block">Contact Us</a>
-              </div>
+            <div class="row mt-4">
+                <div class="col-md-6 text-md-start">
+                    <p class="copyright">&copy; 2024 Eninrac. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="privacy"><a href="">Privacy Policy</a> • <a href="">Terms & Conditions</a></p>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-      <div class="row mt-4">
-        <div class="col-md-6 text-md-start">
-          <p class="copyright">&copy; 2024 Eninrac. All rights reserved.</p>
-        </div>
-        <div class="col-md-6 text-md-end">
-          <p class="privacy"><a href="">Privacy Policy</a> • <a href="">Terms & Conditions</a></p>
-        </div>
-      </div>
-    </div>
-  </footer>
+    </footer>
 
 
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="<?= base_url('assets/js/footer.js') ?>"></script>
 </body>
 
 </html>

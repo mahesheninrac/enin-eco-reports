@@ -262,11 +262,11 @@
                                 <label for="phone" class="form-label">Phone number <span class="text-danger">*</span></label>
                                 <div class="input-group">
                                     <span class="input-group-text">+91</span>
-                                    <input type="tel" id="phone" name="phone" class="form-control" placeholder="2290 0238376" required>
+                                    <input type="tel" id="phone" name="phone" class="form-control" placeholder="XXXXXXXXXX" required>
                                 </div>
                             </div>
 
-                            <button type="submit" class="btn btn-primary px-2 py-2">Register interest</button>
+                            <button type="submit" class="btn btn-primary px-2 py-2">Request Demo</button>
                             <p class="py-4 fs-14">By submitting this form, you agree to Eninrac’s <u>privacy policy</u>.</p>
                         </form>
                     </div>
@@ -278,34 +278,40 @@
 
     <!-- related products -->
 
-    <section class="bg-primary-300 px-1">
-        <h1 class="h3 fw-bold py-4">Related Products</h1>
+    <section class="bg-primary-300 px-1 py-4">
+        <h1 class="h3 fw-bold py-4 mx-1">Related Products</h1>
 
         <div class="container-xxl d-flex flex-wrap gap-2  py-2 justify-content-between">
-            <div class="" style="width: 15rem;">
-                <img class="card-img-top rounded-lg" src="https://placehold.co/60" alt="Card image cap">
+            <div class="" style="width: 12rem;">
+                <img class="card-img-top rounded-lg" src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ipad_frame_2.373b58.png" alt="Card image cap">
                 <div class="border-0 py-4 text-start">
-                    <p class="card-text fw-bold mx-2">Some quick example text</p>
+                    <p class="card-text fw-bold ">Some quick example text</p>
                 </div>
             </div>
-            <div class="" style="width: 15rem;">
-                <img class="card-img-top rounded-lg" src="https://placehold.co/60" alt="Card image cap">
+            <div class="" style="width: 12rem;">
+                <img class="card-img-top rounded-lg" src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ipad_frame_2.373b58.png" alt="Card image cap">
                 <div class="border-0 py-4 text-start">
-                    <p class="card-text fw-bold mx-2">Some quick example text</p>
+                    <p class="card-text fw-bold ">Some quick example text</p>
                 </div>
             </div>
-            <div class="" style="width: 15rem;">
-                <img class="card-img-top rounded-lg" src="https://placehold.co/60" alt="Card image cap">
+            <div class="" style="width: 12rem;">
+                <img class="card-img-top rounded-lg" src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ipad_frame_2.373b58.png" alt="Card image cap">
                 <div class="border-0 py-4 text-start">
-                    <p class="card-text fw-bold mx-2">Some quick example text</p>
+                    <p class="card-text fw-bold ">Some quick example text</p>
                 </div>
             </div>
-            <div class="" style="width: 15rem;">
-                <img class="card-img-top rounded-lg" src="https://placehold.co/60" alt="Card image cap">
+            <div class="" style="width: 12rem;">
+                <img class="card-img-top rounded-lg" src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ipad_frame_2.373b58.png" alt="Card image cap">
                 <div class="border-0 py-4 text-start">
-                    <p class="card-text fw-bold mx-2">Some quick example text</p>
+                    <p class="card-text fw-bold ">Some quick example text</p>
                 </div>
             </div>
+            <!-- <div class="" style="width: 15rem;">
+                <img class="card-img-top rounded-lg" src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ipad_frame_2.373b58.png" alt="Card image cap">
+                <div class="border-0 py-4 text-start">
+                    <p class="card-text fw-bold ">Some quick example text</p>
+                </div>
+            </div> -->
 
         </div>
 

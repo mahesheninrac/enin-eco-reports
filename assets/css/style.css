@@ -616,6 +616,7 @@ button.accordion-button:focus {
   background: url("https://res.cloudinary.com/dkklqdsqc/image/upload/q_auto,f_auto/v1701786599/assets/consultancy/consulting-meeting_lsslmp_eioxbp.webp")
     no-repeat center center;
   background-size: cover;
+  height: 600px;
 }
 
 .custom-about-overlay {
@@ -795,22 +796,34 @@ button.accordion-button:focus {
 /*  example work*/
 
 .case-study {
-  background-color: #e0e7ff;
-  padding: 20px;
-  border-radius: 10px;
+  border: 1px solid black;
+  padding: 3rem 3rem;
+  border-radius: 20px;
   text-align: left;
 }
 
 .case-study h5 {
-  color: #6c63ff;
+  color: var(--primary-800)
 }
-
+.case-study h6 {
+  font-weight: bold;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #000000;
+}
+.case-study p {
+  line-height: 130%;
+  font-size: 18px;
+  max-width: 250px;
+}
 /* process */
 
 .process .card {
   background-color: var(--primary-200);
   color: #000000;
-  padding: 1.88rem;
+  --bs-card-title-spacer-y: .1rem;
+  padding: .5rem;
+  
 }
 
 .process .card-title {
@@ -821,6 +834,7 @@ button.accordion-button:focus {
 
 .process .card:hover {
   background-color: var(--darklight-100);
+  opacity: 0.8;
 }
 
 /* contact-form */
@@ -836,6 +850,40 @@ button.accordion-button:focus {
 }
 
 /* event-page */
+
+.event-card {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 1.5rem;
+} 
+
+.event-card img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.event-card .card-body {
+  padding: 1.25rem;
+}
+
+
+.event-date {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.event-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.event-description {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+
 
 /* banner-section */
 

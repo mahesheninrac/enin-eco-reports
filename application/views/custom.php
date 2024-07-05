@@ -16,7 +16,7 @@
 <body>
 
 
-<nav class="navbar navbar-expand-md bg-white py-4">
+  <nav class="navbar navbar-expand-md bg-white py-4">
     <div class="container">
       <a class="navbar-brand " href="<?= base_url('/') ?>">
         <!-- <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/logo-dark-purple.742caa.svg" alt="Logo" /> -->
@@ -63,16 +63,23 @@
 
 
   <!-- our services -->
-  <section class="custom-section bg-sky-blue-5 py-5">
-    <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/v1702261345/assets/consultancy/kn5enxfwlgnjjjep4wtz.svg" class="custom-image" alt="Background Image">
-   
-    <div class="container content-container">
+  <section class="custom-section bg-sky-blue-5 ">
+
+    <div class="container-xxl content-container">
       <div class="row justify-content-end">
-        <div class="col-md-6 py-5">
-          <h2 class="text-uppercase text-bright-purple fw-bold mb-3">Our Services</h2>
-          <p class="h2 fw-medium mb-4">Unparalleled experience, unique insight and unmatched data</p>
-          <p class="lead">We provide commercial and vendor due diligence across the energy transition. From gigafactories to recycling, our dynamic and informed team can support the process.</p>
+        <div class="col-md-6 ">
+          <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/v1702261345/assets/consultancy/kn5enxfwlgnjjjep4wtz.svg" class="" alt="Background Image">
+
         </div>
+        <div class="col-md-6 py-5 d-flex flex-column justify-content-center ">
+
+          <div class="d-flex flex-column justify-content-center">
+            <h2 class="text-uppercase text-bright-purple fw-bold mb-3">Our Services</h2>
+            <p class="h2 fw-medium mb-4">Unparalleled experience, unique insight and unmatched data</p>
+            <p class="lead">We provide commercial and vendor due diligence across the energy transition. From gigafactories to recycling, our dynamic and informed team can support the process.</p>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
@@ -80,7 +87,7 @@
   <!-- custom-about -->
   <section class="custom-about-section">
     <div class="custom-about-overlay d-none d-md-block"></div>
-    <div class="container custom-about-content-container text-start">
+    <div class="container-xxl custom-about-content-container text-start">
       <div class="row">
         <div class="col-md-6">
           <h2 class="display-5 fw-medium">Independent, tailored advice for financial organisations involved in the energy transition</h2>
@@ -132,6 +139,9 @@
             <i class="icofont-ui-play"></i>
           </button>
           <div class="video-section-modal" id="videoModal">
+            <button class="video-section-close-button" id="closeButton">
+              <img class="https://placehold.co/400" alt="Close">
+            </button>
             <div class="video-section-modal-content">
               <div class="video-section-video">
                 <!-- Video  -->
@@ -152,7 +162,7 @@
 
 
   <section class="process bg-primary-300">
-    <div class="container py-4">
+    <div class="container-xxl py-4">
 
       <div class="row">
         <h2 class="fw-bold ">OUR PROCESS</h2>
@@ -164,49 +174,67 @@
           <div class="row row-cols-1 row-cols-md-2 g-4">
             <div class="col">
               <div class="card h-70">
-                <div class="card-body">
-                  <h5 class="card-title">Determine Suitable Companies</h5>
-                  <p class="card-text">We use qualitative and semi-quantitative decision criteria to determine suitable companies for review.</p>
+                <div class="card-body d-flex flex gap-4">
+                  <i class="icofont-arrow-right fs-30"></i>
+                  <div>
+                    <h5 class="card-title ">Determine Suitable Companies</h5>
+                    <p class="card-text">We use qualitative and semi-quantitative decision criteria to determine suitable companies for review.</p>
+                  </div>
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card h-70">
-                <div class="card-body">
-                  <h5 class="card-title">Determine Suitable Companies</h5>
-                  <p class="card-text">We use qualitative and semi-quantitative decision criteria to determine suitable companies for review.</p>
+                <div class="card-body d-flex flex gap-4">
+                  <i class="icofont-arrow-right fs-30"></i>
+                  <div>
+                    <h5 class="card-title">Determine Suitable Companies</h5>
+                    <p class="card-text">We use qualitative and semi-quantitative decision criteria to determine suitable companies for review.</p>
+                  </div>
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card h-70">
-                <div class="card-body">
-                  <h5 class="card-title">Key Trend Analysis</h5>
-                  <p class="card-text">We provide in-depth analysis on the key trends that drive decisions and investments across the LiB value chain.</p>
+                <div class="card-body d-flex flex gap-4">
+                  <i class="icofont-arrow-right fs-30"></i>
+                  <div>
+                    <h5 class="card-title">Determine Suitable Companies</h5>
+                    <p class="card-text">We use qualitative and semi-quantitative decision criteria to determine suitable companies for review.</p>
+                  </div>
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card h-70">
-                <div class="card-body">
-                  <h5 class="card-title">Segmenting the Data</h5>
-                  <p class="card-text">Our data is segmented in order to identify key trends, so we can size up various opportunities and challenges.</p>
+                <div class="card-body d-flex flex gap-4">
+                  <i class="icofont-arrow-right fs-30"></i>
+                  <div>
+                    <h5 class="card-title">Determine Suitable Companies</h5>
+                    <p class="card-text">We use qualitative and semi-quantitative decision criteria to determine suitable companies for review.</p>
+                  </div>
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card h-70">
-                <div class="card-body">
-                  <h5 class="card-title">Map Out Competitive Landscape</h5>
-                  <p class="card-text">We provide detailed insights into the lithium-ion battery value chain in order to map out the competitive landscape.</p>
+                <div class="card-body d-flex flex gap-4">
+                  <i class="icofont-arrow-right fs-30"></i>
+                  <div>
+                    <h5 class="card-title">Determine Suitable Companies</h5>
+                    <p class="card-text">We use qualitative and semi-quantitative decision criteria to determine suitable companies for review.</p>
+                  </div>
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card h-70">
-                <div class="card-body">
-                  <h5 class="card-title">Explore Competitive Rivalry</h5>
-                  <p class="card-text">We explore the degree of competitive rivalry and the relationship between buyers and suppliers.</p>
+                <div class="card-body d-flex flex gap-4">
+                  <i class="icofont-arrow-right fs-30"></i>
+                  <div>
+                    <h5 class="card-title">Determine Suitable Companies</h5>
+                    <p class="card-text">We use qualitative and semi-quantitative decision criteria to determine suitable companies for review.</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -218,17 +246,19 @@
 
 
 
-  <section class="example-work bg-primary-300 mt-0">
+  <section class="example-work bg-primary-200 mt-0">
 
-    <div class="container py-5">
-      <h3 class="text-center">EXAMPLES OF OUR WORK</h3>
-      <p class="text-center">Our consultancy experience spans finance raising, market entry and strategic advisory</p>
+    <div class="container-xxl py-5">
+      <div class="text-center d-flex flex-column  ">
+        <h3 class=" fw-bold fs-22 text-primary">EXAMPLES OF OUR WORK</h3>
+        <p class=" fs-30 " style="max-width: 42rem; align-self: center;">Our consultancy experience spans finance raising, market entry and strategic advisory</p>
+      </div>
       <div class="row py-4">
         <div class="col-md-4 mb-4">
           <div class="case-study ">
             <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/case-study-icons/case-study-01.98b84c.svg" class="py-4" alt="">
             <h5 class="">CASE STUDY 1</h5>
-            <h6 class="fw-bold py-2">Next-generation battery technologies</h6>
+            <h6 class="py-2">Next-generation battery technologies</h6>
             <p>We provided bottom-up cost models for the next-generation anode, cathode and electrolyte innovations for lithium-ion and sodium-ion batteries as a basis for future strategy and investment decisions on behalf of a major public body.</p>
           </div>
         </div>
@@ -236,7 +266,7 @@
           <div class="case-study ">
             <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/case-study-icons/case-study-01.98b84c.svg" class="py-4" alt="">
             <h5 class="">CASE STUDY 1</h5>
-            <h6 class="fw-bold py-2">Next-generation battery technologies</h6>
+            <h6 class=" py-2">Next-generation battery technologies</h6>
             <p>We provided bottom-up cost models for the next-generation anode, cathode and electrolyte innovations for lithium-ion and sodium-ion batteries as a basis for future strategy and investment decisions on behalf of a major public body.</p>
           </div>
         </div>
@@ -244,7 +274,7 @@
           <div class="case-study ">
             <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/case-study-icons/case-study-01.98b84c.svg" class="py-4" alt="">
             <h5 class="">CASE STUDY 1</h5>
-            <h6 class="fw-bold py-2">Next-generation battery technologies</h6>
+            <h6 class=" py-2">Next-generation battery technologies</h6>
             <p>We provided bottom-up cost models for the next-generation anode, cathode and electrolyte innovations for lithium-ion and sodium-ion batteries as a basis for future strategy and investment decisions on behalf of a major public body.</p>
           </div>
         </div>
@@ -286,12 +316,6 @@
   <!-- get in touch form -->
 
 
-
-
-  <!--  -->
-
-
-
   <section>
     <div class="con-wrapper">
       <div class="container-xxl">
@@ -307,7 +331,7 @@
               <h2 class="text-uppercase fw-semibold text-bright-purple text-sky-blue-4-md mb-2">Consultancy Team</h2>
               <p class="fs-5 fs-4-md fw-semibold mb-4">Independent, tailored advice for your business</p>
               <p class="mb-4">Our consultancy team brings a breadth of industry experience across the EV value chain and wider energy mix; from raw materials extraction through anode, cathode and battery cell technologies, charging, BESS, and battery recycling.</p>
-              <p>To speak to our team about your consultancy project, call us on +44 (0) 203 988 7648, or email info@rhomotion.com</p>
+              <p>To speak to our team about your consultancy project, call us on connect@eninrac.com, or email connect@eninrac.com</p>
             </div>
           </div>
           <!-- Right Column -->
@@ -333,26 +357,13 @@
                 <div class="mb-3">
                   <label for="phone" class="form-label">Phone number <span class="text-danger">*</span></label>
                   <div class="input-group">
-                    <span class="input-group-text">+123</span>
-                    <input type="tel" id="phone" name="phone" class="form-control" placeholder="2290 0238376" required>
+                    <span class="input-group-text">+91</span>
+                    <input type="tel" id="phone" name="phone" class="form-control" placeholder="XXXXXXXXXXX" required>
                   </div>
                 </div>
-                <!-- <div class="row">
-                  <div class="col-md-6 mb-3">
-                    <label for="jobTitle" class="form-label">Job title</label>
-                    <input type="text" id="jobTitle" name="jobTitle" class="form-control" placeholder="Job">
-                  </div>
-                  <div class="col-md-6 mb-3">
-                    <label for="companyName" class="form-label">Company Name <span class="text-danger">*</span></label>
-                    <input type="text" id="companyName" name="companyName" class="form-control" placeholder="Your company name" required>
-                  </div>
-                </div>
-                <div class="mb-3">
-                  <label for="industry" class="form-label">Industry</label>
-                  <input type="text" id="industry" name="industry" class="form-control" placeholder="Industry">
-                </div> -->
+
                 <button type="submit" class="btn btn-primary">Register interest</button>
-                <p class="py-4">By submitting this form, you agree to Rho Motion’s privacy policy.</p>
+                <p class="py-4">By submitting this form, you agree to Eninrac's privacy policy.</p>
               </form>
             </div>
           </div>
@@ -364,10 +375,10 @@
 
 
   <footer class="footer text-center text-md-start z-1">
-    <div class="container">
+    <div class="container-xxl">
       <div class="row">
         <div class="col-md-6 col-lg-6 mb-4 mb-md-0">
-          <div style="">
+          <div>
             <img src="<?= base_url('assets/images/final-logo-ecosystem-white.png') ?>" alt="Logo" class="logo mb-4 w-25 h-50">
           </div>
           <div class="contact-info">
@@ -397,7 +408,7 @@
               <div class="nav-links">
                 <a href="/magazine" class="d-block">Magazine</a>
                 <a href="https://einfews.energyinfra.market/" class="d-block">News</a>
-                <a href=" https://eninrac.com/careers"  class="d-block">Careers</a>
+                <a href=" https://eninrac.com/careers" class="d-block">Careers</a>
                 <a href="<?= base_url("contact_us") ?>" class="d-block">Contact Us</a>
               </div>
             </div>
@@ -422,15 +433,18 @@
 
 
   <!-- script for play/pause -->
-  <!-- <script>
+
+
+
+  <script>
     document.getElementById('playButton').addEventListener('click', function() {
       document.getElementById('videoModal').style.display = 'flex';
     });
     document.getElementById('closeButton').addEventListener('click', function() {
       document.getElementById('videoModal').style.display = 'none';
     });
-  </script> -->
-  <script src= "<?= base_url('assets/js/footer.js') ?>"></script>
+  </script>
+  <script src="<?= base_url('assets/js/footer.js') ?>"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 
 

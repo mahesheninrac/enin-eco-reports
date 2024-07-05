@@ -115,7 +115,10 @@
     }
 
 
-    .report-types {}
+    .product-ribbon-svg {
+      height: 25px;
+      width: 25px;
+    }
   </style>
 
 </head>
@@ -167,37 +170,44 @@
 
 
   <!-- testing ribbon -->
-  <div class="container p-4 pointer">
+  <div class="container-xxl  text-center p-4 pointer">
+    <div class="ribbon-note pb-4">
+      <span class="fw-bold">Click Icons to Know More...</span>
+    </div>
 
-    <ul class="vb-res list-style-none d-flex p-0 width-500 justify-content-around m-auto">
-      <li id="btn-solar">
-        <div class="text-center ">
-          <img src="https://placehold.co/25" class="">
-          <p class="text-center fs-14 c-light-gray mt-2">Solar</p>
-        </div>
+    <div class="ribbon-content">
+      <ul class="vb-res list-style-none d-flex p-0 width-500 justify-content-around m-auto">
+        <li id="btn-solar ">
+          <div class="text-center ">
+            <img src="<?= base_url('assets/images/solar-line.svg') ?>" class="product-ribbon-svg">
+            <p class="text-center fs-14 c-light-gray mt-2">Solar</p>
+          </div>
 
-      </li>
-      <li id="btn-wind">
-        <div class="text-center">
-          <img src="https://placehold.co/25" class="">
-          <p class="text-center fs-14 c-light-gray mt-2">Wind</p>
-        </div>
+        </li>
+        <li id="btn-wind ">
+          <div class="text-center">
+            <img src="<?= base_url('assets/images/oa-line.svg') ?>" class="product-ribbon-svg">
+            <p class="text-center fs-14 c-light-gray mt-2">Wind</p>
+          </div>
 
-      </li>
-      <li id="btn-coal">
-        <div class="text-center">
-          <img src="https://placehold.co/25" class="">
-          <p class="text-center fs-14 c-light-gray mt-2">Coal</p>
-        </div>
-      </li>
-      <li id="btn-hydro">
-        <div class="text-center">
-          <img src="https://placehold.co/25" class="">
-          <p class="text-center fs-14 c-light-gray mt-2">Hydrogen</p>
-        </div>
-      </li>
+        </li>
+        <li id="btn-coal ">
+          <div class="text-center">
+            <img src="<?= base_url('assets/images/ev-line.svg') ?>" class="product-ribbon-svg">
+            <p class="text-center fs-14 c-light-gray mt-2">Coal</p>
+          </div>
+        </li>
+        <li id="btn-hydro ">
+          <div class="text-center ">
+            <img src="<?= base_url('assets/images/solar-line.svg') ?>" class="product-ribbon-svg">
+            <p class="text-center fs-14 c-light-gray mt-2">Hydrogen</p>
+          </div>
+        </li>
 
-    </ul>
+      </ul>
+    </div>
+
+
   </div>
 
   <!-- <div class="row mb-4 tab-ribbon mx-2 py-3">
@@ -220,7 +230,7 @@
 
   <div class="main d-flex flex gap-4 ">
     <div class="  py-1">
-      <ul class=" fw-normal text-start d-flex flex-column gap-4  justify-content-between " style="position: sticky; top: 0px; min-width: 300px;">
+      <ul class=" fw-normal text-start d-flex flex-column gap-4  justify-content-between " style="position: sticky; top: 0px; min-width: 300px; min-height: 100vh;">
         <li class="border-top border-bottom d-flex gap-5 py-2 side-list" target="first" id="market-sizing">
           <p class="fs-20 fw-400 v-list">Market Sizing</p>
           <div class="arrow align-items-center" id="first"><i class="icofont-arrow-right fs-30"></i></div>
@@ -1125,7 +1135,7 @@
       function getScreenPosition(element) {
         const rect = element.getBoundingClientRect();
         const screenX = rect.left + window.screenX;
-        const screenY = rect.top + window.screenY;
+        const screenY = rect.top;
         return {
           screenX,
           screenY
@@ -1136,11 +1146,11 @@
       function comparePositions() {
 
         const divs = document.querySelectorAll(".side-list");
-        
+
 
         divs.forEach(div => {
           const id = div.id;
-          
+
 
 
           const classElements = document.querySelectorAll(`.${id}`);
@@ -1149,22 +1159,26 @@
             {
               const divPosition = getScreenPosition(div);
               const classPosition = getScreenPosition(classElement);
-              
 
 
 
-              if ( classPosition.screenY===0) {
-                let attribute = classElement.getAttribute("target");
-                console.log(attribute);
-                
-                
-                showArrow(attribute)
 
-              }
+              // if (classPosition.screenY ===0) {
+              //   let attribute = div.getAttribute("target");
+              //   console.log(attribute);
+
+
+              //   showArrow(attribute)
+              //   return;
+
+
+              // }
+
 
 
             }
           });
+          return;
         });
       }
 
