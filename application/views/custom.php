@@ -128,27 +128,40 @@
 
   <section class="video-section-relative video-section-aspect-ratio d-md-flex align-items-center justify-content-center bg-sky-blue-4">
     <img class="video-section-bg-image d-none d-md-block" src="https://res.cloudinary.com/dkklqdsqc/image/upload/f_auto,q_auto/v1705339164/assets/consultancy/our-consultancy-team_mkabyo.png" alt="Consultancy Team">
-    <div class="video-section-overlay d-none d-md-block"></div>
+    <!-- <div class="video-section-overlay d-none d-md-block"></div> -->
     <div class="video-section-content container py-5">
       <div class="mx-3">
-        <h2 class="text-h3 md:text-h2 mb-1 text-sky-blue-5">Our Consultancy Team</h2>
-        <p class="text-body-text mb-4 text-sky-blue-5">How we support our clients' investment strategies</p>
+        <div class="text-start  text-white">
+          <h2 class="text-h3 md:text-h2 mb-1  fw-bold fs-36">Our Consultancy Team</h2>
+          <p class="text-body-text mb-4 fw-normal ">How we support our clients' investment strategies</p>
+        </div>
         <div class="min-h-12">
           <button class="video-section-button" id="playButton">
             Play video
             <i class="icofont-ui-play"></i>
           </button>
           <div class="video-section-modal" id="videoModal">
-            <button class="video-section-close-button" id="closeButton">
-              <img class="https://placehold.co/400" alt="Close">
-            </button>
+
             <div class="video-section-modal-content">
-              <div class="video-section-video">
+              <div class="video-section-video d-flex flex-row-reverse gap-2 ">
+
+
+                <!-- button -->
+
+                <button class="video-section-close-button" id="closeButton">
+                <i class="icofont-ui-close fs-30   text-white"></i>
+                </button>
                 <!-- Video  -->
+
+                <video width="" height="" autoplay muted controls class="object-fit-scale">
+                  <source src="<?= base_url('assets/images/dummy.mp4
+                  ') ?>" type="video/mp4">
+
+                  Your browser does not support the video tag.
+                </video>
+
               </div>
-              <button class="video-section-close-button" id="closeButton">
-                <img class="https://placehold.co/400" alt="Close">
-              </button>
+
             </div>
           </div>
         </div>
@@ -175,7 +188,7 @@
             <div class="col">
               <div class="card h-70">
                 <div class="card-body d-flex flex gap-4">
-                  <i class="icofont-arrow-right fs-30"></i>
+                  <i class="icofont-arrow-right  fs-30"></i>
                   <div>
                     <h5 class="card-title ">Determine Suitable Companies</h5>
                     <p class="card-text">We use qualitative and semi-quantitative decision criteria to determine suitable companies for review.</p>

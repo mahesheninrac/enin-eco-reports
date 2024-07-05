@@ -10,6 +10,8 @@
 
   <link rel="stylesheet" href="<?= base_url('assets/fonts/fonts.css') ?>" />
   <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>" />
+
+  
 </head>
 
 <body>
@@ -54,11 +56,6 @@
               <h2>Our offices</h2>
               <p>Eninrac Consulting Private Limited,<br> 2nd Floor B-130, B-Block<br> Sector 65, Noida - 201301, Uttar Pradesh</p>
               <p>
-
-
-
-
-
                 <a href="tel:(+91) 9319048963,">(+91) 9319048963</a><br>
                 <a href="mailto:connect@eninrac.com">connect@eninrac.com</a>
               </p>
@@ -84,7 +81,7 @@
             <div class="px-5 mx-5">
               <h2>Get in touch</h2>
               <p>Contact us to discuss our products and how they can support you.</p>
-              <form enctype="multipart/form-data" method="post">
+              <form enctype="multipart/form-data" method="post" class="contact-us-form">
                 <div class="row">
                   <div class="col-md-6 mb-3">
                     <label for="firstName" class="form-label">First Name <span class="text-danger">*</span></label>
@@ -121,7 +118,7 @@
                                     <input type="text" id="industry" name="industry" class="form-control" placeholder="Industry">
                                 </div> -->
                 <button type="submit" class="btn btn-primary px-2 py-2">Register interest</button>
-                <p class="py-4 fs-14">By submitting this form, you agree to Rho Motion’s <u>privacy policy</u>.</p>
+                <p class="py-4 fs-14">By submitting this form, you agree to Eninrac’s <u>privacy policy</u>.</p>
               </form>
             </div>
           </div>

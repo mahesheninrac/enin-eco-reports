@@ -766,16 +766,16 @@ button.accordion-button:focus {
   display: flex;
   flex-direction: column;
   align-items: end;
-  width: 100%;
+  /* width: 50%; */
   max-width: var(--bs-container-lg, 100%);
   gap: 0.75rem;
 }
 
-.video-section-video {
+/* .video-section-video {
   aspect-ratio: 16 / 9;
   width: 100%;
   background: rgba(0, 0, 0, 0.2);
-}
+} */
 
 .video-section-close-button {
   display: flex;
@@ -817,6 +817,9 @@ button.accordion-button:focus {
   max-width: 250px;
 }
 /* process */
+.icofont-arrow-right{
+  color: var(--primary-800);
+}
 
 .process .card {
   background-color: var(--primary-200);
@@ -841,12 +844,16 @@ button.accordion-button:focus {
 
 .contact-us-form a {
   color: black;
-  font-size: 20px;
+  font-size: 1.2rem;
 }
 
 .contact-us-form p {
   color: black;
-  font-size: 20px;
+  font-size: 1rem;
+}
+
+.contact-us-form input{
+  padding: .8rem;
 }
 
 /* event-page */

@@ -55,7 +55,7 @@
                     <p class="mt-4 text-start fw-70">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                         Ipsam optio quaerat voluptates nostrum libero nisi saepe. Nihil maxime ips Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, pariatur ipsam quasi cupiditate similique fugiat id voluptate aspernatur, tempora praesentium excepturi dignissimos dolorum amet consequuntur aut officiis incidunt nobis minima.</p>
                     <div>
-                        <a href="#">
+                        <a href="#demo-section">
                             <button type="button" class="btn btn-primary px-4 py-2 rounded-md mx-auto ">Request Demo</button>
                         </a>
                     </div>
@@ -113,8 +113,8 @@
             <div class="py-4 text-white">
                 <H1>Interested in a sample report?</H1>
                 <p class="w-60">Register your interest and we’ll contact you shortly to provide sample materials and arrange a demo.</p>
-                <a href="#">
-                    <button type="button" class="btn btn-primary px-4 py-2 rounded-md mx-auto ">Get Report</button>
+                <a href="<?= base_url("/reports") ?>">
+                    <button type="button" class="btn btn-primary px-4 py-2 rounded-md mx-auto ">Get Reports</button>
                 </a>
 
             </div>
@@ -202,15 +202,15 @@
         <section class="">
             <div class="container-xxl mt-5">
                 <div class="faq-section">
-                    <div class="faq-item border-top border-bottom border-dark">
+                    <div class="faq-item border-top border-dark">
                         <h3 class="faq-question">How is the report delivered? <span><i class="icofont-arrow-right"></i></span></h3>
                         <div class="faq-answer">
                             <p>The service is provided via our reports and data files, with a consolidated total battery demand file.</p>
                         </div>
                     </div>
-                    <div class="faq-item border-bottom border-dark">
-                        <h3 class="faq-question">What does the product cost? <span><i class="icofont-arrow-right"></i></span></h3>
-                        <div class="faq-answer">
+                    <div class="faq-item   border-top border-bottom border-dark">
+                        <h3 class="faq-question ">What does the product cost? <span><i class="icofont-arrow-right"></i></span></h3>
+                        <div class="faq-answer ">
                             <p>The product cost varies depending on the specifications and requirements of the client. Please contact us for detailed pricing.</p>
                         </div>
                     </div>
@@ -226,7 +226,7 @@
 
     <!-- demooo -->
 
-    <section class="position-relative  demo-section">
+    <section class="position-relative  demo-section" id="demo-section">
         <div class="container-xxl  demo-section-left
         ">
             <div class="row no-gutters ">
@@ -279,28 +279,28 @@
     <!-- related products -->
 
     <section class="bg-primary-300 px-1 py-4">
-        <h1 class="h3 fw-bold py-4 mx-1">Related Products</h1>
+        <h1 class=" py-4 mx-1 h2">Related Products</h1>
 
-        <div class="container-xxl d-flex flex-wrap gap-2  py-2 justify-content-between">
-            <div class="" style="width: 12rem;">
+        <div class="container-xxl d-flex flex-wrap gap-2  py-2 justify-content-around">
+            <div class="" style="width: 15rem;">
                 <img class="card-img-top rounded-lg" src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ipad_frame_2.373b58.png" alt="Card image cap">
                 <div class="border-0 py-4 text-start">
                     <p class="card-text fw-bold ">Some quick example text</p>
                 </div>
             </div>
-            <div class="" style="width: 12rem;">
+            <div class="" style="width: 15rem;">
                 <img class="card-img-top rounded-lg" src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ipad_frame_2.373b58.png" alt="Card image cap">
                 <div class="border-0 py-4 text-start">
                     <p class="card-text fw-bold ">Some quick example text</p>
                 </div>
             </div>
-            <div class="" style="width: 12rem;">
+            <div class="" style="width: 15rem;">
                 <img class="card-img-top rounded-lg" src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ipad_frame_2.373b58.png" alt="Card image cap">
                 <div class="border-0 py-4 text-start">
                     <p class="card-text fw-bold ">Some quick example text</p>
                 </div>
             </div>
-            <div class="" style="width: 12rem;">
+            <div class="" style="width: 15rem;">
                 <img class="card-img-top rounded-lg" src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ipad_frame_2.373b58.png" alt="Card image cap">
                 <div class="border-0 py-4 text-start">
                     <p class="card-text fw-bold ">Some quick example text</p>
