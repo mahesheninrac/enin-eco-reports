@@ -59,3 +59,4 @@ $route["login"] = 'OpenAccess/login';
 $route["event"] = 'OpenAccess/event';
 $route["reports"] = 'OpenAccess/reports';
 $route["survey"] = 'OpenAccess/survey';
+$route["membership"] = 'OpenAccess/membership';

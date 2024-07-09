@@ -46,7 +46,7 @@
 
 
     <section>
-        <div class="container-fluid">
+        <div class="container-xxl">
             <div class="row min-vh-100">
                 <div class="col-md-6 bg-light-gray d-flex flex-column justify-content-center pb-3 bg-primary-300">
                     <div class="mx-auto w-100" style="max-width: 26.62rem;">

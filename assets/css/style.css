@@ -855,6 +855,15 @@ button.accordion-button:focus {
 .contact-us-form input{
   padding: .8rem;
 }
+.contact-us-left {
+  padding: 8rem 1rem;
+}
+.contact-us-right{
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  padding-left: 8rem;
+  padding-right: 3rem;
+}
 
 /* event-page */
 

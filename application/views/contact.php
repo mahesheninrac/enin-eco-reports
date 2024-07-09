@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="<?= base_url('assets/fonts/fonts.css') ?>" />
   <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>" />
 
-  
+
 </head>
 
 <body>
@@ -50,8 +50,8 @@
       <div class="container-xxl">
         <div class="row text-start">
           <!-- Left Column -->
-          <div class="col-md-5 bg-sky-blue-4 d-flex  justify-content-center position-relative  bg-primary-300 p-5">
-            <!-- <img class="position-absolute bottom-0 start-0 d-none d-md-block" src="https://res.cloudinary.com/dkklqdsqc/image/upload/q_auto,f_auto/v1702261525/assets/get-in-touch/wa3vz0twauapwmkbsamy.svg" aria-hidden="true"> -->
+          <div class="col-md-5 bg-sky-blue-4 d-flex  justify-content-center position-relative  bg-primary-300  contact-us-left">
+          
             <div>
               <h2>Our offices</h2>
               <p>Eninrac Consulting Private Limited,<br> 2nd Floor B-130, B-Block<br> Sector 65, Noida - 201301, Uttar Pradesh</p>
@@ -73,12 +73,12 @@
                 </p>
               </div>
 
-              <a href="https://www.google.com/" class="btn btn-primary  btn-md rounded-md px-3 py-2 font-medium">See open positions</a>
+              <a href="https://www.google.com/" class="btn border border-dark btn-md rounded-md px-3 py-2 font-medium">See open positions</a>
             </div>
           </div>
           <!-- Right Column -->
-          <div class="col-md-7 bg-sky-blue-5 bg-primary-200 p-5 ">
-            <div class="px-5 mx-5">
+          <div class="col-md-7  bg-primary-200 contact-us-right">
+            <div class="container-xxl ">
               <h2>Get in touch</h2>
               <p>Contact us to discuss our products and how they can support you.</p>
               <form enctype="multipart/form-data" method="post" class="contact-us-form">
@@ -103,21 +103,8 @@
                     <input type="tel" id="phone" name="phone" class="form-control" placeholder="xxxxxxxxxx" required>
                   </div>
                 </div>
-                <!-- <div class="row">
-                                    <div class="col-md-6 mb-3">
-                                        <label for="jobTitle" class="form-label">Job title</label>
-                                        <input type="text" id="jobTitle" name="jobTitle" class="form-control" placeholder="Job">
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                        <label for="companyName" class="form-label">Company Name <span class="text-danger">*</span></label>
-                                        <input type="text" id="companyName" name="companyName" class="form-control" placeholder="Your company name" required>
-                                    </div>
-                                </div>
-                                <div class="mb-3">
-                                    <label for="industry" class="form-label">Industry</label>
-                                    <input type="text" id="industry" name="industry" class="form-control" placeholder="Industry">
-                                </div> -->
-                <button type="submit" class="btn btn-primary px-2 py-2">Register interest</button>
+               
+                <button type="submit" class="btn text-white bg-primary-700  px-2 py-2">Register interest</button>
                 <p class="py-4 fs-14">By submitting this form, you agree to Eninrac’s <u>privacy policy</u>.</p>
               </form>
             </div>

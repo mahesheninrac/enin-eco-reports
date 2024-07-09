@@ -306,6 +306,9 @@
                     <p class="card-text fw-bold ">Some quick example text</p>
                 </div>
             </div>
+            <!-- Add New Products  -->
+
+            
             <!-- <div class="" style="width: 15rem;">
                 <img class="card-img-top rounded-lg" src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ipad_frame_2.373b58.png" alt="Card image cap">
                 <div class="border-0 py-4 text-start">

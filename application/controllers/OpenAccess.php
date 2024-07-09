@@ -36,4 +36,8 @@ class OpenAccess extends Default_Controler
     {
         $this->load->view('survey');
     }
+    public function membership()
+    {
+        $this->load->view('membership');
+    }
 }
