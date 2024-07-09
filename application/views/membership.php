@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="<?= base_url('assets/fonts/fonts.css') ?>" />
     <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>" />
     <style>
-        .banner-text {
-            font-size: 2.25rem;
-            font-weight: 500;
+        .membership-introduction {
+            line-height: 4.25rem !important;
+            font-size: 3.125rem !important;
+            width: 40rem;
 
-            line-height: 3.1rem;
         }
     </style>
 </head>
@@ -52,9 +52,9 @@
         <div class="container-xxl position-relative pt-4">
             <div class="row">
                 <div class="col-12">
-                    <div class="content">
-                        <h2>Rho Motion Consultancy</h2>
-                        <p>Exclusive access to our analysis, resources and industry newsg</p>
+                    <div>
+                        <h2 class="h1 primary-color fw-bold fs-28">Eninrac Consultancy</h2>
+                        <p class="membership-introduction">Exclusive access to our analysis, resources and industry news</p>
 
                     </div>
                 </div>
@@ -66,15 +66,15 @@
     <!-- content paltform -->
     <section>
 
-        <div class="container-xxl d-flex flex bg-primary-700 py-4 justify-content-center align-item-center">
-            <div class=" py-4 ">
-                <h3 class="h3 fw-bold">
+        <div class="container-xxl d-flex flex bg-primary-700 py-4  align-item-center">
+            <div class=" " style="max-width: 50%;  padding:5rem 0rem;">
+                <h3 class="h4 fw-bold">
                     Rho Motion content platform for members only
                 </h3>
-                <h1 class="text-white">
+                <h1 class="text-white pb-2 " style="font-size: 2.25rem ; line-height: 3.125rem; ">
                     Up-to-date insights into the energy transition markets, and your Rho Motion reports in one place
                 </h1>
-                <ul class="mb-3 d-flex flex-column gap-2 p-0 text-white">
+                <ul class="mb-3 d-flex flex-column gap-2 p-0 text-white fs-20">
                     <li class="d-flex align-items-start gap-2">
                         <img class="w-10" src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/check-blue-circle.0320f9.svg" aria-hidden="true" />
                         Build your public profile
@@ -88,84 +88,86 @@
                         Inclusion in pre and post-event promotion
                     </li>
                 </ul>
-                <a class="btn btn-primary d-inline-block text-nowrap px-4 py-2 text-md fw-medium" href="<?= base_url('contact_us') ?>">Get in touch</a>
+                <a class="btn btn-primary d-inline-block text-nowrap px-4 py-2 text-md fw-medium" href="<?= base_url('contact_us') ?>">Request Demo</a>
             </div>
 
-            <div class="p-4">
+            <div class="" style="max-width: 50%; padding:5rem 0rem;">
                 <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/q_auto,f_auto/v1702262970/assets/membership/maj116a1ftvssngf7uhe.png" alt="">
             </div>
 
         </div>
     </section>
 
-    <div class="container-xxl d-flex flex-row gap-2 bg-primary-300 py-4">
+    <section class="briefing">
+        <div class="container-xxl d-flex flex-row gap-2 bg-primary-300 py-4">
 
-        <div style="min-width: 50%;">
-            <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/membership-illustrations-1.6b59d2a484167ee2.png" alt="" style="max-width: 100%;">
-        </div>
+            <div style="min-width: 50%;" class="briefing-left">
+                <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/membership-illustrations-1.6b59d2a484167ee2.png" alt="" style="max-width: 100%;">
+            </div>
 
-        <div class="d-flex flex-column gap-1" style="min-width: 50%;">
-            <h1 class="banner-text">
-                Regularly updated content to provide actionable intelligence on the energy transition
-            </h1>
+            <div class="d-flex flex-column gap-1 briefing-right" style="min-width: 50%;">
+                <h1 class="membership-accord-text">
+                    Regularly updated content to provide actionable <br>intelligence on the energy transition
+                </h1>
 
-            <div class="membership-accord ">
-                <div class="accordion " id="accordionExample">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingOne">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                Rho Motion Briefings and Resources
-                            </button>
-                        </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                Long-form briefings including Rho Motion insight and analysis, plus trackers, tools and resources.
+                <div class="membership-accord ">
+                    <div class="accordion " id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Rho Motion Briefings and Resources
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapsed " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Long-form briefings including Rho Motion insight and analysis, plus trackers, tools and resources.
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                Industry Update
-                            </button>
-                        </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <p>Latest news stories from energy transition markets around the world</p>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Industry Update
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Latest news stories from energy transition markets around the world</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                Videos and Presentation
-                            </button>
-                        </h2>
-                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <p>
-                                    An entire archive of our webinars, round table discussions, event session recordings and presentations.
-                                </p>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Videos and Presentation
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>
+                                        An entire archive of our webinars, round table discussions, event session recordings and presentations.
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingfour">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
-                                Your Eninrac’s subscription
-                            </button>
-                        </h2>
-                        <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <p>Access to all your Rho Motion reports</p>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingfour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                                    Your Eninrac’s subscription
+                                </button>
+                            </h2>
+                            <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Access to all your Rho Motion reports</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-    </div>
+        </div>
+    </section>
 
 
 
