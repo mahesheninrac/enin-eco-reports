@@ -7,6 +7,14 @@
     <title>Membership</title>
     <link rel="stylesheet" href="<?= base_url('assets/fonts/fonts.css') ?>" />
     <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>" />
+    <style>
+        .banner-text {
+            font-size: 2.25rem;
+            font-weight: 500;
+
+            line-height: 3.1rem;
+        }
+    </style>
 </head>
 
 <body>
@@ -97,45 +105,59 @@
         </div>
 
         <div class="d-flex flex-column gap-1" style="min-width: 50%;">
-            <h1>
+            <h1 class="banner-text">
                 Regularly updated content to provide actionable intelligence on the energy transition
             </h1>
 
-            <div>
+            <div class="membership-accord ">
                 <div class="accordion " id="accordionExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                Accordion Item #1
+                                Rho Motion Briefings and Resources
                             </button>
                         </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                Long-form briefings including Rho Motion insight and analysis, plus trackers, tools and resources.
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingTwo">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                Accordion Item #2
+                                Industry Update
                             </button>
                         </h2>
                         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                <p>Latest news stories from energy transition markets around the world</p>
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingThree">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                Accordion Item #3
+                                Videos and Presentation
                             </button>
                         </h2>
                         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                <p>
+                                    An entire archive of our webinars, round table discussions, event session recordings and presentations.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingfour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                                Your Eninrac’s subscription
+                            </button>
+                        </h2>
+                        <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>Access to all your Rho Motion reports</p>
                             </div>
                         </div>
                     </div>
@@ -151,47 +173,42 @@
         <div class="container-xxl">
             <div class="row text-start">
                 <!-- Left Column -->
-                <div class="col-md-5 d-flex flex-column justify-content-center position-relative p-0">
-                    <picture class="w-100 h-100">
-                        <source media="(min-width: 768px)" srcset="https://res.cloudinary.com/dkklqdsqc/image/upload/q_auto,f_auto/v1702262970/assets/membership/maj116a1ftvssngf7uhe.png">
-                        <img class="position-absolute top-0 left-0 w-100 h-100 object-cover object-right-top" src="https://res.cloudinary.com/dkklqdsqc/image/upload/q_auto,f_auto/v1702262970/assets/membership/maj116a1ftvssngf7uhe.png" aria-hidden="true">
-                    </picture>
-                    <div class="d-none d-md-block position-absolute bg-black opacity-50 top-0 left-0 w-100 h-100"></div>
-                    <div class="position-relative text-white w-100 px-5 py-3 bg-sky-blue-5 bg-transparent-md">
-
-                    </div>
+                <div class="col-md-5 d-flex flex-column justify-content-center align-item-center position-relative p-0">
+                    <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/q_auto,f_auto/v1702262970/assets/membership/maj116a1ftvssngf7uhe.png" alt="" style="padding: 4rem;">
                 </div>
                 <!-- Right Column -->
                 <div class="col-md-7 bg-sky-blue-5 p-4 bg-primary-200">
-                    <div class="px-5 mx-5">
-                        <h2>Get in touch</h2>
-                        <p>Contact us to discuss our products and how they can support you.</p>
-                        <form enctype="multipart/form-data" method="post">
-                            <div class="row">
-                                <div class="col-md-6 mb-3">
-                                    <label for="firstName" class="form-label">First Name <span class="text-danger">*</span></label>
-                                    <input type="text" id="firstName" name="firstName" class="form-control" placeholder="Name" required>
+                    <div class="px-5 mx-5 membership-demo-form">
+                        <h1>Request Membership demo</h1>
+                        <p>Get in touch for an in-depth discussion and walk-through of our membership platform.</p>
+                        <div class="">
+                            <form enctype="multipart/form-data" method="post">
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="firstName" class="form-label">First Name <span class="text-danger">*</span></label>
+                                        <input type="text" id="firstName" name="firstName" class="form-control" placeholder="Name" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="lastName" class="form-label">Last Name <span class="text-danger">*</span></label>
+                                        <input type="text" id="lastName" name="lastName" class="form-control" placeholder="Last name" required>
+                                    </div>
                                 </div>
-                                <div class="col-md-6 mb-3">
-                                    <label for="lastName" class="form-label">Last Name <span class="text-danger">*</span></label>
-                                    <input type="text" id="lastName" name="lastName" class="form-control" placeholder="Last name" required>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email address <span class="text-danger">*</span></label>
+                                    <input type="email" id="email" name="email" class="form-control" placeholder="email@youremailaddress.com" required>
                                 </div>
-                            </div>
-                            <div class="mb-3">
-                                <label for="email" class="form-label">Email address <span class="text-danger">*</span></label>
-                                <input type="email" id="email" name="email" class="form-control" placeholder="email@youremailaddress.com" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="phone" class="form-label">Phone number <span class="text-danger">*</span></label>
-                                <div class="input-group">
-                                    <span class="input-group-text">+91</span>
-                                    <input type="tel" id="phone" name="phone" class="form-control" placeholder="XXXXXXXXXXX" required>
+                                <div class="mb-3">
+                                    <label for="phone" class="form-label">Phone number <span class="text-danger">*</span></label>
+                                    <div class="input-group">
+                                        <span class="input-group-text">+91</span>
+                                        <input type="tel" id="phone" name="phone" class="form-control" placeholder="XXXXXXXXXXX" required>
+                                    </div>
                                 </div>
-                            </div>
 
-                            <button type="submit" class="btn btn-primary">Register interest</button>
-                            <p class="py-4">By submitting this form, you agree to Eninrac's privacy policy.</p>
-                        </form>
+                                <button type="submit" class="btn btn-primary px-2 py-2">Request Trial</button>
+                                <p class="py-4">By submitting this form, you agree to Eninrac's privacy policy.</p>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>

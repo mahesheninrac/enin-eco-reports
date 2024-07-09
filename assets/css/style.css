@@ -291,6 +291,19 @@ a {
   font-size: 1.5rem;
 }
 
+/* survey page */
+.survey-card {
+  width: 220px;
+  height: 220px;
+
+  color: black;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+.survey-card a {
+  color: #000;
+}
+
 /* consultency */
 .consultency {
   background-color: var(--primary-800);
@@ -359,32 +372,27 @@ a {
 }
 
 /* Product page */
-.demo-section-left{
+.demo-section-left {
   background-color: var(--primary-800);
-  
-  
 }
-.demo-section-left h2{
+.demo-section-left h2 {
   font-size: 3.375rem;
   line-height: 4.37rem;
-  
 }
-.demo-section-left p{
+.demo-section-left p {
   width: 25rem;
   font-size: 1.25rem;
-  
 }
-.demo-section-right{
+.demo-section-right {
   background-color: var(--primary-100);
 }
 
-.demo-form-section{
+.demo-form-section {
   padding: 3rem 8rem;
 }
 .demo-section-left input {
   padding: 12px;
 }
-
 
 .service-ribbon {
   background-color: var(--primary-700);
@@ -803,7 +811,7 @@ button.accordion-button:focus {
 }
 
 .case-study h5 {
-  color: var(--primary-800)
+  color: var(--primary-800);
 }
 .case-study h6 {
   font-weight: bold;
@@ -817,16 +825,15 @@ button.accordion-button:focus {
   max-width: 250px;
 }
 /* process */
-.icofont-arrow-right{
+.icofont-arrow-right {
   color: var(--primary-800);
 }
 
 .process .card {
   background-color: var(--primary-200);
   color: #000000;
-  --bs-card-title-spacer-y: .1rem;
-  padding: .5rem;
-  
+  --bs-card-title-spacer-y: 0.1rem;
+  padding: 0.5rem;
 }
 
 .process .card-title {
@@ -852,13 +859,13 @@ button.accordion-button:focus {
   font-size: 1rem;
 }
 
-.contact-us-form input{
-  padding: .8rem;
+.contact-us-form input {
+  padding: 0.8rem;
 }
 .contact-us-left {
   padding: 8rem 1rem;
 }
-.contact-us-right{
+.contact-us-right {
   padding-top: 8rem;
   padding-bottom: 8rem;
   padding-left: 8rem;
@@ -872,7 +879,7 @@ button.accordion-button:focus {
   padding: 10px;
   border-radius: 20px;
   margin-bottom: 1.5rem;
-} 
+}
 
 .event-card img {
   height: 100%;
@@ -882,7 +889,6 @@ button.accordion-button:focus {
 .event-card .card-body {
   padding: 1.25rem;
 }
-
 
 .event-date {
   font-weight: bold;
@@ -898,8 +904,6 @@ button.accordion-button:focus {
   font-size: 1rem;
   color: #6c757d;
 }
-
-
 
 /* banner-section */
 
@@ -1084,5 +1088,36 @@ button.accordion-button:focus {
   display: block;
 }
 
-.faq-item.active .faq-question {
+/* Membership */
+.membership-accord .accordion-button.collapsed {
+  background: var(--primary-300);
+  border: none;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 1rem 1 rem;
+}
+
+.membership-accord .accordion-button:not(.collapsed) {
+  background-color: var(--primary-300) !important;
+  box-shadow: none;
+  font-size: 22px;
+  font-weight: bold;
+}
+.membership-accord .accordion-item {
+  border: none;
+}
+
+.membership-accord .accordion-body {
+  background-color: var(--primary-300) !important;
+  padding-top: 0px;
+}
+
+.membership-demo-form h1{
+  font-size: 36px ;
+  font-weight: bold;
+  padding-top: 2em;
+}
+
+.membership-demo-form input{
+  padding: 12px;
 }

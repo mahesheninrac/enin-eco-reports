@@ -9,19 +9,7 @@
 
     <link rel="stylesheet" href="<?= base_url('assets/fonts/fonts.css') ?>" />
     <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>" />
-    <style>
-        .survey-card {
-            width: 220px;
-            height: 220px;
 
-            color: black;
-            border: 1px solid black;
-            border-radius: 20px;
-        }
-        .survey-card a{
-            color: #000;
-        }
-    </style>
 </head>
 
 <body>
@@ -53,9 +41,8 @@
                 </ul>
             </div>
         </div>
-    </nav>
-
-    <div class="container-xxl">
+    </nav> 
+    <div class="container-xxl p-4">
         <div class="text-center p-4">
             <p>DASHBOARD</p>
             <P class="fw-bold fs-30">Eninrac’s Survey</P>
@@ -72,6 +59,7 @@
                     </div>
                 </a>
             </div>
+
             <div class="solar survey-card">
                 <a href="">
 
@@ -87,7 +75,7 @@
 
                     <div class="text-center">
                         <img src="<?= base_url('assets/images/oa-line.svg') ?>" alt="">
-                        <p class="p-1">Wind</p>
+                        <p class="p-1">Open Access</p>
                     </div>
                 </a>
 
@@ -108,8 +96,8 @@
                 <a href="">
 
                     <div class="text-center">
-                        <img src="<?= base_url('assets/images/solar-line.svg') ?>" alt="">
-                        <p class="p-1">Solar</p>
+                        <img src="<?= base_url('assets/images/tariff-line.svg') ?>" alt="">
+                        <p class="p-1">Tariff</p>
                     </div>
                 </a>
 
@@ -118,8 +106,8 @@
                 <a href="">
 
                     <div class="text-center">
-                        <img src="<?= base_url('assets/images/oa-line.svg') ?>" alt="">
-                        <p class="p-1">Wind</p>
+                        <img src="<?= base_url('assets/images/power-line.svg') ?>" alt="">
+                        <p class="p-1">Power</p>
                     </div>
                 </a>
 
@@ -129,38 +117,6 @@
 
 
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     <footer class="footer text-center text-md-start z-1">
@@ -195,7 +151,7 @@
                         </div>
                         <div class="col-6">
                             <div class="nav-links">
-                                <a href="/magazine" class="d-block">Magazine</a>
+                                <a href="/magazine" class="d-block" id="survey">Survey</a>
                                 <a href="https://einfews.energyinfra.market/" class="d-block">News</a>
                                 <a href=" https://eninrac.com/careers" class="d-block">Careers</a>
                                 <a href="<?= base_url("contact_us") ?>" class="d-block">Contact Us</a>
