@@ -22,33 +22,37 @@
 <body>
     <!-- navbar section  -->
     <nav class="navbar navbar-expand-md bg-white py-4">
-        <div class="container">
-            <a class="navbar-brand " href="<?= base_url('/') ?>">
+    <div class="container-fluid">
+      <a class="navbar-brand " href="<?= base_url('') ?>">
 
 
-                <img src="<?= base_url('assets/images/final-logo-ecosystem.png') ?>" class="w-100 h-80" alt="home-page-banner">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"><img src="./Assets/menu.png" alt="" /></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link text-dark fw-normal" href="<?= base_url('reports') ?>">Eco System Report</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link fw-normal" href="<?= base_url('custom_page') ?>">Custom Requirements</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link fw-normal" href="<?= base_url('event') ?>">Surveys</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link fw-normal" href="<?= base_url('contact_us') ?>">Contact us</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+        <img src="<?= base_url('assets/images/final-logo-ecosystem.png') ?>" class="w-100 h-80" alt="home-page-banner">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="icofont-navigation-menu fs-30"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-center" style="gap: 1.5rem; ">
+          <li class="nav-item">
+            <a class="nav-link text-dark fw-normal" href="<?= base_url('reports') ?>"> Reports</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-normal" href="<?= base_url('custom_page') ?>">Custom Requirements</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-normal" href="<?= base_url('event') ?>">Surveys</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-normal" href="<?= base_url('contact_us') ?>">Contact us</a>
+          </li>
+          <li class="nav-item">
+            <i class="icofont-navigation-menu fs-22" style=" margin-right: 5px"></i>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
 
 
 
@@ -56,8 +60,8 @@
 
     <!--banner section  -->
 
-    <header class="event-banner-relative bg-primary-400 px-3  py-5 px-md-5 overflow-hidden">
-        <div class="container py-5">
+    <header class="event-banner-relative  py-5  overflow-hidden">
+        <div class="container-fluid py-5">
             <div class="row">
                 <div class="col-md-6 order-md-2">
                     <picture>
@@ -66,11 +70,11 @@
                     </picture>
                 </div>
                 <div class="col-md-6 order-md-1 d-flex flex-column justify-content-center">
-                    <div class="text-start text-md-start">
-                        <h1 class="event-banner-text-h4 mb-3  fw-bold py-2">ENINRAC'S EVENTS</h1>
-                        <p class="mb-3 lead display-5">Connecting you with key players across the energy transition</p>
-                        <p class="mb-4 py-2 fs-20">Rho Motion events are a forum for learning, discussion and collaboration. They offer outstanding opportunities for networking and market insights into the challenges and opportunities facing the sector.</p>
-                        <a class="btn btn-primary py-2" href="#eventTabsContent">See full event list</a>
+                    <div class="text-start text-md-start" style="max-width: 33.31rem;">
+                        <h1 class="" style="font-size: 1.3125rem; font-weight:600; line-height: 140%; color: #5866ff">ENINRAC'S EVENTS</h1>
+                        <p style="font-size: 2.25rem; font-weight:600; line-height: 140%;">Connecting you with key players across the energy transition</p>
+                        <p class="mb-4 py-2 " style="font-size: 1rem; font-weight:400;line-height:160%">Rho Motion events are a forum for learning, discussion and collaboration. They offer outstanding opportunities for networking and market insights into the challenges and opportunities facing the sector.</p>
+                        <a class="btn btn-primary fw-bold py-2" href="#eventTabsContent">See full event list</a>
                     </div>
                 </div>
             </div>
@@ -79,8 +83,8 @@
 
     <!-- events -->
 
-    <section class="tabs-section bg-primary-300 py-4 px-5">
-        <div class="container-xxl">
+    <section class="tabs-section py-4 px-5">
+        <div class="container-fluid">
             <h1 class="p-2 fw-bold">Events</h1>
             <!-- Tab Navigation -->
             <ul class="nav nav-tabs nav-fill py-5" id="eventTabs" role="tablist">
@@ -222,8 +226,8 @@
     </section>
 
     <!-- Speak at our events -->
-    <section class="relative px-4 ">
-        <div class="container-xxl mx-auto max-w-content-container d-md-flex align-items-lg-center pb-5 pb-md-5 pt-5 pt-md-5 ">
+    <section class="speak-events px-4 ">
+        <div class="container-fluid mx-auto max-w-content-container d-md-flex align-items-lg-center pb-5 pb-md-5 pt-5 pt-md-5 ">
 
             <div class="col-md-6 d-flex justify-content-center mt-5 mt-md-0">
                 <picture>
@@ -250,7 +254,7 @@
                             Inclusion in pre and post-event promotion
                         </li>
                     </ul>
-                    <a class="btn btn-primary d-inline-block text-nowrap px-4 py-2 text-md fw-medium" href="<?= base_url('contact_us') ?>">Get in touch</a>
+                    <a class="btn btn-primary d-inline-block text-nowrap px-4 py-2 text-md fw-bold mt-4" href="<?= base_url('contact_us') ?>">Get in touch</a>
                 </div>
 
             </div>
@@ -282,56 +286,62 @@
     <!-- footer -->
 
     <footer class="footer text-center text-md-start z-1">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-lg-6 mb-4 mb-md-0">
-                    <div style="">
-                        <img src="<?= base_url('assets/images/final-logo-ecosystem-white.png') ?>" alt="Logo" class="logo mb-4 w-25 h-50">
-                    </div>
-                    <div class="contact-info">
-                        <p>Eninrac Consulting Private Limited<br>2nd Floor, B-130, B-Block<br>Sector 65, Noida - 201301</p>
-                        <p>(+91) 9319048963, (+91) 9319047963<br><a href="mailto:info@rhomotion.com">connect@eninrac.com</a></p>
-                    </div>
-                    <div class="social-icons mt-4">
-                        <a href="https://www.linkedin.com/in/eninrac-consulting-88641719b/" target="_blank" rel="noreferrer">
-                            <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-linkedin.5fd894.svg" alt="LinkedIn">
-                        </a>
-                        <a href="https://x.com/i/flow/login?redirect_after_login=%2Feninrac" target="_blank" rel="noreferrer">
-                            <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-x.290b8c.svg" alt="Twitter">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6">
-                    <div class="row">
-                        <div class="col-6">
-                            <div class="nav-links">
-                                <a href="<?= base_url('reports') ?>" class="d-block" id="reports">Eco System Reports</a>
-                                <a href="<?= base_url('custom_page') ?>" class="d-block" id="custom_page">Custom Requirements</a>
-                                <a href="<?= base_url('event') ?>" class="d-block" id="event">Surveys & VoC</a>
-                                <a href="<?= base_url('contact_us') ?>" class="d-block">About us</a>
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <div class="nav-links">
-                                <a href="/magazine" class="d-block">Magazine</a>
-                                <a href="https://einfews.energyinfra.market/" class="d-block">News</a>
-                                <a href=" https://eninrac.com/careers" class="d-block">Careers</a>
-                                <a href="<?= base_url("contact_us") ?>" class="d-block">Contact Us</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-4">
-                <div class="col-md-6 text-md-start">
-                    <p class="copyright">&copy; 2024 Eninrac. All rights reserved.</p>
-                </div>
-                <div class="col-md-6 text-md-end">
-                    <p class="privacy"><a href="">Privacy Policy</a> • <a href="">Terms & Conditions</a></p>
-                </div>
-            </div>
+    <div class="container-fluid">
+      <div class="row" style="padding:2rem">
+        <div class="col-md-5 col-lg-5 mb-4 mb-md-0">
+          <div>
+            <img src="<?= base_url('assets/images/Asset 8.svg
+            ') ?>" alt="Logo" class="logo mb-4 w-25 h-50">
+          </div>
+          <div class="contact-info">
+            <p>Eninrac Consulting Private Limited<br>2nd Floor, B-130, B-Block<br>Sector 65, Noida - 201301</p>
+            <p>(+91) 9319048963, (+91) 9319047963<br><a href="mailto:info@rhomotion.com">connect@eninrac.com</a></p>
+          </div>
+
         </div>
-    </footer>
+        <div class="col-md-7 col-lg-7">
+          <div class="row" style="padding: 2rem;">
+            <div class="col-6">
+              <div class="nav-links">
+                <a href="<?= base_url('reports') ?>" class="d-block" id="reports">Reports</a>
+                <a href="<?= base_url('custom_page') ?>" class="d-block" id="custom_page">Custom Requirements</a>
+                <a href="<?= base_url('event') ?>" class="d-block" id="event">Surveys & VoC</a>
+                <a href="<?= base_url('contact_us') ?>" class="d-block">About us</a>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="newsletter-form line-height:1.1 ">
+                <p class="mb-2">Subscribe to our newsletter</p>
+                <div class="w-100 newsletterfooter-input-i position-relative">
+                  <input type="email" name="" id="" class="mb-2 w-100 " placeholder="your work email">
+                  <i class="icofont-long-arrow-right position-absolute"></i>
+                </div>
+                <p style="font-size: .8rem;">By submitting this form, you agree to Rho Motion’s privacy policy.</p>
+                <div class="social-icons mt-4">
+                  <a href="https://www.linkedin.com/in/eninrac-consulting-88641719b/" target="_blank" rel="noreferrer">
+                    <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-linkedin.5fd894.svg" alt="LinkedIn">
+                  </a>
+                  <a href="https://x.com/i/flow/login?redirect_after_login=%2Feninrac" target="_blank" rel="noreferrer">
+                    <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-x.290b8c.svg" alt="Twitter">
+                  </a>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row " style="padding: 0 2rem;">
+
+        <p class="copyright mb-0" style="font-size: 1.3rem;">&copy; 2024 Eninrac. All rights reserved.</p>
+
+
+        <p class="privacy  "><a href="">Privacy Policy</a> • <a href="">Terms & Conditions</a></p>
+
+      </div>
+    </div>
+  </footer>
 
 
 

@@ -5,76 +5,28 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ecosystem</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
 
   <link rel="stylesheet" href="<?= base_url('assets/fonts/fonts.css') ?>" />
   <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>" />
-
-
-  <style>
-    .card-overlay {
-      position: relative;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(255, 255, 255, .1);
-      /* White with 60% opacity */
-      z-index: 1;
-    }
-
-    .hero-section {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: baseline;
-      justify-content: center;
-    }
-
-    .hero-section .text-container {
-      flex: 1 1 55%;
-      max-width: 55%;
-      padding: 10px;
-    }
-
-    .hero-section>div img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-
-    @media (max-width: 768px) {
-      .hero-section {
-        flex-direction: column;
-      }
-
-      .hero-section .text-container,
-      .hero-section>div {
-        max-width: 100%;
-      }
-    }
-
-    .hero .card {
-      min-height: 250px;
-    }
-  </style>
 </head>
 
 <body>
   <!-- navbar section  -->
   <nav class="navbar navbar-expand-md bg-white py-4">
-    <div class="container">
+    <div class="container-fluid">
       <a class="navbar-brand " href="<?= base_url('') ?>">
-        <!-- <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/logo-dark-purple.742caa.svg" alt="Logo" /> -->
+
 
         <img src="<?= base_url('assets/images/final-logo-ecosystem.png') ?>" class="w-100 h-80" alt="home-page-banner">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"><img src="./Assets/menu.png" alt="" /></span>
+        <span class="navbar-toggler-icon"><i class="icofont-navigation-menu fs-30"></i></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
+        <ul class="navbar-nav ms-auto align-items-center" style="gap: 1.5rem; ">
           <li class="nav-item">
-            <a class="nav-link text-dark fw-normal" href="<?= base_url('reports') ?>">Eco System Report</a>
+            <a class="nav-link text-dark fw-normal" href="<?= base_url('reports') ?>"> Reports</a>
           </li>
           <li class="nav-item">
             <a class="nav-link fw-normal" href="<?= base_url('custom_page') ?>">Custom Requirements</a>
@@ -85,17 +37,21 @@
           <li class="nav-item">
             <a class="nav-link fw-normal" href="<?= base_url('contact_us') ?>">Contact us</a>
           </li>
+          <li class="nav-item">
+            <i class="icofont-navigation-menu fs-22" style=" margin-right: 5px"></i>
+          </li>
+
         </ul>
       </div>
     </div>
   </nav>
 
   <!-- Hero Section -->
-  <div class="overflow-hidden hero  container-xxl">
+  <div class="overflow-hidden hero  container-fluid">
     <div class="hero-section py-1" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; align-items: end;">
       <div class="text-container" style="flex: 1 1 45%; padding: 10px; max-width: 45%;">
         <p class="fs-40 fw-bold display-6">
-          Actionable intelligence for the energy transition
+          Market Intelligence for Enabling Indian Energy Transition
         </p>
       </div>
       <div class="video-container " style="flex: 1 1 55%;  max-width: 55%;">
@@ -106,50 +62,50 @@
     <div class="d-flex flex-column flex-md-row gap-3 mt-1 py-3 ">
       <!-- card1 -->
       <a href="<?= base_url("reports") ?>" class="card overflow-hidden w-100 card-overlay ">
-        <div class="card-body position-relative py-4 px-3"  >
-          <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/v1702337706/assets/home/ymfa0talxlppyy682pqp.svg" class="d-none d-lg-block" alt=""  />
+        <div class="card-body position-relative py-4 px-3">
+          <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/v1702337706/assets/home/ymfa0talxlppyy682pqp.svg" class="d-none d-lg-block" alt="" />
           <h2 class="card-title d-flex justify-content-between align-items-center ">
             ECO SYSTEM REPORTS
-            
+
             <i class="icofont-external-link"></i>
           </h2>
-          <p class="card-text pt-2">
-            Drive your strategic decision-making using tailored research lore.
+          <p class="card-text pt-2 ">
+            Ford ahead with locking oppurtunities across India's energy transition.
           </p>
         </div>
       </a>
 
-      <a href="<?= base_url('custom_page') ?>" class="card overflow-hidden w-100 card-overlay ">
+      <a href="<?= base_url('custom_page') ?>" class="card overflow-hidden w-100 hero-card-overlay ">
         <div class="card-body position-relative py-4 px-3">
           <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/v1702337706/assets/home/ymfa0talxlppyy682pqp.svg" class="d-none d-lg-block" alt="" />
           <h2 class="card-title d-flex justify-content-between align-items-center">
             CUSTOM REQUIREMENTS
-           
+
             <i class="icofont-external-link"></i>
           </h2>
           <p class="card-text pt-2">
-            Drive your strategic decision-making using tailored research lore.
+            Address your energy transition needs using tailored research.
           </p>
         </div>
       </a>
 
       <!-- card2 -->
-      <a href="<?= base_url('') ?>" class="card overflow-hidden w-100  card-overlay">
+      <a href="<?= base_url('') ?>" class="card overflow-hidden w-100  hero-card-overlay">
         <div class="card-body position-relative py-4 px-3">
           <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/v1702337706/assets/home/ymfa0talxlppyy682pqp.svg" class="d-none d-lg-block" alt="" />
           <h2 class="card-title d-flex justify-content-between align-items-center">
             SURVEYS & VoC
-            <!-- <img src="" class="opacity-75" alt="arrow" class="ms-2" /> -->
+
             <i class="icofont-external-link"></i>
           </h2>
           <p class="card-text pt-2">
 
-            Drive your strategic decision-making using tailored research lore.
+            Learn energy transition market signals & orient your product to tap early advantage.
           </p>
         </div>
       </a>
       <!-- card3 -->
-      <a href="<?= base_url('event') ?>" class="card overflow-hidden w-100 card-overlay ">
+      <a href="<?= base_url('event') ?>" class="card overflow-hidden w-100 hero-card-overlay ">
         <div class="card-body position-relative py-4 px-3">
           <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/v1702337706/assets/home/ymfa0talxlppyy682pqp.svg" class="d-none d-lg-block" alt="" />
           <h2 class="card-title d-flex justify-content-between align-items-center">
@@ -158,7 +114,7 @@
             <i class="icofont-external-link"></i>
           </h2>
           <p class="card-text pt-2">
-            Drive your strategic decision-making using tailored research lore.
+            Understand the energy transition market perspective from seasoned professionals & experts
           </p>
         </div>
       </a>
@@ -173,22 +129,23 @@
 
   <!--       Eco System Report   -->
 
+  <!-- bg-primary  -->
+  <div class="container-fluid py-4 our-research   " style="background-color: #8ab8d9;">
 
-  <div class="container-xxl py-4 our-research ">
-    <div class="row">
-      <div class="col-md-6">
-        <p class="research-title h4 mb-2 section-header fw-bold  ">ECO SYSTEM REPORTS</p>
-        <h2 class="h3 mb-4 h1 fw-bold">
+    <div class="row " style="margin-top: 4rem;">
+      <div class="col-md-5">
+        <p class="research-title h4 mb-3 section-header   fs-20  " style="font-weight: 800; color: #5866ff !important;">ECO SYSTEM REPORTS</p>
+        <h2 class="mb-4" style="font-size: 2.25rem; font-weight: 800; line-height: 140%;">
           We analyse the following <br>areas across the energy <br> transition:
         </h2>
 
 
-        <div class="accordion" id="researchAccordion">
+        <div class="accordion" id="researchAccordion" style="width:80%;">
           <div class="accordion ">
             <h2 class="accordion-header" id="headingOne">
-              <button class="accordion-button border-top  border-1" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <button class="accordion-button border-top  border-1 border-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                 <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/our-research/shape-01.037f2f.svg" class="icon me-3" alt="" />
-                <span class="research-area fw-400 fs-22" style="color: none;">EV</span>
+                <span class="research-area fw-400 fs-22" style="color: none;">EV Eco System Reports</span>
               </button>
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse show p-2" aria-labelledby="headingOne" data-bs-parent="#researchAccordion">
@@ -199,12 +156,12 @@
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingTwo">
-              <button class="accordion-button border-top  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <button class="accordion-button border-top  border-1 border-dark collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                 <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/our-research/shape-02.1f9e80.svg" class="icon me-3" alt="" />
-                <span class="research-area fw-400 fs-22">SOLAR</span>
+                <span class="research-area fw-400 fs-22">Solar Eco System Reports</span>
               </button>
             </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse p-2" aria-labelledby="headingTwo" data-bs-parent="#researchAccordion">
+            <div id="collapseTwo" class="accordion-collapse collapse " aria-labelledby="headingTwo" data-bs-parent="#researchAccordion">
               <div class="accordion-body">
                 Professional analysis of the EV ecosystem, from sales data to battery insights and legislation impacts.
               </div>
@@ -215,12 +172,12 @@
 
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingThree">
-              <button class="accordion-button   collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <button class="accordion-button border-top border-1 border-dark collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                 <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/our-research/shape-02.1f9e80.svg" class="icon me-3" alt="" />
-                <span class="research-area fw-400 fs-22">WIND</span>
+                <span class="research-area fw-400 fs-22">Wind Eco System Reports</span>
               </button>
             </h2>
-            <div id="collapseThree" class="accordion-collapse collapse p-2" aria-labelledby="headingThree" data-bs-parent="#researchAccordion">
+            <div id="collapseThree" class="accordion-collapse collapse " aria-labelledby="headingThree" data-bs-parent="#researchAccordion">
               <div class="accordion-body">
                 Analysing the role of batteries in supporting future renewable deployment.
               </div>
@@ -232,9 +189,9 @@
 
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingFour">
-              <button class="accordion-button border-top  collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              <button class="accordion-button border-top border-1 border-dark collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                 <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/our-research/shape-04.8205fb.svg" class="icon me-3" alt="" />
-                <span class="research-area fw-400 fs-22">HYDROGEN</span>
+                <span class="research-area fw-400 fs-22">Hydrogen Eco System Reports</span>
               </button>
             </h2>
             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#researchAccordion">
@@ -248,12 +205,12 @@
 
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingFive">
-              <button class="accordion-button border-top  collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              <button class="accordion-button border-top border-1 border-dark collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                 <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/our-research/shape-05.1b030d.svg" class="icon me-3" alt="" />
-                <span class="research-area fw-400 fs-22">BESS</span>
+                <span class="research-area fw-400 fs-22">Bess Eco System Reports</span>
               </button>
             </h2>
-            <div id="collapseFive" class="accordion-collapse collapse p-2" aria-labelledby="headingFive" data-bs-parent="#researchAccordion">
+            <div id="collapseFive" class="accordion-collapse collapse " aria-labelledby="headingFive" data-bs-parent="#researchAccordion">
               <div class="accordion-body">
                 Analysing the underlying charging networks and systems that support EV growth.
               </div>
@@ -263,24 +220,26 @@
 
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingSix">
-              <button class="accordion-button border-top  collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+              <button class="accordion-button border-top  border-bottom border-1 border-dark  collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                 <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/our-research/shape-06.f89a01.svg" class="icon me-3" alt="" />
-                <span class="research-area fw-400 fs-22">COAL</span>
+                <span class="research-area fw-400 fs-22">Power Eco System Reports</span>
               </button>
             </h2>
-            <div id="collapseSix" class="accordion-collapse collapse p-2" aria-labelledby="headingSix" data-bs-parent="#researchAccordion">
+            <div id="collapseSix" class="accordion-collapse collapse " aria-labelledby="headingSix" data-bs-parent="#researchAccordion">
               <div class="accordion-body">
                 Analysing battery recycling dynamics covering feedstock and capacity balance, and key drivers.
               </div>
             </div>
           </div>
         </div>
-        <a href="<?= base_url('reports') ?>" class="btn btn-primary see-more   btn-lg mt-3">See Our Eco System Reports</a>
+        <a href="<?= base_url('reports') ?>" class="btn btn-primary see-more   btn-lg mb-5 mt-4" style="background-color: #8ab8d9;">See Our Eco System Reports</a>
       </div>
-      <div class="col-md-6 d-none d-lg-block ">
+      <div class="col-md-7 d-none d-lg-block ">
         <div class="illustration">
-          <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/v1702260914/assets/home/rheuih0ro6to7vjvznbq.svg" alt="Research Illustration" class="
-          " />
+
+
+          <img src="<?= base_url('assets/images/accord.svg
+          ') ?>" alt="Research Illustration" class="img-fluid" />
         </div>
       </div>
     </div>
@@ -294,8 +253,8 @@
     <div class="container-fluid">
       <div class="row no-gutters">
         <div class="col-md-6 d-flex flex-column justify-content-center text-white py-5">
-          <p class="text-uppercase h4 text-white mb-3 fw-bold">Custom Requirements</p>
-          <h2 class="text-sky-blue-5 mb-3 fw-bold fs-30">
+          <p class="text-uppercase h4 text-white mb-3 fw-bold fs-20 " style="color: #5866ff !important;">Custom Requirements</p>
+          <h2 class="text-sky-blue-5 mb-3 fw-bold fs-30" style="line-height: 140% !important; font-size:2.25rem !important; font-weight: 500 !important; width:70%">
             Research projects aligned with your specific objectives
           </h2>
           <p class="text-sky-blue-5 mb-4 fs-20" style="max-width: 500px;">
@@ -329,7 +288,7 @@
 
   <!-- components for icon  -->
 
-  <div class="container-xxl bg-dark d-flex flex-wrap justify-content-around text-center landing-service-ribbon">
+  <div class="container-fluid bg-dark d-flex flex-wrap justify-content-around text-center landing-service-ribbon">
     <!-- one -->
     <div class="text-white p-3">
       <img src="https://placehold.co/120x120" alt="" class="rounded-circle" />
@@ -338,7 +297,7 @@
     <!-- 2 -->
     <div class="text-white p-3">
       <img src="https://placehold.co/120x120" alt="" class="rounded-circle" />
-      <p class="text-white  py-2">Market research &<br>customer validation</p>
+      <p class="text-white  py-2">Market research &<br>Market validation</p>
     </div>
     <!-- 3 -->
     <div class="text-white p-3">
@@ -348,13 +307,13 @@
   </div>
   <!-- component -->
 
-  <section class="relative px-0  ">
+  <section class="relative px-0  " style="background-color:#CAC0FF;  padding-bottom: 2rem;">
     <div class="container-xxl  max-w-content-container d-md-flex align-items-lg-center pb-5 pb-md-5 pt-5 pt-md-5 mx-1">
       <div class="col-md-6 pe-md-5">
-        <p class="mb-3 h4 fw-bold  section-header">
+        <p class=" h4  mb-3 fw-bold fs-20   section-header" style="color: #5866ff !important;">
           SURVEYS & VoC
         </p>
-        <h2 class="mb-3 text-h3 text-md-h2">
+        <h2 class="mb-3 text-h3 text-md-h2" style="font-size: 2.25rem; font-weight: 800; line-height: 140%;">
           Bringing together leaders and innovators across the energy
           transition
         </h2>
@@ -365,7 +324,7 @@
           Recycling, we create opportunities for long-lasting and meaningful
           industry connections.
         </p>
-        <a class="btn btn-primary rounded-md font-medium px-3" href="<?= base_url('event') ?>">Learn more</a>
+        <a class="btn btn-primary rounded-md fw-bold font-medium px-3" href="<?= base_url('event') ?>">Learn more</a>
       </div>
       <div class="col-md-6 d-flex justify-content-center mt-5 mt-md-0">
         <picture>
@@ -380,18 +339,17 @@
 
   <!-- contact us -->
 
-  <section class="position-relative contact">
-    <div class="  position-relative py-5 px-3 bg-lilac-medium md:py-7 max-w-content-container mx-auto overflow-hidden">
-      <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/q_auto,f_auto/v1702335829/assets/home/xdttfk68dth46okvu2ef.svg" alt="header" class="position-absolute top-0 end-0 h-100 d-md-none opacity-60" />
-      <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/q_auto,f_auto/v1702335828/assets/home/xogp12myy767yihl27fx.svg" alt="header" class="d-none position-absolute top-0 start-0 h-100 d-md-block" />
-      <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/q_auto,f_auto/v1702335828/assets/home/ncqbux3lhshl4h8jfa3s.svg" alt="header" class="d-none position-absolute top-0 end-0 h-100 d-md-block" />
-      <div class=" d-flex flex-column align-items-center">
-        <h3 class="text-h3 text-center md:text-5xl mb-3 mb-md-4 display-2">
-          Contact us
-        </h3>
-        <span class="text-sm text-center mb-4 mb-md-5 md:max-w-3xl h3">Register your interest and we’ll contact you shortly to <br> provide
-          sample materials and arrange a demo.</span>
-        <a class="btn btn-primary px-5 py-1 text-sm md:py-0 md:text-base font-medium rounded-md btn-lg" href="<?= base_url('contact_us') ?>">Get in touch</a>
+  <section class="position-relative" style="min-height: 400px; margin:0 ; background-image: linear-gradient(#cac0ff,#041e42);">
+    <div class="wrapper contact" style="margin:auto; min-width:95%; position:absolute; z-index: 2; top:0; bottom:0 ; left:15px; right:15px ">
+      <div class="position-relative py-5 px-3 bg-lilac-medium md:py-7 max-w-content-container mx-auto overflow-hidden">
+        <div class="d-flex flex-column align-items-center py-4">
+          <h3 class="text-h3  fs-24 text-center md:text-5xl mb-3 mb-md-4 display-2">
+            Contact us
+          </h3>
+          <span class="text-sm text-center mb-4 mb-md-5 md:max-w-3xl h3 fs-20" style="line-height: 140%;">Register your interest and we’ll contact you shortly to <br> provide
+            sample materials and arrange a demo.</span>
+          <a class="btn btn-primary px-5 py-2 text-sm md:py-0 md:text-base font-medium rounded-md btn-lg fw-bold" href="<?= base_url('contact_us') ?>">Get in touch</a>
+        </div>
       </div>
     </div>
   </section>
@@ -401,58 +359,65 @@
 
   <!--  -->
 
+
+
   <footer class="footer text-center text-md-start z-1">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 col-lg-6 mb-4 mb-md-0">
-          <div >
-            <img src="<?= base_url('assets/images/final-logo-ecosystem-white.png') ?>" alt="Logo" class="logo mb-4 w-25 h-50">
+    <div class="container-fluid">
+      <div class="row" style="padding:2rem">
+        <div class="col-md-5 col-lg-5 mb-4 mb-md-0">
+          <div>
+            <img src="<?= base_url('assets/images/Asset 8.svg
+            ') ?>" alt="Logo" class="logo mb-4 w-25 h-50">
           </div>
           <div class="contact-info">
             <p>Eninrac Consulting Private Limited<br>2nd Floor, B-130, B-Block<br>Sector 65, Noida - 201301</p>
             <p>(+91) 9319048963, (+91) 9319047963<br><a href="mailto:info@rhomotion.com">connect@eninrac.com</a></p>
           </div>
-          <div class="social-icons mt-4">
-            <a href="https://www.linkedin.com/in/eninrac-consulting-88641719b/" target="_blank" rel="noreferrer">
-              <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-linkedin.5fd894.svg" alt="LinkedIn">
-            </a>
-            <a href="https://x.com/i/flow/login?redirect_after_login=%2Feninrac" target="_blank" rel="noreferrer">
-              <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-x.290b8c.svg" alt="Twitter">
-            </a>
-          </div>
+
         </div>
-        <div class="col-md-6 col-lg-6">
-          <div class="row">
+        <div class="col-md-7 col-lg-7">
+          <div class="row" style="padding: 2rem;">
             <div class="col-6">
               <div class="nav-links">
-                <a href="<?= base_url('reports') ?>" class="d-block" id="reports">Eco System Reports</a>
+                <a href="<?= base_url('reports') ?>" class="d-block" id="reports">Reports</a>
                 <a href="<?= base_url('custom_page') ?>" class="d-block" id="custom_page">Custom Requirements</a>
                 <a href="<?= base_url('event') ?>" class="d-block" id="event">Surveys & VoC</a>
                 <a href="<?= base_url('contact_us') ?>" class="d-block">About us</a>
               </div>
             </div>
             <div class="col-6">
-              <div class="nav-links">
-                <a href="/magazine" class="d-block">Magazine</a>
-                <a href="https://einfews.energyinfra.market/" class="d-block">News</a>
-                <a href=" https://eninrac.com/careers"  class="d-block">Careers</a>
-                <a href="<?= base_url("contact_us") ?>" class="d-block">Contact Us</a>
+              <div class="newsletter-form line-height:1.1 ">
+                <p class="mb-2">Subscribe to our newsletter</p>
+                <div class="w-100 newsletterfooter-input-i position-relative">
+                  <input type="email" name="" id="" class="mb-2 w-100 " placeholder="your work email">
+                  <i class="icofont-long-arrow-right position-absolute"></i>
+                </div>
+                <p style="font-size: .8rem;">By submitting this form, you agree to Rho Motion’s privacy policy.</p>
+                <div class="social-icons mt-4">
+                  <a href="https://www.linkedin.com/in/eninrac-consulting-88641719b/" target="_blank" rel="noreferrer">
+                    <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-linkedin.5fd894.svg" alt="LinkedIn">
+                  </a>
+                  <a href="https://x.com/i/flow/login?redirect_after_login=%2Feninrac" target="_blank" rel="noreferrer">
+                    <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-x.290b8c.svg" alt="Twitter">
+                  </a>
+                </div>
+
+
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="row mt-4">
-        <div class="col-md-6 text-md-start">
-          <p class="copyright">&copy; 2024 Eninrac. All rights reserved.</p>
-        </div>
-        <div class="col-md-6 text-md-end">
-          <p class="privacy"><a href="">Privacy Policy</a> • <a href="">Terms & Conditions</a></p>
-        </div>
+      <div class="row " style="padding: 0 2rem;">
+
+        <p class="copyright mb-0" style="font-size: 1.3rem;">&copy; 2024 Eninrac. All rights reserved.</p>
+
+
+        <p class="privacy  "><a href="">Privacy Policy</a> • <a href="">Terms & Conditions</a></p>
+
       </div>
     </div>
   </footer>
-
 
   <!--  -->
 

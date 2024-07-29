@@ -5,9 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Membership</title>
+   
     <link rel="stylesheet" href="<?= base_url('assets/fonts/fonts.css') ?>" />
     <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>" />
     <style>
+        .accord-overlay {
+
+            position: relative !important;
+            top: 0 !important;
+            left: 0 !important;
+            width: 100% !important;
+            height: 100% !important;
+            background-color: rgba(255, 255, 255, .9) !important;
+
+            z-index: 1;
+        }
+
         .membership-introduction {
             line-height: 4.25rem !important;
             font-size: 3.125rem !important;
@@ -98,7 +111,7 @@
         </div>
     </section>
 
-    <section class="briefing">
+    <section class="briefing ">
         <div class="container-xxl d-flex flex-row gap-2 bg-primary-300 py-4">
 
             <div style="min-width: 50%;" class="briefing-left">
@@ -112,7 +125,7 @@
 
                 <div class="membership-accord ">
                     <div class="accordion " id="accordionExample">
-                        <div class="accordion-item">
+                        <div class="accordion-item accord-overlay">
                             <h2 class="accordion-header" id="headingOne">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                     Rho Motion Briefings and Resources
@@ -171,7 +184,7 @@
 
 
 
-    <div class="con-wrapper">
+    <div class="con-wrapper ">
         <div class="container-xxl">
             <div class="row text-start">
                 <!-- Left Column -->

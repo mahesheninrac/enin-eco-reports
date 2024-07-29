@@ -16,34 +16,37 @@
 <body>
     <!-- navbar   -->
     <nav class="navbar navbar-expand-md bg-white py-4">
-        <div class="container">
-            <a class="navbar-brand " href="<?= base_url('/') ?>">
-                <!-- <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/logo-dark-purple.742caa.svg" alt="Logo" /> -->
+    <div class="container-fluid">
+      <a class="navbar-brand " href="<?= base_url('') ?>">
 
-                <img src="<?= base_url('assets/images/final-logo-ecosystem.png') ?>" class="w-100 h-80" alt="home-page-banner">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"><img src="./Assets/menu.png" alt="" /></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link text-dark fw-normal" href="<?= base_url('reports') ?>">Eco System Report</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link fw-normal" href="<?= base_url('custom_page') ?>">Custom Requirements</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link fw-normal" href="<?= base_url('event') ?>">Surveys</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link fw-normal" href="<?= base_url('contact_us') ?>">Contact us</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
 
+        <img src="<?= base_url('assets/images/final-logo-ecosystem.png') ?>" class="w-100 h-80" alt="home-page-banner">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="icofont-navigation-menu fs-30"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-center" style="gap: 1.5rem; ">
+          <li class="nav-item">
+            <a class="nav-link text-dark fw-normal" href="<?= base_url('reports') ?>"> Reports</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-normal" href="<?= base_url('custom_page') ?>">Custom Requirements</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-normal" href="<?= base_url('event') ?>">Surveys</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-normal" href="<?= base_url('contact_us') ?>">Contact us</a>
+          </li>
+          <li class="nav-item">
+            <i class="icofont-navigation-menu fs-22" style=" margin-right: 5px"></i>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
     <!-- banner -->
 
 
@@ -200,7 +203,7 @@
 
 
         <section class="">
-            <div class="container-xxl mt-5">
+            <div class="container-fluid mt-5">
                 <div class="faq-section">
                     <div class="faq-item border-top border-dark">
                         <h3 class="faq-question">How is the report delivered? <span><i class="icofont-arrow-right"></i></span></h3>
@@ -326,57 +329,7 @@
 
 
     <!-- footer -->
-    <footer class="footer text-center text-md-start z-1">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-lg-6 mb-4 mb-md-0">
-                    <div style="">
-                        <img src="<?= base_url('assets/images/final-logo-ecosystem-white.png') ?>" alt="Logo" class="logo mb-4 w-25 h-50">
-                    </div>
-                    <div class="contact-info">
-                        <p>Eninrac Consulting Private Limited<br>2nd Floor, B-130, B-Block<br>Sector 65, Noida - 201301</p>
-                        <p>(+91) 9319048963, (+91) 9319047963<br><a href="mailto:info@rhomotion.com">connect@eninrac.com</a></p>
-                    </div>
-                    <div class="social-icons mt-4">
-                        <a href="https://www.linkedin.com/in/eninrac-consulting-88641719b/" target="_blank" rel="noreferrer">
-                            <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-linkedin.5fd894.svg" alt="LinkedIn">
-                        </a>
-                        <a href="https://x.com/i/flow/login?redirect_after_login=%2Feninrac" target="_blank" rel="noreferrer">
-                            <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-x.290b8c.svg" alt="Twitter">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6">
-                    <div class="row">
-                        <div class="col-6">
-                            <div class="nav-links">
-                                <a href="<?= base_url('reports') ?>" class="d-block" id="reports">Eco System Reports</a>
-                                <a href="<?= base_url('custom_page') ?>" class="d-block" id="custom_page">Custom Requirements</a>
-                                <a href="<?= base_url('event') ?>" class="d-block" id="event">Surveys & VoC</a>
-                                <a href="<?= base_url('contact_us') ?>" class="d-block">About us</a>
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <div class="nav-links">
-                                <a href="/magazine" class="d-block">Magazine</a>
-                                <a href="https://einfews.energyinfra.market/" class="d-block">News</a>
-                                <a href=" https://eninrac.com/careers" class="d-block">Careers</a>
-                                <a href="<?= base_url("contact_us") ?>" class="d-block">Contact Us</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-4">
-                <div class="col-md-6 text-md-start">
-                    <p class="copyright">&copy; 2024 Eninrac. All rights reserved.</p>
-                </div>
-                <div class="col-md-6 text-md-end">
-                    <p class="privacy"><a href="">Privacy Policy</a> • <a href="">Terms & Conditions</a></p>
-                </div>
-            </div>
-        </div>
-    </footer>
+
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const faqItems = document.querySelectorAll(".faq-item");

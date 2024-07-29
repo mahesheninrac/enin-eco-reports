@@ -37,22 +37,21 @@
     }
 
     .report-header h1 {
-      font-size: 1.75rem;
+
       font-weight: bold;
     }
 
     .report-header-lg h1 {
-      font-size: 2.5rem;
-      /* equivalent to text-h1 */
+      font-size: 3.125rem;
     }
 
     .report-header p {
       margin-top: 1.25rem;
-      max-width: 29.12rem;
+      max-width: 25.12rem;
       margin-left: auto;
       margin-right: auto;
       font-size: 1rem;
-      
+
     }
 
     .report-header-lg p {
@@ -73,7 +72,8 @@
 
     /* Content section */
     .content-section {
-      display: none;
+      display:none;
+
     }
 
     .content-section.active {
@@ -85,7 +85,7 @@
       border-bottom: 1px solid black;
     }
 
-   
+
 
     .arrow {
       display: none;
@@ -97,7 +97,17 @@
     }
 
     .v-list {
+      font-size: 1.3rem !important;
+    }
+
+    .v-list {
       color: var(--primary-800);
+      font-weight: bold;
+    }
+
+    .v-list-blue {
+      font-size: 1.3rem !important;
+      color: blue !important;
       font-weight: bold;
     }
 
@@ -105,6 +115,69 @@
     .product-ribbon-svg {
       height: 25px;
       width: 25px;
+    }
+
+    /* changes */
+
+    .info-block:hover {
+      background-color: white !important;
+
+
+    }
+
+    .w-blue {
+      background-color: #f1f2fb;
+    }
+
+    .contentsection h1 {
+
+      color: blue !important;
+    }
+
+    .arrow {
+      color: blue !important;
+      ;
+    }
+
+    .icofont-arrow-right {
+      color: blue !important;
+
+    }
+
+    /* .border-bottom {
+      border-bottom: 1px solid #758694 !important;
+      
+      
+    }
+
+    .border-top {
+      border-bottom: 1px solid #758694 !important;
+    
+    } */
+
+    .contentsection a {
+      font-size: 12px !important;
+      font-weight: bold !important;
+
+    }
+
+    .info-block:hover .h5 {
+
+      font-weight: bold !important;
+    }
+
+   
+    .ribbon-content li{
+      width: 100px;
+      height: 100px;
+    }
+
+
+    .highlight{
+      background-image: linear-gradient( 135deg, #f1f2fb,#82a5e9);
+      box-shadow: 10px 5px 5px rgba(90, 70, 254, .5) ;
+      border-radius: 10px;
+      padding: 1rem;
     }
   </style>
 
@@ -114,19 +187,19 @@
 
   <!-- navbar section  -->
   <nav class="navbar navbar-expand-md bg-white py-4">
-    <div class="container">
-      <a class="navbar-brand " href="<?= base_url('/') ?>">
-        <!-- <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/logo-dark-purple.742caa.svg" alt="Logo" /> -->
+    <div class="container-xxl">
+      <a class="navbar-brand " href="<?= base_url('') ?>">
+
 
         <img src="<?= base_url('assets/images/final-logo-ecosystem.png') ?>" class="w-100 h-80" alt="home-page-banner">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"><img src="./Assets/menu.png" alt="" /></span>
+        <span class="navbar-toggler-icon"><i class="icofont-navigation-menu fs-30"></i></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
+        <ul class="navbar-nav ms-auto align-items-center" style="gap: 1.5rem; ">
           <li class="nav-item">
-            <a class="nav-link text-dark fw-normal" href="<?= base_url('reports') ?>">Eco System Report</a>
+            <a class="nav-link text-dark fw-normal" href="<?= base_url('reports') ?>"> Reports</a>
           </li>
           <li class="nav-item">
             <a class="nav-link fw-normal" href="<?= base_url('custom_page') ?>">Custom Requirements</a>
@@ -137,10 +210,16 @@
           <li class="nav-item">
             <a class="nav-link fw-normal" href="<?= base_url('contact_us') ?>">Contact us</a>
           </li>
+          <li class="nav-item">
+            <i class="icofont-navigation-menu fs-22" style=" margin-right: 5px"></i>
+          </li>
+
         </ul>
       </div>
     </div>
   </nav>
+
+
 
   <!-- header -->
   <header class="report-header report-header-lg text-center px-2 px-lg-5">
@@ -148,7 +227,7 @@
 
 
     <div class="relative">
-      <h1 class="display-4">EcoSystem Reports</h1>
+      <h1 class="display-4"> Reports</h1>
       <p>Actionable intelligence to inform your strategic and commercial decision making</p>
     </div>
   </header>
@@ -157,37 +236,52 @@
 
 
   <!-- testing ribbon -->
-  <div class="container-xxl  text-center p-4 pointer">
-    <div class="ribbon-note pb-4">
-      <span class="fw-bold">Click Icons to Know More...</span>
-    </div>
+  <div class="container-xxl  text-center p-4 pointer w-blue">
+
 
     <div class="ribbon-content">
       <ul class="vb-res list-style-none d-flex p-0 width-500 justify-content-around m-auto">
-        <li id="btn-solar">
+
+        <li id="btn-ev" class="tab">
+          <div class="text-center ">
+            <img src="<?= base_url('assets/images/solar-line.svg') ?>" class="product-ribbon-svg">
+            <p class="text-center fs-14 c-light-gray mt-2">EV</p>
+          </div>
+        </li>
+        <li id="btn-solar" class="highlight tab">
           <div class="text-center ">
             <img src="<?= base_url('assets/images/solar-line.svg') ?>" class="product-ribbon-svg">
             <p class="text-center fs-14 c-light-gray mt-2">Solar</p>
           </div>
-
         </li>
-        <li id="btn-wind">
+
+        <li id="btn-wind" class="tab">
           <div class="text-center">
             <img src="<?= base_url('assets/images/oa-line.svg') ?>" class="product-ribbon-svg">
             <p class="text-center fs-14 c-light-gray mt-2">Wind</p>
           </div>
 
         </li>
-        <li id="btn-coal">
-          <div class="text-center">
-            <img src="<?= base_url('assets/images/ev-line.svg') ?>" class="product-ribbon-svg">
-            <p class="text-center fs-14 c-light-gray mt-2">Coal</p>
-          </div>
-        </li>
-        <li id="btn-hydro">
+
+
+        <li id="btn-hydro" class="tab">
           <div class="text-center ">
             <img src="<?= base_url('assets/images/solar-line.svg') ?>" class="product-ribbon-svg">
             <p class="text-center fs-14 c-light-gray mt-2">Hydrogen</p>
+          </div>
+        </li>
+
+        <li id="btn-bess" class="tab">
+          <div class="text-center">
+            <img src="<?= base_url('assets/images/ev-line.svg') ?>" class="product-ribbon-svg">
+            <p class="text-center fs-14 c-light-gray mt-2">Bess</p>
+          </div>
+        </li>
+
+        <li id="btn-power" class="tab" >
+          <div class="text-center">
+            <img src="<?= base_url('assets/images/ev-line.svg') ?>" class="product-ribbon-svg">
+            <p class="text-center fs-14 c-light-gray mt-2">Power</p>
           </div>
         </li>
 
@@ -196,34 +290,35 @@
 
 
   </div>
-  
-  <div class="main d-flex flex gap-4 ">
-    <div class="  py-1">
-      <ul class=" fw-normal text-start d-flex flex-column gap-4  justify-content-between " style="position: sticky; top: 0px; min-width: 300px; min-height: 100vh;">
-        <li class="border-top border-bottom d-flex gap-5 py-2 side-list" target="first" id="market-sizing">
-          <p class="fs-20 fw-400 v-list">Market Sizing</p>
-          <div class="arrow align-items-center" id="first"><i class="icofont-arrow-right fs-30"></i></div>
+
+  <div class="main d-flex flex gap-2  w-blue">
+    <div class="  py-1" style="width: 30%;">
+      <!-- justify-content-between -->
+      <ul class=" fw-normal text-start d-flex flex-column gap-4   " style="position: sticky; top: 0px; min-width: 300px; min-height: 100vh;">
+        <li class="border-top border-bottom  d-flex  justify-content-between py-2 side-list" target="first" id="market-sizing">
+          <p class=" v-list">Market Sizing</p>
+          <div class="arrow align-items-center" id="first"><i class="icofont-arrow-right fs-40"></i></div>
 
         </li>
-        <li class=" border-bottom  d-flex gap-5 side-list" target="second" id="future-outlook">
-          <p class="fs-20 fw-400 v-list">Future Outlook</p>
-          <div class="arrow " id="second"><i class="icofont-arrow-right fs-30"></i></div>
+        <li class=" border-bottom  d-flex  justify-content-between side-list" target="second" id="future-outlook">
+          <p class="  v-list">Future Outlook</p>
+          <div class="arrow " id="second"><i class="icofont-arrow-right fs-40"></i></div>
         </li>
-        <li class="  border-bottom  d-flex gap-5 side-list" target="third" id="focus-reports">
-          <p class="fs-20 fw-400 v-list">Focus Reports</p>
-          <div class="arrow " id="third"><i class="icofont-arrow-right fs-30"></i></div>
+        <li class="  border-bottom  d-flex  justify-content-between side-list" target="third" id="focus-reports">
+          <p class="  v-list">Focus Reports</p>
+          <div class="arrow " id="third"><i class="icofont-arrow-right fs-40"></i></div>
         </li>
-        <li class=" border-bottom  d-flex gap-4 side-list" target="four" id="thematic-reports">
-          <p class="fs-20 fw-400 v-list">Thematic Reports</p>
-          <div class="arrow " id="four"><i class="icofont-arrow-right fs-30"></i></div>
+        <li class=" border-bottom  d-flex  justify-content-between side-list" target="four" id="thematic-reports">
+          <p class="  v-list">Thematic Reports</p>
+          <div class="arrow " id="four"><i class="icofont-arrow-right fs-40"></i></div>
         </li>
-        <li class="  border-bottom d-flex gap-5 side-list" target="five" id="databases">
-          <p class="fs-20 fw-400 v-list">Databases</p>
-          <div class="arrow " id="five"><i class="icofont-arrow-right fs-30"></i></div>
+        <li class="  border-bottom d-flex  justify-content-between side-list" target="five" id="databases">
+          <p class="  v-list">Databases</p>
+          <div class="arrow " id="five"><i class="icofont-arrow-right fs-40"></i></div>
         </li>
-        <li class=" border-bottom  d-flex gap-5 side-list" target="six" id="survey">
-          <p class="fs-20 fw-400 v-list">Survey</p>
-          <div class="arrow " id="six"><i class="icofont-arrow-right fs-30"></i></div>
+        <li class="  d-flex  justify-content-between side-list" target="six" id="survey">
+          <p class="  v-list">Survey</p>
+          <div class="arrow " id="six"><i class="icofont-arrow-right fs-40"></i></div>
         </li>
       </ul>
     </div>
@@ -238,17 +333,17 @@
                 <h1 class="h5 fw-bold text-uppercase  ">Market Sizing</h1>
 
               </div>
-              <div class="d-flex flex py-1 gap-4 mx-4  align-items-start">
+              <div class="info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
                 <img src="https://placehold.co/25" class="">
 
                 <div class="text-content d-flex flex-column">
-                  <p class="h5
+                  <p class=" pointer h5
                 ">EV & Battery Quarterly Outlook</p>
                   <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
                 </div>
                 <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
               </div>
-              <div class="d-flex flex py-1 gap-4 mx-4  align-items-start">
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
                 <img src="https://placehold.co/25" class="">
 
                 <div class="text-content d-flex flex-column">
@@ -266,7 +361,7 @@
                   <h1 class="h5 fw-bold text-uppercase ">Future Outlook</h1>
 
                 </div>
-                <div class="d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
                   <img src="https://placehold.co/25" class="">
 
                   <div class="text-content d-flex flex-column">
@@ -276,7 +371,7 @@
                   </div>
                   <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
                 </div>
-                <div class="d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
                   <img src="https://placehold.co/25" class="">
 
                   <div class="text-content d-flex flex-column">
@@ -295,7 +390,7 @@
                   <h1 class="h5 fw-bold text-uppercase  ">Focus Reports</h1>
 
                 </div>
-                <div class="d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
                   <img src="https://placehold.co/25" class="">
 
                   <div class="text-content d-flex flex-column">
@@ -305,7 +400,7 @@
                   </div>
                   <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
                 </div>
-                <div class="d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
                   <img src="https://placehold.co/25" class="">
 
                   <div class="text-content d-flex flex-column">
@@ -324,7 +419,7 @@
                   <h1 class="h5 fw-bold text-uppercase ">thematic reports</h1>
 
                 </div>
-                <div class="d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
                   <img src="https://placehold.co/25" class="">
 
                   <div class="text-content d-flex flex-column">
@@ -334,7 +429,7 @@
                   </div>
                   <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
                 </div>
-                <div class="d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <div class="info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
                   <img src="https://placehold.co/25" class="">
 
                   <div class="text-content d-flex flex-column">
@@ -353,7 +448,7 @@
                   <h1 class="h5 fw-bold text-uppercase  ">Databases</h1>
 
                 </div>
-                <div class="d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <div class="info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
                   <img src="https://placehold.co/25" class="">
 
                   <div class="text-content d-flex flex-column">
@@ -363,7 +458,7 @@
                   </div>
                   <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
                 </div>
-                <div class="d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
                   <img src="https://placehold.co/25" class="">
 
                   <div class="text-content d-flex flex-column">
@@ -376,13 +471,13 @@
 
               </div>
             </div>
-            <div class="contentsection survey">
+            <div class="contentsection survey pb-4">
               <div class="survey">
                 <div class=" py-4">
                   <h1 class="h5 fw-bold text-uppercase  ">Survey</h1>
 
                 </div>
-                <div class="d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <div class="info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
                   <img src="https://placehold.co/25" class="">
 
                   <div class="text-content d-flex flex-column">
@@ -392,7 +487,7 @@
                   </div>
                   <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
                 </div>
-                <div class="d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <div class="info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
                   <img src="https://placehold.co/25" class="">
 
                   <div class="text-content d-flex flex-column">
@@ -407,16 +502,26 @@
 
             </div>
           </div>
+          <div class="content-ev" class="content-section">
+            
+          </div>
           <div id="content-wind" class="content-section">
 
+            <h1>wind</h1>
 
           </div>
-          <div id="content-coal" class="content-section">
 
+          <div id="content-bess" class="content-section">
+
+          
 
           </div>
-          <div id="content-hydro" class="content-section active">
+          <div id="content-hydro" class="content-section ">
+          
+          </div>
 
+          <div class="content-power" class="content-section">
+            
           </div>
         </div>
       </div>
@@ -427,53 +532,56 @@
 
   <!-- Footer -->
   <footer class="footer text-center text-md-start z-1">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 col-lg-6 mb-4 mb-md-0">
+    <div class="container-fluid">
+      <div class="row" style="padding: 2rem;">
+        <div class="col-md-5 col-lg-5 mb-4 mb-md-0">
           <div>
-            <img src="<?= base_url('assets/images/final-logo-ecosystem-white.png') ?>" alt="Logo" class="logo mb-4 w-25 h-50">
+            <img src="<?= base_url('assets/images/Asset 8.svg
+            ') ?>" alt="Logo" class="logo mb-4 w-25 h-50">
           </div>
           <div class="contact-info">
             <p>Eninrac Consulting Private Limited<br>2nd Floor, B-130, B-Block<br>Sector 65, Noida - 201301</p>
             <p>(+91) 9319048963, (+91) 9319047963<br><a href="mailto:info@rhomotion.com">connect@eninrac.com</a></p>
           </div>
-          <div class="social-icons mt-4">
-            <a href="https://www.linkedin.com/in/eninrac-consulting-88641719b/" target="_blank" rel="noreferrer">
-              <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-linkedin.5fd894.svg" alt="LinkedIn">
-            </a>
-            <a href="https://x.com/i/flow/login?redirect_after_login=%2Feninrac" target="_blank" rel="noreferrer">
-              <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-x.290b8c.svg" alt="Twitter">
-            </a>
-          </div>
+
         </div>
-        <div class="col-md-6 col-lg-6">
+        <div class="col-md-7 col-lg-7">
           <div class="row">
             <div class="col-6">
               <div class="nav-links">
-                <a href="<?= base_url('reports') ?>" class="d-block" id="reports">Eco System Reports</a>
+                <a href="<?= base_url('reports') ?>" class="d-block" id="reports">Reports</a>
                 <a href="<?= base_url('custom_page') ?>" class="d-block" id="custom_page">Custom Requirements</a>
                 <a href="<?= base_url('event') ?>" class="d-block" id="event">Surveys & VoC</a>
                 <a href="<?= base_url('contact_us') ?>" class="d-block">About us</a>
               </div>
             </div>
             <div class="col-6">
-              <div class="nav-links">
-                <a href="/magazine" class="d-block">Magazine</a>
-                <a href="https://einfews.energyinfra.market/" class="d-block">News</a>
-                <a href=" https://eninrac.com/careers" class="d-block">Careers</a>
-                <a href="<?= base_url("contact_us") ?>" class="d-block">Contact Us</a>
+              <div class="newsletter-form line-height:1.1 ">
+                <p class="mb-2">Subscribe to our newsletter</p>
+                <input type="email" name="" id="" class="mb-2 " placeholder="your work email">
+                <p style="font-size: .8rem;">By submitting this form, you agree to Rho Motion’s privacy policy.</p>
+                <div class="social-icons mt-4">
+                  <a href="https://www.linkedin.com/in/eninrac-consulting-88641719b/" target="_blank" rel="noreferrer">
+                    <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-linkedin.5fd894.svg" alt="LinkedIn">
+                  </a>
+                  <a href="https://x.com/i/flow/login?redirect_after_login=%2Feninrac" target="_blank" rel="noreferrer">
+                    <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-x.290b8c.svg" alt="Twitter">
+                  </a>
+                </div>
+
+
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="row mt-4">
-        <div class="col-md-6 text-md-start">
-          <p class="copyright">&copy; 2024 Eninrac. All rights reserved.</p>
-        </div>
-        <div class="col-md-6 text-md-end">
-          <p class="privacy"><a href="">Privacy Policy</a> • <a href="">Terms & Conditions</a></p>
-        </div>
+      <div class="row " style="padding: 0rem 2rem;">
+
+        <p class="copyright mb-0" style="font-size: 1.3rem;">&copy; 2024 Eninrac. All rights reserved.</p>
+
+
+        <p class="privacy  "><a href="">Privacy Policy</a> • <a href="">Terms & Conditions</a></p>
+
       </div>
     </div>
   </footer>
@@ -490,14 +598,11 @@
         screenY
       };
     }
-
-
-
     function topCheck(element) {
       let currentPosition = getScreenPosition(element);
       console.log(currentPosition.screenY);
 
-      if (currentPosition.screenY > -167 && currentPosition.screenY < 35) {
+      if (currentPosition.screenY > -180 && currentPosition.screenY < 35) {
 
         return true;
       }
@@ -507,7 +612,8 @@
     }
 
     function showContent(contentId) {
-     
+
+      
       var contents = document.querySelectorAll('.content-section');
       contents.forEach(function(content) {
         content.classList.remove('active');
@@ -517,29 +623,38 @@
       document.getElementById(contentId).classList.add('active');
     }
 
+    function highlight(element){
+      var tabs = document.querySelectorAll('.tab');
+      tabs.forEach(function(tab) {
+        tab.classList.remove('highlight');
+      });
+      element.classList.add('highlight');
+    }
 
 
 
     window.addEventListener('scroll', function(e) {
       if (topCheck(document.querySelectorAll('.contentsection')[0])) {
-        showArrow("first")
+        showArrow("first");
+
+
 
       }
       if (topCheck(document.querySelectorAll('.contentsection')[1])) {
         showArrow("second")
-       
+
       }
       if (topCheck(document.querySelectorAll('.contentsection')[2])) {
         showArrow("third")
-        
+
       }
       if (topCheck(document.querySelectorAll('.contentsection')[3])) {
         showArrow("four")
-        
+
       }
       if (topCheck(document.querySelectorAll('.contentsection')[4])) {
         showArrow("five")
-        
+
       }
       if (topCheck(document.querySelectorAll('.contentsection')[5])) {
         showArrow("six")
@@ -556,6 +671,7 @@
       var contents = document.querySelectorAll('.arrow');
 
       contents.forEach(function(content) {
+        
         content.classList.remove('active');
       });
       let ele = document.getElementById(id);
@@ -563,25 +679,43 @@
       ele.classList.add('active');
     }
 
+  
 
+    document.getElementById('btn-ev').addEventListener('click', function() {
+      
+      highlight(this);
+      showContent('content-ev');
+
+    });
 
     document.getElementById('btn-solar').addEventListener('click', function() {
+      highlight(this);
       showContent('content-solar');
 
     });
 
     document.getElementById('btn-wind').addEventListener('click', function() {
+      highlight(this);
       showContent('content-wind');
 
     });
 
-    document.getElementById('btn-coal').addEventListener('click', function() {
-      showContent('content-coal');
+
+
+    document.getElementById('btn-hydro').addEventListener('click', function() {
+      highlight(this);
+      showContent('content-hydro');
 
     });
 
-    document.getElementById('btn-hydro').addEventListener('click', function() {
-      showContent('content-hydro');
+    document.getElementById('btn-bess').addEventListener('click', function() {
+      highlight(this);
+      showContent('content-bess');
+
+    });
+    document.getElementById('btn-power').addEventListener('click', function() {
+      highlight(this);
+      showContent('content-power');
 
     });
   </script>

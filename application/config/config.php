@@ -25,8 +25,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 
 // officce
-$config['base_url'] = 'http://192.168.1.22/ci/';
-$config['base_url'] = 'http://localhost/ci/';
+$config['base_url'] = 'http://192.168.1.155/ci';
+// $config['base_url'] = 'http://localhost/ci/';
 
 // home 
 // $config['base_url'] = 'http://localhost/eninrac/';

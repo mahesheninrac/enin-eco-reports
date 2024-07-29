@@ -88,7 +88,7 @@ a {
   color: var(--primary-700);
 }
 
-.primary-color{
+.primary-color {
   color: var(--primary-800) !important;
 }
 .text-primary-800 {
@@ -248,10 +248,64 @@ a {
 }
 
 .hero {
-  background-color: var(--primary-800);
+  background-color: #041e42;
   color: var(--white-100);
   font-family: var(--body-font);
 }
+/* updates */
+.hero-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.hero-section .text-container {
+  flex: 1 1 55%;
+  max-width: 55%;
+  padding: 10px;
+}
+.hero-card-overlay {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+
+  z-index: 1;
+}
+
+.hero-section > div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+  }
+
+  .hero-section .text-container,
+  .hero-section > div {
+    max-width: 100%;
+  }
+}
+
+.hero .card {
+  min-height: 15.6rem;
+}
+
+.nav-link {
+  font-weight: 600 !important;
+  opacity: 0.7 !important;
+}
+
+.nav-link:hover {
+  color: blue !important;
+}
+/* ends */
 
 .card-body img {
   opacity: 0.4;
@@ -291,7 +345,13 @@ a {
 }
 
 .card-title {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
+  font-weight: bold !important;
+}
+.card-text:last-child {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
 }
 
 /* survey page */
@@ -309,22 +369,51 @@ a {
 
 /* consultency */
 .consultency {
-  background-color: var(--primary-800);
+  /* background-color: var(--primary-800); */
+  background-color: #041e42 !important;
   color: var(--white-100);
   font-family: var(--body-font);
 }
 
 /* footer */
 
+.newsletter-form {
+  font-size: 1.2rem !important;
+  font-weight: 600;
+}
+
+.newsletter-form input:focus {
+  outline: none !important;
+}
+
+.newsletterfooter-input-i i{
+    right: 10px;
+    top: 4px;
+    font-size: 3rem;
+
+}
+
+.newsletter-form input {
+  outline: none !important;
+  background-color: #041e42;
+  border: 1px solid white;
+  border-radius: 5px;
+  height: 3rem;
+}
+
 .footer {
-  background-color: var(--primary-800);
+  background-color: #041e42;
   color: white;
   padding: 3rem 1rem;
 }
 
 .footer a {
-  color: #b39ddb;
+  color: white;
   text-decoration: none;
+}
+.footer a:hover {
+  color: blue !important;
+  text-decoration: none !important;
 }
 
 .footer a:hover {
@@ -351,17 +440,17 @@ a {
 }
 
 .footer .copyright {
-  font-size: 1rem;
+  font-size: 0.6rem;
 }
 
 @media (min-width: 768px) {
   .footer .contact-info p,
   .footer .contact-info a {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
   }
 
   .footer .nav-links a {
-    font-size: 1.75rem;
+    font-size: 1.7rem;
   }
 
   .footer .social-icons img {
@@ -370,7 +459,7 @@ a {
   }
 
   .footer .copyright {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
 }
 
@@ -426,10 +515,11 @@ a {
 /* contact us */
 
 .contact {
-  background-color: var(--primary-300);
-  color: var(--darklight-100);
+  background-image: url("../images/contact_us.jpg");
+  background-size: cover;
+  color: var(--darklight-800);
   font-family: var(--body-font);
-  height: 100%;
+  min-height: 480px;
 }
 
 .our-research {
@@ -497,15 +587,32 @@ a:focus {
 
 .accordion-button {
   min-height: 70px;
+  background-color: #8ab8d9 !important;
+  font-size: 1.3125rem;
+  font-weight: 800;
+  line-height: 140%;
 }
 
 .accordion-button:not(.collapsed) {
-  background-color: transparent !important;
+  background-color: #8ab8d9 !important;
   color: inherit;
 }
 
 button.accordion-button:focus {
-  box-shadow: inherit;
+  box-shadow: none !important;
+}
+.accodion {
+  background-color: #8ab8d9 !important;
+  border-color: #8ab8d9 !important;
+}
+.accordion-button:not(.collapsed) {
+  color: var(--bs-accordion-active-color);
+  background-color: var(--bs-accordion-active-bg);
+  box-shadow: none !important;
+}
+
+.accordion-body {
+  background-color: #8ab8d9 !important;
 }
 
 .consultency img {
@@ -550,7 +657,7 @@ button.accordion-button:focus {
 
 .custom-banner .content {
   position: relative;
-  max-width: 42.25rem;
+  max-width: 39.25rem;
   margin: 0 auto;
   text-align: left;
   padding: 5rem 2rem;
@@ -617,6 +724,7 @@ button.accordion-button:focus {
 }
 
 .custom-section {
+  background-color:#8ab8d9; ;
   position: relative;
   overflow: hidden;
 }
@@ -876,6 +984,18 @@ button.accordion-button:focus {
 }
 
 /* event-page */
+.speak-events{
+  background-color: #e2e5f0;
+}
+.tabs-section{
+  background-color: #f1f5f8;
+
+}
+
+.event-banner-relative{
+  background-color: #cac0ff;
+
+}
 
 .event-card {
   background-color: #f8f9fa;
@@ -1026,19 +1146,29 @@ button.accordion-button:focus {
   max-width: 1140px;
 }
 
+.nav-link {
+  font-weight: 600 !important;
+  opacity: 0.7 !important;
+}
+
+.nav-link:hover {
+  color: blue !important;
+}
+
 .nav-tabs .nav-link {
-  background-color: var(--primary-300);
+  
   border: none !important;
   font-weight: bold;
 }
 
 .nav-tabs .nav-link.active {
-  background-color: var(--primary-300);
+  background-color:#f1f5f8;
   color: #0d6efd !important;
   /* border: none !important; */
   font-weight: bold;
   border-bottom: 4px solid #0d6efd !important;
 }
+
 
 .our-research .see-more {
   background-color: white;
@@ -1109,22 +1239,26 @@ button.accordion-button:focus {
 .membership-accord .accordion-item {
   border: none;
 }
+.accordion-item {
+  border: none !important;
+}
 
 .membership-accord .accordion-body {
   background-color: var(--primary-300) !important;
   padding-top: 0px;
 }
 
-.membership-demo-form h1{
-  font-size: 36px ;
+.membership-demo-form h1 {
+  font-size: 36px;
   font-weight: bold;
   padding-top: 2em;
 }
 
-.membership-demo-form input{
+.membership-demo-form input {
   padding: 12px;
 }
-.briefing-left, .briefing-right{
+.briefing-left,
+.briefing-right {
   padding-top: 4rem;
   padding-bottom: 2rem;
 }

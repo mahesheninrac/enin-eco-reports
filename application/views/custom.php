@@ -17,19 +17,19 @@
 
 
   <nav class="navbar navbar-expand-md bg-white py-4">
-    <div class="container">
-      <a class="navbar-brand " href="<?= base_url('/') ?>">
-        <!-- <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/logo-dark-purple.742caa.svg" alt="Logo" /> -->
+    <div class="container-fluid">
+      <a class="navbar-brand " href="<?= base_url('') ?>">
+
 
         <img src="<?= base_url('assets/images/final-logo-ecosystem.png') ?>" class="w-100 h-80" alt="home-page-banner">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"><img src="./Assets/menu.png" alt="" /></span>
+        <span class="navbar-toggler-icon"><i class="icofont-navigation-menu fs-30"></i></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
+        <ul class="navbar-nav ms-auto align-items-center" style="gap: 1.5rem; ">
           <li class="nav-item">
-            <a class="nav-link text-dark fw-normal" href="<?= base_url('reports') ?>">Eco System Report</a>
+            <a class="nav-link text-dark fw-normal" href="<?= base_url('reports') ?>"> Reports</a>
           </li>
           <li class="nav-item">
             <a class="nav-link fw-normal" href="<?= base_url('custom_page') ?>">Custom Requirements</a>
@@ -40,6 +40,10 @@
           <li class="nav-item">
             <a class="nav-link fw-normal" href="<?= base_url('contact_us') ?>">Contact us</a>
           </li>
+          <li class="nav-item">
+            <i class="icofont-navigation-menu fs-22" style=" margin-right: 5px"></i>
+          </li>
+
         </ul>
       </div>
     </div>
@@ -53,7 +57,7 @@
           <div class="content">
             <h2>Rho Motion Consultancy</h2>
             <p>Tailored research and custom reports to inform your strategic decision-making</p>
-            <a class="btn btn-primary" href="<?= base_url('contact_us') ?>">Get in touch</a>
+            <a class="btn btn-primary fw-bold mt-4" href="<?= base_url('contact_us') ?>">Get in touch</a>
           </div>
         </div>
       </div>
@@ -63,9 +67,9 @@
 
 
   <!-- our services -->
-  <section class="custom-section bg-sky-blue-5 ">
+  <section class="custom-section ">
 
-    <div class="container-xxl content-container">
+    <div class="container-fluid content-container">
       <div class="row justify-content-end">
         <div class="col-md-6 ">
           <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/v1702261345/assets/consultancy/kn5enxfwlgnjjjep4wtz.svg" class="" alt="Background Image">
@@ -74,9 +78,9 @@
         <div class="col-md-6 py-5 d-flex flex-column justify-content-center ">
 
           <div class="d-flex flex-column justify-content-center">
-            <h2 class="text-uppercase text-bright-purple fw-bold mb-3">Our Services</h2>
-            <p class="h2 fw-medium mb-4">Unparalleled experience, unique insight and unmatched data</p>
-            <p class="lead">We provide commercial and vendor due diligence across the energy transition. From gigafactories to recycling, our dynamic and informed team can support the process.</p>
+            <h2 class="text-uppercase " style="font-size:1.3rem; font-weight: 800; color: #5866ff !important;">Our Services</h2>
+            <p style="font-size: 2.25rem; font-weight:600; line-height: 140%;">Unparalleled experience, unique insight and unmatched data</p>
+            <p class="" style="font-size: 1.25rem; line-height:160%;">We provide commercial and vendor due diligence across the energy transition. From gigafactories to recycling, our dynamic and informed team can support the process.</p>
           </div>
         </div>
 
@@ -87,10 +91,10 @@
   <!-- custom-about -->
   <section class="custom-about-section">
     <div class="custom-about-overlay d-none d-md-block"></div>
-    <div class="container-xxl custom-about-content-container text-start">
-      <div class="row">
-        <div class="col-md-6">
-          <h2 class="display-5 fw-medium">Independent, tailored advice for financial organisations involved in the energy transition</h2>
+    <div class="container-fluid custom-about-content-container text-start">
+      <div class="row" style="color: rgba(255, 255, 255, .8); max-width :36.4rem;">
+        <div>
+          <h2 style="font-weight:600; font-size: 2.25rem;line-height :145%;">Independent, tailored advice for financial organisations involved in the energy transition</h2>
           <p class="lead">Our team has experience working on both the buy and sell side with unique and specialised commercial due diligence. Our comprehensive appraisals unlock the potential and identify paths to success.</p>
         </div>
       </div>
@@ -149,7 +153,7 @@
                 <!-- button -->
 
                 <button class="video-section-close-button" id="closeButton">
-                <i class="icofont-ui-close fs-30   text-white"></i>
+                  <i class="icofont-ui-close fs-30   text-white"></i>
                 </button>
                 <!-- Video  -->
 
@@ -170,10 +174,138 @@
   </section>
 
 
-  <!-- process section -->
 
 
 
+
+
+
+
+  <section class="example-work bg-primary-200 mt-0">
+
+    <div class="container-xxl py-5">
+      <div class="text-center d-flex flex-column  ">
+        <h3 class=" fw-bold fs-22 text-primary">EXAMPLES OF OUR WORK</h3>
+        <p class=" fs-30 " style="max-width: 42rem; align-self: center;">Our consultancy experience spans finance raising, market entry and strategic advisory</p>
+      </div>
+      <div class="row py-4">
+        <div class="col-md-4 mb-4">
+          <div class="case-study ">
+            <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/case-study-icons/case-study-01.98b84c.svg" class="py-4" alt="">
+            <h5 class="">CASE STUDY 1</h5>
+            <h6 class="py-2">Next-generation battery technologies</h6>
+            <p>We provided bottom-up cost models for the next-generation anode, cathode and electrolyte innovations for lithium-ion and sodium-ion batteries as a basis for future strategy and investment decisions on behalf of a major public body.</p>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="case-study ">
+            <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/case-study-icons/case-study-01.98b84c.svg" class="py-4" alt="">
+            <h5 class="">CASE STUDY 1</h5>
+            <h6 class=" py-2">Next-generation battery technologies</h6>
+            <p>We provided bottom-up cost models for the next-generation anode, cathode and electrolyte innovations for lithium-ion and sodium-ion batteries as a basis for future strategy and investment decisions on behalf of a major public body.</p>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="case-study ">
+            <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/case-study-icons/case-study-01.98b84c.svg" class="py-4" alt="">
+            <h5 class="">CASE STUDY 1</h5>
+            <h6 class=" py-2">Next-generation battery technologies</h6>
+            <p>We provided bottom-up cost models for the next-generation anode, cathode and electrolyte innovations for lithium-ion and sodium-ion batteries as a basis for future strategy and investment decisions on behalf of a major public body.</p>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="row py-2">
+        <div class="col-md-4 mb-4">
+          <div class="case-study ">
+            <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/case-study-icons/case-study-01.98b84c.svg" class="py-4" alt="">
+            <h5 class="">CASE STUDY 1</h5>
+            <h6 class="fw-bold py-2">Next-generation battery technologies</h6>
+            <p>We provided bottom-up cost models for the next-generation anode, cathode and electrolyte innovations for lithium-ion and sodium-ion batteries as a basis for future strategy and investment decisions on behalf of a major public body.</p>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="case-study ">
+            <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/case-study-icons/case-study-01.98b84c.svg" class="py-4" alt="">
+            <h5 class="">CASE STUDY 1</h5>
+            <h6 class="fw-bold py-2">Next-generation battery technologies</h6>
+            <p>We provided bottom-up cost models for the next-generation anode, cathode and electrolyte innovations for lithium-ion and sodium-ion batteries as a basis for future strategy and investment decisions on behalf of a major public body.</p>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="case-study ">
+            <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/case-study-icons/case-study-01.98b84c.svg" class="py-4" alt="">
+            <h5 class="">CASE STUDY 1</h5>
+            <h6 class="fw-bold py-2">Next-generation battery technologies</h6>
+            <p>We provided bottom-up cost models for the next-generation anode, cathode and electrolyte innovations for lithium-ion and sodium-ion batteries as a basis for future strategy and investment decisions on behalf of a major public body.</p>
+          </div>
+        </div>
+
+
+      </div>
+
+  </section>
+
+
+  <!-- get in touch form -->
+
+
+  <section>
+    <div class="con-wrapper">
+      <div class="container-fluid">
+        <div class="row text-start">
+          <!-- Left Column -->
+          <div class="col-md-5 d-flex flex-column justify-content-center position-relative p-0">
+            <picture class="w-100 h-100">
+              <source media="(min-width: 768px)" srcset="https://res.cloudinary.com/dkklqdsqc/image/upload/q_auto,f_auto/v1701786601/assets/consultancy/consulting-contact_lf62dg_kr9cgs.jpg">
+              <img class="position-absolute top-0 left-0 w-100 h-100 object-cover object-right-top" src="https://res.cloudinary.com/dkklqdsqc/image/upload/q_auto,f_auto/v1701786600/assets/consultancy/consulting-contact-mobile_w4syry_eed7cu.png" aria-hidden="true">
+            </picture>
+            <div class="d-none d-md-block position-absolute bg-black opacity-50 top-0 left-0 w-100 h-100"></div>
+            <div class="position-relative text-white w-100 px-5 py-3 bg-sky-blue-5 bg-transparent-md">
+              <h2 class="text-uppercase fw-semibold text-bright-purple text-sky-blue-4-md mb-2">Consultancy Team</h2>
+              <p class="fs-5 fs-4-md fw-semibold mb-4">Independent, tailored advice for your business</p>
+              <p class="mb-4">Our consultancy team brings a breadth of industry experience across the EV value chain and wider energy mix; from raw materials extraction through anode, cathode and battery cell technologies, charging, BESS, and battery recycling.</p>
+              <p>To speak to our team about your consultancy project, call us on connect@eninrac.com, or email connect@eninrac.com</p>
+            </div>
+          </div>
+          <!-- Right Column -->
+          <div class="col-md-7 bg-sky-blue-5 p-4 bg-primary-200">
+            <div class="px-5 mx-5">
+              <h2>Get in touch</h2>
+              <p>Contact us to discuss our products and how they can support you.</p>
+              <form enctype="multipart/form-data" method="post">
+                <div class="row">
+                  <div class="col-md-6 mb-3">
+                    <label for="firstName" class="form-label">First Name <span class="text-danger">*</span></label>
+                    <input type="text" id="firstName" name="firstName" class="form-control" placeholder="Name" required>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <label for="lastName" class="form-label">Last Name <span class="text-danger">*</span></label>
+                    <input type="text" id="lastName" name="lastName" class="form-control" placeholder="Last name" required>
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email address <span class="text-danger">*</span></label>
+                  <input type="email" id="email" name="email" class="form-control" placeholder="email@youremailaddress.com" required>
+                </div>
+                <div class="mb-3">
+                  <label for="phone" class="form-label">Phone number <span class="text-danger">*</span></label>
+                  <div class="input-group">
+                    <span class="input-group-text">+91</span>
+                    <input type="tel" id="phone" name="phone" class="form-control" placeholder="XXXXXXXXXXX" required>
+                  </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Register interest</button>
+                <p class="py-4">By submitting this form, you agree to Eninrac's privacy policy.</p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <section class="process bg-primary-300">
     <div class="container-xxl py-4">
 
@@ -259,182 +391,61 @@
 
 
 
-  <section class="example-work bg-primary-200 mt-0">
-
-    <div class="container-xxl py-5">
-      <div class="text-center d-flex flex-column  ">
-        <h3 class=" fw-bold fs-22 text-primary">EXAMPLES OF OUR WORK</h3>
-        <p class=" fs-30 " style="max-width: 42rem; align-self: center;">Our consultancy experience spans finance raising, market entry and strategic advisory</p>
-      </div>
-      <div class="row py-4">
-        <div class="col-md-4 mb-4">
-          <div class="case-study ">
-            <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/case-study-icons/case-study-01.98b84c.svg" class="py-4" alt="">
-            <h5 class="">CASE STUDY 1</h5>
-            <h6 class="py-2">Next-generation battery technologies</h6>
-            <p>We provided bottom-up cost models for the next-generation anode, cathode and electrolyte innovations for lithium-ion and sodium-ion batteries as a basis for future strategy and investment decisions on behalf of a major public body.</p>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4">
-          <div class="case-study ">
-            <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/case-study-icons/case-study-01.98b84c.svg" class="py-4" alt="">
-            <h5 class="">CASE STUDY 1</h5>
-            <h6 class=" py-2">Next-generation battery technologies</h6>
-            <p>We provided bottom-up cost models for the next-generation anode, cathode and electrolyte innovations for lithium-ion and sodium-ion batteries as a basis for future strategy and investment decisions on behalf of a major public body.</p>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4">
-          <div class="case-study ">
-            <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/case-study-icons/case-study-01.98b84c.svg" class="py-4" alt="">
-            <h5 class="">CASE STUDY 1</h5>
-            <h6 class=" py-2">Next-generation battery technologies</h6>
-            <p>We provided bottom-up cost models for the next-generation anode, cathode and electrolyte innovations for lithium-ion and sodium-ion batteries as a basis for future strategy and investment decisions on behalf of a major public body.</p>
-          </div>
-        </div>
-
-
-      </div>
-      <div class="row py-2">
-        <div class="col-md-4 mb-4">
-          <div class="case-study ">
-            <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/case-study-icons/case-study-01.98b84c.svg" class="py-4" alt="">
-            <h5 class="">CASE STUDY 1</h5>
-            <h6 class="fw-bold py-2">Next-generation battery technologies</h6>
-            <p>We provided bottom-up cost models for the next-generation anode, cathode and electrolyte innovations for lithium-ion and sodium-ion batteries as a basis for future strategy and investment decisions on behalf of a major public body.</p>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4">
-          <div class="case-study ">
-            <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/case-study-icons/case-study-01.98b84c.svg" class="py-4" alt="">
-            <h5 class="">CASE STUDY 1</h5>
-            <h6 class="fw-bold py-2">Next-generation battery technologies</h6>
-            <p>We provided bottom-up cost models for the next-generation anode, cathode and electrolyte innovations for lithium-ion and sodium-ion batteries as a basis for future strategy and investment decisions on behalf of a major public body.</p>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4">
-          <div class="case-study ">
-            <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/case-study-icons/case-study-01.98b84c.svg" class="py-4" alt="">
-            <h5 class="">CASE STUDY 1</h5>
-            <h6 class="fw-bold py-2">Next-generation battery technologies</h6>
-            <p>We provided bottom-up cost models for the next-generation anode, cathode and electrolyte innovations for lithium-ion and sodium-ion batteries as a basis for future strategy and investment decisions on behalf of a major public body.</p>
-          </div>
-        </div>
-
-
-      </div>
-
-  </section>
-
-
-  <!-- get in touch form -->
-
-
-  <section>
-    <div class="con-wrapper">
-      <div class="container-xxl">
-        <div class="row text-start">
-          <!-- Left Column -->
-          <div class="col-md-5 d-flex flex-column justify-content-center position-relative p-0">
-            <picture class="w-100 h-100">
-              <source media="(min-width: 768px)" srcset="https://res.cloudinary.com/dkklqdsqc/image/upload/q_auto,f_auto/v1701786601/assets/consultancy/consulting-contact_lf62dg_kr9cgs.jpg">
-              <img class="position-absolute top-0 left-0 w-100 h-100 object-cover object-right-top" src="https://res.cloudinary.com/dkklqdsqc/image/upload/q_auto,f_auto/v1701786600/assets/consultancy/consulting-contact-mobile_w4syry_eed7cu.png" aria-hidden="true">
-            </picture>
-            <div class="d-none d-md-block position-absolute bg-black opacity-50 top-0 left-0 w-100 h-100"></div>
-            <div class="position-relative text-white w-100 px-5 py-3 bg-sky-blue-5 bg-transparent-md">
-              <h2 class="text-uppercase fw-semibold text-bright-purple text-sky-blue-4-md mb-2">Consultancy Team</h2>
-              <p class="fs-5 fs-4-md fw-semibold mb-4">Independent, tailored advice for your business</p>
-              <p class="mb-4">Our consultancy team brings a breadth of industry experience across the EV value chain and wider energy mix; from raw materials extraction through anode, cathode and battery cell technologies, charging, BESS, and battery recycling.</p>
-              <p>To speak to our team about your consultancy project, call us on connect@eninrac.com, or email connect@eninrac.com</p>
-            </div>
-          </div>
-          <!-- Right Column -->
-          <div class="col-md-7 bg-sky-blue-5 p-4 bg-primary-200">
-            <div class="px-5 mx-5">
-              <h2>Get in touch</h2>
-              <p>Contact us to discuss our products and how they can support you.</p>
-              <form enctype="multipart/form-data" method="post">
-                <div class="row">
-                  <div class="col-md-6 mb-3">
-                    <label for="firstName" class="form-label">First Name <span class="text-danger">*</span></label>
-                    <input type="text" id="firstName" name="firstName" class="form-control" placeholder="Name" required>
-                  </div>
-                  <div class="col-md-6 mb-3">
-                    <label for="lastName" class="form-label">Last Name <span class="text-danger">*</span></label>
-                    <input type="text" id="lastName" name="lastName" class="form-control" placeholder="Last name" required>
-                  </div>
-                </div>
-                <div class="mb-3">
-                  <label for="email" class="form-label">Email address <span class="text-danger">*</span></label>
-                  <input type="email" id="email" name="email" class="form-control" placeholder="email@youremailaddress.com" required>
-                </div>
-                <div class="mb-3">
-                  <label for="phone" class="form-label">Phone number <span class="text-danger">*</span></label>
-                  <div class="input-group">
-                    <span class="input-group-text">+91</span>
-                    <input type="tel" id="phone" name="phone" class="form-control" placeholder="XXXXXXXXXXX" required>
-                  </div>
-                </div>
-
-                <button type="submit" class="btn btn-primary">Register interest</button>
-                <p class="py-4">By submitting this form, you agree to Eninrac's privacy policy.</p>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
 
   <footer class="footer text-center text-md-start z-1">
-    <div class="container-xxl">
-      <div class="row">
-        <div class="col-md-6 col-lg-6 mb-4 mb-md-0">
+    <div class="container-fluid">
+      <div class="row" style="padding: 2rem;">
+        <div class="col-md-5 col-lg-5 mb-4 mb-md-0">
           <div>
-            <img src="<?= base_url('assets/images/final-logo-ecosystem-white.png') ?>" alt="Logo" class="logo mb-4 w-25 h-50">
+            <img src="<?= base_url('assets/images/Asset 8.svg
+            ') ?>" alt="Logo" class="logo mb-4 w-25 h-50">
           </div>
           <div class="contact-info">
             <p>Eninrac Consulting Private Limited<br>2nd Floor, B-130, B-Block<br>Sector 65, Noida - 201301</p>
             <p>(+91) 9319048963, (+91) 9319047963<br><a href="mailto:info@rhomotion.com">connect@eninrac.com</a></p>
           </div>
-          <div class="social-icons mt-4">
-            <a href="https://www.linkedin.com/in/eninrac-consulting-88641719b/" target="_blank" rel="noreferrer">
-              <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-linkedin.5fd894.svg" alt="LinkedIn">
-            </a>
-            <a href="https://x.com/i/flow/login?redirect_after_login=%2Feninrac" target="_blank" rel="noreferrer">
-              <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-x.290b8c.svg" alt="Twitter">
-            </a>
-          </div>
+
         </div>
-        <div class="col-md-6 col-lg-6">
+        <div class="col-md-7 col-lg-7">
           <div class="row">
             <div class="col-6">
               <div class="nav-links">
-                <a href="<?= base_url('reports') ?>" class="d-block" id="reports">Eco System Reports</a>
+                <a href="<?= base_url('reports') ?>" class="d-block" id="reports">Reports</a>
                 <a href="<?= base_url('custom_page') ?>" class="d-block" id="custom_page">Custom Requirements</a>
                 <a href="<?= base_url('event') ?>" class="d-block" id="event">Surveys & VoC</a>
                 <a href="<?= base_url('contact_us') ?>" class="d-block">About us</a>
               </div>
             </div>
             <div class="col-6">
-              <div class="nav-links">
-                <a href="/magazine" class="d-block">Magazine</a>
-                <a href="https://einfews.energyinfra.market/" class="d-block">News</a>
-                <a href=" https://eninrac.com/careers" class="d-block">Careers</a>
-                <a href="<?= base_url("contact_us") ?>" class="d-block">Contact Us</a>
+              <div class="newsletter-form line-height:1.1 ">
+                <p class="mb-2">Subscribe to our newsletter</p>
+                <div class="w-100 newsletterfooter-input-i position-relative">
+                  <input type="email" name="" id="" class="mb-2 w-100 " placeholder="your work email">
+                  <i class="icofont-long-arrow-right position-absolute"></i>
+                </div>
+                <p style="font-size: .8rem;">By submitting this form, you agree to Rho Motion’s privacy policy.</p>
+                <div class="social-icons mt-4">
+                  <a href="https://www.linkedin.com/in/eninrac-consulting-88641719b/" target="_blank" rel="noreferrer">
+                    <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-linkedin.5fd894.svg" alt="LinkedIn">
+                  </a>
+                  <a href="https://x.com/i/flow/login?redirect_after_login=%2Feninrac" target="_blank" rel="noreferrer">
+                    <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-x.290b8c.svg" alt="Twitter">
+                  </a>
+                </div>
+
+
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="row mt-4">
-        <div class="col-md-6 text-md-start">
-          <p class="copyright">&copy; 2024 Eninrac. All rights reserved.</p>
-        </div>
-        <div class="col-md-6 text-md-end">
-          <p class="privacy"><a href="">Privacy Policy</a> • <a href="">Terms & Conditions</a></p>
-        </div>
+      <div class="row " style="padding: 0rem 2rem;">
+
+        <p class="copyright mb-0" style="font-size: 1.3rem;">&copy; 2024 Eninrac. All rights reserved.</p>
+
+
+        <p class="privacy  "><a href="">Privacy Policy</a> • <a href="">Terms & Conditions</a></p>
+
       </div>
     </div>
   </footer>
