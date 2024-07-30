@@ -1,42 +1,60 @@
-<footer class="bg-dark text-white py-4">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4 mb-3">
-        <img src="your-logo.png" alt="Logo" class="mb-2">
-        <address>
-          Eninrac Consulting Private Limited<br>
-          2nd Floor, B-130, B-Block<br>
-          Sector 65, Noida - 201301<br>
-          <a href="tel:+919319048963" class="text-white">(+91) 9319048963</a>, <a href="tel:+919319047963" class="text-white">(+91) 9319047963</a><br>
-          <a href="mailto:connect@eninrac.com" class="text-white">connect@eninrac.com</a>
-        </address>
-      </div>
-      <div class="col-md-4 mb-3">
-        <h5>Quick Links</h5>
-        <ul class="list-unstyled">
-          <li><a href="#" class="text-white">Eco System Reports</a></li>
-          <li><a href="#" class="text-white">Custom Requirements</a></li>
-          <li><a href="#" class="text-white">Surveys & VoC</a></li>
-          <li><a href="#" class="text-white">About us</a></li>
-          <li><a href="#" class="text-white">Magazine</a></li>
-          <li><a href="#" class="text-white">News</a></li>
-          <li><a href="#" class="text-white">Careers</a></li>
-          <li><a href="#" class="text-white">Contact Us</a></li>
-        </ul>
-      </div>
-      <div class="col-md-4 mb-3">
-        <h5>Connect with Us</h5>
-        <ul class="list-unstyled d-flex">
-          <li class="me-3"><a href="#" class="text-white"><i class="fab fa-linkedin"></i></a></li>
-          <li><a href="#" class="text-white"><i class="fab fa-twitter"></i></a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="text-center mt-3">
-      <p class="m-0">&copy; 2024 Eninrac. All rights reserved.</p>
-      <a href="#" class="text-white">Privacy Policy</a> | <a href="#" class="text-white">Terms & Conditions</a>
-    </div>
-  </div>
-</footer>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="<?= base_url('assets/fonts/fonts.css') ?>" />
+  <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>" />
+  <style>
+    .line-clamp {
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    a {
+      color: black;
+    }
+  </style>
+</head>
+
+<body style="background-color: wheat;">
+
+  <center>
+    <a href="">
+      <div class="d-flex flex gap-4" style=" height:14rem;background-color: #e2e5f0; margin:2rem">
+
+        <div class="d-flex flex" style="padding: 4rem 3rem; width:80%;">
+          <div class="time-date" style="min-width: 8.125rem;">
+            <p style="background-color: #3d45d3; color:white; font-size :0.75rem;font-weight: 500; text-align:center; padding:0.12rem; width:90%; border-radius:2px;">online event</p>
+            <p style="font-size: 1.3125rem; font-weight:400; line-height: 140%;">31 July 2024</p>
+          </div>
+
+          <div class="grow" style="text-align: justify; width: 60%;">
+            <div class="title line-clamp" style="font-size: 1.75rem; font-weight:400; line-height:145%;">
+              2024 EV & battery market slowdown: Temporary setback or long-term trend?
+            </div>
+            <p class="line-clamp" style="font-size: .87rem; font-weight:400;line-height:150%">Register now for our latest webinar on the EV and battery market slowdown: Temporary setback or Long-Term Trend? Join our expert analyst team as they review the EV and battery markets, reflecting on trends from the first half of 2024 and discussing potential developments for the rest of the year.</p>
+          </div>
+
+        </div>
 
 
+
+        <div class="image-holder" style="width:20%;">
+          <img src="<?= base_url('assets/images/event-card.png') ?>" alt="" style="height: 100%; width: 100%;object-fit: cover;">
+        </div>
+
+
+      </div>
+    </a>
+  </center>
+
+
+
+</body>
+
+</html>

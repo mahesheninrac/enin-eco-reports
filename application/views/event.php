@@ -15,6 +15,10 @@
             border-color: #563d7c #563d7c #fff;
             color: #563d7c;
         }
+        .nav-tabs .nav-link:hover{
+            color: black !important;
+            opacity: 0.7;
+        }
     </style>
 
 </head>
