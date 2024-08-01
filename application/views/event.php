@@ -7,56 +7,46 @@
     <title>Events</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
 
+
     <link rel="stylesheet" href="<?= base_url('assets/fonts/fonts.css') ?>" />
     <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>" />
-
-    <style>
-        .nav-tabs .nav-link.active {
-            border-color: #563d7c #563d7c #fff;
-            color: #563d7c;
-        }
-        .nav-tabs .nav-link:hover{
-            color: black !important;
-            opacity: 0.7;
-        }
-    </style>
-
+      
 </head>
 
 <body>
     <!-- navbar section  -->
     <nav class="navbar navbar-expand-md bg-white py-4">
-    <div class="container-fluid">
-      <a class="navbar-brand " href="<?= base_url('') ?>">
+        <div class="container-fluid">
+            <a class="navbar-brand " href="<?= base_url('') ?>">
 
 
-        <img src="<?= base_url('assets/images/final-logo-ecosystem.png') ?>" class="w-100 h-80" alt="home-page-banner">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"><i class="icofont-navigation-menu fs-30"></i></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto align-items-center" style="gap: 1.5rem; ">
-          <li class="nav-item">
-            <a class="nav-link text-dark fw-normal" href="<?= base_url('reports') ?>"> Reports</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fw-normal" href="<?= base_url('custom_page') ?>">Custom Requirements</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fw-normal" href="<?= base_url('event') ?>">Surveys</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fw-normal" href="<?= base_url('contact_us') ?>">Contact us</a>
-          </li>
-          <li class="nav-item">
-            <i class="icofont-navigation-menu fs-22" style=" margin-right: 5px"></i>
-          </li>
+                <img src="<?= base_url('assets/images/final-logo-ecosystem.png') ?>" class="w-100 h-80" alt="home-page-banner">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="icofont-navigation-menu fs-30"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center" style="gap: 1.5rem; ">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fw-normal" href="<?= base_url('reports') ?>"> Reports</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-normal" href="<?= base_url('custom_page') ?>">Custom Requirements</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-normal" href="<?= base_url('event') ?>">Surveys</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-normal" href="<?= base_url('contact_us') ?>">Contact us</a>
+                    </li>
+                    <li class="nav-item">
+                        <i class="icofont-navigation-menu fs-22" style=" margin-right: 5px"></i>
+                    </li>
 
-        </ul>
-      </div>
-    </div>
-  </nav>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
 
 
@@ -87,22 +77,22 @@
 
     <!-- events -->
 
-    <section class="tabs-section py-4 px-5">
+    <section class="tabs-section  event-section">
         <div class="container-fluid">
             <h1 class="p-2 fw-bold">Events</h1>
             <!-- Tab Navigation -->
-            <ul class="nav nav-tabs nav-fill py-5" id="eventTabs" role="tablist">
+            <ul class="nav nav-tabs nav-fill py-2" id="eventTabs" role="tablist">
                 <li class="nav-item" role="presentation">
-                    <div class="nav-link active px-2 py-4 text-dark" id="all-events-tab" data-bs-toggle="tab" data-bs-target="#all-events" type="button" role="tab" aria-controls="all-events" aria-selected="true">All Events</div>
+                    <div class="nav-link active px-2 py-4 text-dark" id="all-events-tab" data-bs-toggle="tab" data-bs-target="#all-events" type="button" role="tab" aria-controls="all-events" aria-selected="true">ALL EVENTS</div>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <div class="nav-link px-2 py-4 text-dark" id="live-events-tab" data-bs-toggle="tab" data-bs-target="#live-events" type="button" role="tab" aria-controls="live-events" aria-selected="false">Live Events</div>
+                    <div class="nav-link px-2 py-4 text-dark" id="live-events-tab" data-bs-toggle="tab" data-bs-target="#live-events" type="button" role="tab" aria-controls="live-events" aria-selected="false">LIVE EVENTS</div>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <div class="nav-link px-2 py-4 text-dark" id="webinars-tab" data-bs-toggle="tab" data-bs-target="#webinars" type="button" role="tab" aria-controls="webinars" aria-selected="false">Webinars</div>
+                    <div class="nav-link px-2 py-4 text-dark" id="webinars-tab" data-bs-toggle="tab" data-bs-target="#webinars" type="button" role="tab" aria-controls="webinars" aria-selected="false">WEBINARS</div>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <div class="nav-link px-2 py-4 text-dark" id="past-events-tab" data-bs-toggle="tab" data-bs-target="#past-events" type="button" role="tab" aria-controls="past-events" aria-selected="false">Past Events</div>
+                    <div class="nav-link px-2 py-4 text-dark" id="past-events-tab" data-bs-toggle="tab" data-bs-target="#past-events" type="button" role="tab" aria-controls="past-events" aria-selected="false">PAST EVENTS</div>
                 </li>
             </ul>
 
@@ -112,47 +102,61 @@
                 <div class="tab-pane fade show active" id="all-events" role="tabpanel" aria-labelledby="all-events-tab">
                     <div class="row">
                         <div class="col-12 col-md-12 mb-3">
-                            <div class="event-card shadow-sm mb-4">
-                                <div class="card-body p-0">
-                                    <iframe height="380" src="https://www.youtube.com/embed/YEnU2DS-dS0?si=8MUocTob37JPQHtb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="w-100 rounded-top"></iframe>
-                                    <div class="p-3">
-                                        <h4 class="card-title mb-0">Views on the leadership of Hon’ble Chief Minister Shri Shivraj Singh Chouhan Ji.</h4>
+                            <a href="">
+                                <div class="d-flex flex event-block">
+
+                                    <div class=" event-block-text d-flex flex gap-4">
+                                        <div class="time-date">
+                                            <p class="online-event">online event</p>
+                                            <p class="time-date">31 July 2024</p>
+                                        </div>
+
+                                        <div class="grow">
+                                            <div class="title line-clamp">
+                                                2024 EV & battery market slowdown: Temporary setback or long-term trend?
+                                            </div>
+                                            <p class="line-clamp description">Register now for our latest webinar on the EV and battery market slowdown: Temporary setback or Long-Term Trend? Join our expert analyst team as they review the EV and battery markets, reflecting on trends from the first half of 2024 and discussing potential developments for the rest of the year.</p>
+                                        </div>
+
                                     </div>
+                                    <div class="image-holder">
+                                        <img src="<?= base_url('assets/images/event-card.png') ?>" alt="" style="">
+                                    </div>
+
+
                                 </div>
-                            </div>
+                            </a>
                         </div>
 
                         <div class="col-12 col-md-12 mb-3">
-                            <div class="event-card shadow-sm mb-4">
-                                <div class="card-body p-0">
-                                    <iframe height="380" src="https://www.youtube.com/embed/q4FQKM8bsbI?si=i4Dm38Z4roHk7vN9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="w-100 rounded-top"></iframe>
-                                    <div class="p-3">
-                                        <h4 class="card-title mb-0">Views on transformation of the energy sector in the state of Madhya Pradesh over the past decade.</h4>
+                            <a href="">
+                                <div class="d-flex flex event-block">
+
+                                    <div class=" event-block-text d-flex flex gap-4">
+                                        <div class="time-date">
+                                            <p class="online-event">online event</p>
+                                            <p class="time-date">31 July 2024</p>
+                                        </div>
+
+                                        <div class="grow">
+                                            <div class="title line-clamp">
+                                                2024 EV & battery market slowdown: Temporary setback or long-term trend?
+                                            </div>
+                                            <p class="line-clamp description">Register now for our latest webinar on the EV and battery market slowdown: Temporary setback or Long-Term Trend? Join our expert analyst team as they review the EV and battery markets, reflecting on trends from the first half of 2024 and discussing potential developments for the rest of the year.</p>
+                                        </div>
+
                                     </div>
+                                    <div class="image-holder">
+                                        <img src="<?= base_url('assets/images/event-card.png') ?>" alt="" style="">
+                                    </div>
+
+
                                 </div>
-                            </div>
+                            </a>
                         </div>
 
-                        <div class="col-12 col-md-12 mb-3">
-                            <div class="event-card shadow-sm mb-4">
-                                <div class="card-body p-0">
-                                    <iframe height="380" src="https://www.youtube.com/embed/zNWpX_xtunY?si=vI3dSs6iogE52w_Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="w-100 rounded-top"></iframe>
-                                    <div class="p-3">
-                                        <h4 class="card-title mb-0">Views on Conventional Energy Transition of The Madhya Pradesh.</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-12 mb-3">
-                            <div class="event-card shadow-sm mb-4">
-                                <div class="event-card-body p-0">
-                                    <iframe height="380" src="https://www.youtube.com/embed/YnEAe0SHVPQ?si=zh4nG_nf5oUp23GQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" style="width: 100%;"></iframe>
-                                    <div class="p-3">
-                                        <h4 class="card-title mb-0">Views on the key takeaways from that for the other states to come up with a solar city project.</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+
+                        
                     </div>
                 </div>
 
@@ -160,14 +164,30 @@
                 <div class="tab-pane fade" id="live-events" role="tabpanel" aria-labelledby="live-events-tab">
                     <div class="row">
                         <div class="col-12 col-md-12 mb-3">
-                            <div class="event-card shadow-sm mb-4">
-                                <div class="card-body p-0">
-                                    <iframe height="315" src="https://www.youtube.com/embed/GtV8Ek1mLWU?si=uDQn8UGc52xnX1Rk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" style="width: 100%;"></iframe>
-                                    <div class="p-3">
-                                        <h4 class="card-title mb-0">Key focus on the strategic expansion plans for developing new energies in the Madhya Pradesh.</h4>
+                            <a href="">
+                                <div class="d-flex flex event-block">
+
+                                    <div class=" event-block-text d-flex flex gap-4">
+                                        <div class="time-date">
+                                            <p class="online-event">online event</p>
+                                            <p class="time-date">31 July 2024</p>
+                                        </div>
+
+                                        <div class="grow">
+                                            <div class="title line-clamp">
+                                                2024 EV & battery market slowdown: Temporary setback or long-term trend?
+                                            </div>
+                                            <p class="line-clamp description">Register now for our latest webinar on the EV and battery market slowdown: Temporary setback or Long-Term Trend? Join our expert analyst team as they review the EV and battery markets, reflecting on trends from the first half of 2024 and discussing potential developments for the rest of the year.</p>
+                                        </div>
+
                                     </div>
+                                    <div class="image-holder">
+                                        <img src="<?= base_url('assets/images/event-card.png') ?>" alt="" style="">
+                                    </div>
+
+
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -176,14 +196,30 @@
                 <div class="tab-pane fade" id="webinars" role="tabpanel" aria-labelledby="webinars-tab">
                     <div class="row">
                         <div class="col-12 col-md-12 mb-3">
-                            <div class="event-card shadow-sm mb-4">
-                                <div class="card-body p-0">
-                                    <iframe height="380" src="https://www.youtube.com/embed/YEnU2DS-dS0?si=8MUocTob37JPQHtb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="w-100 rounded-top"></iframe>
-                                    <div class="p-3">
-                                        <h4 class="card-title mb-0">Madhya Pradesh An Endeavour Towards becoming India's Green Energy State.</h4>
+                            <a href="">
+                                <div class="d-flex flex event-block">
+
+                                    <div class=" event-block-text d-flex flex gap-4">
+                                        <div class="time-date">
+                                            <p class="online-event">online event</p>
+                                            <p class="time-date">31 July 2024</p>
+                                        </div>
+
+                                        <div class="grow">
+                                            <div class="title line-clamp">
+                                                2024 EV & battery market slowdown: Temporary setback or long-term trend?
+                                            </div>
+                                            <p class="line-clamp description">Register now for our latest webinar on the EV and battery market slowdown: Temporary setback or Long-Term Trend? Join our expert analyst team as they review the EV and battery markets, reflecting on trends from the first half of 2024 and discussing potential developments for the rest of the year.</p>
+                                        </div>
+
                                     </div>
+                                    <div class="image-holder">
+                                        <img src="<?= base_url('assets/images/event-card.png') ?>" alt="" style="">
+                                    </div>
+
+
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -192,14 +228,30 @@
                 <div class="tab-pane fade" id="past-events" role="tabpanel" aria-labelledby="past-events-tab">
                     <div class="row">
                         <div class="col-12 col-md-12 mb-3">
-                            <div class="event-card shadow-sm mb-4">
-                                <div class="card-body p-0">
-                                    <iframe height="380" src="https://www.youtube.com/embed/JT5fJH_FZa0?si=F5Ru2gqVfPirYmex" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" style="width: 100%;"></iframe>
-                                    <div class="p-3">
-                                        <h4 class="card-title mb-0">Investment Attractiveness of Madhya Pradesh for becoming India's leading Renewable Energy Market.</h4>
+                            <a href="">
+                                <div class="d-flex flex event-block">
+
+                                    <div class=" event-block-text d-flex flex gap-4">
+                                        <div class="time-date">
+                                            <p class="online-event">online event</p>
+                                            <p class="time-date">31 July 2024</p>
+                                        </div>
+
+                                        <div class="grow">
+                                            <div class="title line-clamp">
+                                                2024 EV & battery market slowdown: Temporary setback or long-term trend?
+                                            </div>
+                                            <p class="line-clamp description">Register now for our latest webinar on the EV and battery market slowdown: Temporary setback or Long-Term Trend? Join our expert analyst team as they review the EV and battery markets, reflecting on trends from the first half of 2024 and discussing potential developments for the rest of the year.</p>
+                                        </div>
+
                                     </div>
+                                    <div class="image-holder">
+                                        <img src="<?= base_url('assets/images/event-card.png') ?>" alt="" style="">
+                                    </div>
+
+
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -290,62 +342,62 @@
     <!-- footer -->
 
     <footer class="footer text-center text-md-start z-1">
-    <div class="container-fluid">
-      <div class="row" style="padding:2rem">
-        <div class="col-md-5 col-lg-5 mb-4 mb-md-0">
-          <div>
-            <img src="<?= base_url('assets/images/Asset 8.svg
+        <div class="container-fluid">
+            <div class="row" style="padding:2rem">
+                <div class="col-md-5 col-lg-5 mb-4 mb-md-0">
+                    <div>
+                        <img src="<?= base_url('assets/images/Asset 8.svg
             ') ?>" alt="Logo" class="logo mb-4 w-25 h-50">
-          </div>
-          <div class="contact-info">
-            <p>Eninrac Consulting Private Limited<br>2nd Floor, B-130, B-Block<br>Sector 65, Noida - 201301</p>
-            <p>(+91) 9319048963, (+91) 9319047963<br><a href="mailto:info@rhomotion.com">connect@eninrac.com</a></p>
-          </div>
+                    </div>
+                    <div class="contact-info">
+                        <p>Eninrac Consulting Private Limited<br>2nd Floor, B-130, B-Block<br>Sector 65, Noida - 201301</p>
+                        <p>(+91) 9319048963, (+91) 9319047963<br><a href="mailto:info@rhomotion.com">connect@eninrac.com</a></p>
+                    </div>
 
-        </div>
-        <div class="col-md-7 col-lg-7">
-          <div class="row" style="padding: 2rem;">
-            <div class="col-6">
-              <div class="nav-links">
-                <a href="<?= base_url('reports') ?>" class="d-block" id="reports">Reports</a>
-                <a href="<?= base_url('custom_page') ?>" class="d-block" id="custom_page">Custom Requirements</a>
-                <a href="<?= base_url('event') ?>" class="d-block" id="event">Surveys & VoC</a>
-                <a href="<?= base_url('contact_us') ?>" class="d-block">About us</a>
-              </div>
-            </div>
-            <div class="col-6">
-              <div class="newsletter-form line-height:1.1 ">
-                <p class="mb-2">Subscribe to our newsletter</p>
-                <div class="w-100 newsletterfooter-input-i position-relative">
-                  <input type="email" name="" id="" class="mb-2 w-100 " placeholder="your work email">
-                  <i class="icofont-long-arrow-right position-absolute"></i>
                 </div>
-                <p style="font-size: .8rem;">By submitting this form, you agree to Rho Motion’s privacy policy.</p>
-                <div class="social-icons mt-4">
-                  <a href="https://www.linkedin.com/in/eninrac-consulting-88641719b/" target="_blank" rel="noreferrer">
-                    <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-linkedin.5fd894.svg" alt="LinkedIn">
-                  </a>
-                  <a href="https://x.com/i/flow/login?redirect_after_login=%2Feninrac" target="_blank" rel="noreferrer">
-                    <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-x.290b8c.svg" alt="Twitter">
-                  </a>
+                <div class="col-md-7 col-lg-7">
+                    <div class="row" style="padding: 2rem;">
+                        <div class="col-6">
+                            <div class="nav-links">
+                                <a href="<?= base_url('reports') ?>" class="d-block" id="reports">Reports</a>
+                                <a href="<?= base_url('custom_page') ?>" class="d-block" id="custom_page">Custom Requirements</a>
+                                <a href="<?= base_url('event') ?>" class="d-block" id="event">Surveys & VoC</a>
+                                <a href="<?= base_url('contact_us') ?>" class="d-block">About us</a>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="newsletter-form line-height:1.1 ">
+                                <p class="mb-2">Subscribe to our newsletter</p>
+                                <div class="w-100 newsletterfooter-input-i position-relative">
+                                    <input type="email" name="" id="" class="mb-2 w-100 " placeholder="your work email">
+                                    <i class="icofont-long-arrow-right position-absolute"></i>
+                                </div>
+                                <p style="font-size: .8rem;">By submitting this form, you agree to Rho Motion’s privacy policy.</p>
+                                <div class="social-icons mt-4">
+                                    <a href="https://www.linkedin.com/in/eninrac-consulting-88641719b/" target="_blank" rel="noreferrer">
+                                        <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-linkedin.5fd894.svg" alt="LinkedIn">
+                                    </a>
+                                    <a href="https://x.com/i/flow/login?redirect_after_login=%2Feninrac" target="_blank" rel="noreferrer">
+                                        <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-x.290b8c.svg" alt="Twitter">
+                                    </a>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
-
-              </div>
             </div>
-          </div>
+            <div class="row " style="padding: 0 2rem;">
+
+                <p class="copyright mb-0" style="font-size: 1.3rem;">&copy; 2024 Eninrac. All rights reserved.</p>
+
+
+                <p class="privacy  "><a href="">Privacy Policy</a> • <a href="">Terms & Conditions</a></p>
+
+            </div>
         </div>
-      </div>
-      <div class="row " style="padding: 0 2rem;">
-
-        <p class="copyright mb-0" style="font-size: 1.3rem;">&copy; 2024 Eninrac. All rights reserved.</p>
-
-
-        <p class="privacy  "><a href="">Privacy Policy</a> • <a href="">Terms & Conditions</a></p>
-
-      </div>
-    </div>
-  </footer>
+    </footer>
 
 
 

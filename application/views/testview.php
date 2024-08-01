@@ -8,6 +8,17 @@
   <link rel="stylesheet" href="<?= base_url('assets/fonts/fonts.css') ?>" />
   <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>" />
   <style>
+    .online-event {
+      background-color: #3d45d3;
+      color: white;
+      font-size: 0.75rem;
+      font-weight: 500;
+      text-align: center;
+      padding: 0.12rem;
+      width: 90%;
+      border-radius: 2px
+    }
+
     .line-clamp {
       display: -webkit-box;
       -webkit-line-clamp: 2;
@@ -15,43 +26,68 @@
       overflow: hidden;
     }
 
-    a {
+    .event-block {
       color: black;
+      height: 14rem;
+      background-color: #e2e5f0;
+      margin: 2rem;
+      width: 80%;
+    }
+
+    .event-block-text {
+      padding: 4rem 3rem;
+      width: 80%;
+      justify-content: center;
+    }
+
+    .event-block .time-date {
+      font-size: 1.3125rem;
+      font-weight: 400;
+      line-height: 140%;
+      min-width: 8.125rem;
+    }
+
+    .event-block .image-holder img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .grow {
+      text-align: left;
+      width: 60%;
+
+    }
+
+    .grow .description {
+      font-size: .87rem;
+      font-weight: 400;
+      line-height: 150%
+    }
+
+    .grow .title {
+      font-size: 1.75rem;
+      font-weight: 400;
+      line-height: 145%;
     }
   </style>
+
+
 </head>
 
 <body style="background-color: wheat;">
 
-  <center>
-    <a href="">
-      <div class="d-flex flex gap-4" style=" height:14rem;background-color: #e2e5f0; margin:2rem">
-
-        <div class="d-flex flex" style="padding: 4rem 3rem; width:80%;">
-          <div class="time-date" style="min-width: 8.125rem;">
-            <p style="background-color: #3d45d3; color:white; font-size :0.75rem;font-weight: 500; text-align:center; padding:0.12rem; width:90%; border-radius:2px;">online event</p>
-            <p style="font-size: 1.3125rem; font-weight:400; line-height: 140%;">31 July 2024</p>
-          </div>
-
-          <div class="grow" style="text-align: justify; width: 60%;">
-            <div class="title line-clamp" style="font-size: 1.75rem; font-weight:400; line-height:145%;">
-              2024 EV & battery market slowdown: Temporary setback or long-term trend?
-            </div>
-            <p class="line-clamp" style="font-size: .87rem; font-weight:400;line-height:150%">Register now for our latest webinar on the EV and battery market slowdown: Temporary setback or Long-Term Trend? Join our expert analyst team as they review the EV and battery markets, reflecting on trends from the first half of 2024 and discussing potential developments for the rest of the year.</p>
-          </div>
-
-        </div>
-
-
-
-        <div class="image-holder" style="width:20%;">
-          <img src="<?= base_url('assets/images/event-card.png') ?>" alt="" style="height: 100%; width: 100%;object-fit: cover;">
-        </div>
-
-
-      </div>
-    </a>
-  </center>
+  <script>
+    console.log("started");
+     fetch("http://192.168.29.131/ci/assets/js/dummy.json")
+      .then((response) => response.json())
+      .then((result) => {
+        console.log(result);
+      })
+      .catch((err) => {
+        console.log("error", err);
+      });
+  </script>
 
 
 
