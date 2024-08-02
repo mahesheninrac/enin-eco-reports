@@ -63,13 +63,13 @@
       <!-- card1 -->
       <a href="<?= base_url("reports") ?>" class="card overflow-hidden w-100 card-overlay ">
         <div class="card-body position-relative py-4 px-3">
-          <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/v1702337706/assets/home/ymfa0talxlppyy682pqp.svg" class="d-none d-lg-block" alt="" />
-          <h2 class="card-title d-flex justify-content-between align-items-center ">
+          <img src="<?= base_url()?>assets/images/ECO SYSTEM REPORTS.jpg" class="d-none d-lg-block" alt="" />
+          <h2 class="card-title d-flex justify-content-between align-items-center position-relative z-1">
             ECO SYSTEM REPORTS
 
             <i class="icofont-external-link"></i>
           </h2>
-          <p class="card-text pt-2 ">
+          <p class="card-text pt-2 position-relative z-1">
             Ford ahead with locking oppurtunities across India's energy transition.
           </p>
         </div>
@@ -77,13 +77,13 @@
 
       <a href="<?= base_url('custom_page') ?>" class="card overflow-hidden w-100 hero-card-overlay ">
         <div class="card-body position-relative py-4 px-3">
-          <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/v1702337706/assets/home/ymfa0talxlppyy682pqp.svg" class="d-none d-lg-block" alt="" />
-          <h2 class="card-title d-flex justify-content-between align-items-center">
+          <img src="<?= base_url()?>assets/images/CUSTOM REQUIREMENTS.jpg" class="d-none d-lg-block" alt="" />
+          <h2 class="card-title d-flex justify-content-between align-items-center position-relative z-1">
             CUSTOM REQUIREMENTS
 
             <i class="icofont-external-link"></i>
           </h2>
-          <p class="card-text pt-2">
+          <p class="card-text pt-2 position-relative z-1">
             Address your energy transition needs using tailored research.
           </p>
         </div>
@@ -92,13 +92,13 @@
       <!-- card2 -->
       <a href="<?= base_url('') ?>" class="card overflow-hidden w-100  hero-card-overlay">
         <div class="card-body position-relative py-4 px-3">
-          <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/v1702337706/assets/home/ymfa0talxlppyy682pqp.svg" class="d-none d-lg-block" alt="" />
-          <h2 class="card-title d-flex justify-content-between align-items-center">
+          <img src="<?= base_url()?>assets/images/SURVEYS AND VOC.jpg" class="d-none d-lg-block" alt="" />
+          <h2 class="card-title d-flex justify-content-between align-items-center position-relative z-1">
             SURVEYS & VoC
 
             <i class="icofont-external-link"></i>
           </h2>
-          <p class="card-text pt-2">
+          <p class="card-text pt-2 position-relative z-1">
 
             Learn energy transition market signals & orient your product to tap early advantage.
           </p>
@@ -107,13 +107,13 @@
       <!-- card3 -->
       <a href="<?= base_url('event') ?>" class="card overflow-hidden w-100 hero-card-overlay ">
         <div class="card-body position-relative py-4 px-3">
-          <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/v1702337706/assets/home/ymfa0talxlppyy682pqp.svg" class="d-none d-lg-block" alt="" />
-          <h2 class="card-title d-flex justify-content-between align-items-center">
+          <img src="<?= base_url()?>assets/images/WEBINARS & INTERVIEWA.jpg" class="d-none d-lg-block" alt="" />
+          <h2 class="card-title d-flex justify-content-between align-items-center position-relative z-1">
             WEBINARS & INTERVIEWS
             <!-- <img src="" class="opacity-75" alt="arrow" class="ms-2" /> -->
             <i class="icofont-external-link"></i>
           </h2>
-          <p class="card-text pt-2">
+          <p class="card-text pt-2 position-relative z-1">
             Understand the energy transition market perspective from seasoned professionals & experts
           </p>
         </div>

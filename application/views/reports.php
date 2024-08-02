@@ -144,16 +144,7 @@
 
     }
 
-    /* .border-bottom {
-      border-bottom: 1px solid #758694 !important;
-      
-      
-    }
 
-    .border-top {
-      border-bottom: 1px solid #758694 !important;
-    
-    } */
 
     .contentsection a {
       font-size: 12px !important;
@@ -172,12 +163,19 @@
       height: 100px;
     }
 
-
+    .tab p{
+      font-size: 14px;
+    }
+    .highlight p{
+      font-weight: bold;
+      font-size: 16px !important;
+    }
     .highlight{
       background-image: linear-gradient( 135deg, #f1f2fb,#82a5e9);
       box-shadow: 10px 5px 5px rgba(90, 70, 254, .5) ;
       border-radius: 10px;
       padding: 1rem;
+      
     }
   </style>
 
@@ -187,7 +185,7 @@
 
   <!-- navbar section  -->
   <nav class="navbar navbar-expand-md bg-white py-4">
-    <div class="container-xxl">
+    <div class="container-fluid">
       <a class="navbar-brand " href="<?= base_url('') ?>">
 
 
@@ -236,7 +234,7 @@
 
 
   <!-- testing ribbon -->
-  <div class="container-xxl  text-center p-4 pointer w-blue">
+  <div class="container-fluid  text-center p-4 pointer w-blue">
 
 
     <div class="ribbon-content">
@@ -245,20 +243,20 @@
         <li id="btn-ev" class="tab">
           <div class="text-center ">
             <img src="<?= base_url('assets/images/solar-line.svg') ?>" class="product-ribbon-svg">
-            <p class="text-center fs-14 c-light-gray mt-2">EV</p>
+            <p class="text-center  c-light-gray mt-2">EV</p>
           </div>
         </li>
         <li id="btn-solar" class="highlight tab">
           <div class="text-center ">
             <img src="<?= base_url('assets/images/solar-line.svg') ?>" class="product-ribbon-svg">
-            <p class="text-center fs-14 c-light-gray mt-2">Solar</p>
+            <p class="text-center  c-light-gray mt-2">Solar</p>
           </div>
         </li>
 
         <li id="btn-wind" class="tab">
           <div class="text-center">
             <img src="<?= base_url('assets/images/oa-line.svg') ?>" class="product-ribbon-svg">
-            <p class="text-center fs-14 c-light-gray mt-2">Wind</p>
+            <p class="text-center  c-light-gray mt-2">Wind</p>
           </div>
 
         </li>
@@ -267,21 +265,21 @@
         <li id="btn-hydro" class="tab">
           <div class="text-center ">
             <img src="<?= base_url('assets/images/solar-line.svg') ?>" class="product-ribbon-svg">
-            <p class="text-center fs-14 c-light-gray mt-2">Hydrogen</p>
+            <p class="text-center  c-light-gray mt-2">Hydrogen</p>
           </div>
         </li>
 
         <li id="btn-bess" class="tab">
           <div class="text-center">
             <img src="<?= base_url('assets/images/ev-line.svg') ?>" class="product-ribbon-svg">
-            <p class="text-center fs-14 c-light-gray mt-2">Bess</p>
+            <p class="text-center  c-light-gray mt-2">BESS</p>
           </div>
         </li>
 
         <li id="btn-power" class="tab" >
           <div class="text-center">
             <img src="<?= base_url('assets/images/ev-line.svg') ?>" class="product-ribbon-svg">
-            <p class="text-center fs-14 c-light-gray mt-2">Power</p>
+            <p class="text-center  c-light-gray mt-2">Power</p>
           </div>
         </li>
 
@@ -291,10 +289,10 @@
 
   </div>
 
-  <div class="main d-flex flex gap-2  w-blue">
-    <div class="  py-1" style="width: 30%;">
+  <div class="main d-flex flex gap-2  w-blue" style="padding-top:1rem;">
+    <div class=" py-1" style="width: 30%; position: sticky; top: 0px; min-width: 300px; min-height: 100vh">
       <!-- justify-content-between -->
-      <ul class=" fw-normal text-start d-flex flex-column gap-4   " style="position: sticky; top: 0px; min-width: 300px; min-height: 100vh;">
+      <ul class=" fw-normal text-start d-flex flex-column gap-4 " style="position: sticky; top: 0px; min-width: 300px; min-height: 100vh;">
         <li class="border-top border-bottom  d-flex  justify-content-between py-2 side-list" target="first" id="market-sizing">
           <p class=" v-list">Market Sizing</p>
           <div class="arrow align-items-center" id="first"><i class="icofont-arrow-right fs-40"></i></div>
@@ -507,7 +505,33 @@
           </div>
           <div id="content-wind" class="content-section">
 
-            <h1>wind</h1>
+          <div class="contentsection market-sizing">
+              <div class="py-4 ">
+                <h1 class="h5 fw-bold text-uppercase  ">Market Sizing</h1>
+
+              </div>
+              <div class="info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+
+                <div class="text-content d-flex flex-column">
+                  <p class=" pointer h5
+                ">EV & Battery Quarterly Outlook</p>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
+                </div>
+                <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
+                ">EV & Battery Quarterly Outlook</p>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
+                </div>
+                <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
+
+            </div>
 
           </div>
 

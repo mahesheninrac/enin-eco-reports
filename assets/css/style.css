@@ -246,9 +246,14 @@ a {
   width: 100%;
   height: 100%;
 }
-
 .hero {
-  background-color: #041e42;
+  background-color: #262946;
+  color: var(--white-100);
+  font-family: var(--body-font);
+}
+
+.product-hero {
+  background-color: #262946;
   color: var(--white-100);
   font-family: var(--body-font);
 }
@@ -264,6 +269,7 @@ a {
   flex: 1 1 55%;
   max-width: 55%;
   padding: 10px;
+  align-self:flex-end;
 }
 .hero-card-overlay {
   position: relative;
@@ -271,7 +277,7 @@ a {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.3);
 
   z-index: 1;
 }
@@ -307,7 +313,7 @@ a {
 }
 /* ends */
 
-.card-body img {
+.hero .card-body img {
   opacity: 0.4;
   position: absolute;
   bottom: -2.3rem;
@@ -315,7 +321,10 @@ a {
   width: 20.8rem;
   height: auto;
 }
+/* .hero-section .card-body .card-title{
+  z-index: 1;
 
+} */
 .hero-section {
   display: flex;
   flex-direction: column-reverse;
@@ -340,7 +349,7 @@ a {
 }
 
 .card {
-  background-color: var(--primary-800);
+  background-color: #303458;
   color: white;
 }
 
@@ -392,7 +401,8 @@ a {
   color: black;
   height: 14rem;
   background-color: #e2e5f0;
-  margin: 2rem;
+  margin: 2rem auto;
+  
   width: 80%;
 }
 
@@ -478,14 +488,14 @@ a {
 
 .newsletter-form input {
   outline: none !important;
-  background-color: #041e42;
+  background-color: #262946;
   border: 1px solid white;
   border-radius: 5px;
   height: 3rem;
 }
 
 .footer {
-  background-color: #041e42;
+  background-color: #262946;
   color: white;
   padding: 3rem 1rem;
 }
@@ -570,11 +580,20 @@ a {
 }
 
 .service-ribbon {
-  background-color: var(--primary-700);
+  background-color:#303458;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
 }
 
+
+@media (min-width: 768px) {
+  .what_included {
+      padding-top: 4.25rem;
+      padding-bottom: 5rem;
+  }
+}
 .what_included {
-  background-color: var(--primary-300);
+  background-color: #BAD0F6;
 }
 
 .what_included_card {
@@ -1020,6 +1039,9 @@ button.accordion-button:focus {
 }
 /* process */
 .icofont-arrow-right {
+  color: var(--primary-800);
+}
+.icofont-arrow-down {
   color: var(--primary-800);
 }
 

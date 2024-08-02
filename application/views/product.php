@@ -11,61 +11,61 @@
     <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>" />
 
 
+
 </head>
 
 <body>
     <!-- navbar   -->
     <nav class="navbar navbar-expand-md bg-white py-4">
-    <div class="container-fluid">
-      <a class="navbar-brand " href="<?= base_url('') ?>">
+        <div class="container-fluid">
+            <a class="navbar-brand " href="<?= base_url('') ?>">
 
 
-        <img src="<?= base_url('assets/images/final-logo-ecosystem.png') ?>" class="w-100 h-80" alt="home-page-banner">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"><i class="icofont-navigation-menu fs-30"></i></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto align-items-center" style="gap: 1.5rem; ">
-          <li class="nav-item">
-            <a class="nav-link text-dark fw-normal" href="<?= base_url('reports') ?>"> Reports</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fw-normal" href="<?= base_url('custom_page') ?>">Custom Requirements</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fw-normal" href="<?= base_url('event') ?>">Surveys</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fw-normal" href="<?= base_url('contact_us') ?>">Contact us</a>
-          </li>
-          <li class="nav-item">
-            <i class="icofont-navigation-menu fs-22" style=" margin-right: 5px"></i>
-          </li>
+                <img src="<?= base_url('assets/images/final-logo-ecosystem.png') ?>" class="w-100 h-80" alt="home-page-banner">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="icofont-navigation-menu fs-30"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center" style="gap: 1.5rem; ">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fw-normal" href="<?= base_url('reports') ?>"> Reports</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-normal" href="<?= base_url('custom_page') ?>">Custom Requirements</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-normal" href="<?= base_url('event') ?>">Surveys</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-normal" href="<?= base_url('contact_us') ?>">Contact us</a>
+                    </li>
+                    <li class="nav-item">
+                        <i class="icofont-navigation-menu fs-22" style=" margin-right: 5px"></i>
+                    </li>
 
-        </ul>
-      </div>
-    </div>
-  </nav>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <!-- banner -->
 
 
-    <div class="p-1 overflow-hidden hero container-xxl">
-        <div class="hero-section py-4 d-flex flex-column flex-md-row align-items-center justify-content-center">
+    <div class="overflow-hidden product-hero container-fluid  " style="padding:0 0 6.5rem 0;">
+        <div class="hero-section  d-flex flex-column flex-md-row align-items-center justify-content-center">
             <div class="text-container flex-grow-1 flex-basis-100 flex-md-basis-45">
-                <div class=" px-2 " style="max-width: 70%;">
-                    <p class="w-100 h1">Battery Demand <br> Outlook Services</p>
-                    <p class="mt-4 text-start fw-70">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Ipsam optio quaerat voluptates nostrum libero nisi saepe. Nihil maxime ips Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, pariatur ipsam quasi cupiditate similique fugiat id voluptate aspernatur, tempora praesentium excepturi dignissimos dolorum amet consequuntur aut officiis incidunt nobis minima.</p>
-                    <div>
+                <div class=" " style="max-width: 80%;">
+                    <p class="w-100 h1" style="font-size: 3.125rem; line-height: 4.25rem;        font-weight: 400;">Battery Demand <br> Outlook Services</p>
+                    <p class="mt-4 text-start" style="font-size: 1rem; font-weight:400;letter-spacing:-0.01rem">Our Battery Demand Outlook Service provides you with a complete overview of global battery demand across all end use markets, with in depth analysis across EV (BEV, PHEV, HEV, FCEV), stationary storage (grid & BTM), two & three wheeler, micromobility, portables, and Non-road Mobile Machinery markets so that you can make more informed decisions.</p>
+                    <div class="pt-1">
                         <a href="#demo-section">
-                            <button type="button" class="btn btn-primary px-4 py-2 rounded-md mx-auto ">Request Demo</button>
+                            <button type="button" class=" fw-bold btn btn-primary px-4 py-2 rounded-md mx-auto ">Request Demo</button>
                         </a>
                     </div>
                 </div>
             </div>
-            <div class="video-container flex-grow-1 flex-basis-100 flex-md-basis-55 py-3">
-                <img src="https://rhomotion.com/app/uploads/2023/12/Vector-3.svg" alt="Battery Demand Outlook">
+            <div class="video-container flex-grow-1 flex-basis-100 flex-md-basis-55 ">
+                <img src="https://rhomotion.com/app/uploads/2023/12/Vector-3.svg" alt="Battery Demand Outlook" class="img-fluid">
             </div>
         </div>
     </div>
@@ -73,7 +73,7 @@
 
     <!--services  -->
 
-    <div class="container-xxl service-ribbon">
+    <div class="container-fluid service-ribbon ">
         <div class="row row-cols-1 row-cols-md-4 gy-4">
             <div class="col d-flex align-items-center justify-content-md-center px-4 py-2 text-center">
                 <div class="min-w-2">
@@ -127,18 +127,19 @@
 
 
     <!-- included -->
-    <section class=" pt-3 pb-2 pt-md-4 pb-md-5 overflow-hidden what_included fw-bold">
-        <div class="container-xxl text-center px-3 px-md-0">
+     <!-- pt-3 pb-2 pt-md-4 pb-md-5 -->
+    <section class="overflow-hidden what_included fw-bold">
+        <div class="container-fluid text-center px-3 px-md-0">
             <div class="min-h-4">
-                <h3 class="h4 mb-3 mb-md-2 display-6 fw-bold">What’s included?</h3>
-                <div class="mx-auto  py-2 mb-4 fw-normal fs-20">
+                <h3 class="" style="font-size: 2.25rem; line-height:1.125;font-weight:600">What&#39;s included?</h3>
+                <div class="text-center" style="font-size: 1rem; font-weight:500; line-height:1.6rem;text-align: left;">
                     <p>Battery Demand Outlook Service combines all our battery outlooks in one place,<br> providing a comprehensive view of total battery demand. Reports include:</p>
                 </div>
             </div>
             <div class="row row-cols-1 row-cols-md-2 g-3 g-md-4 mx-1">
                 <div class="col">
                     <div class="p-3 rounded position-relative overflow-hidden what_included_card ">
-                        <img class="d-none d-md-block w-25 position-absolute top-50 translate-middle-y end-0 brightness-50" src="<?= base_url('assets/images/final-logo-ecosystem.png') ?>">
+                        <img class="d-none d-md-block w-25 position-absolute top-50 translate-middle-y end-0 brightness-50" src="">
                         <div class="text-start d-flex flex-column">
                             <div class="d-flex align-items-center mb-2">
                                 <img class="me-2" src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/check.0e6cc9.svg" alt="Check Icon" width="24" height="24">
@@ -311,7 +312,7 @@
             </div>
             <!-- Add New Products  -->
 
-            
+
             <!-- <div class="" style="width: 15rem;">
                 <img class="card-img-top rounded-lg" src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ipad_frame_2.373b58.png" alt="Card image cap">
                 <div class="border-0 py-4 text-start">
@@ -340,9 +341,9 @@
                     item.classList.toggle("active");
                     const arrow = question.querySelector("span");
                     if (item.classList.contains("active")) {
-                        arrow.innerHTML = `<i class="icofont-arrow-down"></i>`;
+                        arrow.innerHTML = `<i class="icofont-arrow-down arrow" ></i>`;
                     } else {
-                        arrow.innerHTML = item.querySelector(".faq-answer").style.display === 'none' ? "" : `<i class="icofont-arrow-right"></i>`;
+                        arrow.innerHTML = item.querySelector(".faq-answer").style.display === 'none' ? "" : `<i class="icofont-arrow-right "></i>`;
                     }
                 });
             });

@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" href="<?= base_url('assets/fonts/fonts.css') ?>" />
     <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>" />
-      
+
 </head>
 
 <body>
@@ -81,20 +81,23 @@
         <div class="container-fluid">
             <h1 class="p-2 fw-bold">Events</h1>
             <!-- Tab Navigation -->
-            <ul class="nav nav-tabs nav-fill py-2" id="eventTabs" role="tablist">
-                <li class="nav-item" role="presentation">
-                    <div class="nav-link active px-2 py-4 text-dark" id="all-events-tab" data-bs-toggle="tab" data-bs-target="#all-events" type="button" role="tab" aria-controls="all-events" aria-selected="true">ALL EVENTS</div>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <div class="nav-link px-2 py-4 text-dark" id="live-events-tab" data-bs-toggle="tab" data-bs-target="#live-events" type="button" role="tab" aria-controls="live-events" aria-selected="false">LIVE EVENTS</div>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <div class="nav-link px-2 py-4 text-dark" id="webinars-tab" data-bs-toggle="tab" data-bs-target="#webinars" type="button" role="tab" aria-controls="webinars" aria-selected="false">WEBINARS</div>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <div class="nav-link px-2 py-4 text-dark" id="past-events-tab" data-bs-toggle="tab" data-bs-target="#past-events" type="button" role="tab" aria-controls="past-events" aria-selected="false">PAST EVENTS</div>
-                </li>
-            </ul>
+            <div class="">
+                <ul class="nav nav-tabs nav-fill py-2" id="eventTabs" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <div class="nav-link active px-2 py-4 text-dark" id="all-events-tab" data-bs-toggle="tab" data-bs-target="#all-events" type="button" role="tab" aria-controls="all-events" aria-selected="true">ALL EVENTS</div>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <div class="nav-link px-2 py-4 text-dark" id="live-events-tab" data-bs-toggle="tab" data-bs-target="#live-events" type="button" role="tab" aria-controls="live-events" aria-selected="false">LIVE EVENTS</div>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <div class="nav-link px-2 py-4 text-dark" id="webinars-tab" data-bs-toggle="tab" data-bs-target="#webinars" type="button" role="tab" aria-controls="webinars" aria-selected="false">WEBINARS</div>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <div class="nav-link px-2 py-4 text-dark" id="past-events-tab" data-bs-toggle="tab" data-bs-target="#past-events" type="button" role="tab" aria-controls="past-events" aria-selected="false">PAST EVENTS</div>
+                    </li>
+                </ul>
+            </div>
+
 
             <!-- Tab Content -->
             <div class="tab-content" id="eventTabsContent">
@@ -103,7 +106,7 @@
                     <div class="row">
                         <div class="col-12 col-md-12 mb-3">
                             <a href="">
-                                <div class="d-flex flex event-block">
+                                <div class="d-flex flex event-block ">
 
                                     <div class=" event-block-text d-flex flex gap-4">
                                         <div class="time-date">
@@ -156,7 +159,7 @@
                         </div>
 
 
-                        
+
                     </div>
                 </div>
 
