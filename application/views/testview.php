@@ -179,12 +179,25 @@
       padding: 1rem;
 
     }
+    .menu-div{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #d0d0f7;
+      padding: 10px;
+      height: 100vh;
+      width: 100vw;
+    }
   </style>
 
 </head>
 
 <body>
+  <div class="menu-div">
 
+
+  </div>
   <!-- navbar section  -->
   <nav class="navbar navbar-expand-md bg-white py-4">
     <div class="container-fluid">
@@ -331,7 +344,7 @@
             <div class="py-4">
               <h1 class="h5 fw-bold text-uppercase">Market Sizing</h1>
             </div>
-            
+
             <div id="report1" class="report-content">
               <div class="d-flex flex py-1 gap-4 mx-4 align-items-start">
                 <img src="https://placehold.co/25" class="">

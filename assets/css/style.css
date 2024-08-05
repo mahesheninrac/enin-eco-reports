@@ -1098,9 +1098,11 @@ button.accordion-button:focus {
   padding: 0.8rem;
 }
 .contact-us-left {
+  background-color: #bad0f6;
   padding: 8rem 1rem;
 }
 .contact-us-right {
+  background-color: #d0ddf7;
   padding-top: 8rem;
   padding-bottom: 8rem;
   padding-left: 8rem;
