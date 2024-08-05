@@ -289,7 +289,7 @@
 
   </div>
 
-  <div class="main d-flex flex gap-2  w-blue" style="padding-top:1rem;">
+  <div class="main d-flex flex gap-2  w-blue" style="padding-top:1rem;  background-color: #f1f2fb;">
     <div class=" py-1" style="width: 30%; position: sticky; top: 0px; min-width: 300px; min-height: 100vh">
       <!-- justify-content-between -->
       <ul class=" fw-normal text-start d-flex flex-column gap-4 " style="position: sticky; top: 0px; min-width: 300px; min-height: 100vh;">

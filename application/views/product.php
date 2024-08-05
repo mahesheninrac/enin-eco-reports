@@ -64,7 +64,7 @@
                     </div>
                 </div>
             </div>
-            <div class="video-container flex-grow-1 flex-basis-100 flex-md-basis-55 ">
+            <div class="video-container flex-grow-1 flex-basis-100 flex-md-basis-55 " style="scale: 1.3;">
                 <img src="https://rhomotion.com/app/uploads/2023/12/Vector-3.svg" alt="Battery Demand Outlook" class="img-fluid">
             </div>
         </div>
@@ -108,16 +108,16 @@
     </div>
     <!-- Interested in a sample report -->
 
-    <div class="container-xxl w-100 mx-0 bg-primary-800 py-4 ">
+    <div class="sample-report-banner container-fluid w-100 mx-0 row  " >
 
 
-        <div class="d-flex justify-content-around align-item-center">
-            <img src="https://placehold.co/200" class="py-4" alt="">
-            <div class="py-4 text-white">
-                <H1>Interested in a sample report?</H1>
-                <p class="w-60">Register your interest and we’ll contact you shortly to provide sample materials and arrange a demo.</p>
+        <div class="d-flex justify-content-center  align-item-center" style="align-self: center;gap:6rem;">
+            <img class="sample-report-image" src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ipad_frame_2.373b58.png" alt="Card image cap" width="250px" height="200px">
+            <div class="py-4 " style="max-width: 37rem;">
+                <h1 class="text-dark" style="font-size: 1.75rem; ">Interested in a sample report?</h1>
+                <p class="w-60 text-dark">Register your interest and we&#39;ll contact you shortly to provide sample materials and arrange a demo.</p>
                 <a href="<?= base_url("/reports") ?>">
-                    <button type="button" class="btn btn-primary px-4 py-2 rounded-md mx-auto ">Get Reports</button>
+                    <button type="button" class="btn  px-4 py-2 rounded-md mx-auto fw-bold text-white">Get Reports</button>
                 </a>
 
             </div>
@@ -127,7 +127,7 @@
 
 
     <!-- included -->
-     <!-- pt-3 pb-2 pt-md-4 pb-md-5 -->
+    <!-- pt-3 pb-2 pt-md-4 pb-md-5 -->
     <section class="overflow-hidden what_included fw-bold">
         <div class="container-fluid text-center px-3 px-md-0">
             <div class="min-h-4">
@@ -136,65 +136,80 @@
                     <p>Battery Demand Outlook Service combines all our battery outlooks in one place,<br> providing a comprehensive view of total battery demand. Reports include:</p>
                 </div>
             </div>
-            <div class="row row-cols-1 row-cols-md-2 g-3 g-md-4 mx-1">
+            <div class="row row-cols-1 row-cols-md-2 g-3 g-md-4 ">
                 <div class="col">
                     <div class="p-3 rounded position-relative overflow-hidden what_included_card ">
                         <img class="d-none d-md-block w-25 position-absolute top-50 translate-middle-y end-0 brightness-50" src="">
                         <div class="text-start d-flex flex-column">
-                            <div class="d-flex align-items-center mb-2">
-                                <img class="me-2" src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/check.0e6cc9.svg" alt="Check Icon" width="24" height="24">
-                                <h4 class="h6 mb-0 h2 fw-bold fs-20">EV & Battery Quarterly Outlook</h4>
+                            <div class="d-flex align-items-center mb-2 gap-3">
+                                <img class="check-box me-2" src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/check.0e6cc9.svg" alt="Check Icon" width="24" height="24">
+                                <div class="d-flex flex-column gap-3 ">
+                                    <h4 class="title">EV & Battery Quarterly Outlook</h4>
+                                    <a href="https://rhomotion.com/research/ev-battery-quarterly-outlook/" class="">learn more</a>
+                                </div>
                             </div>
-                            <a href="https://rhomotion.com/research/ev-battery-quarterly-outlook/" class="mt-1">Learn more</a>
+
                         </div>
                     </div>
 
                 </div>
                 <div class="col">
                     <div class="p-3 rounded position-relative overflow-hidden what_included_card ">
-                        <img class="d-none d-md-block w-25 position-absolute top-50 translate-middle-y end-0 brightness-50" src="https://res.cloudinary.com/dkklqdsqc/images/w_2020,h_1556,c_scale/f_auto,q_auto/v1705414241/wp_production/EV-and-battery/EV-and-battery.png?_i=AA" alt="EV and Battery">
+                        <img class="d-none d-md-block w-25 position-absolute top-50 translate-middle-y end-0 brightness-50" src="">
                         <div class="text-start d-flex flex-column">
-                            <div class="d-flex align-items-center mb-2">
-                                <img class="me-2" src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/check.0e6cc9.svg" alt="Check Icon" width="24" height="24">
-                                <h4 class="h6 mb-0 h2 fw-bold fs-20">EV & Battery Quarterly Outlook</h4>
+                            <div class="d-flex align-items-center mb-2 gap-3">
+                                <img class="check-box me-2" src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/check.0e6cc9.svg" alt="Check Icon" width="24" height="24">
+                                <div class="d-flex flex-column gap-3 ">
+                                    <h4 class="title">EV & Battery Quarterly Outlook</h4>
+                                    <a href="https://rhomotion.com/research/ev-battery-quarterly-outlook/" class="">learn more</a>
+                                </div>
                             </div>
-                            <a href="https://rhomotion.com/research/ev-battery-quarterly-outlook/" class="mt-1">Learn more</a>
+
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="p-3 rounded position-relative overflow-hidden what_included_card ">
-                        <img class="d-none d-md-block w-25 position-absolute top-50 translate-middle-y end-0 brightness-50" src="https://res.cloudinary.com/dkklqdsqc/images/w_2020,h_1556,c_scale/f_auto,q_auto/v1705414241/wp_production/EV-and-battery/EV-and-battery.png?_i=AA" alt="EV and Battery">
+                        <img class="d-none d-md-block w-25 position-absolute top-50 translate-middle-y end-0 brightness-50" src="">
                         <div class="text-start d-flex flex-column">
-                            <div class="d-flex align-items-center mb-2">
-                                <img class="me-2" src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/check.0e6cc9.svg" alt="Check Icon" width="24" height="24">
-                                <h4 class="h6 mb-0 h2 fw-bold fs-20">EV & Battery Quarterly Outlook</h4>
+                            <div class="d-flex align-items-center mb-2 gap-3">
+                                <img class="check-box me-2" src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/check.0e6cc9.svg" alt="Check Icon" width="24" height="24">
+                                <div class="d-flex flex-column gap-3 ">
+                                    <h4 class="title">EV & Battery Quarterly Outlook</h4>
+                                    <a href="https://rhomotion.com/research/ev-battery-quarterly-outlook/" class="">learn more</a>
+                                </div>
                             </div>
-                            <a href="https://rhomotion.com/research/ev-battery-quarterly-outlook/" class="mt-1">Learn more</a>
+
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="p-3 rounded position-relative overflow-hidden what_included_card ">
-                        <img class="d-none d-md-block w-25 position-absolute top-50 translate-middle-y end-0 brightness-50" src="https://res.cloudinary.com/dkklqdsqc/images/w_2020,h_1556,c_scale/f_auto,q_auto/v1705414241/wp_production/EV-and-battery/EV-and-battery.png?_i=AA" alt="EV and Battery">
+                        <img class="d-none d-md-block w-25 position-absolute top-50 translate-middle-y end-0 brightness-50" src="">
                         <div class="text-start d-flex flex-column">
-                            <div class="d-flex align-items-center mb-2">
-                                <img class="me-2" src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/check.0e6cc9.svg" alt="Check Icon" width="24" height="24">
-                                <h4 class="h6 mb-0 h2 fw-bold fs-20">EV & Battery Quarterly Outlook</h4>
+                            <div class="d-flex align-items-center mb-2 gap-3">
+                                <img class="check-box me-2" src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/check.0e6cc9.svg" alt="Check Icon" width="24" height="24">
+                                <div class="d-flex flex-column gap-3 ">
+                                    <h4 class="title">EV & Battery Quarterly Outlook</h4>
+                                    <a href="https://rhomotion.com/research/ev-battery-quarterly-outlook/" class="">learn more</a>
+                                </div>
                             </div>
-                            <a href="https://rhomotion.com/research/ev-battery-quarterly-outlook/" class="mt-1">Learn more</a>
+
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="p-3 rounded position-relative overflow-hidden what_included_card ">
-                        <img class="d-none d-md-block w-25 position-absolute top-50 translate-middle-y end-0 brightness-50" src="https://res.cloudinary.com/dkklqdsqc/images/w_2020,h_1556,c_scale/f_auto,q_auto/v1705414241/wp_production/EV-and-battery/EV-and-battery.png?_i=AA" alt="EV and Battery">
+                        <img class="d-none d-md-block w-25 position-absolute top-50 translate-middle-y end-0 brightness-50" src="">
                         <div class="text-start d-flex flex-column">
-                            <div class="d-flex align-items-center mb-2">
-                                <img class="me-2" src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/check.0e6cc9.svg" alt="Check Icon" width="24" height="24">
-                                <h4 class="h6 mb-0 h2 fw-bold fs-20">EV & Battery Quarterly Outlook</h4>
+                            <div class="d-flex align-items-center mb-2 gap-3">
+                                <img class="check-box me-2" src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/check.0e6cc9.svg" alt="Check Icon" width="24" height="24">
+                                <div class="d-flex flex-column gap-3 ">
+                                    <h4 class="title">EV & Battery Quarterly Outlook</h4>
+                                    <a href="https://rhomotion.com/research/ev-battery-quarterly-outlook/" class="">learn more</a>
+                                </div>
                             </div>
-                            <a href="https://rhomotion.com/research/ev-battery-quarterly-outlook/" class="mt-1">Learn more</a>
+
                         </div>
                     </div>
                 </div>
@@ -203,7 +218,7 @@
 
 
 
-        <section class="">
+        <section class="faq">
             <div class="container-fluid mt-5">
                 <div class="faq-section">
                     <div class="faq-item border-top border-dark">
@@ -239,7 +254,7 @@
                         Request demo
                     </h2>
                     <p class="text-sky-blue-5 mb-4 text-center" style="max-width:400px;">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab necessitatibus sint facere quia, ducimus similique
+                        Register your interest and we&#39;ll contact you shortly to provide sample materials and arrange a demo.
                     </p>
 
                 </div>
@@ -282,32 +297,32 @@
 
     <!-- related products -->
 
-    <section class="bg-primary-300 px-1 py-4">
+    <section class="related-products px-1 py-4">
         <h1 class=" py-4 mx-1 h2">Related Products</h1>
 
-        <div class="container-xxl d-flex flex-wrap gap-2  py-2 justify-content-around">
-            <div class="" style="width: 15rem;">
+        <div class="container-fluid d-flex flex-wrap gap-2  py-2 justify-content-around">
+            <div class="related-products-card" style="width: 15rem;">
                 <img class="card-img-top rounded-lg" src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ipad_frame_2.373b58.png" alt="Card image cap">
                 <div class="border-0 py-4 text-start">
-                    <p class="card-text fw-bold ">Some quick example text</p>
+                    <p class="card-text fw-bold ">EV & Battery Quarterly Outlook</p>
                 </div>
             </div>
-            <div class="" style="width: 15rem;">
+            <div class="related-products-card" style="width: 15rem;">
                 <img class="card-img-top rounded-lg" src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ipad_frame_2.373b58.png" alt="Card image cap">
                 <div class="border-0 py-4 text-start">
-                    <p class="card-text fw-bold ">Some quick example text</p>
+                    <p class="card-text fw-bold ">Battery Energy Stationary Storage Quarterly Outlook</p>
                 </div>
             </div>
-            <div class="" style="width: 15rem;">
+            <div class="related-products-card" style="width: 15rem;">
                 <img class="card-img-top rounded-lg" src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ipad_frame_2.373b58.png" alt="Card image cap">
                 <div class="border-0 py-4 text-start">
-                    <p class="card-text fw-bold ">Some quick example text</p>
+                    <p class="card-text fw-bold ">eMicromobility and 2&3 Wheeler Outlook</p>
                 </div>
             </div>
-            <div class="" style="width: 15rem;">
+            <div class="related-products-card" style="width: 15rem;">
                 <img class="card-img-top rounded-lg" src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ipad_frame_2.373b58.png" alt="Card image cap">
                 <div class="border-0 py-4 text-start">
-                    <p class="card-text fw-bold ">Some quick example text</p>
+                    <p class="card-text fw-bold ">Portables Battery Outlook</p>
                 </div>
             </div>
             <!-- Add New Products  -->
@@ -330,6 +345,64 @@
 
 
     <!-- footer -->
+
+    <footer class="footer text-center text-md-start z-1">
+        <div class="container-fluid">
+            <div class="row" style="padding:2rem">
+                <div class="col-md-5 col-lg-5 mb-4 mb-md-0">
+                    <div>
+                        <img src="<?= base_url('assets/images/Asset 8.svg
+            ') ?>" alt="Logo" class="logo mb-4 w-25 h-50">
+                    </div>
+                    <div class="contact-info">
+                        <p>Eninrac Consulting Private Limited<br>2nd Floor, B-130, B-Block<br>Sector 65, Noida - 201301</p>
+                        <p>(+91) 9319048963, (+91) 9319047963<br><a href="mailto:info@rhomotion.com">connect@eninrac.com</a></p>
+                    </div>
+
+                </div>
+                <div class="col-md-7 col-lg-7">
+                    <div class="row" style="padding: 2rem;">
+                        <div class="col-6">
+                            <div class="nav-links">
+                                <a href="<?= base_url('reports') ?>" class="d-block" id="reports">Reports</a>
+                                <a href="<?= base_url('custom_page') ?>" class="d-block" id="custom_page">Custom Requirements</a>
+                                <a href="<?= base_url('event') ?>" class="d-block" id="event">Surveys & VoC</a>
+                                <a href="<?= base_url('contact_us') ?>" class="d-block">About us</a>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="newsletter-form line-height:1.1 ">
+                                <p class="mb-2">Subscribe to our newsletter</p>
+                                <div class="w-100 newsletterfooter-input-i position-relative">
+                                    <input type="email" name="" id="" class="mb-2 w-100 " placeholder="your work email">
+                                    <i class="icofont-long-arrow-right position-absolute"></i>
+                                </div>
+                                <p style="font-size: .8rem;">By submitting this form, you agree to Rho Motion’s privacy policy.</p>
+                                <div class="social-icons mt-4">
+                                    <a href="https://www.linkedin.com/in/eninrac-consulting-88641719b/" target="_blank" rel="noreferrer">
+                                        <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-linkedin.5fd894.svg" alt="LinkedIn">
+                                    </a>
+                                    <a href="https://x.com/i/flow/login?redirect_after_login=%2Feninrac" target="_blank" rel="noreferrer">
+                                        <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-x.290b8c.svg" alt="Twitter">
+                                    </a>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row " style="padding: 0 2rem;">
+
+                <p class="copyright mb-0" style="font-size: 1.3rem;">&copy; 2024 Eninrac. All rights reserved.</p>
+
+
+                <p class="privacy  "><a href="">Privacy Policy</a> • <a href="">Terms & Conditions</a></p>
+
+            </div>
+        </div>
+    </footer>
 
     <script>
         document.addEventListener("DOMContentLoaded", function() {

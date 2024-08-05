@@ -130,7 +130,7 @@
   <!--       Eco System Report   -->
 
   <!-- bg-primary  -->
-  <div class="container-fluid py-4 our-research   " style="background-color: #8ab8d9;">
+  <div class="container-fluid py-4 our-research   " style="background-color: #d0ddf7;">
 
     <div class="row " style="margin-top: 4rem;">
       <div class="col-md-5">
@@ -148,7 +148,7 @@
                 <span class="research-area fw-400 fs-22" style="color: none;">EV Eco System Reports</span>
               </button>
             </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show p-2" aria-labelledby="headingOne" data-bs-parent="#researchAccordion">
+            <div id="collapseOne" class="accordion-collapse collapse show " aria-labelledby="headingOne" data-bs-parent="#researchAccordion">
               <div class="accordion-body">
                 Our comprehensive view of total battery demand and chemistry across all end-use markets.
               </div>
@@ -232,7 +232,7 @@
             </div>
           </div>
         </div>
-        <a href="<?= base_url('reports') ?>" class="btn btn-primary see-more   btn-lg mb-5 mt-4" style="background-color: #8ab8d9;">See Our Eco System Reports</a>
+        <a href="<?= base_url('reports') ?>" class="btn btn-primary see-more btn-outline-dark  btn-lg mb-5 mt-4" style="background-color: #d0ddf7; border:1px solid black;!important">See Our Eco System Reports</a>
       </div>
       <div class="col-md-7 d-none d-lg-block ">
         <div class="illustration">
@@ -288,7 +288,7 @@
 
   <!-- components for icon  -->
 
-  <div class="container-fluid bg-dark d-flex flex-wrap justify-content-around text-center landing-service-ribbon">
+  <div class="container-fluid  d-flex flex-wrap justify-content-around text-center landing-service-ribbon">
     <!-- one -->
     <div class="text-white p-3">
       <img src="https://placehold.co/120x120" alt="" class="rounded-circle" />

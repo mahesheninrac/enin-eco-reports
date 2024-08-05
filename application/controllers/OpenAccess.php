@@ -44,4 +44,8 @@ class OpenAccess extends Default_Controler
     public function test(){
         $this->load->view('testview');
     }
+
+    public function test2(){
+        $this->load->view('testview2');
+    }
 }
