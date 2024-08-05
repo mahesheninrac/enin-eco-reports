@@ -54,7 +54,7 @@
       <div class="container-fluid">
         <div class="row text-start">
           <!-- Left Column -->
-          <div class="col-md-5 bg-sky-blue-4 d-flex  justify-content-center position-relative  bg-primary-300  contact-us-left">
+          <div class="col-md-5 bg-sky-blue-4 d-flex  justify-content-center position-relative    contact-us-left">
           
             <div>
               <h2>Our offices</h2>
@@ -77,7 +77,7 @@
                 </p>
               </div>
 
-              <a href="https://www.google.com/" class="btn border border-dark btn-md rounded-md px-3 py-2 font-medium">See open positions</a>
+              <a href="https://www.google.com/" class="btn border border-dark btn-md rounded-md px-3 py-2 font-medium" style="background-color: #bad0f6; border:1px solid black !important;">See open positions</a>
             </div>
           </div>
           <!-- Right Column -->
@@ -109,7 +109,7 @@
                 </div>
                
                 <button type="submit" class="btn text-white bg-primary-700  px-2 py-2">Register interest</button>
-                <p class="py-4 fs-14">By submitting this form, you agree to Eninrac’s <u>privacy policy</u>.</p>
+                <p class="py-4 fs-14">By submitting this form, you agree to Eninrac&#39;s <u>privacy policy</u>.</p>
               </form>
             </div>
           </div>
