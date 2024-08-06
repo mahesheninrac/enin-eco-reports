@@ -179,25 +179,13 @@
       padding: 1rem;
 
     }
-    .menu-div{
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      background-color: #d0d0f7;
-      padding: 10px;
-      height: 100vh;
-      width: 100vw;
-    }
+    
   </style>
 
 </head>
 
 <body>
-  <div class="menu-div">
-
-
-  </div>
+  
   <!-- navbar section  -->
   <nav class="navbar navbar-expand-md bg-white py-4">
     <div class="container-fluid">
