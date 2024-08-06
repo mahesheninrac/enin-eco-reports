@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>" />
 
   <style>
-    /* report page */
+    
     .report-header {
       position: relative;
       background-color: var(--primary-300);
@@ -72,7 +72,7 @@
 
     /* Content section */
     .content-section {
-      display:none;
+      display: none;
 
     }
 
@@ -81,9 +81,7 @@
     }
 
 
-    .report-types li {
-      border-bottom: 1px solid black;
-    }
+
 
 
 
@@ -157,25 +155,27 @@
       font-weight: bold !important;
     }
 
-   
-    .ribbon-content li{
+
+    .ribbon-content li {
       width: 100px;
       height: 100px;
     }
 
-    .tab p{
+    .tab p {
       font-size: 14px;
     }
-    .highlight p{
+
+    .highlight p {
       font-weight: bold;
       font-size: 16px !important;
     }
-    .highlight{
-      background-image: linear-gradient( 135deg, #f1f2fb,#82a5e9);
-      box-shadow: 10px 5px 5px rgba(90, 70, 254, .5) ;
+
+    .highlight {
+      background-image: linear-gradient(135deg, #f1f2fb, #82a5e9);
+      box-shadow: 10px 5px 5px rgba(90, 70, 254, .5);
       border-radius: 10px;
       padding: 1rem;
-      
+
     }
   </style>
 
@@ -276,7 +276,7 @@
           </div>
         </li>
 
-        <li id="btn-power" class="tab" >
+        <li id="btn-power" class="tab">
           <div class="text-center">
             <img src="<?= base_url('assets/images/ev-line.svg') ?>" class="product-ribbon-svg">
             <p class="text-center  c-light-gray mt-2">Power</p>
@@ -292,7 +292,7 @@
   <div class="main d-flex flex gap-2  w-blue" style="padding-top:1rem;  background-color: #f1f2fb;">
     <div class=" py-1" style="width: 30%; position: sticky; top: 0px; min-width: 300px; min-height: 100vh">
       <!-- justify-content-between -->
-      <ul class=" fw-normal text-start d-flex flex-column gap-4 " style="position: sticky; top: 0px; min-width: 300px; min-height: 100vh;">
+      <ul class=" fw-normal text-start d-flex flex-column gap-4 report-types" style="position: sticky; top: 0px; min-width: 300px; min-height: 100vh;">
         <li class="border-top border-bottom  d-flex  justify-content-between py-2 side-list" target="first" id="market-sizing">
           <p class=" v-list">Market Sizing</p>
           <div class="arrow align-items-center" id="first"><i class="icofont-arrow-right fs-40"></i></div>
@@ -322,7 +322,7 @@
     </div>
     <div>
       <div class=" moving-content mx-4" style=" min-width: 50%;">
-        <!-- Placeholder for other content -->
+
         <div class="p-1 mx-4 ">
           <!-- Content sections -->
           <div id="content-solar" class="content-section active">
@@ -331,6 +331,7 @@
                 <h1 class="h5 fw-bold text-uppercase  ">Market Sizing</h1>
 
               </div>
+
               <div class="info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
                 <img src="https://placehold.co/25" class="">
 
@@ -341,6 +342,7 @@
                 </div>
                 <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
               </div>
+
               <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
                 <img src="https://placehold.co/25" class="">
 
@@ -500,36 +502,54 @@
 
             </div>
           </div>
-          <div class="content-ev" class="content-section">
-            
+          <div id="content-ev" class="content-section">
+            <div class="market-sizing">
+
+            </div>
+
+            <div class="future-outtlook">
+
+            </div>
+
+            <div class="focus-reports">
+
+            </div>
+
+            <div class="thematic-reports">
+
+            </div>
+
+            <div class="databases">
+
+            </div>
+
+            <div class="surveys">
+
+            </div>
           </div>
           <div id="content-wind" class="content-section">
 
-          <div class="contentsection market-sizing">
-              <div class="py-4 ">
-                <h1 class="h5 fw-bold text-uppercase  ">Market Sizing</h1>
+            <div class="market-sizing">
 
-              </div>
-              <div class="info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                <img src="https://placehold.co/25" class="">
+            </div>
 
-                <div class="text-content d-flex flex-column">
-                  <p class=" pointer h5
-                ">EV & Battery Quarterly Outlook</p>
-                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                </div>
-                <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
-              </div>
-              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                <img src="https://placehold.co/25" class="">
+            <div class="future-outtlook">
 
-                <div class="text-content d-flex flex-column">
-                  <p class="h5
-                ">EV & Battery Quarterly Outlook</p>
-                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                </div>
-                <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
-              </div>
+            </div>
+
+            <div class="focus-reports">
+
+            </div>
+
+            <div class="thematic-reports">
+
+            </div>
+
+            <div class="databases">
+
+            </div>
+
+            <div class="surveys">
 
             </div>
 
@@ -537,15 +557,83 @@
 
           <div id="content-bess" class="content-section">
 
-          
+            <div class="market-sizing">
+
+            </div>
+
+            <div class="future-outtlook">
+
+            </div>
+
+            <div class="focus-reports">
+
+            </div>
+
+            <div class="thematic-reports">
+
+            </div>
+
+            <div class="databases">
+
+            </div>
+
+            <div class="surveys">
+
+            </div>
+
+
 
           </div>
           <div id="content-hydro" class="content-section ">
-          
+            <div class="market-sizing">
+
+            </div>
+
+            <div class="future-outtlook">
+
+            </div>
+
+            <div class="focus-reports">
+
+            </div>
+
+            <div class="thematic-reports">
+
+            </div>
+
+            <div class="databases">
+
+            </div>
+
+            <div class="surveys">
+
+            </div>
           </div>
 
-          <div class="content-power" class="content-section">
-            
+          <div id="content-power" class="content-section">
+            <div class="market-sizing">
+
+            </div>
+
+            <div class="future-outtlook">
+
+            </div>
+
+            <div class="focus-reports">
+
+            </div>
+
+            <div class="thematic-reports">
+
+            </div>
+
+            <div class="databases">
+
+            </div>
+
+            <div class="surveys">
+
+            </div>
           </div>
         </div>
       </div>
@@ -622,6 +710,7 @@
         screenY
       };
     }
+
     function topCheck(element) {
       let currentPosition = getScreenPosition(element);
       console.log(currentPosition.screenY);
@@ -637,7 +726,7 @@
 
     function showContent(contentId) {
 
-      
+
       var contents = document.querySelectorAll('.content-section');
       contents.forEach(function(content) {
         content.classList.remove('active');
@@ -647,7 +736,7 @@
       document.getElementById(contentId).classList.add('active');
     }
 
-    function highlight(element){
+    function highlight(element) {
       var tabs = document.querySelectorAll('.tab');
       tabs.forEach(function(tab) {
         tab.classList.remove('highlight');
@@ -695,7 +784,7 @@
       var contents = document.querySelectorAll('.arrow');
 
       contents.forEach(function(content) {
-        
+
         content.classList.remove('active');
       });
       let ele = document.getElementById(id);
@@ -703,10 +792,10 @@
       ele.classList.add('active');
     }
 
-  
+
 
     document.getElementById('btn-ev').addEventListener('click', function() {
-      
+
       highlight(this);
       showContent('content-ev');
 
