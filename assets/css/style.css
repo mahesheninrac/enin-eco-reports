@@ -1482,7 +1482,7 @@ button.accordion-button:focus {
 }
 
 .v-list {
-  color: var(--primary-800);
+  color: #3d45d3;
   font-weight: bold;
   font-size: 1.3rem !important;
 }
@@ -1560,4 +1560,36 @@ button.accordion-button:focus {
   border-bottom: 1px solid black !important;;
 }
 
+
+.market-sizing {
+  
+}
+
+.content-section-title h1 {
+  color: #3d45d3;
+  font-size: 1.3125rem;
+  line-height: 140%;
+  font-weight: 600;
+  margin-bottom: 2.25rem;
+}
+
+.content-section .text-content .report-title {
+  /* border: 1px solid red !important; */
+  font-size: 1.3125rem !important;
+  line-height: 140%;
+  font-weight: 400;
+}
+
+.content-section .text-content .report-pointer {
+  font-size: .875rem;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.content-section a {
+  color: #3d45d3 !important;
+  font-size: .875rem;
+  font-weight: 600;
+  line-height: 150%;
+}
 
