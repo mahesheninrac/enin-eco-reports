@@ -38,6 +38,13 @@
             font-size: 1.5rem;
             cursor: pointer;
         }
+
+        .center-align {
+            justify-content: center;
+            align-items: center;
+            padding: 5rem;
+        }
+        
     </style>
 </head>
 
@@ -80,7 +87,7 @@
         <a href="#">Careers</a>
         <a href="#">Get in touch</a> -->
 
-        <div class="d-flex flex-row">
+        <div class="d-flex flex-row center-align">
 
             <div class="">
                 <h3>Get in touch</h3>
