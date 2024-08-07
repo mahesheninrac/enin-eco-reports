@@ -63,7 +63,7 @@
       <!-- card1 -->
       <a href="<?= base_url("reports") ?>" class="card overflow-hidden w-100 card-overlay ">
         <div class="card-body position-relative py-4 px-3">
-          <img src="<?= base_url()?>assets/images/ECO SYSTEM REPORTS.jpg" class="d-none d-lg-block" alt="" />
+          <img src="<?= base_url() ?>assets/images/ECO SYSTEM REPORTS.jpg" class="d-none d-lg-block" alt="" />
           <h2 class="card-title d-flex justify-content-between align-items-center position-relative z-1">
             ECO SYSTEM REPORTS
 
@@ -77,7 +77,7 @@
 
       <a href="<?= base_url('custom_page') ?>" class="card overflow-hidden w-100 hero-card-overlay ">
         <div class="card-body position-relative py-4 px-3">
-          <img src="<?= base_url()?>assets/images/CUSTOM REQUIREMENTS.jpg" class="d-none d-lg-block" alt="" />
+          <img src="<?= base_url() ?>assets/images/CUSTOM REQUIREMENTS.jpg" class="d-none d-lg-block" alt="" />
           <h2 class="card-title d-flex justify-content-between align-items-center position-relative z-1">
             CUSTOM REQUIREMENTS
 
@@ -92,7 +92,7 @@
       <!-- card2 -->
       <a href="<?= base_url('') ?>" class="card overflow-hidden w-100  hero-card-overlay">
         <div class="card-body position-relative py-4 px-3">
-          <img src="<?= base_url()?>assets/images/SURVEYS AND VOC.jpg" class="d-none d-lg-block" alt="" />
+          <img src="<?= base_url() ?>assets/images/SURVEYS AND VOC.jpg" class="d-none d-lg-block" alt="" />
           <h2 class="card-title d-flex justify-content-between align-items-center position-relative z-1">
             SURVEYS & VoC
 
@@ -107,7 +107,7 @@
       <!-- card3 -->
       <a href="<?= base_url('event') ?>" class="card overflow-hidden w-100 hero-card-overlay ">
         <div class="card-body position-relative py-4 px-3">
-          <img src="<?= base_url()?>assets/images/WEBINARS & INTERVIEWA.jpg" class="d-none d-lg-block" alt="" />
+          <img src="<?= base_url() ?>assets/images/WEBINARS & INTERVIEWA.jpg" class="d-none d-lg-block" alt="" />
           <h2 class="card-title d-flex justify-content-between align-items-center position-relative z-1">
             WEBINARS & INTERVIEWS
             <!-- <img src="" class="opacity-75" alt="arrow" class="ms-2" /> -->
@@ -392,7 +392,7 @@
                   <input type="email" name="" id="" class="mb-2 w-100 " placeholder="your work email">
                   <i class="icofont-long-arrow-right position-absolute"></i>
                 </div>
-                <p style="font-size: .8rem;">By submitting this form, you agree to Rho Motion’s privacy policy.</p>
+                <p style="font-size: .8rem;">By submitting this form, you agree to Eninrac&#39;s privacy policy.</p>
                 <div class="social-icons mt-4">
                   <a href="https://www.linkedin.com/in/eninrac-consulting-88641719b/" target="_blank" rel="noreferrer">
                     <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-linkedin.5fd894.svg" alt="LinkedIn">

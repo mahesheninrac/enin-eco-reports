@@ -11,17 +11,17 @@
 
   <style>
     /* report page */
-    
 
-    
 
-    
 
-    
 
-    
-    
-   
+
+
+
+
+
+
+
 
     /* Content section */
 
@@ -53,6 +53,8 @@
       color: blue !important;
 
     }
+
+   
   </style>
 
 </head>
@@ -483,7 +485,9 @@
 
         <div id="content-power" class="content-section">
           <div class="market-sizing">
-
+            <div class="content-section-title">
+              <h1>Market Sizing</h1>
+            </div>
           </div>
 
           <div class="future-outtlook">

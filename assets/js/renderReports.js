@@ -15,9 +15,9 @@ function displayReport(report) {
                 <img src="${report.icon}" >
 
                 <div class="text-content d-flex flex-column">
-                  <p class=" pointer h5
-                ">${report.title}</p>
-                  <p class="">${report.pointers}</p>
+                  <p class="report-title">
+                ${report.title}</p>
+                  <p class="report-pointer">${report.pointers}</p>
                 </div>
                 <a href="${report.url}">Learn More <i class="icofont-long-arrow-right "></i></a>
               </div>`;

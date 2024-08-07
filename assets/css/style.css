@@ -259,7 +259,7 @@ a {
   height: 100%;
 }
 .hero {
-  background-color: #262946;
+  background-color: #282944;
   color: var(--white-100);
   font-family: var(--body-font);
 }
@@ -312,7 +312,7 @@ a {
 }
 
 .hero .card {
-  min-height: 15.6rem;
+  min-height: 20rem;
 }
 
 .nav-link {
@@ -326,12 +326,13 @@ a {
 /* ends */
 
 .hero .card-body img {
-  opacity: 0.4;
+  opacity: 1;
   position: absolute;
   bottom: -2.3rem;
-  right: -9rem;
-  width: 20.8rem;
+  right: -2.3rem;
+  width: 16rem;
   height: auto;
+  
 }
 
 .hero-section {
@@ -359,7 +360,7 @@ a {
 
 .card {
   background-color: #303458;
-  color: white;
+  color: #d0ddf7
 }
 
 .card-title {

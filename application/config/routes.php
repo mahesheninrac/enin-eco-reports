@@ -62,3 +62,4 @@ $route["survey"] = 'OpenAccess/survey';
 $route["membership"] = 'OpenAccess/membership';
 $route["test"] = 'OpenAccess/test';
 $route["test2"] = 'OpenAccess/test2';
+$route["landing_menu"] = 'OpenAccess/landing_menu';

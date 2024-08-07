@@ -48,4 +48,9 @@ class OpenAccess extends Default_Controler
     public function test2(){
         $this->load->view('testview2');
     }
+
+    public function landing_menu(){
+        $this->load->view('landing_menu');
+    }
+
 }
