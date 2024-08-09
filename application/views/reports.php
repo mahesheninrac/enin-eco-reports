@@ -292,7 +292,7 @@
   <div class="main d-flex flex gap-2  w-blue" style="padding-top:1rem;  background-color: #f1f2fb;">
     <div class=" py-1" style="width: 30%; position: sticky; top: 0px; min-width: 300px; min-height: 100vh">
       <!-- justify-content-between -->
-      <ul class=" fw-normal text-start d-flex flex-column gap-4 report-types" style="position: sticky; top: 0px; min-width: 300px; min-height: 100vh;">
+      <ul class=" fw-normal text-start d-flex flex-column gap-4 report-types justify-content-between" style="position: sticky; top: 0px; min-width: 300px; min-height: 100vh;">
         <li class="border-top border-bottom  d-flex  justify-content-between py-2 side-list" target="first" id="market-sizing">
           <p class=" v-list">Market Sizing</p>
           <div class="arrow align-items-center" id="first"><i class="icofont-arrow-right fs-40"></i></div>

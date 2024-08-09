@@ -108,7 +108,7 @@
     </div>
     <!-- Interested in a sample report -->
 
-    <div class="sample-report-banner container-fluid w-100 mx-0 row  " >
+    <div class="sample-report-banner container-fluid w-100 mx-0 row  ">
 
 
         <div class="d-flex justify-content-center  align-item-center" style="align-self: center;gap:6rem;">
@@ -136,7 +136,31 @@
                     <p>Battery Demand Outlook Service combines all our battery outlooks in one place,<br> providing a comprehensive view of total battery demand. Reports include:</p>
                 </div>
             </div>
-            <div class="row row-cols-1 row-cols-md-2 g-3 g-md-4 ">
+
+            <div class="d-flex justify-content-evenly m-4">
+                <div class="product-tab" target="overall-market">Overall Market</div>
+                <div class="product-tab" target="sales-market">Sales Market</div>
+                <div class="product-tab" target="production-market">Production Market</div>
+            </div>
+
+            <!-- overall market -->
+            <div class="row row-cols-1 row-cols-md-2 g-3 g-md-4  product-tab-content" id="overall-market">
+                <div class="col">
+                    <div class="p-3 rounded position-relative overflow-hidden what_included_card ">
+                        <img class="d-none d-md-block w-25 position-absolute top-50 translate-middle-y end-0 brightness-50" src="">
+                        <div class="text-start d-flex flex-column">
+                            <div class="d-flex align-items-center mb-2 gap-3">
+                                <img class="check-box me-2" src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/check.0e6cc9.svg" alt="Check Icon" width="24" height="24">
+                                <div class="d-flex flex-column gap-3 ">
+                                    <h4 class="title"> overall EV & Battery Quarterly Outlook</h4>
+                                    <a href="https://rhomotion.com/research/ev-battery-quarterly-outlook/" class="">learn more</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
                 <div class="col">
                     <div class="p-3 rounded position-relative overflow-hidden what_included_card ">
                         <img class="d-none d-md-block w-25 position-absolute top-50 translate-middle-y end-0 brightness-50" src="">
@@ -151,7 +175,6 @@
 
                         </div>
                     </div>
-
                 </div>
                 <div class="col">
                     <div class="p-3 rounded position-relative overflow-hidden what_included_card ">
@@ -214,6 +237,198 @@
                     </div>
                 </div>
             </div>
+
+            <!-- sales market -->
+            <div class="row row-cols-1 row-cols-md-2 g-3 g-md-4 hidden product-tab-content" id="sales-market">
+                <div class="col">
+                    <div class="p-3 rounded position-relative overflow-hidden what_included_card ">
+                        <img class="d-none d-md-block w-25 position-absolute top-50 translate-middle-y end-0 brightness-50" src="">
+                        <div class="text-start d-flex flex-column">
+                            <div class="d-flex align-items-center mb-2 gap-3">
+                                <img class="check-box me-2" src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/check.0e6cc9.svg" alt="Check Icon" width="24" height="24">
+                                <div class="d-flex flex-column gap-3 ">
+                                    <h4 class="title">Sales EV & Battery Quarterly Outlook</h4>
+                                    <a href="https://rhomotion.com/research/ev-battery-quarterly-outlook/" class="">learn more</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col">
+                    <div class="p-3 rounded position-relative overflow-hidden what_included_card ">
+                        <img class="d-none d-md-block w-25 position-absolute top-50 translate-middle-y end-0 brightness-50" src="">
+                        <div class="text-start d-flex flex-column">
+                            <div class="d-flex align-items-center mb-2 gap-3">
+                                <img class="check-box me-2" src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/check.0e6cc9.svg" alt="Check Icon" width="24" height="24">
+                                <div class="d-flex flex-column gap-3 ">
+                                    <h4 class="title">EV & Battery Quarterly Outlook</h4>
+                                    <a href="https://rhomotion.com/research/ev-battery-quarterly-outlook/" class="">learn more</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-3 rounded position-relative overflow-hidden what_included_card ">
+                        <img class="d-none d-md-block w-25 position-absolute top-50 translate-middle-y end-0 brightness-50" src="">
+                        <div class="text-start d-flex flex-column">
+                            <div class="d-flex align-items-center mb-2 gap-3">
+                                <img class="check-box me-2" src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/check.0e6cc9.svg" alt="Check Icon" width="24" height="24">
+                                <div class="d-flex flex-column gap-3 ">
+                                    <h4 class="title"> Production EV & Battery Quarterly Outlook</h4>
+                                    <a href="https://rhomotion.com/research/ev-battery-quarterly-outlook/" class="">learn more</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-3 rounded position-relative overflow-hidden what_included_card ">
+                        <img class="d-none d-md-block w-25 position-absolute top-50 translate-middle-y end-0 brightness-50" src="">
+                        <div class="text-start d-flex flex-column">
+                            <div class="d-flex align-items-center mb-2 gap-3">
+                                <img class="check-box me-2" src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/check.0e6cc9.svg" alt="Check Icon" width="24" height="24">
+                                <div class="d-flex flex-column gap-3 ">
+                                    <h4 class="title">EV & Battery Quarterly Outlook</h4>
+                                    <a href="https://rhomotion.com/research/ev-battery-quarterly-outlook/" class="">learn more</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-3 rounded position-relative overflow-hidden what_included_card ">
+                        <img class="d-none d-md-block w-25 position-absolute top-50 translate-middle-y end-0 brightness-50" src="">
+                        <div class="text-start d-flex flex-column">
+                            <div class="d-flex align-items-center mb-2 gap-3">
+                                <img class="check-box me-2" src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/check.0e6cc9.svg" alt="Check Icon" width="24" height="24">
+                                <div class="d-flex flex-column gap-3 ">
+                                    <h4 class="title">EV & Battery Quarterly Outlook</h4>
+                                    <a href="https://rhomotion.com/research/ev-battery-quarterly-outlook/" class="">learn more</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-3 rounded position-relative overflow-hidden what_included_card ">
+                        <img class="d-none d-md-block w-25 position-absolute top-50 translate-middle-y end-0 brightness-50" src="">
+                        <div class="text-start d-flex flex-column">
+                            <div class="d-flex align-items-center mb-2 gap-3">
+                                <img class="check-box me-2" src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/check.0e6cc9.svg" alt="Check Icon" width="24" height="24">
+                                <div class="d-flex flex-column gap-3 ">
+                                    <h4 class="title">EV & Battery Quarterly Outlook</h4>
+                                    <a href="https://rhomotion.com/research/ev-battery-quarterly-outlook/" class="">learn more</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- production market -->
+            <div class="row row-cols-1 row-cols-md-2 g-3 g-md-4 hidden product-tab-content" id="production-market">
+                <div class="col">
+                    <div class="p-3 rounded position-relative overflow-hidden what_included_card ">
+                        <img class="d-none d-md-block w-25 position-absolute top-50 translate-middle-y end-0 brightness-50" src="">
+                        <div class="text-start d-flex flex-column">
+                            <div class="d-flex align-items-center mb-2 gap-3">
+                                <img class="check-box me-2" src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/check.0e6cc9.svg" alt="Check Icon" width="24" height="24">
+                                <div class="d-flex flex-column gap-3 ">
+                                    <h4 class="title">production EV & Battery Quarterly Outlook</h4>
+                                    <a href="https://rhomotion.com/research/ev-battery-quarterly-outlook/" class="">learn more</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col">
+                    <div class="p-3 rounded position-relative overflow-hidden what_included_card ">
+                        <img class="d-none d-md-block w-25 position-absolute top-50 translate-middle-y end-0 brightness-50" src="">
+                        <div class="text-start d-flex flex-column">
+                            <div class="d-flex align-items-center mb-2 gap-3">
+                                <img class="check-box me-2" src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/check.0e6cc9.svg" alt="Check Icon" width="24" height="24">
+                                <div class="d-flex flex-column gap-3 ">
+                                    <h4 class="title">EV & Battery Quarterly Outlook</h4>
+                                    <a href="https://rhomotion.com/research/ev-battery-quarterly-outlook/" class="">learn more</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-3 rounded position-relative overflow-hidden what_included_card ">
+                        <img class="d-none d-md-block w-25 position-absolute top-50 translate-middle-y end-0 brightness-50" src="">
+                        <div class="text-start d-flex flex-column">
+                            <div class="d-flex align-items-center mb-2 gap-3">
+                                <img class="check-box me-2" src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/check.0e6cc9.svg" alt="Check Icon" width="24" height="24">
+                                <div class="d-flex flex-column gap-3 ">
+                                    <h4 class="title">EV & Battery Quarterly Outlook</h4>
+                                    <a href="https://rhomotion.com/research/ev-battery-quarterly-outlook/" class="">learn more</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-3 rounded position-relative overflow-hidden what_included_card ">
+                        <img class="d-none d-md-block w-25 position-absolute top-50 translate-middle-y end-0 brightness-50" src="">
+                        <div class="text-start d-flex flex-column">
+                            <div class="d-flex align-items-center mb-2 gap-3">
+                                <img class="check-box me-2" src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/check.0e6cc9.svg" alt="Check Icon" width="24" height="24">
+                                <div class="d-flex flex-column gap-3 ">
+                                    <h4 class="title">EV & Battery Quarterly Outlook</h4>
+                                    <a href="https://rhomotion.com/research/ev-battery-quarterly-outlook/" class="">learn more</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-3 rounded position-relative overflow-hidden what_included_card ">
+                        <img class="d-none d-md-block w-25 position-absolute top-50 translate-middle-y end-0 brightness-50" src="">
+                        <div class="text-start d-flex flex-column">
+                            <div class="d-flex align-items-center mb-2 gap-3">
+                                <img class="check-box me-2" src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/check.0e6cc9.svg" alt="Check Icon" width="24" height="24">
+                                <div class="d-flex flex-column gap-3 ">
+                                    <h4 class="title">EV & Battery Quarterly Outlook</h4>
+                                    <a href="https://rhomotion.com/research/ev-battery-quarterly-outlook/" class="">learn more</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-3 rounded position-relative overflow-hidden what_included_card ">
+                        <img class="d-none d-md-block w-25 position-absolute top-50 translate-middle-y end-0 brightness-50" src="">
+                        <div class="text-start d-flex flex-column">
+                            <div class="d-flex align-items-center mb-2 gap-3">
+                                <img class="check-box me-2" src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/check.0e6cc9.svg" alt="Check Icon" width="24" height="24">
+                                <div class="d-flex flex-column gap-3 ">
+                                    <h4 class="title">EV & Battery Quarterly Outlook</h4>
+                                    <a href="https://rhomotion.com/research/ev-battery-quarterly-outlook/" class="">learn more</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
         </div>
 
 
@@ -414,13 +629,41 @@
                     item.classList.toggle("active");
                     const arrow = question.querySelector("span");
                     if (item.classList.contains("active")) {
-                        arrow.innerHTML = `<i class="icofont-arrow-down arrow" ></i>`;
+                        arrow.innerHTML = `<i class="icofont-arrow-down " ></i>`;
                     } else {
                         arrow.innerHTML = item.querySelector(".faq-answer").style.display === 'none' ? "" : `<i class="icofont-arrow-right "></i>`;
                     }
                 });
             });
         });
+
+
+        document.addEventListener("DOMContentLoaded", function() {
+            const productTab = document.querySelectorAll(".product-tab");
+
+
+
+            productTab.forEach(tab => {
+
+                tab.addEventListener("click", (e) => {
+                    showTabContent(e.target.getAttribute("target"));
+                });
+            });
+        });
+
+        function showTabContent(id) {
+            const sections = document.querySelectorAll(".product-tab-content")
+            sections.forEach(section => {
+                if (section.id === id) {
+                    section.classList.remove("hidden");
+                } else {
+                    section.classList.add("hidden");
+                }
+            });
+
+
+
+        }
     </script>
     <script src="<?= base_url('assets/js/footer.js') ?>"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
