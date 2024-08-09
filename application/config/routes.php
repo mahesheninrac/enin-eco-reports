@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
 /*
 | -------------------------------------------------------------------------
@@ -63,3 +63,8 @@ $route["membership"] = 'OpenAccess/membership';
 $route["test"] = 'OpenAccess/test';
 $route["test2"] = 'OpenAccess/test2';
 $route["landing_menu"] = 'OpenAccess/landing_menu';
+
+
+$route['backend-dashboard'] = 'backend/panel';
+$route['backend-dashboard/autho/(:any)'] = 'backend/autho/$1';
+$route['(:any)'] = 'Omnicore/page/$1';
