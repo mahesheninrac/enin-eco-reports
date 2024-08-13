@@ -32,6 +32,26 @@ class OpenAccess extends Default_Controler
     {
         $this->load->view('reports');
     }
+
+    public function ev_market()
+    {
+        $this->load->view('ev_market');
+    }
+    public function ev_tyer_market()
+    {
+        $this->load->view('ev_tyer_market');
+    }
+
+    public function ev_transmission_market()
+    {
+        $this->load->view('ev_transmission_market');
+    }
+    public function ev_evci_market()
+    {
+        $this->load->view('ev_evci_market');
+    }
+
+
     public function survey()
     {
         $this->load->view('survey');

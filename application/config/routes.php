@@ -58,13 +58,17 @@ $route["contact_us"] = 'OpenAccess/contact';
 $route["login"] = 'OpenAccess/login';
 $route["event"] = 'OpenAccess/event';
 $route["reports"] = 'OpenAccess/reports';
+$route["market-sizing-ev-market"] = 'OpenAccess/ev_market';
+$route["market-sizing-ev-tyer-market"] = 'OpenAccess/ev_tyer_market';
+$route["market-sizing-ev-transmission-market"] = 'OpenAccess/ev_transmission_market';
+$route["market-sizing-ev-evci-market"] = 'OpenAccess/ev_evci_market';
 $route["survey"] = 'OpenAccess/survey';
 $route["membership"] = 'OpenAccess/membership';
 $route["test"] = 'OpenAccess/test';
 $route["test2"] = 'OpenAccess/test2';
 $route["landing_menu"] = 'OpenAccess/landing_menu';
 
-
+// backend routes
 $route['backend-dashboard'] = 'backend/panel';
 $route['backend-dashboard/autho/(:any)'] = 'backend/autho/$1';
 $route['(:any)'] = 'Omnicore/page/$1';

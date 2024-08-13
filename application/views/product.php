@@ -49,8 +49,6 @@
         </div>
     </nav>
     <!-- banner -->
-
-
     <div class="overflow-hidden product-hero container-fluid  " style="padding:0 0 6.5rem 0;">
         <div class="hero-section  d-flex flex-column flex-md-row align-items-center justify-content-center">
             <div class="text-container flex-grow-1 flex-basis-100 flex-md-basis-45">
@@ -70,9 +68,7 @@
         </div>
     </div>
 
-
     <!--services  -->
-
     <div class="container-fluid service-ribbon ">
         <div class="row row-cols-1 row-cols-md-4 gy-4">
             <div class="col d-flex align-items-center justify-content-md-center px-4 py-2 text-center">
@@ -107,10 +103,7 @@
         </div>
     </div>
     <!-- Interested in a sample report -->
-
     <div class="sample-report-banner container-fluid w-100 mx-0 row  ">
-
-
         <div class="d-flex justify-content-center  align-item-center" style="align-self: center;gap:6rem;">
             <img class="sample-report-image" src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ipad_frame_2.373b58.png" alt="Card image cap" width="250px" height="200px">
             <div class="py-4 " style="max-width: 37rem;">
@@ -119,12 +112,9 @@
                 <a href="<?= base_url("/reports") ?>">
                     <button type="button" class="btn  px-4 py-2 rounded-md mx-auto fw-bold text-white">Get Reports</button>
                 </a>
-
             </div>
         </div>
     </div>
-
-
 
     <!-- included -->
     <!-- pt-3 pb-2 pt-md-4 pb-md-5 -->
@@ -136,13 +126,11 @@
                     <p>Battery Demand Outlook Service combines all our battery outlooks in one place,<br> providing a comprehensive view of total battery demand. Reports include:</p>
                 </div>
             </div>
-
             <div class="d-flex justify-content-evenly m-4">
                 <div class="product-tab" target="overall-market">Overall Market</div>
                 <div class="product-tab" target="sales-market">Sales Market</div>
                 <div class="product-tab" target="production-market">Production Market</div>
             </div>
-
             <!-- overall market -->
             <div class="row row-cols-1 row-cols-md-2 g-3 g-md-4  product-tab-content" id="overall-market">
                 <div class="col">
@@ -427,12 +415,7 @@
                     </div>
                 </div>
             </div>
-
-
         </div>
-
-
-
         <section class="faq">
             <div class="container-fluid mt-5">
                 <div class="faq-section">
@@ -450,16 +433,9 @@
                     </div>
                 </div>
             </div>
-
         </section>
-
-
     </section>
-
-
-
     <!-- demooo -->
-
     <section class="position-relative  demo-section" id="demo-section">
         <div class="container-xxl  demo-section-left
         ">
@@ -511,7 +487,6 @@
     </section>
 
     <!-- related products -->
-
     <section class="related-products px-1 py-4">
         <h1 class=" py-4 mx-1 h2">Related Products</h1>
 
@@ -558,9 +533,7 @@
 
     </section>
 
-
     <!-- footer -->
-
     <footer class="footer text-center text-md-start z-1">
         <div class="container-fluid">
             <div class="row" style="padding:2rem">
@@ -618,7 +591,6 @@
             </div>
         </div>
     </footer>
-
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const faqItems = document.querySelectorAll(".faq-item");
