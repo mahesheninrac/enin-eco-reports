@@ -241,6 +241,143 @@ a {
   background-color: #e0f7fa;
 }
 
+
+/* ham-menu */
+.off-menu-nav {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  height: 100vh;
+  width: 100vw;
+  background-color: #d0ddf7;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+  padding: 1rem;
+  overflow-y: scroll;
+  z-index: 99999;
+
+}
+
+.off-menu-nav.active {
+  transform: translateX(0);
+}
+
+.off-menu-nav a {
+  display: block;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.off-menu-close {
+  position: absolute;
+  top: 1rem;
+  /* right: 1rem; */
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.off-menu-nav   .center-align {
+  justify-content: center;
+  padding-top: 5rem;
+  /* gap: 9rem; */
+}
+
+.off-menu-nav   .getin {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: .5REM;
+}
+
+.off-menu-nav  .address {
+  line-height: 2rem;
+  font-size: 1.25rem;
+}
+
+.fs-sm {
+  font-size: 1.25rem;
+}
+
+.off-menu-nav  .subscribe-heading {
+  font-size: 1.625rem;
+  font-weight: 600;
+  line-height: 2.25rem;
+}
+
+.off-menu-nav  .subscribe-form input {
+  height: 49.33px;
+  width: 239px;
+  border-radius: 5px;
+  border: none;
+
+
+}
+
+.off-menu-nav  .subscribe-form input::placeholder {
+  padding: 1rem;
+}
+
+.off-menu-nav  .subscribe-form button {
+  height: 49.33px;
+  width: 118px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  background-color: #3d45d3;
+  border-radius: 10px;
+
+
+}
+
+.off-menu-nav .nav-links a {
+  color: black;
+  font-size: 2.25rem;
+  line-height: 3rem;
+  padding-top: 0px;
+
+}
+
+.off-menu-nav  .nav-links button {
+  color: white;
+  font-weight: bold;
+
+}
+
+.off-menu-nav  .nav-links {
+  align-items: end !important;
+}
+
+.off-menu-nav .nav-links .login-btn {
+  background-color: transparent;
+  color: #3d45d3;
+  font-size: 1.25rem;
+  border: 1px solid #3d45d3;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+}
+
+.off-menu-nav .services {
+  min-width: fit-content;
+}
+
+.off-menu-nav .company-info {
+  min-width: fit-content;
+}
+
+.off-menu-nav .subscribe-form {
+  width: 80%;
+}
+
+.off-menu-nav .icofont-close {
+  font-size: 4rem;
+}
+
+@media (max-width: 768px) {
+  #off-menu-toggler{
+    display: none;
+  }
+  
+}
+
 .max-w-content-container {
   max-width: 1200px;
 }
@@ -269,7 +406,7 @@ a {
   color: var(--white-100);
   font-family: var(--body-font);
 }
-/* updates */
+
 .hero-section {
   display: flex;
   flex-wrap: wrap;
@@ -282,6 +419,11 @@ a {
   max-width: 55%;
   padding: 10px;
   align-self: flex-end;
+}
+.hero-section .text-container p {
+  font-size: 3.125rem;
+  font-weight: 400;
+  line-height: 136%;
 }
 .hero-card-overlay {
   position: relative;
@@ -332,7 +474,6 @@ a {
   right: -2.3rem;
   width: 16rem;
   height: auto;
-  
 }
 
 .hero-section {
@@ -360,7 +501,7 @@ a {
 
 .card {
   background-color: #303458;
-  color: #d0ddf7
+  color: #d0ddf7;
 }
 
 .card-title {
@@ -477,8 +618,11 @@ a {
 
 /* footer */
 
+.newsletter-form ::placeholder {
+  padding: 1rem;
+}
 .newsletter-form {
-  font-size: 1.2rem !important;
+  font-size: 1.3125rem !important;
   font-weight: 600;
 }
 
@@ -488,8 +632,8 @@ a {
 
 .newsletterfooter-input-i i {
   right: 10px;
-  top: 4px;
   font-size: 3rem;
+  color: #3d45d3;
 }
 
 .newsletter-form input {
@@ -520,8 +664,10 @@ a {
 }
 
 .footer .logo {
-  width: 3.9rem;
-  height: 1.8rem;
+  width: 15% !important;
+  height: 100% !important;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
 }
 
 .footer .contact-info p,
@@ -531,6 +677,12 @@ a {
 
 .footer .nav-links a {
   font-size: 1.75rem;
+  line-height: 3rem;
+}
+
+.footer .social-icons {
+  display: flex;
+  gap: 1rem;
 }
 
 .footer .social-icons img {
@@ -545,7 +697,8 @@ a {
 @media (min-width: 768px) {
   .footer .contact-info p,
   .footer .contact-info a {
-    font-size: 1.2rem;
+    font-size: 1.312rem;
+    line-height: 1.837rem;
   }
 
   .footer .nav-links a {
@@ -646,6 +799,7 @@ a {
 
 .our-research {
   overflow: hidden;
+  background-color: #d0ddf7;
 }
 
 .section-header {
@@ -1316,7 +1470,17 @@ button.accordion-button:focus {
   justify-content: center;
   background-color: #161933;
 }
+.landing-service-ribbon {
+  font-size: 1.3125rem;
+  font-weight: 400;
+  color: #cac0ff;
+  line-height: 140%;
+}
 
+.surveys-and-voc {
+  background-color: #cac0ff;
+  padding-bottom: 2rem;
+}
 .faq-section {
   padding: 0 0 0 4rem;
 }
@@ -1439,32 +1603,29 @@ button.accordion-button:focus {
   height: 100px;
 }
 
+.info-block .text-content {
+  max-width: 28.75rem;
+}
+
 .info-block:hover .h5 {
   font-weight: bold !important;
 }
 
-
 .contentsection a {
   font-size: 12px !important;
   font-weight: bold !important;
-
 }
 
 .arrow {
   color: blue !important;
-  ;
 }
 
 .contentsection h1 {
-
   color: blue !important;
 }
 
-
 .info-block:hover {
   background-color: white !important;
-
-
 }
 
 .w-blue {
@@ -1483,11 +1644,9 @@ button.accordion-button:focus {
 }
 
 .v-list {
-  color: #3d45d3;
-  font-weight: bold;
+  color: #0f0015;
   font-size: 1.3rem !important;
 }
-
 
 .arrow {
   display: none;
@@ -1495,12 +1654,10 @@ button.accordion-button:focus {
 
 .arrow.active {
   display: flex;
-
 }
 
 .content-section {
   display: none;
-
 }
 
 .content-section.active {
@@ -1518,6 +1675,11 @@ button.accordion-button:focus {
   height: 19.6rem;
 }
 
+.reports-section {
+  padding-top: 1rem;
+  background-color: #f1f2fb;
+  gap: 6rem;
+}
 .report-header-lg {
   padding-top: 6.19rem;
   padding-bottom: 5.87rem;
@@ -1533,7 +1695,6 @@ button.accordion-button:focus {
 }
 
 .report-header h1 {
-
   font-weight: bold;
 }
 
@@ -1547,23 +1708,23 @@ button.accordion-button:focus {
   margin-left: auto;
   margin-right: auto;
   font-size: 1rem;
-
 }
 
 .report-header-lg p {
   margin-top: 1.06rem;
   font-size: 1.25rem;
-
 }
 
-
-.report-types li{
-  border-bottom: 1px solid black !important;;
+.report-types li {
+  border-bottom: 1px solid rgb(0, 0, 0,0.3) ;
 }
 
-
-.market-sizing {
-  
+.sticky-ul {
+  position: sticky;
+  top: 0px;
+  min-width: 300px;
+  min-height: 100vh;
+  padding-left: 0px;
 }
 
 .content-section-title h1 {
@@ -1582,27 +1743,26 @@ button.accordion-button:focus {
 }
 
 .content-section .text-content .report-pointer {
-  font-size: .875rem;
+  font-size: 0.875rem;
   font-weight: 400;
   line-height: 150%;
 }
 
 .content-section a {
   color: #3d45d3 !important;
-  font-size: .875rem;
+  font-size: 0.875rem;
   font-weight: 600;
   line-height: 150%;
 }
 
-.product-tab{
-  color:#3d45d3;
+.product-tab {
+  color: #3d45d3;
   font-size: 1.3rem;
   font-weight: 600;
-  border-bottom:2px solid #3d45d3;
-  cursor:pointer;
+  border-bottom: 2px solid #3d45d3;
+  cursor: pointer;
 }
 
-.hidden{
+.hidden {
   display: none;
 }
-

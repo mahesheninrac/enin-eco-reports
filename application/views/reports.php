@@ -56,7 +56,7 @@
     </div>
   </header>
 
-  <!-- testing ribbon -->
+  <!-- tab ribbon -->
   <div class="container-fluid  text-center p-4 pointer w-blue">
     <div class="ribbon-content">
       <ul class="vb-res list-style-none d-flex p-0 width-500 justify-content-around m-auto">
@@ -103,58 +103,50 @@
             <p class="text-center  c-light-gray mt-2">Power</p>
           </div>
         </li>
-
       </ul>
     </div>
-
-
   </div>
 
-  <div class="main d-flex flex gap-2  w-blue" style="padding-top:1rem;  background-color: #f1f2fb;">
-    <div class=" py-1" style="width: 30%; position: sticky; top: 0px; min-width: 300px; min-height: 100vh">
-      <!-- justify-content-between -->
-      <ul class=" fw-normal text-start d-flex flex-column gap-4 report-types justify-content-between" style="position: sticky; top: 0px; min-width: 300px; min-height: 100vh;">
-        <li class="border-top border-bottom  d-flex  justify-content-between py-2 side-list" target="first" id="market-sizing">
-          <p class=" v-list">Market Sizing</p>
-          <div class="arrow align-items-center" id="first"><i class="icofont-arrow-right fs-40"></i></div>
-
+  <div class="reports-section container-fluid d-flex flex">
+    <div class=" py-1" style="position: sticky; top: 0px; min-width: 300px; min-height: 100vh">
+      <ul class="sticky-ul fw-normal text-start d-flex flex-column  report-types justify-content-between">
+        <li class="d-flex  justify-content-between py-2 " id="market-sizing">
+          <p class="v-list">Market Sizing</p>
+          <div class="arrow align-items-center" id="market-sizing-arrow"><i class="icofont-arrow-right fs-40"></i></div>
         </li>
-        <li class=" border-bottom  d-flex  justify-content-between side-list" target="second" id="future-outlook">
-          <p class="  v-list">Future Outlook</p>
-          <div class="arrow " id="second"><i class="icofont-arrow-right fs-40"></i></div>
+        <li class="d-flex  justify-content-between " id="future-outlook">
+          <p class="v-list">Future Outlook</p>
+          <div class="arrow " id="future-outlook-arrow"><i class="icofont-arrow-right fs-40"></i></div>
         </li>
-        <li class="  border-bottom  d-flex  justify-content-between side-list" target="third" id="focus-reports">
-          <p class="  v-list">Focus Reports</p>
-          <div class="arrow " id="third"><i class="icofont-arrow-right fs-40"></i></div>
+        <li class="d-flex  justify-content-between " id="focus-reports">
+          <p class="v-list">Focus Reports</p>
+          <div class="arrow " id="focus-reports-arrow"><i class="icofont-arrow-right fs-40"></i></div>
         </li>
-        <li class=" border-bottom  d-flex  justify-content-between side-list" target="four" id="thematic-reports">
-          <p class="  v-list">Thematic Reports</p>
-          <div class="arrow " id="four"><i class="icofont-arrow-right fs-40"></i></div>
+        <li class="d-flex  justify-content-between " target="four" id="thematic-reports">
+          <p class="v-list">Thematic Reports</p>
+          <div class="arrow " id="thematic-reports-arrow"><i class="icofont-arrow-right fs-40"></i></div>
         </li>
-        <li class="  border-bottom d-flex  justify-content-between side-list" target="five" id="databases">
-          <p class="  v-list">Databases</p>
-          <div class="arrow " id="five"><i class="icofont-arrow-right fs-40"></i></div>
+        <li class="d-flex  justify-content-between " target="five" id="databases">
+          <p class="v-list">Databases</p>
+          <div class="arrow " id="databases-arrow"><i class="icofont-arrow-right fs-40"></i></div>
         </li>
-        <li class="  d-flex  justify-content-between side-list" target="six" id="survey">
-          <p class="  v-list">Survey</p>
-          <div class="arrow " id="six"><i class="icofont-arrow-right fs-40"></i></div>
+        <li class="d-flex  justify-content-between " target="six" id="survey" style="border: none;">
+          <p class="v-list">Survey</p>
+          <div class="arrow " id="survey-arrow"><i class="icofont-arrow-right fs-40"></i></div>
         </li>
       </ul>
     </div>
     <div>
-      <div class=" moving-content mx-4" style=" min-width: 50%;">
+      <div class="mx-4" style=" min-width: 50%;">
         <div class="p-1 mx-4 ">
           <!-- Content sections -->
           <div id="content-solar" class="content-section ">
-            <div class="contentsection market-sizing">
+            <div class="market-sizing">
               <div class="py-4 ">
                 <h1 class="h5 fw-bold text-uppercase  ">Market Sizing</h1>
-
               </div>
-
               <div class="info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
                 <img src="https://placehold.co/25" class="">
-
                 <div class="text-content d-flex flex-column">
                   <p class=" pointer h5
                 ">EV & Battery Quarterly Outlook</p>
@@ -175,156 +167,152 @@
               </div>
 
             </div>
-            <div class="contentsection future-outlook">
-              <div class="future-outlook">
-                <div class=" py-4">
-                  <h1 class="h5 fw-bold text-uppercase ">Future Outlook</h1>
 
-                </div>
-                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
-                ">EV & Battery Quarterly Outlook</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
-                </div>
-                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
-                ">EV & Battery Quarterly Outlook</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
-                </div>
+            <div class="future-outlook">
+              <div class=" py-4">
+                <h1 class="h5 fw-bold text-uppercase ">Future Outlook</h1>
 
               </div>
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
+                ">EV & Battery Quarterly Outlook</p>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
+                </div>
+                <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
+                ">EV & Battery Quarterly Outlook</p>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
+                </div>
+                <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
+
             </div>
-            <div class="contentsection focus-reports">
-              <div class="focus-reports">
-                <div class=" py-4 ">
-                  <h1 class="h5 fw-bold text-uppercase  ">Focus Reports</h1>
 
-                </div>
-                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
 
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
-                ">EV & Battery Quarterly Outlook</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
-                </div>
-                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
-                ">EV & Battery Quarterly Outlook</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
-                </div>
+            <div class="focus-reports">
+              <div class=" py-4 ">
+                <h1 class="h5 fw-bold text-uppercase  ">Focus Reports</h1>
 
               </div>
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
+                ">EV & Battery Quarterly Outlook</p>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
+                </div>
+                <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
+                ">EV & Battery Quarterly Outlook</p>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
+                </div>
+                <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
+
             </div>
-            <div class="contentsection thematic-reports">
-              <div class="thematic-reports">
-                <div class=" py-4 ">
-                  <h1 class="h5 fw-bold text-uppercase ">thematic reports</h1>
 
-                </div>
-                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
 
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
-                ">EV & Battery Quarterly Outlook</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
-                </div>
-                <div class="info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
-                ">EV & Battery Quarterly Outlook</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
-                </div>
+            <div class="thematic-reports">
+              <div class=" py-4 ">
+                <h1 class="h5 fw-bold text-uppercase ">thematic reports</h1>
 
               </div>
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
+                ">EV & Battery Quarterly Outlook</p>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
+                </div>
+                <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
+              <div class="info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
+                ">EV & Battery Quarterly Outlook</p>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
+                </div>
+                <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
+
             </div>
-            <div class="contentsection databases">
-              <div class="databases">
-                <div class=" py-4 ">
-                  <h1 class="h5 fw-bold text-uppercase  ">Databases</h1>
 
-                </div>
-                <div class="info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
 
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
-                ">EV & Battery Quarterly Outlook</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
-                </div>
-                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
-                ">EV & Battery Quarterly Outlook</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
-                </div>
+            <div class="databases">
+              <div class=" py-4 ">
+                <h1 class="h5 fw-bold text-uppercase  ">Databases</h1>
 
               </div>
+              <div class="info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
+                ">EV & Battery Quarterly Outlook</p>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
+                </div>
+                <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
+                ">EV & Battery Quarterly Outlook</p>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
+                </div>
+                <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
+
             </div>
-            <div class="contentsection survey pb-4">
-              <div class="survey">
-                <div class=" py-4">
-                  <h1 class="h5 fw-bold text-uppercase  ">Survey</h1>
+            <div class="survey">
+              <div class=" py-4">
+                <h1 class="h5 fw-bold text-uppercase  ">Survey</h1>
 
-                </div>
-                <div class="info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
+              </div>
+              <div class="info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
 
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
                 ">EV & Battery Quarterly Outlook</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
                 </div>
-                <div class="info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
+                <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
+              <div class="info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
 
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
                 ">EV & Battery Quarterly Outlook</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
                 </div>
-
+                <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
               </div>
 
             </div>
           </div>
 
           <div id="content-wind" class="content-section">
-            <div class="contentsection market-sizing">
+            <div class=" market-sizing">
               <div class="py-4 ">
                 <h1 class="h5 fw-bold text-uppercase  ">Market Sizing</h1>
 
@@ -353,157 +341,157 @@
               </div>
 
             </div>
-            <div class="contentsection future-outlook">
-              <div class="future-outlook">
-                <div class=" py-4">
-                  <h1 class="h5 fw-bold text-uppercase ">Future Outlook</h1>
 
-                </div>
-                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
-                ">EV & Battery Quarterly Outlook</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
-                </div>
-                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
-                ">EV & Battery Quarterly Outlook</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
-                </div>
+            <div class="future-outlook">
+              <div class=" py-4">
+                <h1 class="h5 fw-bold text-uppercase ">Future Outlook</h1>
 
               </div>
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
+                ">EV & Battery Quarterly Outlook</p>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
+                </div>
+                <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
+                ">EV & Battery Quarterly Outlook</p>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
+                </div>
+                <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
+
             </div>
-            <div class="contentsection focus-reports">
-              <div class="focus-reports">
-                <div class=" py-4 ">
-                  <h1 class="h5 fw-bold text-uppercase  ">Focus Reports</h1>
 
-                </div>
-                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
 
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
-                ">EV & Battery Quarterly Outlook</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
-                </div>
-                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
-                ">EV & Battery Quarterly Outlook</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
-                </div>
+            <div class="focus-reports">
+              <div class=" py-4 ">
+                <h1 class="h5 fw-bold text-uppercase  ">Focus Reports</h1>
 
               </div>
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
+                ">EV & Battery Quarterly Outlook</p>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
+                </div>
+                <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
+                ">EV & Battery Quarterly Outlook</p>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
+                </div>
+                <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
+
             </div>
-            <div class="contentsection thematic-reports">
-              <div class="thematic-reports">
-                <div class=" py-4 ">
-                  <h1 class="h5 fw-bold text-uppercase ">thematic reports</h1>
 
-                </div>
-                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
 
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
-                ">EV & Battery Quarterly Outlook</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
-                </div>
-                <div class="info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
-                ">EV & Battery Quarterly Outlook</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
-                </div>
+            <div class="thematic-reports">
+              <div class=" py-4 ">
+                <h1 class="h5 fw-bold text-uppercase ">thematic reports</h1>
 
               </div>
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
+                ">EV & Battery Quarterly Outlook</p>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
+                </div>
+                <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
+              <div class="info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
+                ">EV & Battery Quarterly Outlook</p>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
+                </div>
+                <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
+
             </div>
-            <div class="contentsection databases">
-              <div class="databases">
-                <div class=" py-4 ">
-                  <h1 class="h5 fw-bold text-uppercase  ">Databases</h1>
 
-                </div>
-                <div class="info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
 
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
-                ">EV & Battery Quarterly Outlook</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
-                </div>
-                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
-                ">EV & Battery Quarterly Outlook</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
-                </div>
+            <div class="databases">
+              <div class=" py-4 ">
+                <h1 class="h5 fw-bold text-uppercase  ">Databases</h1>
 
               </div>
+              <div class="info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
+                ">EV & Battery Quarterly Outlook</p>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
+                </div>
+                <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
+                ">EV & Battery Quarterly Outlook</p>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
+                </div>
+                <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
+
             </div>
-            <div class="contentsection survey pb-4">
-              <div class="survey">
-                <div class=" py-4">
-                  <h1 class="h5 fw-bold text-uppercase  ">Survey</h1>
 
-                </div>
-                <div class="info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
 
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
-                ">EV & Battery Quarterly Outlook</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
-                </div>
-                <div class="info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
-                ">EV & Battery Quarterly Outlook</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
-                </div>
+            <div class="survey">
+              <div class=" py-4">
+                <h1 class="h5 fw-bold text-uppercase  ">Survey</h1>
 
               </div>
+              <div class="info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
+                ">EV & Battery Quarterly Outlook</p>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
+                </div>
+                <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
+              <div class="info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
+                ">EV & Battery Quarterly Outlook</p>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
+                </div>
+                <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
+
+
 
             </div>
           </div>
 
           <!-- content for ev  -->
           <div id="content-ev" class="content-section active">
-            <div class="contentsection market-sizing">
+            <div class=" market-sizing">
               <div class="py-4 ">
                 <h1 class="h5 fw-bold text-uppercase  ">Market Sizing</h1>
               </div>
@@ -581,297 +569,297 @@
 
 
             </div>
-            <div class="contentsection future-outlook">
-              <div class="future-outlook">
-                <div class=" py-4">
-                  <h1 class="h5 fw-bold text-uppercase ">Future Outlook</h1>
-                </div>
 
-                <div class="info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-                  <div class="text-content d-flex flex-column">
-                    <p class=" pointer h5
+            <div class="future-outlook">
+              <div class=" py-4">
+                <h1 class="h5 fw-bold text-uppercase ">Future Outlook</h1>
+              </div>
+
+              <div class="info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+                <div class="text-content d-flex flex-column">
+                  <p class=" pointer h5
                 ">EVs Market in India</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
                 </div>
+                <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
 
-                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
                 ">Tyer Market for EVs in India</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
                 </div>
+                <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
 
-                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
                 ">Transmission Market for EVs in India</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
                 </div>
+                <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
 
-                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
                 ">EVCI Market for EVs in India</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
                 </div>
+                <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
 
-                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
                 ">Controller Market for EVs in India</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
                 </div>
+                <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
 
-                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
                 ">Batteries Market for EVs in India</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
                 </div>
+                <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
 
-                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
                 ">Motor Market for EVs in India</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
                 </div>
+                <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
 
+
+            </div>
+
+
+            <div class="focus-reports">
+              <div class=" py-4 ">
+                <h1 class="h5 fw-bold text-uppercase  ">Focus Reports</h1>
 
               </div>
-            </div>
-            <div class="contentsection focus-reports">
-              <div class="focus-reports">
-                <div class=" py-4 ">
-                  <h1 class="h5 fw-bold text-uppercase  ">Focus Reports</h1>
-
-                </div>
-                <!-- reports listing -->
-                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
+              <!-- reports listing -->
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
                 ">Comercialiazation of EVs</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
                 </div>
-                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
+                <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
                 ">EV Demand-Supply in India</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
                 </div>
-                            
-                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
+                <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
+
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
                 ">EV Policy Gap Compedium</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
                 </div>
+                <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
 
-                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
                 ">Demand Assessment</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
                 </div>
+                <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
 
-                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
                 ">D2I Models</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
                 </div>
-
+                <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
               </div>
+
             </div>
-            <div class="contentsection thematic-reports">
-              <div class="thematic-reports">
-                <div class=" py-4 ">
-                  <h1 class="h5 fw-bold text-uppercase ">thematic reports</h1>
-                </div>
-                <!-- reports listing -->
-                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
+
+
+            <div class="thematic-reports">
+              <div class=" py-4 ">
+                <h1 class="h5 fw-bold text-uppercase ">thematic reports</h1>
+              </div>
+              <!-- reports listing -->
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
                 ">EV cluster development opportunities in India </p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
                 </div>
+                <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
 
-                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
                 ">Assessment of cost builtups & benchmarks for EV production in India</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
                 </div>
+                <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
 
-                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
                 ">Assessing viability of EVs & Chargers production in India & examining the VGF routes - PLI</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
                 </div>
+                <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
 
-                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
                 ">Unlocking trade opportunities for India with other countries</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
                 </div>
+                <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
 
-                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
                 ">Partnerships & deals in EV industry in India & global</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
                 </div>
-
+                <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
               </div>
+
             </div>
-            <div class="contentsection databases">
-              <div class="databases">
-                <div class=" py-4 ">
-                  <h1 class="h5 fw-bold text-uppercase  ">Databases</h1>
-                </div>
-                <!-- reports listing -->
-                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
+
+
+            <div class="databases">
+              <div class=" py-4 ">
+                <h1 class="h5 fw-bold text-uppercase  ">Databases</h1>
+              </div>
+              <!-- reports listing -->
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
                 ">Detailed Database of Operational EVs - State wise</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
                 </div>
+                <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
 
-                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
                 ">Detailed EV Sales & Production Database</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
                 </div>
+                <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
 
-                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
                 ">EVCI Database</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
                 </div>
-
-              </div>
-            </div>
-            <div class="contentsection survey pb-4">
-              <div class="survey">
-                <div class=" py-4">
-                  <h1 class="h5 fw-bold text-uppercase  ">Survey</h1>
-                </div>
-
-                <!-- Survey listing -->
-                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
-                ">Dummy Content for Survey</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
-                </div>
-
-                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
-                ">Dummy Content for Survey</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
-                </div>
-
-                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
-                ">Dummy Content for Survey</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
-                </div>
-
-                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
-                ">Dummy Content for Survey</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
-                </div>
-
-
-
+                <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
               </div>
 
             </div>
+
+
+            <div class="survey">
+              <div class=" py-4">
+                <h1 class="h5 fw-bold text-uppercase  ">Survey</h1>
+              </div>
+
+              <!-- Survey listing -->
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
+                ">Dummy Content for Survey</p>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
+                </div>
+                <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
+
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
+                ">Dummy Content for Survey</p>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
+                </div>
+                <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
+
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
+                ">Dummy Content for Survey</p>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
+                </div>
+                <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
+
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
+                ">Dummy Content for Survey</p>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
+                </div>
+                <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
+
+
+
+            </div>
+
+
 
           </div>
           <!-- content for bess -->
           <div id="content-bess" class="content-section">
 
-            <div class="contentsection market-sizing">
+            <div class=" market-sizing">
               <div class="py-4 ">
                 <h1 class="h5 fw-bold text-uppercase  ">Market Sizing</h1>
 
@@ -900,160 +888,157 @@
               </div>
 
             </div>
-            <div class="contentsection future-outlook">
-              <div class="future-outlook">
-                <div class=" py-4">
-                  <h1 class="h5 fw-bold text-uppercase ">Future Outlook</h1>
 
-                </div>
-                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
-                ">EV & Battery Quarterly Outlook</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
-                </div>
-                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
-                ">EV & Battery Quarterly Outlook</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
-                </div>
+            <div class="future-outlook">
+              <div class=" py-4">
+                <h1 class="h5 fw-bold text-uppercase ">Future Outlook</h1>
 
               </div>
-            </div>
-            <div class="contentsection focus-reports">
-              <div class="focus-reports">
-                <div class=" py-4 ">
-                  <h1 class="h5 fw-bold text-uppercase  ">Focus Reports</h1>
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
 
-                </div>
-                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
                 ">EV & Battery Quarterly Outlook</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
                 </div>
-                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
-                ">EV & Battery Quarterly Outlook</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
-                </div>
-
+                <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
               </div>
-            </div>
-            <div class="contentsection thematic-reports">
-              <div class="thematic-reports">
-                <div class=" py-4 ">
-                  <h1 class="h5 fw-bold text-uppercase ">thematic reports</h1>
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
 
-                </div>
-                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
                 ">EV & Battery Quarterly Outlook</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
                 </div>
-                <div class="info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
-                ">EV & Battery Quarterly Outlook</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
-                </div>
-
-              </div>
-            </div>
-            <div class="contentsection databases">
-              <div class="databases">
-                <div class=" py-4 ">
-                  <h1 class="h5 fw-bold text-uppercase  ">Databases</h1>
-
-                </div>
-                <div class="info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
-                ">EV & Battery Quarterly Outlook</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
-                </div>
-                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
-                ">EV & Battery Quarterly Outlook</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
-                </div>
-
-              </div>
-            </div>
-            <div class="contentsection survey pb-4">
-              <div class="survey">
-                <div class=" py-4">
-                  <h1 class="h5 fw-bold text-uppercase  ">Survey</h1>
-
-                </div>
-                <div class="info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
-                ">EV & Battery Quarterly Outlook</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
-                </div>
-                <div class="info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
-                ">EV & Battery Quarterly Outlook</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
-                </div>
-
+                <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
               </div>
 
             </div>
 
+
+            <div class="focus-reports">
+              <div class=" py-4 ">
+                <h1 class="h5 fw-bold text-uppercase  ">Focus Reports</h1>
+
+              </div>
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
+                ">EV & Battery Quarterly Outlook</p>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
+                </div>
+                <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
+                ">EV & Battery Quarterly Outlook</p>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
+                </div>
+                <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
+
+            </div>
+
+
+            <div class="thematic-reports">
+              <div class=" py-4 ">
+                <h1 class="h5 fw-bold text-uppercase ">thematic reports</h1>
+
+              </div>
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
+                ">EV & Battery Quarterly Outlook</p>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
+                </div>
+                <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
+              <div class="info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
+                ">EV & Battery Quarterly Outlook</p>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
+                </div>
+                <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
+
+            </div>
+
+
+            <div class="databases">
+              <div class=" py-4 ">
+                <h1 class="h5 fw-bold text-uppercase  ">Databases</h1>
+
+              </div>
+              <div class="info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
+                ">EV & Battery Quarterly Outlook</p>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
+                </div>
+                <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
+                ">EV & Battery Quarterly Outlook</p>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
+                </div>
+                <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
+
+            </div>
+
+
+            <div class="survey">
+              <div class=" py-4">
+                <h1 class="h5 fw-bold text-uppercase  ">Survey</h1>
+
+              </div>
+              <div class="info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
+                ">EV & Battery Quarterly Outlook</p>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
+                </div>
+                <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
+              <div class="info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
+                ">EV & Battery Quarterly Outlook</p>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
+                </div>
+                <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
+
+            </div>
 
           </div>
 
           <!-- content for hydrogen -->
           <div id="content-hydro" class="content-section ">
 
-            <div class="contentsection market-sizing">
+            <div class=" market-sizing">
               <div class="py-4 ">
                 <h1 class="h5 fw-bold text-uppercase  ">Market Sizing</h1>
 
@@ -1082,36 +1067,36 @@
               </div>
 
             </div>
-            <div class="contentsection future-outlook">
-              <div class="future-outlook">
-                <div class=" py-4">
-                  <h1 class="h5 fw-bold text-uppercase ">Future Outlook</h1>
 
-                </div>
-                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
-                ">EV & Battery Quarterly Outlook</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
-                </div>
-                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
-                ">EV & Battery Quarterly Outlook</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
-                </div>
+            <div class="future-outlook">
+              <div class=" py-4">
+                <h1 class="h5 fw-bold text-uppercase ">Future Outlook</h1>
 
               </div>
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
+                ">EV & Battery Quarterly Outlook</p>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
+                </div>
+                <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
+                ">EV & Battery Quarterly Outlook</p>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
+                </div>
+                <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
+
             </div>
-            <div class="contentsection focus-reports">
+
+            
               <div class="focus-reports">
                 <div class=" py-4 ">
                   <h1 class="h5 fw-bold text-uppercase  ">Focus Reports</h1>
@@ -1139,8 +1124,8 @@
                 </div>
 
               </div>
-            </div>
-            <div class="contentsection thematic-reports">
+            
+            
               <div class="thematic-reports">
                 <div class=" py-4 ">
                   <h1 class="h5 fw-bold text-uppercase ">thematic reports</h1>
@@ -1168,70 +1153,70 @@
                 </div>
 
               </div>
-            </div>
-            <div class="contentsection databases">
-              <div class="databases">
-                <div class=" py-4 ">
-                  <h1 class="h5 fw-bold text-uppercase  ">Databases</h1>
+            
 
-                </div>
-                <div class="info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
-                ">EV & Battery Quarterly Outlook</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
-                </div>
-                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
-                ">EV & Battery Quarterly Outlook</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
-                </div>
+            <div class="databases">
+              <div class=" py-4 ">
+                <h1 class="h5 fw-bold text-uppercase  ">Databases</h1>
 
               </div>
-            </div>
-            <div class="contentsection survey pb-4">
-              <div class="survey">
-                <div class=" py-4">
-                  <h1 class="h5 fw-bold text-uppercase  ">Survey</h1>
+              <div class="info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
 
-                </div>
-                <div class="info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
                 ">EV & Battery Quarterly Outlook</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
                 </div>
-                <div class="info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
+                <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
 
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
                 ">EV & Battery Quarterly Outlook</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
                 </div>
-
+                <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
               </div>
 
             </div>
+
+
+            <div class="survey">
+              <div class=" py-4">
+                <h1 class="h5 fw-bold text-uppercase  ">Survey</h1>
+
+              </div>
+              <div class="info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
+                ">EV & Battery Quarterly Outlook</p>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
+                </div>
+                <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
+              <div class="info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
+                ">EV & Battery Quarterly Outlook</p>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
+                </div>
+                <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
+
+            </div>
+
+
           </div>
           <!-- content for power -->
           <div id="content-power" class="content-section">
-            <div class="contentsection market-sizing">
+            <div class=" market-sizing">
               <div class="py-4 ">
                 <h1 class="h5 fw-bold text-uppercase  ">Market Sizing</h1>
 
@@ -1260,152 +1245,152 @@
               </div>
 
             </div>
-            <div class="contentsection future-outlook">
-              <div class="future-outlook">
-                <div class=" py-4">
-                  <h1 class="h5 fw-bold text-uppercase ">Future Outlook</h1>
 
-                </div>
-                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
-                ">EV & Battery Quarterly Outlook</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
-                </div>
-                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
-                ">EV & Battery Quarterly Outlook</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
-                </div>
+            <div class="future-outlook">
+              <div class=" py-4">
+                <h1 class="h5 fw-bold text-uppercase ">Future Outlook</h1>
 
               </div>
-            </div>
-            <div class="contentsection focus-reports">
-              <div class="focus-reports">
-                <div class=" py-4 ">
-                  <h1 class="h5 fw-bold text-uppercase  ">Focus Reports</h1>
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
 
-                </div>
-                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
                 ">EV & Battery Quarterly Outlook</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
                 </div>
-                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
-                ">EV & Battery Quarterly Outlook</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
-                </div>
-
+                <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
               </div>
-            </div>
-            <div class="contentsection thematic-reports">
-              <div class="thematic-reports">
-                <div class=" py-4 ">
-                  <h1 class="h5 fw-bold text-uppercase ">thematic reports</h1>
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
 
-                </div>
-                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
                 ">EV & Battery Quarterly Outlook</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
                 </div>
-                <div class="info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
-                ">EV & Battery Quarterly Outlook</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
-                </div>
-
-              </div>
-            </div>
-            <div class="contentsection databases">
-              <div class="databases">
-                <div class=" py-4 ">
-                  <h1 class="h5 fw-bold text-uppercase  ">Databases</h1>
-
-                </div>
-                <div class="info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
-                ">EV & Battery Quarterly Outlook</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
-                </div>
-                <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
-                ">EV & Battery Quarterly Outlook</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
-                </div>
-
-              </div>
-            </div>
-            <div class="contentsection survey pb-4">
-              <div class="survey">
-                <div class=" py-4">
-                  <h1 class="h5 fw-bold text-uppercase  ">Survey</h1>
-
-                </div>
-                <div class="info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
-                ">EV & Battery Quarterly Outlook</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
-                </div>
-                <div class="info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
-                  <img src="https://placehold.co/25" class="">
-
-                  <div class="text-content d-flex flex-column">
-                    <p class="h5
-                ">EV & Battery Quarterly Outlook</p>
-                    <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
-                  </div>
-                  <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
-                </div>
-
+                <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
               </div>
 
             </div>
+
+
+            <div class="focus-reports">
+              <div class=" py-4 ">
+                <h1 class="h5 fw-bold text-uppercase  ">Focus Reports</h1>
+
+              </div>
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
+                ">EV & Battery Quarterly Outlook</p>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
+                </div>
+                <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
+                ">EV & Battery Quarterly Outlook</p>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
+                </div>
+                <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
+
+            </div>
+
+
+            <div class="thematic-reports">
+              <div class=" py-4 ">
+                <h1 class="h5 fw-bold text-uppercase ">thematic reports</h1>
+
+              </div>
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
+                ">EV & Battery Quarterly Outlook</p>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
+                </div>
+                <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
+              <div class="info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
+                ">EV & Battery Quarterly Outlook</p>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
+                </div>
+                <a href="<?= base_url("product_page") ?>">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
+
+            </div>
+
+
+            <div class="databases">
+              <div class=" py-4 ">
+                <h1 class="h5 fw-bold text-uppercase  ">Databases</h1>
+
+              </div>
+              <div class="info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
+                ">EV & Battery Quarterly Outlook</p>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
+                </div>
+                <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
+              <div class=" info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
+                ">EV & Battery Quarterly Outlook</p>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
+                </div>
+                <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
+
+            </div>
+
+
+            <div class="survey">
+              <div class=" py-4">
+                <h1 class="h5 fw-bold text-uppercase  ">Survey</h1>
+
+              </div>
+              <div class="info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
+                ">EV & Battery Quarterly Outlook</p>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
+                </div>
+                <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
+              <div class="info-block d-flex flex py-1 gap-4 mx-4  align-items-start">
+                <img src="https://placehold.co/25" class="">
+
+                <div class="text-content d-flex flex-column">
+                  <p class="h5
+                ">EV & Battery Quarterly Outlook</p>
+                  <p class="">Quarterly report • PDF & Excel • Includes access to our analysts</p>
+                </div>
+                <a href="">Learn More <i class="icofont-long-arrow-right "></i></a>
+              </div>
+
+            </div>
+
+
           </div>
         </div>
       </div>
@@ -1416,12 +1401,14 @@
   <!-- Footer -->
   <footer class="footer text-center text-md-start z-1">
     <div class="container-fluid">
-      <div class="row" style="padding: 2rem;">
+      <div class="row">
+        <div>
+          <a href="<?= base_url('/') ?>"><img src="<?= base_url('assets/images/Asset 8.svg
+            ') ?>" alt="Logo" class="logo "></a>
+        </div>
+      </div>
+      <div class="row" style="padding-top:2rem ;">
         <div class="col-md-5 col-lg-5 mb-4 mb-md-0">
-          <div>
-            <img src="<?= base_url('assets/images/Asset 8.svg
-            ') ?>" alt="Logo" class="logo mb-4 w-25 h-50">
-          </div>
           <div class="contact-info">
             <p>Eninrac Consulting Private Limited<br>2nd Floor, B-130, B-Block<br>Sector 65, Noida - 201301</p>
             <p>(+91) 9319048963, (+91) 9319047963<br><a href="mailto:info@rhomotion.com">connect@eninrac.com</a></p>
@@ -1429,7 +1416,7 @@
 
         </div>
         <div class="col-md-7 col-lg-7">
-          <div class="row">
+          <div class="row services-and-newsletter-form">
             <div class="col-6">
               <div class="nav-links">
                 <a href="<?= base_url('reports') ?>" class="d-block" id="reports">Reports</a>
@@ -1441,8 +1428,11 @@
             <div class="col-6">
               <div class="newsletter-form line-height:1.1 ">
                 <p class="mb-2">Subscribe to our newsletter</p>
-                <input type="email" name="" id="" class="mb-2 " placeholder="your work email">
-                <p style="font-size: .8rem;">By submitting this form, you agree to Rho Motion’s privacy policy.</p>
+                <div class="w-100 newsletterfooter-input-i position-relative">
+                  <input type="email" name="" id="" class="mb-2 w-100 " placeholder="your work email">
+                  <i class="icofont-long-arrow-right position-absolute"></i>
+                </div>
+                <p style="font-size: .8rem;">By submitting this form, you agree to Eninrac&#39;s <u style="text-decoration-thickness: 1px;">privacy policy</u>.</p>
                 <div class="social-icons mt-4">
                   <a href="https://www.linkedin.com/in/eninrac-consulting-88641719b/" target="_blank" rel="noreferrer">
                     <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-linkedin.5fd894.svg" alt="LinkedIn">
@@ -1458,13 +1448,9 @@
           </div>
         </div>
       </div>
-      <div class="row " style="padding: 0rem 2rem;">
-
+      <div class="row rights-and-policy">
         <p class="copyright mb-0" style="font-size: 1.3rem;">&copy; 2024 Eninrac. All rights reserved.</p>
-
-
         <p class="privacy  "><a href="">Privacy Policy</a> • <a href="">Terms & Conditions</a></p>
-
       </div>
     </div>
   </footer>
@@ -1474,17 +1460,19 @@
       const rect = element.getBoundingClientRect();
       const screenX = rect.left + window.screenX;
       const screenY = rect.top;
-      return {
+      // console.log(screenX, screenY);
+      
+      return ({
         screenX,
         screenY
-      };
+      });
     }
 
     function topCheck(element) {
       let currentPosition = getScreenPosition(element);
-      console.log(currentPosition.screenY);
-
-      if (currentPosition.screenY > -180 && currentPosition.screenY < 35) {
+      console.log(currentPosition);
+      
+      if (currentPosition.screenY > -180 && currentPosition.screenY < 35 && currentPosition.screenX>0) {
 
         return true;
       }
@@ -1514,38 +1502,29 @@
     }
 
 
-    //  changes are needed
+
+
+
     window.addEventListener('scroll', function(e) {
 
-      if (topCheck(document.querySelectorAll('.contentsection')[0])) {
-        showArrow("first");
+
+      let x = document.querySelector('.sticky-ul').children;
+      Array.from(x).forEach(function(element) {
+
+        let blocks = document.querySelectorAll(`.${element.id}`);
+        blocks.forEach(function(block) {
+         if(topCheck(block)){
+          showArrow(`${block.classList[0]}-arrow`)
+          
+         }
+    
+          
+        });
 
 
 
-      }
-      if (topCheck(document.querySelectorAll('.contentsection')[1])) {
-        showArrow("second")
 
-      }
-      if (topCheck(document.querySelectorAll('.contentsection')[2])) {
-        showArrow("third")
-
-      }
-      if (topCheck(document.querySelectorAll('.contentsection')[3])) {
-        showArrow("four")
-
-      }
-      if (topCheck(document.querySelectorAll('.contentsection')[4])) {
-        showArrow("five")
-
-      }
-      if (topCheck(document.querySelectorAll('.contentsection')[5])) {
-        showArrow("six")
-
-      }
-
-
-
+      });
     })
 
     // For arrow

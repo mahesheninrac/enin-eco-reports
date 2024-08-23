@@ -8,6 +8,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
 
   <link rel="stylesheet" href="<?= base_url('assets/fonts/fonts.css') ?>" />
+
   <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>" />
 </head>
 
@@ -16,8 +17,6 @@
   <nav class="navbar navbar-expand-md bg-white py-4">
     <div class="container-fluid">
       <a class="navbar-brand " href="<?= base_url('') ?>">
-
-
         <img src="<?= base_url('assets/images/final-logo-ecosystem.png') ?>" class="w-100 h-80" alt="home-page-banner">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -519,14 +518,15 @@
 
   </section>
 
+  
+
   <!-- footer -->
   <footer class="footer text-center text-md-start z-1">
     <div class="container-fluid">
       <div class="row" style="padding:2rem">
         <div class="col-md-5 col-lg-5 mb-4 mb-md-0">
           <div>
-            <img src="<?= base_url('assets/images/Asset 8.svg
-            ') ?>" alt="Logo" class="logo mb-4 w-25 h-50">
+            <img src="<?= base_url('assets/images/final-logo-ecosystem.png') ?>" alt="Logo" class="logo mb-4 w-25 h-50">
           </div>
           <div class="contact-info">
             <p>Eninrac Consulting Private Limited<br>2nd Floor, B-130, B-Block<br>Sector 65, Noida - 201301</p>

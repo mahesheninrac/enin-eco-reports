@@ -394,12 +394,14 @@
 
   <footer class="footer text-center text-md-start z-1">
     <div class="container-fluid">
-      <div class="row" style="padding: 2rem;">
+      <div class="row">
+        <div>
+          <a href="<?= base_url('/') ?>"><img src="<?= base_url('assets/images/Asset 8.svg
+            ') ?>" alt="Logo" class="logo "></a>
+        </div>
+      </div>
+      <div class="row" style="padding-top:2rem ;">
         <div class="col-md-5 col-lg-5 mb-4 mb-md-0">
-          <div>
-            <img src="<?= base_url('assets/images/Asset 8.svg
-            ') ?>" alt="Logo" class="logo mb-4 w-25 h-50">
-          </div>
           <div class="contact-info">
             <p>Eninrac Consulting Private Limited<br>2nd Floor, B-130, B-Block<br>Sector 65, Noida - 201301</p>
             <p>(+91) 9319048963, (+91) 9319047963<br><a href="mailto:info@rhomotion.com">connect@eninrac.com</a></p>
@@ -407,7 +409,7 @@
 
         </div>
         <div class="col-md-7 col-lg-7">
-          <div class="row">
+          <div class="row services-and-newsletter-form">
             <div class="col-6">
               <div class="nav-links">
                 <a href="<?= base_url('reports') ?>" class="d-block" id="reports">Reports</a>
@@ -423,7 +425,7 @@
                   <input type="email" name="" id="" class="mb-2 w-100 " placeholder="your work email">
                   <i class="icofont-long-arrow-right position-absolute"></i>
                 </div>
-                <p style="font-size: .8rem;">By submitting this form, you agree to Rho Motion’s privacy policy.</p>
+                <p style="font-size: .8rem;">By submitting this form, you agree to Eninrac&#39;s <u style="text-decoration-thickness: 1px;">privacy policy</u>.</p>
                 <div class="social-icons mt-4">
                   <a href="https://www.linkedin.com/in/eninrac-consulting-88641719b/" target="_blank" rel="noreferrer">
                     <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-linkedin.5fd894.svg" alt="LinkedIn">
@@ -439,13 +441,9 @@
           </div>
         </div>
       </div>
-      <div class="row " style="padding: 0rem 2rem;">
-
+      <div class="row rights-and-policy">
         <p class="copyright mb-0" style="font-size: 1.3rem;">&copy; 2024 Eninrac. All rights reserved.</p>
-
-
         <p class="privacy  "><a href="">Privacy Policy</a> • <a href="">Terms & Conditions</a></p>
-
       </div>
     </div>
   </footer>

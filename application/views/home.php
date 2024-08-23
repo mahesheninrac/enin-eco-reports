@@ -38,10 +38,51 @@
             <a class="nav-link fw-normal" href="<?= base_url('contact_us') ?>">Contact us</a>
           </li>
           <li class="nav-item">
-            <i class="icofont-navigation-menu fs-22" style=" margin-right: 5px"></i>
+            <h1 class="icofont-navigation-menu fs-22" id="off-menu-toggler" style="margin-right: 5px; cursor: pointer;"></h1>
           </li>
-
         </ul>
+      </div>
+    </div>
+    <!-- ham menu -->
+    <div class="off-menu-nav " id="off-menu-nav">
+      <div class="d-flex flex-row center-align company-info">
+        <div class="wrapper">
+          <h3 class="getin">Get in touch</h3>
+          <p class="address">Eninrac Consulting Private Limited<br>2nd Floor, B-130, B-Block<br>Sector 65, Noida - 201301</p>
+          <div class="fs-sm">
+            <p class="mb-0">+91 9319048963</p>
+            <p>connect@eninrac.com</p>
+          </div>
+          <!-- social media icons -->
+          <div class="d-flex gap-4 my-4 ">
+            <a href="https://www.linkedin.com/in/eninrac-consulting-88641719b/" target="_blank" rel="noreferrer" class="p-0">
+              <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-linkedin.5fd894.svg" alt="LinkedIn">
+            </a>
+            <a href="https://x.com/i/flow/login?redirect_after_login=%2Feninrac" target="_blank" rel="noreferrer" class="p-0">
+              <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-x.290b8c.svg" alt="Twitter">
+            </a>
+          </div>
+          <!-- subscribe to news letter -->
+          <div class="d-flex flex-column my-4 py-4">
+            <label for="" class="subscribe-heading">Subscribe to our newsletter</label>
+            <div class="my-1 subscribe-form ">
+              <input type="email" name="" id="" placeholder="Your work Email">
+              <button type="button" class="my-4">Subscribe</button>
+              <p class="my-1">By submitting this form, you agree to Rho Motion’s <u>privacy policy.</u></p>
+            </div>
+          </div>
+        </div>
+        <div class="services">
+
+          <div class="nav-links d-flex flex-column ">
+            <span class="off-menu-close" id="off-menu-close"><i class="icofont-close "></i></span>
+            <a href="<?= base_url('reports') ?>" class="" id="reports">Reports</a>
+            <a href="<?= base_url('custom_page') ?>" class="" id="custom_page">Custom Requirements</a>
+            <a href="<?= base_url('event') ?>" class="" id="event">Surveys & VoC</a>
+            <a href="<?= base_url('contact_us') ?>" class="">About us</a>
+            <button type="button" class="login-btn">login</button>
+          </div>
+        </div>
       </div>
     </div>
   </nav>
@@ -50,7 +91,7 @@
   <div class="overflow-hidden hero  container-fluid">
     <div class="hero-section py-1" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; align-items: end;">
       <div class="text-container" style="flex: 1 1 45%; padding: 10px; max-width: 45%;">
-        <p class="fs-40 fw-bold display-6">
+        <p class="">
           Market Intelligence for Enabling Indian Energy Transition
         </p>
       </div>
@@ -120,17 +161,13 @@
       </a>
     </div>
   </div>
-  </div>
-
-
-  <!--  -->
 
 
 
-  <!--       Eco System Report   -->
 
-  <!-- bg-primary  -->
-  <div class="container-fluid py-4 our-research   " style="background-color: #d0ddf7;">
+
+
+  <div class="container-fluid py-4 our-research">
 
     <div class="row " style="margin-top: 4rem;">
       <div class="col-md-5">
@@ -167,9 +204,6 @@
               </div>
             </div>
           </div>
-
-
-
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingThree">
               <button class="accordion-button border-top border-1 border-dark collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -183,10 +217,6 @@
               </div>
             </div>
           </div>
-
-
-
-
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingFour">
               <button class="accordion-button border-top border-1 border-dark collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
@@ -200,9 +230,6 @@
               </div>
             </div>
           </div>
-
-
-
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingFive">
               <button class="accordion-button border-top border-1 border-dark collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
@@ -216,8 +243,6 @@
               </div>
             </div>
           </div>
-
-
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingSix">
               <button class="accordion-button border-top  border-bottom border-1 border-dark  collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
@@ -236,8 +261,6 @@
       </div>
       <div class="col-md-7 d-none d-lg-block ">
         <div class="illustration">
-
-
           <img src="<?= base_url('assets/images/accord.svg
           ') ?>" alt="Research Illustration" class="img-fluid" />
         </div>
@@ -305,12 +328,11 @@
       <p class="text-white py-2">Due diligence</p>
     </div>
   </div>
-  <!-- component -->
 
-  <section class="relative px-0  " style="background-color:#CAC0FF;  padding-bottom: 2rem;">
-    <div class="container-xxl  max-w-content-container d-md-flex align-items-lg-center pb-5 pb-md-5 pt-5 pt-md-5 mx-1">
+  <section class="relative px-0 surveys-and-voc" style="">
+    <div class="container-fluid  max-w-content-container d-md-flex align-items-lg-center pb-5 pb-md-5 pt-5 pt-md-5 mx-1">
       <div class="col-md-6 pe-md-5">
-        <p class=" h4  mb-3 fw-bold fs-20   section-header" style="color: #5866ff !important;">
+        <p class=" h4 mb-3 fw-bold fs-20 section-header" style="color: #5866ff !important;">
           SURVEYS & VoC
         </p>
         <h2 class="mb-3 text-h3 text-md-h2" style="font-size: 2.25rem; font-weight: 800; line-height: 140%;">
@@ -355,20 +377,16 @@
   </section>
 
   <!-- footer -->
-
-
-  <!--  -->
-
-
-
   <footer class="footer text-center text-md-start z-1">
     <div class="container-fluid">
-      <div class="row" style="padding:2rem">
+      <div class="row">
+        <div>
+          <a href="<?= base_url('/') ?>"><img src="<?= base_url('assets/images/Asset 8.svg
+            ') ?>" alt="Logo" class="logo "></a>
+        </div>
+      </div>
+      <div class="row" style="padding-top:2rem ;">
         <div class="col-md-5 col-lg-5 mb-4 mb-md-0">
-          <div>
-            <img src="<?= base_url('assets/images/Asset 8.svg
-            ') ?>" alt="Logo" class="logo mb-4 w-25 h-50">
-          </div>
           <div class="contact-info">
             <p>Eninrac Consulting Private Limited<br>2nd Floor, B-130, B-Block<br>Sector 65, Noida - 201301</p>
             <p>(+91) 9319048963, (+91) 9319047963<br><a href="mailto:info@rhomotion.com">connect@eninrac.com</a></p>
@@ -376,7 +394,7 @@
 
         </div>
         <div class="col-md-7 col-lg-7">
-          <div class="row" style="padding: 2rem;">
+          <div class="row services-and-newsletter-form">
             <div class="col-6">
               <div class="nav-links">
                 <a href="<?= base_url('reports') ?>" class="d-block" id="reports">Reports</a>
@@ -392,7 +410,7 @@
                   <input type="email" name="" id="" class="mb-2 w-100 " placeholder="your work email">
                   <i class="icofont-long-arrow-right position-absolute"></i>
                 </div>
-                <p style="font-size: .8rem;">By submitting this form, you agree to Eninrac&#39;s privacy policy.</p>
+                <p style="font-size: .8rem;">By submitting this form, you agree to Eninrac&#39;s <u style="text-decoration-thickness: 1px;">privacy policy</u>.</p>
                 <div class="social-icons mt-4">
                   <a href="https://www.linkedin.com/in/eninrac-consulting-88641719b/" target="_blank" rel="noreferrer">
                     <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-linkedin.5fd894.svg" alt="LinkedIn">
@@ -408,13 +426,9 @@
           </div>
         </div>
       </div>
-      <div class="row " style="padding: 0 2rem;">
-
+      <div class="row rights-and-policy">
         <p class="copyright mb-0" style="font-size: 1.3rem;">&copy; 2024 Eninrac. All rights reserved.</p>
-
-
         <p class="privacy  "><a href="">Privacy Policy</a> • <a href="">Terms & Conditions</a></p>
-
       </div>
     </div>
   </footer>
@@ -422,7 +436,15 @@
   <!--  -->
 
 
+  <script>
+    document.getElementById('off-menu-toggler').addEventListener('click', function() {
+      document.getElementById('off-menu-nav').classList.toggle('active');
+    });
 
+    document.getElementById('off-menu-close').addEventListener('click', function() {
+      document.getElementById('off-menu-nav').classList.toggle('active');
+    });
+  </script>
 
   <script src="<?= base_url('assets/js/footer.js') ?>"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
