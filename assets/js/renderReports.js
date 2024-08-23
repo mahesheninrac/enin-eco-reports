@@ -7,7 +7,6 @@ async function fetchReports() {
 }
 
 function displayReport(report) {
-
     const reportCategory = document.getElementById(`content-${report.category}`);
     const newReport = document.createElement('div');
     newReport.innerHTML =
@@ -35,16 +34,12 @@ function displayReport(report) {
     }
     
 }
-
-
 fetchReports().then(data => {
 
     data.forEach(element => {
         displayReport(element);
 
     });
-
-
 })
 
 

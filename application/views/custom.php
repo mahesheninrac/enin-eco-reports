@@ -388,10 +388,6 @@
       </div>
     </div>
   </section>
-
-
-
-
   <footer class="footer text-center text-md-start z-1">
     <div class="container-fluid">
       <div class="row">

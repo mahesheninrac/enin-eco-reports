@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "category": "wind",
+        "category": "sales",
         "subcategory":"market-sizing",
         "icon": "https://placehold.co/25",
         "title":"EV & Battery Quarterly Outlook-testing",
@@ -12,7 +12,7 @@
     },
     {
         "id": 2,
-        "category": "wind",
+        "category": "overall",
         "subcategory":"focus-reports",
         "icon": "https://placehold.co/25",
         "title":"EV & Battery Quarterly Outlook-testing",
@@ -23,7 +23,7 @@
     },
     {
         "id": 3,
-        "category": "wind",
+        "category": "production",
         "subcategory":"market-sizing",
         "icon": "https://placehold.co/25",
         "title":"EV & Battery Quarterly Outlook-testing",
@@ -34,7 +34,7 @@
     },
     {
         "id": 4,
-        "category": "wind",
+        "category": "sales",
         "subcategory":"market-sizing",
         "icon": "https://placehold.co/25",
         "title":"EV & Battery Quarterly Outlook-testing",
@@ -45,7 +45,7 @@
     },
     {
         "id": 5,
-        "category": "wind",
+        "category": "overall",
         "subcategory":"market-sizing",
         "icon": "https://placehold.co/25",
         "title":"EV & Battery Quarterly Outlook-testing",
@@ -56,7 +56,7 @@
     },
     {
         "id": 6,
-        "category": "wind",
+        "category": "production",
         "subcategory":"market-sizing",
         "icon": "https://placehold.co/25",
         "title":"EV & Battery Quarterly Outlook-testing",
@@ -67,7 +67,7 @@
     },
     {
         "id": 7,
-        "category": "wind",
+        "category": "overll",
         "subcategory":"market-sizing",
         "icon": "https://placehold.co/25",
         "title":"EV & Battery Quarterly Outlook-testing",
