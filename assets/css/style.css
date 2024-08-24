@@ -1214,11 +1214,7 @@ button.accordion-button:focus {
   font-weight: 600;
   color: #000000;
 }
-.case-study p {
-  line-height: 130%;
-  font-size: 18px;
-  max-width: 250px;
-}
+
 /* process */
 .icofont-arrow-right,
 .icofont-arrow-down {

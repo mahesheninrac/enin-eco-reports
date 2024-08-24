@@ -14,8 +14,6 @@
 </head>
 
 <body>
-
-
   <nav class="navbar navbar-expand-md bg-white py-4">
     <div class="container-fluid">
       <a class="navbar-brand " href="<?= base_url('') ?>">
@@ -48,7 +46,6 @@
       </div>
     </div>
   </nav>
-
   <header class="custom-banner w-100">
     <div class="overlay"></div>
     <div class="container position-relative pt-4">
@@ -63,9 +60,6 @@
       </div>
     </div>
   </header>
-
-
-
   <!-- our services -->
   <section class="custom-section ">
 
@@ -73,17 +67,14 @@
       <div class="row justify-content-end">
         <div class="col-md-6 ">
           <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/v1702261345/assets/consultancy/kn5enxfwlgnjjjep4wtz.svg" class="" alt="Background Image">
-
         </div>
         <div class="col-md-6 py-5 d-flex flex-column justify-content-center ">
-
           <div class="d-flex flex-column justify-content-center">
             <h2 class="text-uppercase " style="font-size:1.3rem; font-weight: 800; color: #5866ff !important;">Our Services</h2>
             <p style="font-size: 2.25rem; font-weight:600; line-height: 140%;">Unparalleled experience, unique insight and unmatched data</p>
             <p class="" style="font-size: 1.25rem; line-height:160%;">We provide commercial and vendor due diligence across the energy transition. From gigafactories to recycling, our dynamic and informed team can support the process.</p>
           </div>
         </div>
-
       </div>
     </div>
   </section>
@@ -127,9 +118,7 @@
       <p class="fs-6 mt-3 mt-md-5 opacity-80">We provide due diligence for both the buy and sell side through comprehensive, expert advice that gives you the best chance of deal success.</p>
     </div>
   </div>
-
   <!-- video-section -->
-
   <section class="video-section-relative video-section-aspect-ratio d-md-flex align-items-center justify-content-center bg-sky-blue-4">
     <img class="video-section-bg-image d-none d-md-block" src="https://res.cloudinary.com/dkklqdsqc/image/upload/f_auto,q_auto/v1705339164/assets/consultancy/our-consultancy-team_mkabyo.png" alt="Consultancy Team">
     <!-- <div class="video-section-overlay d-none d-md-block"></div> -->
@@ -172,85 +161,17 @@
       </div>
     </div>
   </section>
-
-
-
-
-
-
-
-
-
   <section class="example-work bg-primary-200 mt-0">
-
-    <div class="container-xxl py-5">
+    <div class="container-fluid py-5">
       <div class="text-center d-flex flex-column  ">
         <h3 class=" fw-bold fs-22 text-primary">EXAMPLES OF OUR WORK</h3>
         <p class=" fs-30 " style="max-width: 42rem; align-self: center;">Our consultancy experience spans finance raising, market entry and strategic advisory</p>
       </div>
-      <div class="row py-4">
-        <div class="col-md-4 mb-4">
-          <div class="case-study ">
-            <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/case-study-icons/case-study-01.98b84c.svg" class="py-4" alt="">
-            <h5 class="">CASE STUDY 1</h5>
-            <h6 class="py-2">Next-generation battery technologies</h6>
-            <p>We provided bottom-up cost models for the next-generation anode, cathode and electrolyte innovations for lithium-ion and sodium-ion batteries as a basis for future strategy and investment decisions on behalf of a major public body.</p>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4">
-          <div class="case-study ">
-            <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/case-study-icons/case-study-01.98b84c.svg" class="py-4" alt="">
-            <h5 class="">CASE STUDY 1</h5>
-            <h6 class=" py-2">Next-generation battery technologies</h6>
-            <p>We provided bottom-up cost models for the next-generation anode, cathode and electrolyte innovations for lithium-ion and sodium-ion batteries as a basis for future strategy and investment decisions on behalf of a major public body.</p>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4">
-          <div class="case-study ">
-            <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/case-study-icons/case-study-01.98b84c.svg" class="py-4" alt="">
-            <h5 class="">CASE STUDY 1</h5>
-            <h6 class=" py-2">Next-generation battery technologies</h6>
-            <p>We provided bottom-up cost models for the next-generation anode, cathode and electrolyte innovations for lithium-ion and sodium-ion batteries as a basis for future strategy and investment decisions on behalf of a major public body.</p>
-          </div>
-        </div>
-
-
-      </div>
-      <div class="row py-2">
-        <div class="col-md-4 mb-4">
-          <div class="case-study ">
-            <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/case-study-icons/case-study-01.98b84c.svg" class="py-4" alt="">
-            <h5 class="">CASE STUDY 1</h5>
-            <h6 class="fw-bold py-2">Next-generation battery technologies</h6>
-            <p>We provided bottom-up cost models for the next-generation anode, cathode and electrolyte innovations for lithium-ion and sodium-ion batteries as a basis for future strategy and investment decisions on behalf of a major public body.</p>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4">
-          <div class="case-study ">
-            <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/case-study-icons/case-study-01.98b84c.svg" class="py-4" alt="">
-            <h5 class="">CASE STUDY 1</h5>
-            <h6 class="fw-bold py-2">Next-generation battery technologies</h6>
-            <p>We provided bottom-up cost models for the next-generation anode, cathode and electrolyte innovations for lithium-ion and sodium-ion batteries as a basis for future strategy and investment decisions on behalf of a major public body.</p>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4">
-          <div class="case-study ">
-            <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/case-study-icons/case-study-01.98b84c.svg" class="py-4" alt="">
-            <h5 class="">CASE STUDY 1</h5>
-            <h6 class="fw-bold py-2">Next-generation battery technologies</h6>
-            <p>We provided bottom-up cost models for the next-generation anode, cathode and electrolyte innovations for lithium-ion and sodium-ion batteries as a basis for future strategy and investment decisions on behalf of a major public body.</p>
-          </div>
-        </div>
-
-
+      <div id="work-example-container">
       </div>
 
   </section>
-
-
-  <!-- get in touch form -->
-
-
+<!-- get in touch form -->
   <section>
     <div class="con-wrapper">
       <div class="container-fluid">
@@ -307,16 +228,15 @@
     </div>
   </section>
   <section class="process bg-primary-300">
-    <div class="container-xxl py-4">
+    <div class="container-fluid py-4">
 
       <div class="row">
         <h2 class="fw-bold ">OUR PROCESS</h2>
         <div class="col-md-4 text-center mb-4">
-
           <p class="text-start h2 text-white">How do we conduct our consultancy and advisory work?</p>
         </div>
         <div class="col-md-8">
-          <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="row row-cols-1 row-cols-md-2 g-4" id="process-card-container">
             <div class="col">
               <div class="card h-70">
                 <div class="card-body d-flex flex gap-4">
@@ -443,24 +363,142 @@
       </div>
     </div>
   </footer>
-
-
-
-  <!-- scripts -->
-
-
-
   <!-- script for play/pause -->
-
-
-
   <script>
+    // code for video palyback button
     document.getElementById('playButton').addEventListener('click', function() {
       document.getElementById('videoModal').style.display = 'flex';
     });
     document.getElementById('closeButton').addEventListener('click', function() {
       document.getElementById('videoModal').style.display = 'none';
     });
+
+    // code for our process card
+    let dummyArr = [{
+        "id": 1,
+        "title": "card Title",
+        "description": "We use qualitative and semi-quantitative decision criteria to determine suitable companies for review."
+      },
+      {
+        "id": 1,
+        "title": "card Title",
+        "description": "We use qualitative and semi-quantitative decision criteria to determine suitable companies for review."
+      },
+      {
+        "id": 1,
+        "title": "card Title",
+        "description": "We use qualitative and semi-quantitative decision criteria to determine suitable companies for review."
+      },
+      {
+        "id": 1,
+        "title": "card Title",
+        "description": "We use qualitative and semi-quantitative decision criteria to determine suitable companies for review."
+      }
+
+    ]
+    let workExample = [{
+        "id": 1,
+        "title": "case study title",
+        "description": "case study title",
+        "image_url": "https://rhomotion.com/app/themes/rhomotion-theme/public/images/case-study-icons/case-study-01.98b84c.svg"
+      },
+      {
+        "id": 2,
+        "title": "case study title",
+        "description": "case study title",
+        "image_url": "https://rhomotion.com/app/themes/rhomotion-theme/public/images/case-study-icons/case-study-01.98b84c.svg"
+      },
+      {
+        "id": 3,
+        "title": "case study title",
+        "description": "case study title",
+        "image_url": "https://rhomotion.com/app/themes/rhomotion-theme/public/images/case-study-icons/case-study-01.98b84c.svg"
+      },
+      {
+        "id": 4,
+        "title": "case study title",
+        "description": "case study title",
+        "image_url": "https://rhomotion.com/app/themes/rhomotion-theme/public/images/case-study-icons/case-study-01.98b84c.svg"
+      },
+      {
+        "id": 5,
+        "title": "case study title",
+        "description": "case study title",
+        "image_url": "https://rhomotion.com/app/themes/rhomotion-theme/public/images/case-study-icons/case-study-01.98b84c.svg"
+      },
+      {
+        "id": 6,
+        "title": "case study title",
+        "description": "case study title",
+        "image_url": "https://rhomotion.com/app/themes/rhomotion-theme/public/images/case-study-icons/case-study-01.98b84c.svg"
+      },
+      {
+        "id": 7,
+        "title": "case study title",
+        "description": "case study title",
+        "image_url": "https://rhomotion.com/app/themes/rhomotion-theme/public/images/case-study-icons/case-study-01.98b84c.svg"
+      },
+      {
+        "id": 8,
+        "title": "case study title",
+        "description": "case study title",
+        "image_url": "https://rhomotion.com/app/themes/rhomotion-theme/public/images/case-study-icons/case-study-01.98b84c.svg"
+      },
+    ]
+
+    function renderWorkExample(array, start, end) {
+      let workExampleContainer = document.getElementById('work-example-container');
+
+      let tempRow = document.createElement('div');
+      tempRow.classList.add('row', 'py-2', );
+
+      for (let index = start; index <= end; index++) {
+        console.log(array.length);
+        
+        // adding card children
+        if (index >= array.length){ 
+          workExampleContainer.appendChild(tempRow);
+          return;}
+        let object = array[index];
+
+        let tempChild = document.createElement('div');
+        tempChild.classList.add('col-md-4', 'mb-4');
+
+        tempChild.innerHTML = `
+            <div class="case-study ">
+              <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/case-study-icons/case-study-01.98b84c.svg" class="py-4" alt="">
+              <h5 class="">CASE STUDY arr ${object.id}</h5>
+              <h6 class="fw-bold py-2">Next-generation battery technologies</h6>
+              <div class="w-100">
+               <p class="fs-16 text-justify">We provided bottom-up cost models for the next-generation anode, cathode and electrolyte innovations for lithium-ion and sodium-ion batteries as a basis for future strategy and investment decisions on behalf of a major public body.</p></div>
+            </div>
+          `;
+        tempRow.appendChild(tempChild);
+        start = end;
+      }
+      workExampleContainer.appendChild(tempRow);
+      renderWorkExample(array, start + 1, end + 3);
+    }
+
+    function renderProcessCard(array) {
+      let cardContainer = document.getElementById('process-card-container');
+      array.forEach(element => {
+        let tempCard = document.createElement('div');
+        tempCard.classList.add('col');
+        tempCard.innerHTML = ` <div class="card h-70">
+                <div class="card-body d-flex flex gap-4">
+                  <i class="icofont-arrow-right fs-30"></i>
+                  <div>
+                    <h5 class="card-title">${element.title}</h5>
+                    <p class="card-text">${element.description}</p>
+                  </div>
+                </div>
+              </div>`;
+        cardContainer.appendChild(tempCard);
+      });
+    }
+    renderProcessCard(dummyArr);
+    renderWorkExample(workExample, 0, 2);
   </script>
   <script src="<?= base_url('assets/js/footer.js') ?>"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
