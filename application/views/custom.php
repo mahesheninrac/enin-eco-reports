@@ -444,6 +444,13 @@
         "description": "case study title",
         "image_url": "https://rhomotion.com/app/themes/rhomotion-theme/public/images/case-study-icons/case-study-01.98b84c.svg"
       },
+      {
+        "id": 9,
+        "title": "case study title",
+        "description": "case study title",
+        "image_url": "https://rhomotion.com/app/themes/rhomotion-theme/public/images/case-study-icons/case-study-01.98b84c.svg"
+      }
+    
     ]
 
     function renderWorkExample(array, start, end) {

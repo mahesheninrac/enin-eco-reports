@@ -629,6 +629,10 @@ a {
 .newsletter-form input:focus {
   outline: none !important;
 }
+.newsletter-form input[type=email]{
+  color: white !important;
+  padding: 1rem;
+}
 
 .newsletterfooter-input-i i {
   right: 10px;
@@ -1268,6 +1272,13 @@ button.accordion-button:focus {
 }
 
 /* event-page */
+
+.borderLeft {
+  border-left: 2px solid #f51c40!important;
+  position: absolute!important;
+  bottom: 100%!important;
+  
+}
 .speak-events {
   background-color: #e2e5f0;
 }

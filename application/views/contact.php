@@ -82,10 +82,10 @@
           </div>
           <!-- Right Column -->
           <div class="col-md-7  bg-primary-200 contact-us-right">
-            <div class="container-xxl ">
+            <div class="container-fluid">
               <h2>Get in touch</h2>
               <p>Contact us to discuss our products and how they can support you.</p>
-              <form enctype="multipart/form-data" method="post" class="contact-us-form">
+              <form enctype="multipart/form-data" method="post" name="contact-us-form" id="contact-us-form" onsubmit=" return validateForm()">
                 <div class="row">
                   <div class="col-md-6 mb-3">
                     <label for="firstName" class="form-label">First Name <span class="text-danger">*</span></label>
@@ -153,8 +153,9 @@
               <div class="newsletter-form line-height:1.1 ">
                 <p class="mb-2">Subscribe to our newsletter</p>
                 <div class="w-100 newsletterfooter-input-i position-relative">
-                  <input type="email" name="" id="" class="mb-2 w-100 " placeholder="your work email">
-                  <i class="icofont-long-arrow-right position-absolute"></i>
+                  <input type="email" name="" id="footer-query-input" class="mb-2 w-100 " placeholder="your work email">
+                  <i class="icofont-long-arrow-right position-absolute" id="footer-query-button" onclick="footerQuery();"></i>
+                  <div id="footer-query-input-error" style="display:none;"><i class="icofont-info-circle fs-16 text-danger me-1"></i><span class="fs-14 text-danger">Work email address is invalid</span></div>
                 </div>
                 <p style="font-size: .8rem;">By submitting this form, you agree to Eninrac&#39;s <u style="text-decoration-thickness: 1px;">privacy policy</u>.</p>
                 <div class="social-icons mt-4">
@@ -180,9 +181,90 @@
   </footer>
 
 
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
-  <script src="<?= base_url('assets/js/footer.js') ?>"></script>
+
+  <script>
+    function footerQuery() {
+      {
+        var input = document.getElementById("footer-query-input");
+        var data = {
+          email: input.value
+        };
+        if (checkEmail(data.email)) {
+          sendData(data);
+          input.value = "";
+          
+        } else {
+          document.getElementById("footer-query-input-error").style.display = "block";
+          input.style.border = "1px solid red";
+
+
+        }
+
+      }
+    }
+
+
+
+    function sendData(data) {
+      console.log(data);
+
+
+    }
+
+    function validateForm() {
+      var form = document.getElementById("contact-us-form");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+      })
+
+      var firstName = document.forms["contact-us-form"]["firstName"].value;
+      var lastName = document.forms["contact-us-form"]["lastName"].value;
+      var email = document.forms["contact-us-form"]["email"].value;
+      var phone = document.forms["contact-us-form"]["phone"].value;
+
+      if (firstName == "" || lastName == "" || email == "" || phone == "") {
+        alert("All fields must be filled out");
+        return false;
+      }
+
+      var atposition = email.indexOf("@");
+      var dotposition = email.lastIndexOf(".");
+
+      if (atposition < 1 || dotposition < atposition + 2 || dotposition + 2 >= email.length) {
+        alert("Please enter a valid email address");
+        return false;
+      }
+
+      var phonePattern = /^\d{10}$/;
+
+      if (!phonePattern.test(phone)) {
+        alert("Wrong Phone Number");
+        return false;
+
+      }
+      let data = {
+        firstName: firstName,
+        lastName: lastName,
+        email: email,
+        phone: phone
+      }
+      sendData(data, );
+      return true;
+
+    }
+
+
+
+    function checkEmail(email) {
+
+      var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+      if (!filter.test(email)) {
+        email.focus;
+        return false;
+      }
+      return true;
+    }
+  </script>
 </body>
 
 </html>
