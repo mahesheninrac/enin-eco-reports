@@ -17,8 +17,6 @@
   <nav class="navbar navbar-expand-md bg-white py-4">
     <div class="container-fluid">
       <a class="navbar-brand " href="<?= base_url('') ?>">
-
-
         <img src="<?= base_url('assets/images/final-logo-ecosystem.png') ?>" class="w-100 h-80" alt="home-page-banner">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,15 +39,15 @@
           <li class="nav-item">
             <i class="icofont-navigation-menu fs-22" style=" margin-right: 5px"></i>
           </li>
-
         </ul>
       </div>
     </div>
   </nav>
+
   <div class="container-xxl p-4">
     <div class="text-center p-4">
       <p>DASHBOARD</p>
-      <P class="fw-bold fs-30">Eninrac’s Survey</P>
+      <P class="fw-bold fs-30">Eninrac&#8217;s Survey</P>
     </div>
 
 

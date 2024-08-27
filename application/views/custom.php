@@ -46,14 +46,33 @@
       </div>
     </div>
   </nav>
-  <header class="custom-banner w-100">
-    <div class="overlay"></div>
-    <div class="container position-relative pt-4">
+  <header class="custom-banner position-relative w-100" style="background: #d0ddf7;">
+    <div class="w-100 h-100 position-relative">
+      <div class="img-overlay top-0 w-100 h-100 position-absolute" style="background: rgba(0, 0, 0, 0.4);"></div>
+      <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/q_auto,f_auto/v1701786599/assets/consultancy/consulting-header_rkioct_lorjci.webp"
+        width="100%"
+        height="100%"
+        alt="">
+    </div>
+
+    <div class="container d-none d-md-block d-lg-block position-absolute top-0 pt-4">
       <div class="row">
         <div class="col-12">
           <div class="content">
             <h2>Rho Motion Consultancy</h2>
             <p>Tailored research and custom reports to inform your strategic decision-making</p>
+            <a class="btn btn-primary fw-bold mt-4" href="<?= base_url('contact_us') ?>">Get in touch</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="p-3 d-md-none pt-4">
+      <div class="row">
+        <div class="col-12">
+          <div class="py-2 mb-4">
+            <h2 class="text-dark">Rho Motion Consultancy</h2>
+            <p class="text-dark">Tailored research and custom reports to inform your strategic decision-making</p>
             <a class="btn btn-primary fw-bold mt-4" href="<?= base_url('contact_us') ?>">Get in touch</a>
           </div>
         </div>
@@ -65,7 +84,7 @@
 
     <div class="container-fluid content-container">
       <div class="row justify-content-end">
-        <div class="col-md-6 ">
+        <div class="col-md-6 px-0 pb-3">
           <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/v1702261345/assets/consultancy/kn5enxfwlgnjjjep4wtz.svg" class="" alt="Background Image">
         </div>
         <div class="col-md-6 py-5 d-flex flex-column justify-content-center ">
@@ -81,7 +100,10 @@
 
   <!-- custom-about -->
   <section class="custom-about-section">
-    <div class="custom-about-overlay d-none d-md-block"></div>
+    <div class="custom-about-overlay d-md-block overf">
+      <div class="overlay-forImage w-100 h-100 position-absolute top-0" style="background: rgba(0, 0, 0, 0.4);"></div>
+      <img src="https://res.cloudinary.com/dkklqdsqc/image/upload/q_auto,f_auto/v1701786599/assets/consultancy/consulting-meeting_lsslmp_eioxbp.webp" width="100%" height="100%" alt="img">
+    </div>
     <div class="container-fluid custom-about-content-container text-start">
       <div class="row" style="color: rgba(255, 255, 255, .8); max-width :36.4rem;">
         <div>
@@ -90,6 +112,7 @@
         </div>
       </div>
     </div>
+
   </section>
   <!-- custom-animation -->
   <div class="custom-animation-section bg-primary-800 px-2">
@@ -171,7 +194,7 @@
       </div>
 
   </section>
-<!-- get in touch form -->
+  <!-- get in touch form -->
   <section>
     <div class="con-wrapper">
       <div class="container-fluid">
@@ -308,62 +331,7 @@
       </div>
     </div>
   </section>
-  <footer class="footer text-center text-md-start z-1">
-    <div class="container-fluid">
-      <div class="row">
-        <div>
-          <a href="<?= base_url('/') ?>"><img src="<?= base_url('assets/images/Asset 8.svg
-            ') ?>" alt="Logo" class="logo "></a>
-        </div>
-      </div>
-      <div class="row" style="padding-top:2rem ;">
-        <div class="col-md-5 col-lg-5 mb-4 mb-md-0">
-          <div class="contact-info">
-            <p>Eninrac Consulting Private Limited<br>2nd Floor, B-130, B-Block<br>Sector 65, Noida - 201301</p>
-            <p>(+91) 9319048963, (+91) 9319047963<br><a href="mailto:info@rhomotion.com">connect@eninrac.com</a></p>
-          </div>
 
-        </div>
-        <div class="col-md-7 col-lg-7">
-          <div class="row services-and-newsletter-form">
-            <div class="col-6">
-              <div class="nav-links">
-                <a href="<?= base_url('reports') ?>" class="d-block" id="reports">Reports</a>
-                <a href="<?= base_url('custom_page') ?>" class="d-block" id="custom_page">Custom Requirements</a>
-                <a href="<?= base_url('event') ?>" class="d-block" id="event">Surveys & VoC</a>
-                <a href="<?= base_url('contact_us') ?>" class="d-block">About us</a>
-              </div>
-            </div>
-            <div class="col-6">
-              <div class="newsletter-form line-height:1.1 ">
-                <p class="mb-2">Subscribe to our newsletter</p>
-                <div class="w-100 newsletterfooter-input-i position-relative">
-                  <input type="email" name="" id="" class="mb-2 w-100 " placeholder="your work email">
-                  <i class="icofont-long-arrow-right position-absolute"></i>
-                </div>
-                <p style="font-size: .8rem;">By submitting this form, you agree to Eninrac&#39;s <u style="text-decoration-thickness: 1px;">privacy policy</u>.</p>
-                <div class="social-icons mt-4">
-                  <a href="https://www.linkedin.com/in/eninrac-consulting-88641719b/" target="_blank" rel="noreferrer">
-                    <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-linkedin.5fd894.svg" alt="LinkedIn">
-                  </a>
-                  <a href="https://x.com/i/flow/login?redirect_after_login=%2Feninrac" target="_blank" rel="noreferrer">
-                    <img src="https://rhomotion.com/app/themes/rhomotion-theme/public/images/ico-x.290b8c.svg" alt="Twitter">
-                  </a>
-                </div>
-
-
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row rights-and-policy">
-        <p class="copyright mb-0" style="font-size: 1.3rem;">&copy; 2024 Eninrac. All rights reserved.</p>
-        <p class="privacy  "><a href="">Privacy Policy</a> • <a href="">Terms & Conditions</a></p>
-      </div>
-    </div>
-  </footer>
-  <!-- script for play/pause -->
   <script>
     // code for video palyback button
     document.getElementById('playButton').addEventListener('click', function() {
@@ -450,7 +418,7 @@
         "description": "case study title",
         "image_url": "https://rhomotion.com/app/themes/rhomotion-theme/public/images/case-study-icons/case-study-01.98b84c.svg"
       }
-    
+
     ]
 
     function renderWorkExample(array, start, end) {
@@ -461,11 +429,12 @@
 
       for (let index = start; index <= end; index++) {
         console.log(array.length);
-        
+
         // adding card children
-        if (index >= array.length){ 
+        if (index >= array.length) {
           workExampleContainer.appendChild(tempRow);
-          return;}
+          return;
+        }
         let object = array[index];
 
         let tempChild = document.createElement('div');
@@ -507,10 +476,6 @@
     renderProcessCard(dummyArr);
     renderWorkExample(workExample, 0, 2);
   </script>
-  <script src="<?= base_url('assets/js/footer.js') ?>"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 
 
-</body>
-
-</html>
+  <?php require(APPPATH . 'views/footer.php'); ?>

@@ -49,24 +49,24 @@ defined('BASEPATH') or exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
-$route['default_controller'] = 'OpenAccess';
+$route['default_controller'] = 'Ecosystem';
 $route['404_override'] = 'Default_Controler/error404';
 $route['translate_uri_dashes'] = FALSE;
-$route["product_page"] = 'OpenAccess/product';
-$route["custom_page"] = 'OpenAccess/custom';
-$route["contact_us"] = 'OpenAccess/contact';
-$route["login"] = 'OpenAccess/login';
-$route["event"] = 'OpenAccess/event';
-$route["reports"] = 'OpenAccess/reports';
-$route["market-sizing-ev-market"] = 'OpenAccess/ev_market';
-$route["market-sizing-ev-tyer-market"] = 'OpenAccess/ev_tyer_market';
-$route["market-sizing-ev-transmission-market"] = 'OpenAccess/ev_transmission_market';
-$route["market-sizing-ev-evci-market"] = 'OpenAccess/ev_evci_market';
-$route["survey"] = 'OpenAccess/survey';
-$route["membership"] = 'OpenAccess/membership';
-$route["test"] = 'OpenAccess/test';
-$route["test2"] = 'OpenAccess/test2';
-$route["landing_menu"] = 'OpenAccess/landing_menu';
+$route["product_page"] = 'Ecosystem/product';
+$route["custom_page"] = 'Ecosystem/custom';
+$route["contact_us"] = 'Ecosystem/contact';
+$route["login"] = 'Ecosystem/login';
+$route["event"] = 'Ecosystem/event';
+$route["reports"] = 'Ecosystem/reports';
+$route["market-sizing-ev-market"] = 'Ecosystem/ev_market';
+$route["market-sizing-ev-tyer-market"] = 'Ecosystem/ev_tyer_market';
+$route["market-sizing-ev-transmission-market"] = 'Ecosystem/ev_transmission_market';
+$route["market-sizing-ev-evci-market"] = 'Ecosystem/ev_evci_market';
+$route["survey"] = 'Ecosystem/survey';
+$route["membership"] = 'Ecosystem/membership';
+$route["test"] = 'Ecosystem/test';
+$route["test2"] = 'Ecosystem/test2';
+$route["landing_menu"] = 'Ecosystem/landing_menu';
 
 // backend routes
 $route['backend-dashboard'] = 'backend/panel';
